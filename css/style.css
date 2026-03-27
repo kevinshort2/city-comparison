@@ -225,7 +225,8 @@ small,
   width: 100%;
 }
 
-.nav-brand {
+.nav-brand,
+.nav-logo {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -233,14 +234,16 @@ small,
   text-decoration: none;
 }
 
-.nav-links {
+.nav-links,
+.nav-menu {
   display: flex;
   align-items: center;
   gap: var(--space-4);
   list-style: none;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-menu a {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -252,11 +255,13 @@ small,
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-menu a:hover {
   color: var(--color-text);
 }
 
-.nav-links a.active {
+.nav-links a.active,
+.nav-menu a.active {
   color: var(--color-accent);
   border-bottom-color: var(--color-accent);
 }
@@ -279,13 +284,66 @@ small,
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+/* City navigation (prev/next) */
+.city-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--space-5);
+}
+
+.city-nav a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.city-nav a:hover {
+  color: var(--color-text);
+}
+
+.city-nav .city-nav-label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+}
+
+.city-nav .city-nav-placeholder {
+  visibility: hidden;
+}
+
+/* Back to overview link */
+.back-link {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-2);
+}
+
+.back-link:hover {
+  color: var(--color-text);
+}
+
 /* Mobile nav */
 @media (max-width: 768px) {
   .nav-toggle {
     display: block;
   }
 
-  .nav-links {
+  .nav-links,
+  .nav-menu {
     display: none;
     position: absolute;
     top: var(--nav-height);
@@ -298,17 +356,20 @@ small,
     gap: var(--space-3);
   }
 
-  .nav-links.open {
+  .nav-links.open,
+  .nav-menu.open {
     display: flex;
   }
 
-  .nav-links a {
+  .nav-links a,
+  .nav-menu a {
     font-size: 0.875rem;
     padding-bottom: 0;
     border-bottom: none;
   }
 
-  .nav-links a.active {
+  .nav-links a.active,
+  .nav-menu a.active {
     border-bottom: none;
     color: var(--color-accent);
   }
