@@ -167,10 +167,12 @@ const CITIES = {
     },
 
     education: {
-      classicalChristianSchools: [],
+      classicalChristianSchools: [
+        { name: "Chesterton Academy of Mater Dei", grades: "9-12", tuition: "$2,400", students: "8 (opened Fall 2025)", accreditation: "Chesterton Schools Network", notes: "Catholic classical high school — Central Oregon's first classical school. Part of nationwide Chesterton network." }
+      ],
       otherPrivateSchools: [
         { name: "Trinity Lutheran School", grades: "PreK-12", tuition: 12500, notes: "670 students, strong academics, LCMS" },
-        { name: "Morning Star Christian School", grades: "N-8", tuition: 7950, notes: "Christ-centered with STEM focus, 192 students" },
+        { name: "Morning Star Christian School", grades: "N-8", tuition: 7950, notes: "Christ-centered with STEM focus, 192 students. ACCS member school." },
         { name: "Seven Peaks School", grades: "Pre-8", tuition: 18735, notes: "Top-ranked, IB program, secular" }
       ],
       publicSchoolRating: "B+",
@@ -178,7 +180,7 @@ const CITIES = {
         { name: "Cascade Christian Co-op", type: "Christian", notes: "Supplementary classes, social events, field trips" },
         { name: "Uplift Central Oregon", type: "General", notes: "Homeschool support and enrichment" }
       ],
-      classicalConversations: false,
+      classicalConversations: "Active — CC communities confirmed in the Bend area",
       graduationRate: 91
     },
 
@@ -410,7 +412,8 @@ const CITIES = {
 
     faith: {
       pcaChurches: [
-        { name: "Covenant Life Church", size: "~150 members", notes: "Anchor PCA church for Reformed families" }
+        { name: "Covenant Life Church", size: "~150 members", notes: "Anchor PCA church for Reformed families" },
+        { name: "New Creation Church", size: "Church plant", notes: "PCA church plant in the Skye Ranch area. Active and growing." }
       ],
       opcChurches: [
         { name: "Providence OPC (Bradenton)", size: "~75 members", notes: "15 min north of Sarasota, confessional Presbyterian" }
@@ -421,7 +424,7 @@ const CITIES = {
         { name: "Bethel Community Church", denomination: "Reformed Baptist (1689)", size: "Unknown", notes: "5 Solas, confessional" },
         { name: "Cornerstone Baptist Church", denomination: "Reformed SBC", size: "Unknown", notes: "Doctrines of Grace, 9Marks listed" }
       ],
-      totalReformedCount: 4,
+      totalReformedCount: 5,
       reformedDensity: "Weak",
       seminaries: [],
       christianOrgs: ["Classical Conversations co-ops", "FPEA homeschool groups"]
@@ -511,7 +514,8 @@ const CITIES = {
     education: {
       classicalChristianSchools: [
         { name: "Grace Baptist Academy", grades: "K3-12", tuition: 4000, students: 500, accreditation: "Cognia, ACSI", notes: "95th percentile nationally, SAT avg 1380, $4K/yr tuition, Latin grades 3-8" },
-        { name: "Veritas Classical Schools", grades: "K-12", tuition: null, students: null, accreditation: "N/A", notes: "Hybrid 2 days/week, two campuses" }
+        { name: "Veritas Classical Schools", grades: "K-12", tuition: null, students: null, accreditation: "N/A", notes: "Hybrid 2 days/week, two campuses" },
+        { name: "Candies Creek Academy", grades: "PK-12", tuition: "Contact school", students: "78", accreditation: "ACCS member", notes: "30 minutes away in Charleston, TN. Classical Christian school." }
       ],
       otherPrivateSchools: [
         { name: "Silverdale Baptist Academy", grades: "PreK-12", tuition: 13010, notes: "1,307 students, well-established" },
@@ -672,7 +676,8 @@ const CITIES = {
       ],
       epcChurches: [],
       crecChurches: [
-        { name: "Christ the King Church", size: "Unknown", notes: "CREC congregation in Greenville" }
+        { name: "Christ the King Church", size: "Unknown", notes: "CREC congregation in Greenville" },
+        { name: "Holy Trinity Reformed Evangelical Church", size: "Small", notes: "Second CREC congregation in the Greenville area." }
       ],
       otherReformed: [
         { name: "Greenville ARP Church", denomination: "ARP", size: "Unknown", notes: "ARP historically strong in SC upstate" },
@@ -680,7 +685,7 @@ const CITIES = {
         { name: "Grace Baptist Church (Taylors)", denomination: "Reformed Baptist (1689)", size: "Unknown", notes: "RBNet member" },
         { name: "St. Paul's Anglican", denomination: "ACNA", size: "Unknown", notes: "Founded King's Classical School" }
       ],
-      totalReformedCount: 22,
+      totalReformedCount: 23,
       reformedDensity: "Exceptional",
       seminaries: ["Greenville Presbyterian Theological Seminary (GPTS)", "Geneva Reformed Seminary", "Bob Jones University Seminary"],
       christianOrgs: ["Greenville Conference on Reformed Theology (GCRT)", "BJU community programs"]
@@ -768,7 +773,8 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Covenant Classical Christian School", grades: "K-12", tuition: 7550, students: 115, accreditation: "ACCS, NCPSA, SCISA", notes: "SAT avg 1375, 6:1 ratio, Latin grades 3-9, 100% grad rate" }
+        { name: "Covenant Classical Christian School", grades: "K-12", tuition: 7550, students: 115, accreditation: "ACCS, NCPSA, SCISA", notes: "SAT avg 1375, 6:1 ratio, Latin grades 3-9, 100% grad rate" },
+        { name: "Heritage Christian Academy", grades: "PK-8", tuition: "$6,000 (estimated)", students: "120", accreditation: "ACCS member", notes: "Located in Lexington, SC suburb. Classical Christian elementary/middle school." }
       ],
       otherPrivateSchools: [
         { name: "Ben Lippen School", grades: "PK-12", tuition: 17300, notes: "CIU-affiliated, strong academics" },
@@ -999,10 +1005,10 @@ const DEFAULT_WEIGHTS = {
  *   Chattanooga: 9 — Grace Academy (elite, $4K, 95th percentile), Veritas hybrid, 3+ CC communities
  *   Greenville: 9 — GCA (ACCS), Veritas Prep, King's Classical, very strong homeschool
  *   Lexington: 7 — Trinity Christian Academy (PreK-12), Veritas hybrid, strong homeschool
- *   Columbia: 6 — Covenant Classical (ACCS, small but excellent SATs), active homeschool
+ *   Columbia: 7 — Covenant Classical (ACCS) + Heritage Christian Academy (ACCS, Lexington suburb), active homeschool
  *   Sarasota: 6 — Classical Academy (932 students), Liberty Christian growing, CC present
  *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, very strong homeschool
- *   Bend: 3 — No classical Christian school, Christian schools exist, moderate homeschool
+ *   Bend: 4 — Now has 1 Catholic classical high school (Chesterton, tiny) + 1 ACCS member K-8, CC active, moderate homeschool
  *   Sisters: 2 — No classical Christian school in town, limited options, must drive to Bend
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
@@ -1047,12 +1053,12 @@ const DEFAULT_WEIGHTS = {
  */
 const SCORES = {
   "lexington-ky":     { faith: 5, education: 7, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
-  "bend-or":          { faith: 2, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
+  "bend-or":          { faith: 2, education: 4, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
   "sisters-or":       { faith: 1, education: 2, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
   "sarasota-fl":      { faith: 3, education: 6, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
-  "columbia-sc":      { faith: 7, education: 6, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
+  "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
   "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 4, community: 9 }
 };
 

@@ -14,8 +14,8 @@
 
   /* Text */
   --color-text: #1A1A1A;
-  --color-text-secondary: #6B7280;
-  --color-text-muted: #9CA3AF;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280;
 
   /* Accent */
   --color-accent: #1B4D3E;
@@ -934,7 +934,15 @@ section + section {
 }
 
 /* --------------------------------------------------------------------------
-   23. Print Styles
+   23. Main Content Area
+   -------------------------------------------------------------------------- */
+
+main {
+  min-height: calc(100vh - 56px - 80px); /* nav height - footer height */
+}
+
+/* --------------------------------------------------------------------------
+   24. Print Styles
    -------------------------------------------------------------------------- */
 
 @media print {
