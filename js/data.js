@@ -52,6 +52,7 @@ const CITIES = {
     education: {
       classicalChristianSchools: [
         { name: "Trinity Christian Academy", grades: "PreK-12", tuition: 14229, students: 438, accreditation: "KY Non-Public Schools Commission, SCL member", notes: "Premier classical Christian school since 1988, trivium-based" },
+        { name: "Lexington Latin School", grades: "JrK-12", tuition: "$3,280-$6,705", students: "estimated 100-200", accreditation: "Memoria Press curriculum", notes: "3-day classical program using Memoria Press. Hybrid model. Very affordable tuition." },
         { name: "Veritas Christian Academy", grades: "JK-12", tuition: null, students: null, accreditation: "N/A", notes: "University Model hybrid homeschool, only one in KY" }
       ],
       otherPrivateSchools: [
@@ -168,7 +169,8 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Chesterton Academy of Mater Dei", grades: "9-12", tuition: "$2,400", students: "8 (opened Fall 2025)", accreditation: "Chesterton Schools Network", notes: "Catholic classical high school — Central Oregon's first classical school. Part of nationwide Chesterton network." }
+        { name: "Chesterton Academy of Mater Dei", grades: "9-12", tuition: "$2,400", students: "8 (opened Fall 2025)", accreditation: "Chesterton Schools Network", notes: "Catholic classical high school — Central Oregon's first classical school. Part of nationwide Chesterton network." },
+        { name: "Immanuel Classical School", grades: "K-12", tuition: "Contact school", students: "estimated small", accreditation: "Classical Christian", notes: "Ministry of Saint Andrew's Presbyterian Church. Classical Christian curriculum. Places students by reading level." }
       ],
       otherPrivateSchools: [
         { name: "Trinity Lutheran School", grades: "PreK-12", tuition: 12500, notes: "670 students, strong academics, LCMS" },
@@ -395,11 +397,15 @@ const CITIES = {
     education: {
       classicalChristianSchools: [
         { name: "The Classical Academy of Sarasota", grades: "PK-12", tuition: 12500, students: 932, accreditation: "Accredited", notes: "Rigorous classical liberal arts, virtuous character development" },
-        { name: "Liberty Christian Academy", grades: "K-7 (growing to 12)", tuition: null, students: 87, accreditation: "In progress", notes: "Founded 2022, 10:1 ratio, EdChoice scholarships" }
+        { name: "Liberty Christian Academy", grades: "K-7 (growing to 12)", tuition: null, students: 87, accreditation: "In progress", notes: "Founded 2022, 10:1 ratio, EdChoice scholarships" },
+        { name: "Chesterton Academy of St. Padre Pio", grades: "9-12", tuition: 11500, students: "small (opened Aug 2024)", accreditation: "Chesterton Academy Network", notes: "Catholic classical high school. Step Up scholarships accepted — most families pay ~$2,822 after scholarship." },
+        { name: "Incarnation Catholic School", grades: "PreK-8", tuition: 8015, students: 197, accreditation: "Diocese of Venice", notes: "Catholic classical liberal arts. Rooted in tradition, centered on the Eucharist." },
+        { name: "Riverstone Classical Academy", grades: "K-8", tuition: null, students: null, accreditation: "Classical Christian hybrid", notes: "Bradenton (15 mi north). Hybrid model — Tues/Thurs academic, Wed fine arts enrichment. Christ-centered, classically driven." }
       ],
       otherPrivateSchools: [
         { name: "Sarasota Christian School", grades: "PK-12", tuition: null, notes: "Variable tuition (40-90% of full cost)" },
-        { name: "Pine View School", grades: "2-12", tuition: null, notes: "Public gifted magnet, #1 in FL, 99% grad rate" }
+        { name: "Pine View School", grades: "2-12", tuition: null, notes: "Public gifted magnet, #1 in FL, 99% grad rate" },
+        { name: "Sarasota Classical Preparatory Academy", grades: "K-6 (opening Fall 2026)", tuition: "FREE (public charter)", notes: "Hillsdale-affiliated classical charter. Will grow to K-12. Great Works literature, Latin, moral character development." }
       ],
       publicSchoolRating: "A",
       homeschoolCoOps: [
@@ -515,11 +521,16 @@ const CITIES = {
       classicalChristianSchools: [
         { name: "Grace Baptist Academy", grades: "K3-12", tuition: 4000, students: 500, accreditation: "Cognia, ACSI", notes: "95th percentile nationally, SAT avg 1380, $4K/yr tuition, Latin grades 3-8" },
         { name: "Veritas Classical Schools", grades: "K-12", tuition: null, students: null, accreditation: "N/A", notes: "Hybrid 2 days/week, two campuses" },
-        { name: "Candies Creek Academy", grades: "PK-12", tuition: "Contact school", students: "78", accreditation: "ACCS member", notes: "30 minutes away in Charleston, TN. Classical Christian school." }
+        { name: "Candies Creek Academy", grades: "PK-12", tuition: "Contact school", students: "78", accreditation: "ACCS member", notes: "30 minutes away in Charleston, TN. Classical Christian school." },
+        { name: "Point Christian Academy", grades: "PreK-4th (expanding)", tuition: null, students: 82, accreditation: "AACS", notes: "Classical trivium model, growing school. Income-based financial assistance available." },
+        { name: "Regents Classical School", grades: "TBD", tuition: null, students: null, accreditation: "Classical Christian", notes: "Worshipful, liturgical, excellence-driven learning community. Newer school using classical trivium." },
+        { name: "Classical Beginnings Tutorial", grades: "Elementary focus", tuition: null, students: null, accreditation: "N/A", notes: "Homeschool tutorial (not full school). Trivium-based: phonics, reading, writing, math, Bible, Latin." }
       ],
       otherPrivateSchools: [
         { name: "Silverdale Baptist Academy", grades: "PreK-12", tuition: 13010, notes: "1,307 students, well-established" },
-        { name: "Chattanooga Christian School", grades: "PreK-12", tuition: null, notes: "Large Christian school" }
+        { name: "Chattanooga Christian School", grades: "PreK-12", tuition: 15800, notes: "1,550+ students, largest private school in Hamilton County. Interdenominational, SACS/Cognia accredited. $2.4M in financial aid." },
+        { name: "Boyd-Buchanan School", grades: "PreK-12", tuition: 10000, notes: "1,000+ students, Church of Christ affiliation, founded 1952. College-prep, well-established." },
+        { name: "Berean Academy", grades: "PreK-12", tuition: 5000, notes: "~400 students, very affordable. Hixson, TN. AACS member, Baptist. Accepts TN EFS Scholarship." }
       ],
       publicSchoolRating: "B",
       homeschoolCoOps: [
@@ -650,7 +661,10 @@ const CITIES = {
       ],
       otherPrivateSchools: [
         { name: "Bob Jones Academy", grades: "PK-12", tuition: 9930, notes: "1,283 students, affiliated with BJU" },
-        { name: "Christ Church Episcopal School", grades: "K5-12", tuition: null, notes: "1,150 students, prestigious" }
+        { name: "Christ Church Episcopal School", grades: "K5-12", tuition: null, notes: "1,150 students, prestigious" },
+        { name: "Southside Christian School", grades: "EarlyEd-12", tuition: 16795, notes: "~1,400 students, well-established Christian school. 10% alumni discount." },
+        { name: "First Presbyterian Academy at Shannon Forest", grades: "K3-12", tuition: 12925, notes: "~580 students, 8:1 ratio. Merger of two historic schools (1953/1968). College-prep with IGNITE gifted program." },
+        { name: "Ascent Classical Academy of Greenville", grades: "K-12 (opening Fall 2026)", tuition: "FREE (public charter)", notes: "Tuition-free classical charter. American classical education, no technology in classroom. Opening delayed to Fall 2026." }
       ],
       publicSchoolRating: "B+",
       homeschoolCoOps: [
@@ -779,7 +793,8 @@ const CITIES = {
       otherPrivateSchools: [
         { name: "Ben Lippen School", grades: "PK-12", tuition: 17300, notes: "CIU-affiliated, strong academics" },
         { name: "Hammond School", grades: "PK-12", tuition: 21160, notes: "110-acre campus, college-prep" },
-        { name: "Heathwood Hall Episcopal", grades: "EC2-12", tuition: 22855, notes: "Prestigious, 133-acre campus" }
+        { name: "Heathwood Hall Episcopal", grades: "EC2-12", tuition: 22855, notes: "Prestigious, 133-acre campus" },
+        { name: "Ascent Classical Academy of Columbia", grades: "K-8 (opening 2026-27)", tuition: "FREE (public charter)", notes: "First tuition-free classical charter in Columbia area. Will grow to K-12. Ascent Classical Academies network." }
       ],
       publicSchoolRating: "B",
       homeschoolCoOps: [
@@ -896,11 +911,11 @@ const CITIES = {
     education: {
       classicalChristianSchools: [
         { name: "Classical Christian Academy", grades: "K-12", tuition: 7490, students: 164, accreditation: "N/A", notes: "Christ-centered classical, 8:1 ratio, founded 1995" },
-        { name: "Kootenai Classical Academy (Post Falls)", grades: "K-12", tuition: null, students: null, accreditation: "Cognia", notes: "Hillsdale-affiliated, classical liberal arts with virtue emphasis" }
+        { name: "Kootenai Classical Academy (Post Falls)", grades: "K-12", tuition: null, students: null, accreditation: "Cognia", notes: "Hillsdale-affiliated, classical liberal arts with virtue emphasis" },
+        { name: "Coeur du Christ Academy", grades: "9-12", tuition: "Sliding scale", students: 49, accreditation: "Catholic classical; NAPCIS candidate", notes: "Catholic classical high school, opened 2022. Growing quickly — purchased larger facility in 2025. Cardinal Newman Society recommended." }
       ],
       otherPrivateSchools: [
-        { name: "North Idaho Christian School", grades: "K-12", tuition: 6638, notes: "206 students, 30+ years, needs-based tuition" },
-        { name: "Coeur du Christ Academy", grades: "High School", tuition: null, notes: "Catholic classical" }
+        { name: "North Idaho Christian School", grades: "K-12", tuition: 6638, notes: "206 students, 30+ years, needs-based tuition" }
       ],
       publicSchoolRating: "B+",
       homeschoolCoOps: [
@@ -1004,11 +1019,11 @@ const DEFAULT_WEIGHTS = {
  * EDUCATION (classical Christian schools, quality, homeschool community):
  *   Chattanooga: 9 — Grace Academy (elite, $4K, 95th percentile), Veritas hybrid, 3+ CC communities
  *   Greenville: 9 — GCA (ACCS), Veritas Prep, King's Classical, very strong homeschool
- *   Lexington: 7 — Trinity Christian Academy (PreK-12), Veritas hybrid, strong homeschool
+ *   Lexington: 8 — Trinity Christian Academy (PreK-12), Lexington Latin School (affordable hybrid), Veritas hybrid, strong homeschool
  *   Columbia: 7 — Covenant Classical (ACCS) + Heritage Christian Academy (ACCS, Lexington suburb), active homeschool
- *   Sarasota: 6 — Classical Academy (932 students), Liberty Christian growing, CC present
- *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, very strong homeschool
- *   Bend: 4 — Now has 1 Catholic classical high school (Chesterton, tiny) + 1 ACCS member K-8, CC active, moderate homeschool
+ *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (932 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
+ *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, Coeur du Christ Academy (Catholic classical), very strong homeschool
+ *   Bend: 5 — Now has Immanuel Classical School (K-12) + Chesterton Academy (Catholic classical) — two classical schools plus CC active, moderate homeschool
  *   Sisters: 2 — No classical Christian school in town, limited options, must drive to Bend
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
@@ -1052,10 +1067,10 @@ const DEFAULT_WEIGHTS = {
  *   Sisters: 4 — Small town charm but aging (median 49.6), 39% over 65, limited amenities
  */
 const SCORES = {
-  "lexington-ky":     { faith: 5, education: 7, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
-  "bend-or":          { faith: 2, education: 4, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
+  "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
+  "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
   "sisters-or":       { faith: 1, education: 2, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
-  "sarasota-fl":      { faith: 3, education: 6, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
+  "sarasota-fl":      { faith: 3, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
   "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
