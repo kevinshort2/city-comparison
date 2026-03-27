@@ -1,0 +1,658 @@
+{
+  "city": "Greenville",
+  "state": "South Carolina",
+  "researchDate": "2026-03-27",
+  "summary": "Greenville SC is a fast-growing upstate South Carolina city at the foothills of the Blue Ridge Mountains. It is widely recognized as a Reformed Christian hub with multiple seminaries, an annual Reformed theology conference, and a dense network of PCA/OPC/CREC/ARP congregations. Strong classical Christian school presence, excellent outdoor recreation, and a cost of living well below the national average. The metro area recently surpassed 1 million residents. Downtown Greenville is considered one of the best small-city downtowns in America.",
+
+  "costOfLiving": {
+    "overallIndex": 91.3,
+    "overallIndexNote": "BestPlaces score; national average = 100. Total cost of living is 8.7% below U.S. average.",
+    "medianHouseholdIncome": {
+      "city": 68460,
+      "county": 76334,
+      "metro": 74624,
+      "note": "City figure from PayScale/Census; county from Census Bureau; metro from SC LMI 2026 report"
+    },
+    "perCapitaIncome": 54900,
+    "stateTaxes": {
+      "incomeTax": {
+        "topRate": 6.0,
+        "brackets": "0% on first $3,560; 3% on $3,561-$17,830; 6% above $17,830",
+        "note": "2025 tax year. SC has been phasing down the top rate from 7% (was 6.2% in 2024, now 6.0%). Pending legislation could reduce further for 2026+.",
+        "socialSecurityTaxed": false,
+        "retirementIncomeBenefits": "SC does not tax Social Security benefits and offers deductions on other retirement income"
+      },
+      "salesTaxRate": 6.0,
+      "salesTaxNote": "6% state rate. Greenville has no additional local sales tax. Most groceries are exempt from sales tax.",
+      "propertyTax": {
+        "effectiveRate": "0.45% to 0.66%",
+        "primaryResidenceAssessmentRatio": "4% of fair market value",
+        "nonPrimaryAssessmentRatio": "6% of fair market value",
+        "estimateOn400kHome": {
+          "annualTax": 1800,
+          "note": "Approximately $1,800/year for a $400K primary residence after applying for the 4% assessment ratio. Without applying for primary residence status, tax would be ~$5,200."
+        },
+        "millageRateBase": 48.8,
+        "additionalMillages": "Library (8.0), Greenville Tech (5.0), Art Museum (1.5). School district millage (194.2) applies to non-primary dwellings.",
+        "note": "136 tax districts in county; rates vary. Must proactively apply for 4% primary residence rate by Jan 15 after purchase."
+      }
+    },
+    "groceryIndex": 99.7,
+    "groceryIndexNote": "National avg = 100. Groceries are about 1% below national average. Popular affordable options: Lidl, ALDI, Publix, Walmart.",
+    "utilitiesIndex": 96.9,
+    "utilitiesNote": "Utilities 3% below national average. Average monthly utilities (electric, heating, cooling, water, garbage) ~$126 for 915 sq ft. Internet ~$60/mo.",
+    "transportationIndex": 76.2,
+    "transportationNote": "Transportation costs about 24% below national average. Gas and car ownership costs are lower than most metro areas.",
+    "healthcareIndex": 108.0,
+    "healthcareNote": "Healthcare costs about 8% above national average.",
+    "unemploymentRate": {
+      "rate": 4.4,
+      "asOf": "November 2025",
+      "note": "Slightly above the national rate of 4.3% at that time"
+    },
+    "topIndustries": [
+      "Healthcare (Prisma Health is #1 employer; sector added 7,137 jobs in 5 years)",
+      "Advanced Manufacturing (GE Gas Turbines, Michelin North America, Electrolux)",
+      "Automotive (BMW is 30 min away in Spartanburg County)",
+      "Professional/Technical Services (+6,444 jobs in 5 years)",
+      "Pharmaceutical (2,170 workers, avg wage $78,006)",
+      "Higher Education (Clemson University, Bob Jones University, Furman University)",
+      "Accommodation & Food Services (+6,294 jobs in 5 years)"
+    ],
+    "highestPayingSectors": [
+      "Management of Companies & Enterprises ($108,602 avg)",
+      "Finance & Insurance ($102,784 avg)",
+      "Pharmaceutical ($78,006 avg)"
+    ]
+  },
+
+  "housing": {
+    "medianHomePrice": {
+      "cityMedianSale": 382150,
+      "typicalHomeValue": 318309,
+      "note": "Varies by source. Zillow typical value ~$318K; Redfin median sale ~$382K. Some sources report higher ($450K+) for specific months in 2025-2026. Market is normalizing after pandemic highs."
+    },
+    "marketConditions": {
+      "trend": "Balanced / slight buyer's market",
+      "daysOnMarket": 67,
+      "inventorySupply": "8.1 months",
+      "yearOverYearChange": "-0.12% to -9% depending on source and time period",
+      "note": "Greenville is entering what experts call the 'Great Housing Reset' — moving from pandemic-era volatility to balanced conditions. Values remain ~35% above pre-pandemic levels but price growth has stalled. More inventory and longer selling times favor buyers in 2026."
+    },
+    "landPricesPerAcre": {
+      "greenvilleCounty": {
+        "fiveToTenAcres": 45000,
+        "tenToTwentyAcres": 30000
+      },
+      "pickensCounty": {
+        "fiveToTenAcres": 24375,
+        "tenToTwentyAcres": 18750,
+        "note": "30-40 min northwest of Greenville. Blue Ridge foothills. Good horse country."
+      },
+      "oconeeCounty": {
+        "fiveToTenAcres": 22500,
+        "tenToTwentyAcres": 16875,
+        "note": "45-60 min west. Near Lake Jocassee and Lake Keowee. Most rural/mountainous."
+      },
+      "laurensCounty": {
+        "fiveToTenAcres": 13125,
+        "tenToTwentyAcres": 9375,
+        "note": "30-45 min south. Most affordable. Most farmland available in the upstate region."
+      },
+      "andersonCounty": {
+        "fiveToTenAcres": 24375,
+        "tenToTwentyAcres": 18750,
+        "note": "30-40 min southwest. Near Lake Hartwell."
+      },
+      "spartanburgCounty": {
+        "fiveToTenAcres": 26250,
+        "tenToTwentyAcres": 18750,
+        "note": "30 min northeast. BMW plant area."
+      },
+      "source": "PrimeLandBuyers.com 2025 data",
+      "horseZoningNote": "Upstate SC is historically horse-friendly. Greenville, Pickens, and Laurens counties all have significant equestrian communities. Rural/agricultural zoning in surrounding counties generally permits horses. Carolina Countryside Properties specializes in 10-500+ acre rural properties in these counties."
+    },
+    "familyNeighborhoods": [
+      {
+        "name": "Travelers Rest",
+        "description": "Gateway to the Blue Ridge Mountains. Northern terminus of Swamp Rabbit Trail. Small-town feel with growing food/arts scene. More rural options for acreage. 15 min to downtown Greenville.",
+        "appeal": "Best for families wanting mountain proximity and rural character with easy Greenville access"
+      },
+      {
+        "name": "Simpsonville",
+        "description": "Southern suburb with excellent schools. Five Forks area is popular with families. Greenville Classical Academy is located here. Mix of suburban neighborhoods and some larger lots.",
+        "appeal": "Family-friendly with good schools, shopping, and suburban amenities"
+      },
+      {
+        "name": "Greer",
+        "description": "Between Greenville and Spartanburg. Growing rapidly. Good balance of suburban living with both city access points. Fellowship PCA is here.",
+        "appeal": "Affordable family suburb with good access to both Greenville and Spartanburg"
+      },
+      {
+        "name": "Taylors",
+        "description": "Northeast of downtown. Covenant OPC is here. More established neighborhoods. Paris Mountain State Park is nearby.",
+        "appeal": "Established community close to parks and recreation"
+      },
+      {
+        "name": "Mauldin",
+        "description": "Small city between Greenville and Simpsonville. Lower cost of living than Greenville proper. Family-oriented community.",
+        "appeal": "Affordable, central location, family-oriented"
+      },
+      {
+        "name": "Easley / Pickens County foothills",
+        "description": "20-30 min west. More rural character. Land is more affordable. Gateway to mountain recreation areas.",
+        "appeal": "Best for families wanting acreage and horse-friendly land at lower prices while staying within commuting distance"
+      },
+      {
+        "name": "Fountain Inn / Laurens County edge",
+        "description": "30-45 min south. Most affordable land. Agricultural character. Quieter, more rural lifestyle.",
+        "appeal": "Best value for ranch/acreage land. Most affordable option in the Greenville orbit."
+      }
+    ]
+  },
+
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "Greenville Classical Academy (GCA)",
+        "grades": "K4-12",
+        "enrollment": 335,
+        "tuition": "~$10,300 for upper grades",
+        "location": "Simpsonville (Five Forks area)",
+        "founded": 2004,
+        "affiliation": "Association of Classical Christian Schools (ACCS), American Association of Christian Schools (AACS)",
+        "description": "The flagship classical Christian school in Greenville. Full-time, traditional classical model. Strong academic reputation. Ranked in top 20% of SC private schools.",
+        "financialAid": "Limited tuition assistance available. SC Education Scholarship Trust Fund (ESTF) provides up to $7,634/student/year for qualifying families.",
+        "note": "Tuition and fee details available via PDF from school; additional costs for field trips, labs, athletics, etc."
+      },
+      {
+        "name": "Veritas Preparatory School",
+        "grades": "K-12",
+        "enrollment": 387,
+        "tuition": "~$6,250",
+        "location": "701 Cleveland St, Downtown Greenville",
+        "model": "University-model / hybrid classical",
+        "description": "Parent-partnered hybrid model. Students attend campus 2-3 days per week depending on age. Classical curriculum with Christian worldview. Christ-centered. Lower tuition reflects hybrid model where parents handle some instruction days.",
+        "note": "Comprehensively Christian approach. Emphasizes philosophy and theology as part of classical curriculum."
+      },
+      {
+        "name": "King's Classical School",
+        "grades": "K-2 (launched Fall 2025, adding one grade per year)",
+        "tuition": "Not published; contact school",
+        "location": "Greenville",
+        "affiliation": "Founded by members of St. Paul's Anglican Church (ACNA)",
+        "description": "Newest classical Christian school in Greenville. Growing one grade level per year. Classical, biblically faithful education rooted in excellence and virtue.",
+        "note": "Still in early growth phase. Worth watching as it expands."
+      }
+    ],
+    "otherNotablePrivateSchools": [
+      {
+        "name": "Bob Jones Academy",
+        "grades": "PK-12",
+        "enrollment": 1283,
+        "tuition": "~$9,930",
+        "description": "Affiliated with Bob Jones University. Independent Christian school founded 1927. 93% of graduates attend 4-year college. Student-teacher ratio 17:1. Top 20% of SC private schools. Fundamentalist/evangelical tradition.",
+        "location": "Greenville (BJU campus area)"
+      },
+      {
+        "name": "First Presbyterian Academy (Shannon Forest campus)",
+        "grades": "K-12",
+        "location": "829 Garlington Rd, Greenville",
+        "description": "Presbyterian-affiliated private school with college preparatory focus."
+      },
+      {
+        "name": "Christ Church Episcopal School",
+        "grades": "K5-12",
+        "enrollment": 1150,
+        "description": "One of Greenville's most prestigious private schools. Episcopal tradition. Strong academics, not classical model.",
+        "note": "Included for context; not Reformed in orientation."
+      }
+    ],
+    "publicSchools": {
+      "district": "Greenville County School District",
+      "graduationRate": 90.6,
+      "graduationRateNote": "Highest in GCS history (2024-25). Up 18 points since 2012.",
+      "collegeCareerReadiness": 85.0,
+      "collegeCareerNote": "85% met College or Career Readiness markers — a 20-point increase over 5 years.",
+      "stateReportCardRatings": "97.7% of schools rated Excellent, Good, or Average (9-point increase from prior year). 72% rated Excellent or Good.",
+      "nicheRating": "Greenville County Schools is a well-regarded district on Niche.com",
+      "note": "Greenville County is the largest school district in SC. Quality varies significantly by neighborhood. Suburban areas (Simpsonville, Mauldin, Greer) tend to have higher-rated schools."
+    },
+    "homeschoolOptions": {
+      "stateRegulations": "South Carolina is homeschool-friendly with minimal regulations. Three options: (1) under school district auspices, (2) through SC Association of Independent Home Schools, (3) through a homeschool association with 50+ members. Requires 180 days, 4.5 hrs/day. Option 3 does not require standardized testing.",
+      "classicalConversations": "Multiple Classical Conversations communities throughout upstate SC — Greenville, Spartanburg, Moore, Landrum, and surrounding areas. Strong presence.",
+      "universityModelSchools": [
+        "Veritas Preparatory School (K-12, hybrid 2-3 days/week campus)",
+        "Artios Academy (Greenville; integrated history/language arts/fine arts; hybrid)"
+      ],
+      "coOps": [
+        "Milton Academy (formerly Home School Resource Center) — Middle/high school college prep courses",
+        "Upcountry Homeschool Association — co-ops, tutors, enrichment",
+        "Multiple additional co-ops listed through SCHEA, HomeschoolingSC.org, and KiddingAroundGreenville.com"
+      ],
+      "extracurricularAccess": "SC Act 203 (Equal Access to Interscholastic Activities Act) permits homeschoolers to participate in public school extracurriculars when conditions are met.",
+      "communityStrength": "Very strong. Greenville is one of the strongest homeschool communities in the Southeast due to the density of Christian families, co-op options, and supportive state laws."
+    }
+  },
+
+  "faith": {
+    "overview": "Greenville is widely regarded as a Reformed Christian hub — possibly the strongest concentration of Reformed churches, seminaries, and institutions in the Southeast. The upstate SC region is called 'the buckle of the Bible Belt.' Faith is deeply woven into community life. Multiple seminaries, an annual Reformed theology conference, and a dense network of confessional churches make this an exceptional destination for Reformed families.",
+    "pcaChurches": [
+      {
+        "name": "Second Presbyterian Church",
+        "location": "105 River Street, Downtown Greenville",
+        "description": "Historic PCA church founded 1892 in the West End. Confessional, Westminster Standards. Hosts the annual Greenville Conference on Reformed Theology (GCRT). One of the anchor Reformed churches in the area.",
+        "size": "Large (estimated 500+ members based on Facebook/social presence)",
+        "sizeNote": "Exact membership not publicly listed; estimate based on event capacity and social media"
+      },
+      {
+        "name": "Mitchell Road Presbyterian Church",
+        "location": "207 Mitchell Road, Greenville",
+        "description": "Well-established PCA congregation. Active community presence.",
+        "size": "Large (estimated 500+ based on social media following of 3,300+)",
+        "sizeNote": "Estimate"
+      },
+      {
+        "name": "Fellowship Presbyterian Church",
+        "location": "1105 Old Spartanburg Road, Greer",
+        "description": "PCA church in Greer serving the northeast Greenville metro."
+      },
+      {
+        "name": "Woodruff Road Presbyterian Church",
+        "location": "2519 Woodruff Road, Simpsonville",
+        "description": "PCA church in the growing Five Forks / Simpsonville corridor."
+      },
+      {
+        "name": "Calvary Presbyterian Church",
+        "location": "9201 Old White Horse Road, Greenville",
+        "description": "PCA congregation on the west side of Greenville."
+      },
+      {
+        "name": "Downtown Presbyterian Church",
+        "location": "Greenville",
+        "description": "PCA church plant in downtown area."
+      },
+      {
+        "name": "Eastside Presbyterian Church",
+        "location": "Greenville",
+        "description": "PCA congregation on Greenville's east side."
+      },
+      {
+        "name": "Grace and Peace Presbyterian Church",
+        "location": "Greenville",
+        "description": "PCA congregation."
+      },
+      {
+        "name": "Horizon Church",
+        "location": "Greenville",
+        "description": "PCA congregation."
+      },
+      {
+        "name": "Reedy River Presbyterian Church",
+        "location": "Greenville (Conestee area)",
+        "description": "PCA congregation, 8 miles from downtown."
+      },
+      {
+        "name": "Redeemer Presbyterian Church",
+        "location": "Travelers Rest",
+        "description": "PCA church in Travelers Rest."
+      },
+      {
+        "name": "Christ Community Church",
+        "location": "Simpsonville (formerly Davenport Road Presbyterian)",
+        "description": "PCA congregation in Simpsonville."
+      },
+      {
+        "name": "Palmetto Hills Presbyterian Church",
+        "location": "Simpsonville",
+        "description": "PCA congregation."
+      }
+    ],
+    "pcaCount": "13+ PCA congregations in immediate Greenville metro (Calvary Presbytery)",
+    "opcChurches": [
+      {
+        "name": "Covenant Community OPC",
+        "location": "418 E. Main Street, Taylors, SC 29687",
+        "description": "Orthodox Presbyterian Church. Worship at 11am and 6pm. Located in the greater Greenville area of upstate SC."
+      }
+    ],
+    "crecChurches": [
+      {
+        "name": "Christ the King Church",
+        "location": "Greenville",
+        "denomination": "CREC (Communion of Reformed Evangelical Churches)",
+        "description": "CREC congregation in Greenville."
+      }
+    ],
+    "arpChurches": [
+      {
+        "name": "Greenville Associate Reformed Presbyterian Church",
+        "location": "Greenville",
+        "denomination": "ARP (Associate Reformed Presbyterian)",
+        "description": "Well-established, multi-generational ARP congregation. The ARP denomination is historically strong in the SC upstate."
+      }
+    ],
+    "freePresbyterianChurches": [
+      {
+        "name": "Faith Free Presbyterian Church",
+        "location": "1207 Haywood Rd, Greenville",
+        "description": "Free Presbyterian Church of North America. Reformed Presbyterian tradition."
+      },
+      {
+        "name": "Greenville Presbyterian Church",
+        "location": "Greenville",
+        "denomination": "Free Church of Scotland (Continuing)",
+        "description": "Organized 2007. Confessional Reformed worship."
+      }
+    ],
+    "reformedBaptist": [
+      {
+        "name": "Grace Baptist Church",
+        "location": "Taylors, SC",
+        "denomination": "1689 Reformed Baptist, Reformed Baptist Network (RBNet)",
+        "description": "Confessional Reformed Baptist congregation."
+      }
+    ],
+    "anglicanACNA": [
+      {
+        "name": "St. Paul's Anglican Church",
+        "location": "Greenville",
+        "denomination": "ACNA, Diocese of the Carolinas",
+        "description": "Anglican parish. Founded King's Classical School."
+      },
+      {
+        "name": "Village Church Anglican",
+        "location": "West side of downtown Greenville",
+        "denomination": "ACNA, Diocese of the Carolinas"
+      },
+      {
+        "name": "All Saints Anglican Church",
+        "location": "Greenville",
+        "denomination": "Reformed Episcopal Church / ACNA"
+      }
+    ],
+    "otherReformedChurches": [
+      {
+        "name": "North Greenville Church",
+        "location": "Travelers Rest / northern Greenville County",
+        "description": "Reformed and Presbyterian fellowship."
+      },
+      {
+        "name": "Holy Trinity Reformed Church",
+        "location": "Greenville",
+        "denomination": "CREC (originally; now seeking Anglican province membership)",
+        "description": "Reformed tradition, practices infant baptism and paedocommunion."
+      },
+      {
+        "name": "Reedy River Bible Presbyterian Church",
+        "location": "Conestee, SC (8 miles from downtown)",
+        "denomination": "Bible Presbyterian",
+        "description": "Historic Reformed church in the Bible Presbyterian tradition."
+      }
+    ],
+    "seminaryAndCollegePresence": [
+      {
+        "name": "Greenville Presbyterian Theological Seminary (GPTS)",
+        "type": "Seminary",
+        "denomination": "Confessional Presbyterian / Reformed",
+        "location": "Taylors, SC (greater Greenville)",
+        "founded": 1987,
+        "programs": "MDiv (124 credit hours), MA in Religion, Master of Ministry, ThM, ThD",
+        "description": "Confessional Presbyterian seminary. All full-time professors have 5+ years pastoral experience. Strong emphasis on Westminster Standards, personal holiness, biblical languages. President: Dr. Jonathan Master (PhD, Aberdeen).",
+        "significance": "One of the premier confessional Reformed seminaries in America."
+      },
+      {
+        "name": "Geneva Reformed Seminary",
+        "type": "Seminary",
+        "denomination": "Free Presbyterian Church of North America",
+        "location": "Greenville",
+        "description": "Small theological school accredited by the Association of Reformed Theological Seminaries.",
+        "significance": "Supported by the Free Presbyterian Church of North America."
+      },
+      {
+        "name": "Bob Jones University / BJU Seminary",
+        "type": "University and Seminary",
+        "denomination": "Independent fundamentalist/evangelical",
+        "location": "Greenville",
+        "founded": 1927,
+        "description": "Private Christian liberal arts university. Seminary has been equipping Christian leaders since 1932. Fundamentalist evangelical focus. Major institutional presence in Greenville.",
+        "significance": "Largest Christian institution in Greenville. Significant cultural and economic presence."
+      }
+    ],
+    "annualConferences": [
+      {
+        "name": "Greenville Conference on Reformed Theology (GCRT)",
+        "host": "Second Presbyterian Church (PCA)",
+        "frequency": "Annual (October/November)",
+        "description": "South Carolina home for the Alliance of Confessing Evangelicals. Features leading Reformed theologians. Free admission. Runs 3 days with 7+ sessions. Live-streamed. Past themes include justification, God's sovereignty, the Holy Spirit. Has run for 10+ years.",
+        "speakers": "Past speakers include Richard Phillips, David Strain, Ligon Duncan, Rob Ventura, and others from the Reformed tradition."
+      }
+    ],
+    "christianCommunityOrganizations": [
+      "Greenville has a very high density of Christian community organizations, Bible studies, and parachurch ministries",
+      "Bob Jones University provides extensive community programming",
+      "Multiple Christian bookstores, counseling centers, and ministries serve the area",
+      "Homeschool community is deeply intertwined with church networks",
+      "Evangelical/Reformed culture is the dominant social fabric — Bible studies at coffee shops are common"
+    ],
+    "churchDensityNote": "Greenville has one of the highest church-per-capita ratios in the U.S. The upstate is called 'the buckle of the Bible Belt' with hundreds of churches. Specifically for Reformed/confessional churches, 13+ PCA, 1+ OPC, 2+ CREC, 1+ ARP, 2+ Free Presbyterian, 3+ ACNA, plus Reformed Baptist — an unusually high concentration for a city this size."
+  },
+
+  "lifestyle": {
+    "climate": {
+      "summary": "Humid subtropical climate. Four distinct seasons. Hot, humid summers; mild winters with occasional light snow. Blue Ridge foothills moderate temperatures compared to lowcountry SC.",
+      "averageTemperatures": {
+        "winter": { "highF": 54, "lowF": 37, "months": "Dec-Feb" },
+        "spring": { "highF": 73, "lowF": 53, "months": "Mar-May" },
+        "summer": { "highF": 87, "lowF": 72, "months": "Jun-Aug" },
+        "fall": { "highF": 72, "lowF": 53, "months": "Sep-Nov" }
+      },
+      "annualRainfallInches": 51,
+      "annualSnowfallInches": 3,
+      "annualSnowfallNote": "Some sources report up to 6.2 inches. Light snow events, rarely accumulates significantly.",
+      "sunnyDaysPerYear": 220,
+      "sunnyDaysNote": "Above U.S. average of 205. About 3,036 hours of sunshine per year.",
+      "bestMonths": "March, April, May, September, October — comfortable temperatures, low humidity"
+    },
+    "outdoorRecreation": {
+      "swampRabbitTrail": {
+        "description": "28-mile paved multi-use greenway along the Reedy River, connecting Travelers Rest to downtown Greenville. Passes through Falls Park, Cleveland Park, and the Greenville Zoo. Extremely popular for walking, running, and cycling.",
+        "significance": "One of the defining amenities of Greenville. Major quality-of-life asset."
+      },
+      "hiking": {
+        "description": "Blue Ridge foothills offer extensive hiking. Paris Mountain State Park (10 min from downtown, 15 miles of trails). Jones Gap State Park (60+ miles of trails). Caesars Head State Park. Table Rock State Park. The Foothills Trail (77-mile backpacking trail) is accessible from the Greenville area.",
+        "waterfalls": "Multiple waterfalls within 30-60 min: Wildcat Wayside, Rainbow Falls, Raven Cliff Falls, Laurel Fork Falls (80-ft waterfall accessible by boat at Lake Jocassee)."
+      },
+      "equestrian": {
+        "facilities": [
+          "Riverbend Equestrian Park (175 Riverbend Rd, Greenville) — horseback riding, trails",
+          "Foothills Equestrian Nature Center",
+          "JMG Ranch (near Travelers Rest) — guided trail rides, mountain camping trips, 56+ years combined guide experience",
+          "Eden Farms — guided Blue Ridge Mountain trail rides with views of Caesars Head, Table Rock, Paris Mountain",
+          "Black Horse Run — scenic trails through woods, creeks, fields, hills; day rides and overnight trips"
+        ],
+        "note": "Upstate SC is historically one of the best regions for horse ownership. Pickens, Laurens, and northern Greenville County all have active equestrian communities. Tryon, NC (the equestrian capital of the Southeast) is only 45 min away."
+      },
+      "lakes": [
+        {
+          "name": "Lake Jocassee",
+          "distance": "~60 min from Greenville",
+          "description": "Pristine mountain lake. No remaining lots for sale — mostly forested shoreline. 80-ft Laurel Fork Falls flows into the lake. Boat rentals, swimming, kayaking. One of the most beautiful lakes in the Southeast."
+        },
+        {
+          "name": "Lake Keowee",
+          "distance": "~45 min from Greenville",
+          "description": "18,372 acres, 300 miles of shoreline. Boating, fishing, kayaking, paddleboarding, swimming, camping. Lakefront communities available."
+        },
+        {
+          "name": "Lake Hartwell",
+          "distance": "~35 min from Greenville",
+          "description": "56,000 acres, 950 miles of shoreline. One of the largest lakes in the Southeast. State-record bass fishing. Boating, camping, swimming."
+        }
+      ],
+      "stateParks": [
+        "Paris Mountain State Park (10 min from downtown, 4 lakes, swimming, 15 mi trails, camping)",
+        "Jones Gap State Park (hiking, waterfalls, trout fishing)",
+        "Caesars Head State Park (dramatic Blue Ridge escarpment views)",
+        "Table Rock State Park (swimming, hiking, camping)",
+        "Devils Fork State Park (Lake Jocassee access)"
+      ]
+    },
+    "crimeRate": {
+      "overallRate": "58.71 per 1,000 (city)",
+      "violentCrimeRate": "~6 per 1,000",
+      "comparedToNational": "Higher than national average (33.37 per 1,000) for city proper. However, suburban areas (Simpsonville, Greer, Travelers Rest) are significantly safer.",
+      "trend": "Crime dropped 12% in 2025 vs 2024. Property crime down 13%. Long-term: crime rate has dropped 55% from 2000 to 2025.",
+      "note": "City-proper crime stats are elevated partly due to urban density and tourism. Suburban/rural areas where families with acreage would live have much lower crime rates. The downward trend is significant and sustained."
+    },
+    "walkabilityAndTraffic": {
+      "cityWalkScore": 43,
+      "downtownWalkScore": 80,
+      "downtownNote": "Downtown Greenville is Very Walkable — most errands on foot. Falls Park, Main Street dining/shopping, Liberty Bridge all walkable. Augusta Road neighborhood also scores high.",
+      "averageCommuteMinutes": 16.98,
+      "commuteNote": "Below national average. 79.8% drive to work. Minimal public transit. Outside downtown, car is necessary.",
+      "trafficNote": "Traffic is growing with population boom but is still significantly better than larger metros. Rush hour congestion on I-85, I-385, and Woodruff Road corridor."
+    }
+  },
+
+  "community": {
+    "population": {
+      "city": 75282,
+      "cityNote": "City proper estimate. Growing steadily.",
+      "county": 592843,
+      "countyNote": "Greenville County 2026 estimate. 1.9% growth rate.",
+      "metro": 1014101,
+      "metroName": "Greenville-Anderson-Greer MSA",
+      "metroNote": "Surpassed 1 million residents for the first time in 2025. Added 85,894 people since 2020 Census (9.3% growth)."
+    },
+    "populationGrowthTrend": {
+      "fiveYearGrowthRate": "9.3% (2020-2025 for metro)",
+      "annualGrowthRate": "~1.4-1.9% depending on geography",
+      "drivers": "Lower cost of living vs. Northeast/West Coast, job growth in manufacturing and healthcare, quality of life, mild climate, business-friendly state policies, outdoor recreation. Greenville has been on nearly every 'best places to live' list in recent years.",
+      "note": "Greenville has been one of the fastest-growing metros in the Southeast. The boom shows no signs of slowing."
+    },
+    "familyFriendliness": {
+      "rating": "Excellent",
+      "factors": [
+        "Strong school options (public, private classical Christian, homeschool)",
+        "Dense church community provides built-in social networks for families",
+        "Abundant parks, trails, and outdoor recreation",
+        "Low cost of living makes single-income or reduced-income families more viable",
+        "Swamp Rabbit Trail and downtown are family-activity hubs",
+        "Kid-friendly attractions: Greenville Zoo, Children's Museum, Falls Park",
+        "Multiple family-oriented suburbs within 15-20 min of downtown"
+      ]
+    },
+    "homeschoolCommunityStrength": {
+      "rating": "Very Strong — one of the best in the Southeast",
+      "factors": [
+        "SC has favorable homeschool laws with three flexible options",
+        "Dense network of co-ops, hybrid/university-model schools, and support groups",
+        "Classical Conversations communities throughout upstate",
+        "Veritas Prep offers hybrid classical model (2-3 days campus)",
+        "Artios Academy and other enrichment programs",
+        "Milton Academy for middle/high school college prep",
+        "Upcountry Homeschool Association provides co-ops and tutors",
+        "Homeschoolers can access public school extracurriculars via SC Act 203",
+        "Church-based homeschool groups are abundant given the high church density"
+      ]
+    },
+    "conservativeFaithCommunityPresence": {
+      "rating": "Very Strong",
+      "description": "Greenville and the SC upstate are in the heart of the Bible Belt — often called 'the buckle of the state's Bible Belt.' Conservative evangelical Christianity is the dominant cultural force. Bob Jones University has shaped the city's character since 1947. Reformed/confessional Christianity has an unusually strong presence with 3 seminaries and 20+ Reformed congregations. It is common to see people reading Bibles in coffee shops. Faith is openly expressed in public and professional life.",
+      "politicalLeaning": "Strongly conservative. Greenville County votes reliably Republican. The upstate is one of the most politically conservative regions in SC."
+    },
+    "civicEngagement": {
+      "note": "High civic engagement through churches, volunteer organizations, and community events. Fall for Greenville (largest civic food/music festival in SC) draws large crowds. Downtown Greenville revitalization is a nationally recognized success story driven by public-private partnership. Active neighborhood associations in suburban areas."
+    },
+    "comparisonToLexingtonKY": {
+      "advantages": [
+        "Significantly stronger Reformed/confessional church presence (3 seminaries, 13+ PCA churches, annual Reformed theology conference)",
+        "More classical Christian school options (GCA, Veritas Prep, King's Classical, Bob Jones Academy)",
+        "Stronger homeschool community with more favorable state laws",
+        "Blue Ridge Mountain proximity for hiking, waterfalls, lakes — more dramatic outdoor recreation",
+        "Lower property taxes (effective rate ~0.45-0.66% vs KY's higher rates)",
+        "No state tax on Social Security benefits",
+        "Metro area is larger (1M+) and growing faster",
+        "Downtown Greenville is nationally acclaimed — walkable, vibrant, family-friendly",
+        "Lake Jocassee/Keowee/Hartwell provide outstanding water recreation",
+        "Equestrian community well-established; Tryon NC (equestrian capital) is 45 min away"
+      ],
+      "considerations": [
+        "Land prices per acre may be higher in Greenville County itself — look at Pickens, Laurens, or Oconee counties for better acreage value",
+        "Summer heat and humidity are more intense than Lexington KY",
+        "City-proper crime rate is elevated (though suburban areas are safer)",
+        "Housing market has risen significantly — median home prices higher than Lexington",
+        "Healthcare costs are slightly above national average",
+        "Traffic is growing with the population boom, especially on Woodruff Road corridor"
+      ]
+    }
+  },
+
+  "sources": [
+    "https://www.bestplaces.net/cost_of_living/city/south_carolina/greenville",
+    "https://www.rentcafe.com/cost-of-living-calculator/us/sc/greenville/",
+    "https://www.expertrealestateteam.com/blog/greenville-sc-cost-of-living/",
+    "https://www.redfin.com/city/7891/SC/Greenville/housing-market",
+    "https://www.zillow.com/home-values/24960/greenville-sc/",
+    "https://www.houzeo.com/housing-market/south-carolina/greenville",
+    "https://greenvilleclassical.com/",
+    "https://www.veritasgreenville.com/",
+    "https://kingsclassicalschool.com/",
+    "https://www.bobjonesacademy.net/",
+    "https://www.privateschoolreview.com/greenville-classical-academy-profile",
+    "https://www.niche.com/k12/d/greenville-county-school-district-sc/",
+    "https://www.greenville.k12.sc.us/News/main.asp?titleid=2511gradrate",
+    "https://greenvillejournal.com/greenville-county-schools/greenville-county-schools-achieves-highest-graduation-rate-in-district-history/",
+    "https://hslda.org/legal/south-carolina",
+    "https://www.homeschoolingsc.org/sc-homeschool-laws/",
+    "https://kiddingaroundgreenville.com/guide_categories/homeschool-co-ops",
+    "https://www.pcahistory.org/churches/southcarolina.html",
+    "https://spcgreenville.org/",
+    "https://www.mitchellroad.org/",
+    "https://fellowshippres.org/",
+    "https://www.covenanttaylors.org/",
+    "https://www.christkingchurch.com/",
+    "https://faithfpc.org/",
+    "https://www.greenvillepresbyterian.com/",
+    "https://www.holytrinityreformed.com/",
+    "https://gbctaylors.org/",
+    "https://www.gpts.edu/",
+    "https://www.bju.edu/",
+    "https://spcgreenville.org/gcrt/",
+    "https://en.wikipedia.org/wiki/Geneva_Reformed_Seminary",
+    "https://dor.sc.gov/iit",
+    "https://taxfoundation.org/data/all/state/state-income-tax-rates/",
+    "https://www.avalara.com/taxrates/en/state-rates/south-carolina/cities/greenville.html",
+    "https://www.greenvillecounty.org/auditor/MillageSheets.aspx",
+    "https://mymovecrew.com/south-carolina-property-tax-rates/",
+    "https://smartasset.com/taxes/south-carolina-property-tax-calculator",
+    "https://www.primelandbuyers.com/blog/south-carolina-land-price-per-acre-by-county",
+    "https://www.land.com/Upstate-South-Carolina-Region/all-land/",
+    "https://www.greenvillerealestatehub.com/equestrian-properties-for-sale/",
+    "https://www.bls.gov/eag/eag.sc_greenville_msa.htm",
+    "https://lmi.sc.gov/_docs/Community-Profiles/21024860_Greenville_MSA.pdf",
+    "https://fred.stlouisfed.org/series/SCGREE5URN",
+    "https://weatherspark.com/y/17076/Average-Weather-in-Greenville-South-Carolina-United-States-Year-Round",
+    "https://www.currentresults.com/Weather/South-Carolina/annual-days-of-sunshine.php",
+    "https://www.greenvillesc.gov/316/Swamp-Rabbit-Trail",
+    "https://www.visitgreenvillesc.com/things-to-do/outdoor-activities/your-outdoor-guide-to-greenville/",
+    "https://greenvillerec.com/parks/riverbend-equestrian-park/",
+    "https://www.edenfarms.net/trail-rides.html",
+    "https://www.jmgranch.com/trail-rides.html",
+    "https://blakeside.com/lakes-near-greenville-sc/",
+    "https://www.neighborhoodscout.com/sc/greenville/crime",
+    "https://www.greenvillesc.gov/947/Crime-Data",
+    "https://www.walkscore.com/SC/Greenville",
+    "https://worldpopulationreview.com/us-cities/south-carolina/greenville",
+    "https://www.macrotrends.net/global-metrics/cities/23005/greenville/population",
+    "https://greenvillejournal.com/news/greenville-metro-population-grows-to-1-million-residents-new-census-estimates-shows/",
+    "https://www.census.gov/quickfacts/fact/table/greenvillecitysouthcarolina/PST045224",
+    "https://pluralism.org/news/greenville-sc-rest-bible-belt-growing-religious-diversity",
+    "https://www.postandcourier.com/politics/upstate-south-carolina-pickens-presidential-primary-election/article_9860a95e-2a35-11ee-b57c-27afb48c6644.html",
+    "https://www.bluefieldgroup.com/blog/best-greenville-area-suburbs-for-families-top-neighborhoods-to-consider/",
+    "https://stpaulsgreenville.com/",
+    "https://villageanglican.church/",
+    "https://allsaintsgreenville.org/"
+  ]
+}

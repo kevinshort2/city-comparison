@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview &amp; Rankings — Where Next?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="./index.html" class="nav-brand">Where Next?</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="active">Overview</a></li>
+        <li><a href="./cost-of-living.html">Cost of Living</a></li>
+        <li><a href="./housing.html">Housing</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./faith.html">Faith</a></li>
+        <li><a href="./lifestyle.html">Lifestyle</a></li>
+        <li><a href="./community.html">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Where Next?</h1>
+      <p class="subtitle">A data-driven comparison of 8 cities for the Short family's next chapter. Lexington, KY is our baseline.</p>
+    </div>
+  </section>
+
+  <!-- Weight Controls -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Priority Weights</h2>
+        <p class="section-subtitle">Adjust category importance to re-rank the cities in real time. Weights auto-normalize to 100%.</p>
+      </div>
+      <div id="weight-controls" class="mb-4">
+        <div class="weight-slider mb-2" data-category="faith">
+          <span class="slider-label">Faith</span>
+          <input type="range" min="0" max="50" value="25" data-category="faith">
+          <span class="slider-value weight-value" data-category="faith">25%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="education">
+          <span class="slider-label">Education</span>
+          <input type="range" min="0" max="50" value="25" data-category="education">
+          <span class="slider-value weight-value" data-category="education">25%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="lifestyle">
+          <span class="slider-label">Lifestyle</span>
+          <input type="range" min="0" max="50" value="20" data-category="lifestyle">
+          <span class="slider-value weight-value" data-category="lifestyle">20%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="housing">
+          <span class="slider-label">Housing</span>
+          <input type="range" min="0" max="50" value="15" data-category="housing">
+          <span class="slider-value weight-value" data-category="housing">15%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="costOfLiving">
+          <span class="slider-label">Cost of Living</span>
+          <input type="range" min="0" max="50" value="10" data-category="costOfLiving">
+          <span class="slider-value weight-value" data-category="costOfLiving">10%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="community">
+          <span class="slider-label">Community</span>
+          <input type="range" min="0" max="50" value="5" data-category="community">
+          <span class="slider-value weight-value" data-category="community">5%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overall Rankings Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Overall Rankings</h2>
+        <p class="section-subtitle">All 8 cities ranked by weighted score. Adjust the sliders above to see how priorities change the order.</p>
+      </div>
+      <div class="table-responsive">
+        <table id="ranking-table" class="comparison-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>City</th>
+              <th>Overall</th>
+              <th>Score</th>
+              <th>Faith</th>
+              <th>Education</th>
+              <th>Lifestyle</th>
+              <th>Housing</th>
+              <th>Cost of Living</th>
+              <th>Community</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Populated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats Grid -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Quick Stats</h2>
+        <p class="section-subtitle">Key metrics at a glance across all 8 cities.</p>
+      </div>
+      <div class="grid-4">
+        <div class="stat-card">
+          <div class="stat-label">Median Home Price</div>
+          <div class="stat-value" id="stat-home-price">--</div>
+          <div class="caption" id="stat-home-price-range">range across cities</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">State Income Tax</div>
+          <div class="stat-value">0% - 9.9%</div>
+          <div class="caption">FL &amp; TN at 0%, OR up to 9.9%</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Reformed Churches</div>
+          <div class="stat-value" id="stat-reformed">--</div>
+          <div class="caption" id="stat-reformed-range">total count range</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Classical Christian Schools</div>
+          <div class="stat-value" id="stat-classical">--</div>
+          <div class="caption" id="stat-classical-range">count range</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- City Cards Grid -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>City Profiles</h2>
+        <p class="section-subtitle">Click any city for a detailed breakdown.</p>
+      </div>
+      <div class="grid-4" id="city-cards">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Navigation -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Explore by Category</h2>
+      </div>
+      <p>Dive deeper into
+        <a href="./cost-of-living.html">Cost of Living</a>,
+        <a href="./housing.html">Housing</a>,
+        <a href="./education.html">Education</a>,
+        <a href="./faith.html">Faith</a>,
+        <a href="./lifestyle.html">Lifestyle</a>, or
+        <a href="./community.html">Community</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="./methodology.html">Methodology &amp; Sources</a>
+      <span>Research date: March 2026</span>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+  <script>
+    // Override app.js generic weight slider init — this page handles its own
+    initWeightSliders = function () {};
+
+    (function () {
+      var SLUGS = {
+        "lexington-ky": "lexington-ky",
+        "bend-or": "bend-or",
+        "sisters-or": "sisters-or",
+        "sarasota-fl": "sarasota-fl",
+        "chattanooga-tn": "chattanooga-tn",
+        "greenville-sc": "greenville-sc",
+        "columbia-sc": "columbia-sc",
+        "coeur-d-alene-id": "coeur-d-alene-id"
+      };
+
+      var CATEGORY_KEYS = ["faith", "education", "lifestyle", "housing", "costOfLiving", "community"];
+      var CATEGORY_LABELS = {
+        faith: "Faith",
+        education: "Edu",
+        lifestyle: "Life",
+        housing: "House",
+        costOfLiving: "COL",
+        community: "Comm"
+      };
+
+      // ---------------------------------------------------------------
+      // Weight slider wiring (overrides app.js generic init for
+      // tighter control of the ranking table with category columns)
+      // ---------------------------------------------------------------
+
+      function getWeights() {
+        var w = {};
+        var inputs = document.querySelectorAll('#weight-controls input[type="range"]');
+        inputs.forEach(function (input) {
+          w[input.dataset.category] = parseFloat(input.value);
+        });
+        return w;
+      }
+
+      function updateDisplays() {
+        var inputs = document.querySelectorAll('#weight-controls input[type="range"]');
+        inputs.forEach(function (input) {
+          var display = document.querySelector('.weight-value[data-category="' + input.dataset.category + '"]');
+          if (display) display.textContent = Math.round(input.value) + "%";
+        });
+      }
+
+      function normalizeOthers(changed) {
+        var inputs = Array.from(document.querySelectorAll('#weight-controls input[type="range"]'));
+        var changedCat = changed.dataset.category;
+        var changedVal = parseFloat(changed.value);
+        var others = inputs.filter(function (s) { return s.dataset.category !== changedCat; });
+        var othersTotal = others.reduce(function (sum, s) { return sum + parseFloat(s.value); }, 0);
+        var remaining = 100 - changedVal;
+
+        if (othersTotal === 0) {
+          var each = remaining / others.length;
+          others.forEach(function (s) { s.value = Math.round(each); });
+        } else {
+          var scale = remaining / othersTotal;
+          others.forEach(function (s) { s.value = Math.round(parseFloat(s.value) * scale); });
+        }
+
+        var total = inputs.reduce(function (sum, s) { return sum + parseFloat(s.value); }, 0);
+        if (total !== 100 && others.length > 0) {
+          others[0].value = parseFloat(others[0].value) + (100 - total);
+        }
+      }
+
+      // ---------------------------------------------------------------
+      // Rankings table
+      // ---------------------------------------------------------------
+
+      function renderRankings() {
+        var weights = getWeights();
+        var rankings = rankCities(weights);
+        var tbody = document.querySelector('#ranking-table tbody');
+        if (!tbody) return;
+        tbody.innerHTML = "";
+
+        rankings.forEach(function (entry) {
+          var city = CITIES[entry.cityId];
+          if (!city) return;
+          var isBaseline = entry.cityId === BASELINE_CITY;
+          var scores = SCORES[entry.cityId];
+          var tr = document.createElement("tr");
+          if (isBaseline) tr.classList.add("baseline-row");
+          tr.dataset.city = entry.cityId;
+
+          var barWidth = (entry.score / 10) * 100;
+
+          var html = '<td>' + entry.rank + '</td>';
+          html += '<td><a href="./cities/' + SLUGS[entry.cityId] + '.html">' + city.name + ', ' + city.state + '</a>';
+          if (isBaseline) html += ' <small>(baseline)</small>';
+          html += '</td>';
+          html += '<td style="min-width:120px"><div class="bar-chart-track"><div class="bar-chart-fill' + (isBaseline ? ' baseline' : '') + '" style="width:' + barWidth.toFixed(1) + '%"><span class="bar-chart-value">' + entry.score.toFixed(1) + '</span></div></div></td>';
+          html += '<td>' + entry.score.toFixed(1) + '</td>';
+
+          CATEGORY_KEYS.forEach(function (cat) {
+            var s = scores[cat] || 0;
+            var cls = s >= 8 ? "high" : (s >= 5 ? "medium" : "low");
+            html += '<td><span class="score-badge ' + cls + '">' + s + '</span></td>';
+          });
+
+          tr.innerHTML = html;
+          tbody.appendChild(tr);
+        });
+      }
+
+      // ---------------------------------------------------------------
+      // Quick Stats
+      // ---------------------------------------------------------------
+
+      function renderQuickStats() {
+        var homePrices = [];
+        var reformedCounts = [];
+        var classicalCounts = [];
+
+        Object.keys(CITIES).forEach(function (id) {
+          var c = CITIES[id];
+          if (c.housing && c.housing.medianHomePrice) homePrices.push(c.housing.medianHomePrice);
+          if (c.faith) reformedCounts.push(c.faith.totalReformedCount || 0);
+          if (c.education && c.education.classicalChristianSchools) classicalCounts.push(c.education.classicalChristianSchools.length);
+        });
+
+        var minPrice = Math.min.apply(null, homePrices);
+        var maxPrice = Math.max.apply(null, homePrices);
+        document.getElementById("stat-home-price").textContent = formatCurrency(minPrice) + " - " + formatCurrency(maxPrice);
+        document.getElementById("stat-home-price-range").textContent = "across 8 cities";
+
+        var minR = Math.min.apply(null, reformedCounts);
+        var maxR = Math.max.apply(null, reformedCounts);
+        document.getElementById("stat-reformed").textContent = minR + " - " + maxR;
+        document.getElementById("stat-reformed-range").textContent = "total Reformed congregations per city";
+
+        var minC = Math.min.apply(null, classicalCounts);
+        var maxC = Math.max.apply(null, classicalCounts);
+        document.getElementById("stat-classical").textContent = minC + " - " + maxC;
+        document.getElementById("stat-classical-range").textContent = "classical Christian schools per city";
+      }
+
+      // ---------------------------------------------------------------
+      // City Cards
+      // ---------------------------------------------------------------
+
+      function renderCityCards() {
+        var weights = getWeights();
+        var rankings = rankCities(weights);
+        var container = document.getElementById("city-cards");
+        if (!container) return;
+        container.innerHTML = "";
+
+        rankings.forEach(function (entry) {
+          var city = CITIES[entry.cityId];
+          if (!city) return;
+          var isBaseline = entry.cityId === BASELINE_CITY;
+          var slug = SLUGS[entry.cityId];
+
+          var card = document.createElement("a");
+          card.className = "city-card" + (isBaseline ? " baseline-highlight" : "");
+          card.href = "./cities/" + slug + ".html";
+
+          var medianPrice = city.housing ? formatCurrency(city.housing.medianHomePrice) : "--";
+          var colIndex = city.costOfLiving ? city.costOfLiving.overallIndex : "--";
+          var reformed = city.faith ? (city.faith.totalReformedCount || 0) : "--";
+          var classical = city.education && city.education.classicalChristianSchools ? city.education.classicalChristianSchools.length : 0;
+
+          card.innerHTML =
+            '<div class="city-name">' + city.name + '</div>' +
+            '<div class="city-state">' + city.state + (isBaseline ? ' (baseline)' : '') + '</div>' +
+            '<div class="mb-2"><span class="score-badge ' + (entry.score >= 8 ? 'high' : (entry.score >= 5 ? 'medium' : 'low')) + '">' + entry.score.toFixed(1) + ' overall</span></div>' +
+            '<div class="city-stats">' +
+              '<div><span class="city-stat-label">Home Price</span><span class="city-stat-value">' + medianPrice + '</span></div>' +
+              '<div><span class="city-stat-label">COL Index</span><span class="city-stat-value">' + colIndex + '</span></div>' +
+              '<div><span class="city-stat-label">Reformed</span><span class="city-stat-value">' + reformed + ' churches</span></div>' +
+              '<div><span class="city-stat-label">Classical Schools</span><span class="city-stat-value">' + classical + '</span></div>' +
+            '</div>';
+
+          container.appendChild(card);
+        });
+      }
+
+      // ---------------------------------------------------------------
+      // Bind sliders & initialize
+      // ---------------------------------------------------------------
+
+      var sliders = document.querySelectorAll('#weight-controls input[type="range"]');
+      sliders.forEach(function (slider) {
+        slider.addEventListener("input", function (e) {
+          normalizeOthers(e.target);
+          updateDisplays();
+          renderRankings();
+          renderCityCards();
+        });
+      });
+
+      updateDisplays();
+      renderRankings();
+      renderQuickStats();
+      renderCityCards();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lifestyle &amp; Outdoors — Where Next?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="./index.html" class="nav-logo">Where Next?</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="nav-link">Overview</a></li>
+        <li><a href="./cost-of-living.html" class="nav-link">Cost of Living</a></li>
+        <li><a href="./housing.html" class="nav-link">Housing</a></li>
+        <li><a href="./education.html" class="nav-link">Education</a></li>
+        <li><a href="./faith.html" class="nav-link">Faith</a></li>
+        <li><a href="./lifestyle.html" class="nav-link active">Lifestyle</a></li>
+        <li><a href="./community.html" class="nav-link">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1>Lifestyle &amp; Outdoors</h1>
+      <p class="subtitle">Climate, outdoor recreation, equestrian access, and safety across all eight cities. From four-season mountain towns to subtropical coastlines, how each location supports an active, family-centered lifestyle.</p>
+    </div>
+  </header>
+
+  <!-- Section 1: Climate Comparison Matrix -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Climate Comparison</h2>
+        <p class="section-subtitle">Average seasonal highs, lows, precipitation, and sunshine for all eight cities.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Spring Hi / Lo</th>
+              <th>Summer Hi / Lo</th>
+              <th>Fall Hi / Lo</th>
+              <th>Winter Hi / Lo</th>
+              <th>Rainfall</th>
+              <th>Snowfall</th>
+              <th>Sunny Days</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="./cities/chattanooga-tn.html">Chattanooga, TN</a></td>
+              <td>72 / 49</td>
+              <td>89 / 69</td>
+              <td>72 / 49</td>
+              <td>50 / 31</td>
+              <td>51 in</td>
+              <td>2 in</td>
+              <td>207</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/greenville-sc.html">Greenville, SC</a></td>
+              <td>73 / 53</td>
+              <td>87 / 72</td>
+              <td>72 / 53</td>
+              <td>54 / 37</td>
+              <td>51 in</td>
+              <td>3 in</td>
+              <td>220</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/columbia-sc.html">Columbia, SC</a></td>
+              <td>75 / 50</td>
+              <td>92 / 71</td>
+              <td>74 / 50</td>
+              <td>55 / 34</td>
+              <td>45 in</td>
+              <td>1 in</td>
+              <td>217</td>
+            </tr>
+            <tr class="baseline-row">
+              <td><a href="./cities/lexington-ky.html">Lexington, KY</a></td>
+              <td>65 / 43</td>
+              <td>85 / 65</td>
+              <td>67 / 45</td>
+              <td>42 / 26</td>
+              <td>49.1 in</td>
+              <td>10 in</td>
+              <td>188</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a></td>
+              <td>57 / 35</td>
+              <td>82 / 52</td>
+              <td>55 / 34</td>
+              <td>35 / 24</td>
+              <td>27 in</td>
+              <td>49 in</td>
+              <td>187</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sarasota-fl.html">Sarasota, FL</a></td>
+              <td>82 / 62</td>
+              <td>91 / 75</td>
+              <td>84 / 66</td>
+              <td>72 / 52</td>
+              <td>49.1 in</td>
+              <td>0 in</td>
+              <td>251</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/bend-or.html">Bend, OR</a></td>
+              <td>59 / 32</td>
+              <td>80 / 46</td>
+              <td>63 / 34</td>
+              <td>43 / 24</td>
+              <td>10.6 in</td>
+              <td>22 in</td>
+              <td>158</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sisters-or.html">Sisters, OR</a></td>
+              <td>58 / 29</td>
+              <td>82 / 41</td>
+              <td>61 / 30</td>
+              <td>41 / 21</td>
+              <td>15.2 in</td>
+              <td>32 in</td>
+              <td>162</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption mt-2">All temperatures in degrees Fahrenheit. Spring = Mar-May, Summer = Jun-Aug, Fall = Sep-Nov, Winter = Dec-Feb.</p>
+    </div>
+  </section>
+
+  <!-- Section 2: Outdoor Recreation -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Outdoor Recreation</h2>
+        <p class="section-subtitle">Key activities rated 1-5 for quality and accessibility in each city.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Hiking</th>
+              <th>Equestrian</th>
+              <th>Fishing</th>
+              <th>Skiing</th>
+              <th>Water Sports</th>
+              <th>Cycling</th>
+              <th>Climbing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="./cities/chattanooga-tn.html">Chattanooga, TN</a></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td><span class="score-badge high">5</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/greenville-sc.html">Greenville, SC</a></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/columbia-sc.html">Columbia, SC</a></td>
+              <td><span class="score-badge medium">3</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr class="baseline-row">
+              <td><a href="./cities/lexington-ky.html">Lexington, KY</a></td>
+              <td><span class="score-badge medium">3</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge medium">3</span></td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="score-badge medium">3</span></td>
+              <td><span class="score-badge high">4</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sarasota-fl.html">Sarasota, FL</a></td>
+              <td><span class="score-badge medium">3</span></td>
+              <td><span class="score-badge medium">3</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/bend-or.html">Bend, OR</a></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">4</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sisters-or.html">Sisters, OR</a></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td><span class="score-badge high">5</span></td>
+              <td>--</td>
+              <td><span class="score-badge high">4</span></td>
+              <td>--</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption mt-2">Ratings 1-5 based on trail access, facility quality, and proximity. "--" = not a notable activity for the area.</p>
+
+      <!-- Detailed notes per city -->
+      <div class="grid-2 mt-4">
+        <article class="stat-card">
+          <div class="stat-label">Chattanooga, TN</div>
+          <p>50+ trailheads including Cumberland Trail. Stone Fort world-class bouldering and Tennessee Wall. TN River Blueway, Chickamauga Lake, and the Ocoee Olympic venue for water sports. Enterprise South MTB and TN Riverwalk 13+ miles for cycling.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Greenville, SC</div>
+          <p>Blue Ridge foothills with Paris Mountain, Jones Gap, and the 77-mile Foothills Trail. Swamp Rabbit Trail spans 28 miles. Lakes Jocassee, Keowee, and Hartwell for water recreation. Multiple waterfalls within 30-60 minutes.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Columbia, SC</div>
+          <p>Congaree National Park and Harbison State Forest for hiking. Lake Murray covers 50K acres. Three Rivers Greenway for kayaking and canoeing. Riverbanks Zoo and Garden is top-rated nationally.</p>
+        </article>
+        <article class="stat-card baseline-highlight">
+          <div class="stat-label">Lexington, KY (Baseline)</div>
+          <p>Raven Run, Legacy Trail, and Veterans Park for local hiking. Red River Gorge one hour east offers world-class climbing. Legacy Trail provides 12 miles of paved cycling. Kentucky River and Jacobson Park for fishing.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Coeur d'Alene, ID</div>
+          <p>Lake CDA stretches 25 miles. Trail of the Coeur d'Alenes runs 72 miles. Silver Mountain 35mi and Schweitzer 80mi for skiing. Premier state for fishing and hunting with lake, river, elk, deer, and bear opportunities.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Sarasota, FL</div>
+          <p>Siesta Key ranked #1 beach in the US. World-class Gulf fishing both inshore and offshore. Myakka River State Park covers 17K+ acres. Legacy Trail runs 20+ miles for cycling.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Bend, OR</div>
+          <p>223+ trails in Deschutes National Forest, Smith Rock, and Three Sisters Wilderness. Mt. Bachelor ski resort 22 miles away with 4,318ft vertical. 300+ miles of singletrack including Phil's Trail. Premier trout fishing on the Deschutes River and Cascade Lakes.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Sisters, OR</div>
+          <p>Peterson Ridge trails, South Sister summit, Three Sisters Wilderness, and the Pacific Crest Trail. Hoodoo ski area 22mi, Mt. Bachelor 50-60 min. Metolius River for world-class fly fishing. Peterson Ridge and McKenzie Pass for mountain biking.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Equestrian Access -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Equestrian Access</h2>
+        <p class="section-subtitle">A family priority. Trail access, horse-friendly zoning, and equestrian culture across all eight cities.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Rating</th>
+              <th>Quality</th>
+              <th>Key Trails &amp; Facilities</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="baseline-row">
+              <td><a href="./cities/lexington-ky.html">Lexington, KY</a></td>
+              <td><span class="score-badge high">Excellent</span></td>
+              <td><span class="score-badge high">5 / 5</span></td>
+              <td>Kentucky Horse Park, extensive trail systems</td>
+              <td>Horse Capital of the World. Unmatched equine industry, zoning, and culture.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sisters-or.html">Sisters, OR</a></td>
+              <td><span class="score-badge high">Excellent</span></td>
+              <td><span class="score-badge high">5 / 5</span></td>
+              <td>Cascade Meadow Ranch, Deschutes NF trails, Sisters Rodeo</td>
+              <td>Premier equestrian community. Dedicated horse neighborhoods and endless national forest trails.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/chattanooga-tn.html">Chattanooga, TN</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge high">4 / 5</span></td>
+              <td>Enterprise South 10mi trails, Prentice Cooper, Sequatchie Valley</td>
+              <td>Solid trail access. Sequatchie Valley offers affordable acreage for horse property.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/greenville-sc.html">Greenville, SC</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge high">4 / 5</span></td>
+              <td>Riverbend Park, Eden Farms, JMG Ranch; Tryon NC 45 min</td>
+              <td>Good local access. Tryon International Equestrian Center is 45 minutes away.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/columbia-sc.html">Columbia, SC</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge high">4 / 5</span></td>
+              <td>Manchester State Forest 20mi trails; Aiken equestrian district 1hr</td>
+              <td>Aiken, the premier equestrian center of the Southeast, is one hour away.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge high">4 / 5</span></td>
+              <td>National forest horse trails, multiple trailheads</td>
+              <td>Extensive public land access. Idaho Panhandle NF provides backcountry riding.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/bend-or.html">Bend, OR</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge high">4 / 5</span></td>
+              <td>Deschutes NF trails, OR Equestrian Trails chapter</td>
+              <td>Extensive national forest trails. Active Oregon Equestrian Trails chapter.</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sarasota-fl.html">Sarasota, FL</a></td>
+              <td><span class="score-badge medium">Good</span></td>
+              <td><span class="score-badge medium">3 / 5</span></td>
+              <td>Little Manatee trails, Myakka State Forest, private communities</td>
+              <td>Limited public trails. Myakka City has private equestrian communities 30-45 min from downtown.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption mt-2">All eight cities have horse-friendly zoning available in surrounding areas. Ratings reflect trail quality, facility access, and equestrian culture.</p>
+    </div>
+  </section>
+
+  <!-- Section 4: Safety -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Safety</h2>
+        <p class="section-subtitle">Violent and property crime rates per 100,000 residents compared to the national average.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Violent Crime (per 100K)</th>
+              <th>vs National Avg (364)</th>
+              <th>Property Crime (per 100K)</th>
+              <th>vs National Avg (1,958)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="./cities/sisters-or.html">Sisters, OR</a></td>
+              <td>150</td>
+              <td><span class="score-badge high">-59%</span></td>
+              <td>1,532</td>
+              <td><span class="score-badge high">-22%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/bend-or.html">Bend, OR</a></td>
+              <td>169</td>
+              <td><span class="score-badge high">-54%</span></td>
+              <td>1,362</td>
+              <td><span class="score-badge high">-30%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a></td>
+              <td>242</td>
+              <td><span class="score-badge high">-34%</span></td>
+              <td>956</td>
+              <td><span class="score-badge high">-51%</span></td>
+            </tr>
+            <tr class="baseline-row">
+              <td><a href="./cities/lexington-ky.html">Lexington, KY</a></td>
+              <td>300</td>
+              <td><span class="score-badge high">-18%</span></td>
+              <td>2,901</td>
+              <td><span class="score-badge low">+48%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/chattanooga-tn.html">Chattanooga, TN</a></td>
+              <td>471</td>
+              <td><span class="score-badge low">+29%</span></td>
+              <td>2,648</td>
+              <td><span class="score-badge low">+35%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sarasota-fl.html">Sarasota, FL</a></td>
+              <td>592</td>
+              <td><span class="score-badge low">+63%</span></td>
+              <td>2,749</td>
+              <td><span class="score-badge low">+40%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/greenville-sc.html">Greenville, SC</a></td>
+              <td>600</td>
+              <td><span class="score-badge low">+65%</span></td>
+              <td>3,271</td>
+              <td><span class="score-badge low">+67%</span></td>
+            </tr>
+            <tr>
+              <td><a href="./cities/columbia-sc.html">Columbia, SC</a></td>
+              <td>800</td>
+              <td><span class="score-badge low">+120%</span></td>
+              <td>3,300</td>
+              <td><span class="score-badge low">+69%</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption mt-2">National averages: 364 violent crimes and 1,958 property crimes per 100K residents (FBI UCR, 2023). Sorted by violent crime rate, lowest first.</p>
+
+      <!-- Violent Crime Bar Chart -->
+      <h3 class="mt-4 mb-2">Violent Crime Rate (per 100K)</h3>
+      <div class="bar-chart">
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sisters, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 18.75%;">
+              <span class="bar-chart-value">150</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Bend, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 21.13%;">
+              <span class="bar-chart-value">169</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Coeur d'Alene, ID</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 30.25%;">
+              <span class="bar-chart-value">242</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Lexington, KY</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill baseline" style="width: 37.5%;">
+              <span class="bar-chart-value">300</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Chattanooga, TN</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 58.88%;">
+              <span class="bar-chart-value">471</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sarasota, FL</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 74%;">
+              <span class="bar-chart-value">592</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Greenville, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 75%;">
+              <span class="bar-chart-value">600</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Columbia, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 100%;">
+              <span class="bar-chart-value">800</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Walkability & Commute -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Walkability &amp; Commute</h2>
+        <p class="section-subtitle">Walk scores and average commute times across all eight cities.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Walk Score</th>
+              <th>Average Commute</th>
+              <th>Traffic Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="./cities/chattanooga-tn.html">Chattanooga, TN</a></td>
+              <td>29</td>
+              <td>19 min</td>
+              <td>Short commutes, EPB gigabit fiber supports remote work</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/greenville-sc.html">Greenville, SC</a></td>
+              <td>43</td>
+              <td>17 min</td>
+              <td>Walkable downtown core, Swamp Rabbit Trail for bike commuting</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/columbia-sc.html">Columbia, SC</a></td>
+              <td>35</td>
+              <td>15 min</td>
+              <td>Shortest average commute; suburbs well-connected to city center</td>
+            </tr>
+            <tr class="baseline-row">
+              <td><a href="./cities/lexington-ky.html">Lexington, KY</a></td>
+              <td>34</td>
+              <td>21 min</td>
+              <td>Moderate commute; car-dependent outside downtown</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a></td>
+              <td>35</td>
+              <td>18 min</td>
+              <td>Short commutes; Spokane 30 min for additional employment</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sarasota-fl.html">Sarasota, FL</a></td>
+              <td>52</td>
+              <td>20 min</td>
+              <td>Highest walk score; seasonal traffic can increase commute times</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/bend-or.html">Bend, OR</a></td>
+              <td>32</td>
+              <td>15 min</td>
+              <td>Compact city, short commutes; strong remote-work culture</td>
+            </tr>
+            <tr>
+              <td><a href="./cities/sisters-or.html">Sisters, OR</a></td>
+              <td>40</td>
+              <td>25 min (to Bend)</td>
+              <td>Small-town walkability; most employment requires a drive to Bend</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Key Takeaways -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Key Takeaways</h2>
+      </div>
+      <div class="grid-2">
+        <article class="stat-card">
+          <div class="stat-label">Best Climate</div>
+          <div class="stat-value">Sarasota</div>
+          <p class="mt-1">251 sunny days per year with mild winters (72/52). No snow. The trade-off is hot, humid summers (91/75) and hurricane season.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Best Four-Season Climate</div>
+          <div class="stat-value">Greenville</div>
+          <p class="mt-1">220 sunny days with mild winters and moderate summers. Blue Ridge foothills provide cooler temperatures than the Carolina lowlands.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Best Outdoor Recreation</div>
+          <div class="stat-value">Bend / Sisters</div>
+          <p class="mt-1">Unmatched depth across hiking, skiing, mountain biking, fishing, and climbing. Central Oregon is an outdoor recreation destination, not just a place with good access.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Safest Overall</div>
+          <div class="stat-value">Coeur d'Alene</div>
+          <p class="mt-1">Lowest property crime rate (956 per 100K) and third-lowest violent crime. Both metrics are well below the national average.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Best Equestrian Access</div>
+          <div class="stat-value">Lexington / Sisters</div>
+          <p class="mt-1">Lexington is the Horse Capital of the World with Kentucky Horse Park and unmatched equine culture. Sisters offers Cascade Meadow Ranch and endless national forest trails.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-label">Best Commute / Walkability</div>
+          <div class="stat-value">Sarasota</div>
+          <p class="mt-1">Highest walk score (52) among all cities. Columbia and Bend tie for shortest average commute at 15 minutes.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="./methodology.html">Methodology &amp; Sources</a>
+      <span>Research date: March 2026</span>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,701 @@
+{
+  "city": "Chattanooga",
+  "state": "Tennessee",
+  "researchDate": "2026-03-27",
+  "comparingFrom": "Lexington, KY",
+
+  "costOfLiving": {
+    "overallIndex": 88.6,
+    "overallIndexNote": "Cost of living is approximately 11-12% below the national average (national avg = 100)",
+    "medianHouseholdIncome": 61028,
+    "medianHouseholdIncomeNote": "2025/2026 estimate",
+    "stateIncomeTaxRate": "0% on earned income",
+    "stateIncomeTaxNote": "Tennessee has no state income tax on wages/salaries. The Hall Tax on investment income was fully repealed effective Jan 1, 2021.",
+    "salesTaxRate": {
+      "stateRate": 7.0,
+      "localRate": 2.25,
+      "combinedRate": 9.25,
+      "note": "Hamilton County combined rate. Tennessee has one of the highest sales tax rates in the nation. Groceries are taxed at a reduced state rate of 4%."
+    },
+    "propertyTaxRate": {
+      "effectiveRate": 0.56,
+      "effectiveRateNote": "Median effective rate for Hamilton County is 0.56%, well below national median of 1.02%",
+      "countyNominalRate": "1.51 per $100 assessed value",
+      "countyNominalRateNote": "Lowest Hamilton County rate since 1941 (set 2025). Assessed value = 25% of appraised value per TN law.",
+      "cityOfChattanoogaRate": "Additional city tax applies if inside Chattanooga city limits",
+      "signalMountainRate": "1.1002 per $100 assessed value (town tax, in addition to county)",
+      "assessmentRatio": "25% of appraised value for residential property (set by Tennessee state law)"
+    },
+    "groceryIndex": 96.5,
+    "groceryIndexNote": "Approximately 3-3.5% below national average",
+    "utilitiesIndex": 86.6,
+    "utilitiesIndexNote": "Approximately 13% below national average. EPB (Electric Power Board) provides gigabit fiber internet citywide — a major differentiator.",
+    "transportationIndex": 89.0,
+    "transportationIndexNote": "Approximately 11% below national average. Gas averages ~$2.94/gal.",
+    "healthcareIndex": 87.0,
+    "healthcareIndexNote": "Approximately 13% below national average",
+    "unemploymentRate": 3.2,
+    "unemploymentRateNote": "As of Dec 2025. Below national average.",
+    "topIndustries": [
+      "Healthcare (BlueCross BlueShield of TN HQ, Erlanger Health System, CHI Memorial)",
+      "Insurance & Financial Services",
+      "Manufacturing (Volkswagen Assembly Plant, Wacker Chemie)",
+      "Technology (EPB smart grid, growing tech startup scene)",
+      "Logistics & Distribution",
+      "Tourism & Hospitality",
+      "Retail (Food City, Walmart, Costco)"
+    ],
+    "topEmployers": [
+      "BlueCross BlueShield of Tennessee",
+      "Erlanger Health System",
+      "Hamilton County Schools",
+      "Volkswagen Group of America (Assembly Plant)",
+      "CHI Memorial Hospital",
+      "McKee Foods (Little Debbie)",
+      "Unum Group",
+      "Shaw Industries Group",
+      "Amazon (fulfillment center)",
+      "TVA (Tennessee Valley Authority)"
+    ]
+  },
+
+  "housing": {
+    "medianHomePrice": 335000,
+    "medianHomePriceNote": "Median sale price as of late 2025, approximately $330K-$345K depending on month/source. Up ~1.5-3% year-over-year.",
+    "averageHomePrice": 414083,
+    "marketConditions": "Moderate seller's market with slowing appreciation. Projected 2-3% growth in 2026. Inventory gradually increasing, creating more balance.",
+    "propertyTaxOnFourHundredKHome": {
+      "calculationMethod": "Appraised value ($400,000) x 25% assessment ratio = $100,000 assessed value",
+      "countyTaxOnly": "$100,000 / 100 x $1.51 = $1,510/year (unincorporated Hamilton County)",
+      "insideChattanooga": "Approximately $2,400-$2,800/year (county + city tax)",
+      "signalMountain": "$100,000 / 100 x ($1.51 + $1.10) = approximately $2,610/year (county + town)",
+      "note": "Dramatically lower than most states. A $400K home in Lexington KY would pay roughly $3,600-$4,000+/year."
+    },
+    "landPricing": {
+      "signalMountain": {
+        "avgPricePerAcre": 148507,
+        "note": "Premium mountain location. 141 properties listed. Smaller lots common. 10+ acre parcels rare and expensive ($1M+). Not ideal for ranch/acreage goals."
+      },
+      "soddyDaisy": {
+        "avgPricePerAcre": 18276,
+        "farmlandPricePerAcre": 22728,
+        "note": "Most affordable option for acreage. 30 min to downtown. Raw land ~$18K/acre, farmland ~$23K/acre. Good for horse property. 10 acres raw land ~$180K-$230K."
+      },
+      "harrison": {
+        "avgPricePerAcre": 120573,
+        "note": "Higher per-acre cost due to lakefront premium. More suitable for waterfront estate than working ranch. 25-30 min to downtown."
+      },
+      "sequatchieValley": {
+        "avgPricePerAcre": 12573,
+        "farmlandPricePerAcre": 19464,
+        "note": "Best value for large acreage. Beautiful valley 30-45 min west of Chattanooga. Rural character, horse-friendly. 10+ acres readily available at $10K-$20K/acre. Active market with good liquidity. BEST OPTION for ranch/acreage goals."
+      }
+    },
+    "horsePropertyAvailability": "Good. Multiple areas support equestrian use. Enterprise South Nature Park has 10 miles of horse trails. Prentice Cooper State Forest has extensive equestrian trails. Soddy-Daisy and Sequatchie Valley offer affordable acreage with horse-friendly zoning. Signal Mountain area has some horse properties but at premium prices.",
+    "neighborhoods": [
+      {
+        "name": "Signal Mountain",
+        "description": "Hilltop community 20 min from downtown. Conservative, family-oriented. Stunning views of Tennessee River Gorge. 3-5 degrees cooler in summer.",
+        "medianHomePrice": "$225,000 - $1M+",
+        "pros": ["#2 ranked suburb for families", "Strong community", "Excellent schools (Signal Mountain Middle/High 98.4% graduation)", "Mountain lifestyle", "5 min from Signal Mountain Presbyterian (EPC)"],
+        "cons": ["Limited large acreage", "Car-dependent", "Higher price for premium lots"],
+        "familyRating": "Excellent",
+        "shortlisted": true
+      },
+      {
+        "name": "Lookout Mountain",
+        "description": "Historic prestigious mountain community. Home to Covenant College (PCA), Rock City, Ruby Falls. 15-20 min to downtown.",
+        "medianHomePrice": "$400,000 - $3M+",
+        "pros": ["#1 ranked suburb for families", "Strong Reformed community (LMPC, Covenant College nearby)", "Historic charm", "Panoramic views"],
+        "cons": ["Most expensive area", "Tourist traffic around attractions", "Limited inventory"],
+        "familyRating": "Excellent",
+        "shortlisted": false
+      },
+      {
+        "name": "Hixson",
+        "description": "Suburban area with Tennessee River and Chickamauga Lake access. 15-25 min to downtown.",
+        "medianHomePrice": "$300,000 - $1.2M",
+        "pros": ["Water access", "Chester Frost Park", "Strong schools", "Good value"],
+        "cons": ["More suburban/less character", "Less mountain appeal"],
+        "familyRating": "Good",
+        "shortlisted": false
+      },
+      {
+        "name": "East Brainerd",
+        "description": "Family-oriented suburb. Closest to Grace Academy. 15-20 min to downtown.",
+        "medianHomePrice": "$250,000 - $600,000",
+        "pros": ["Proximity to Grace Academy", "Newer developments", "Good shopping", "Classical Conversations meets here Thursdays"],
+        "cons": ["Cookie-cutter suburban", "Less natural character"],
+        "familyRating": "Good",
+        "shortlisted": false
+      },
+      {
+        "name": "Soddy-Daisy",
+        "description": "Rural feel, nature-focused community 30 min north of downtown. Most affordable for acreage.",
+        "medianHomePrice": "$200,000 - $600,000",
+        "pros": ["Most affordable", "Best for acreage/horse property in Hamilton County", "Big Soddy Creek trails", "Blue Hole swimming", "Lake access"],
+        "cons": ["30 min commute", "Fewer nearby churches/schools", "Less convenient"],
+        "familyRating": "Good",
+        "shortlisted": false
+      },
+      {
+        "name": "Harrison",
+        "description": "Lakefront community on Chickamauga Lake. 25-30 min to downtown.",
+        "medianHomePrice": "$300,000 - $1M+",
+        "pros": ["Direct TN River/lake frontage", "Harrison Bay State Park", "Boating and fishing"],
+        "cons": ["Further from churches/schools", "Lake premium on prices"],
+        "familyRating": "Good",
+        "shortlisted": false
+      },
+      {
+        "name": "Sequatchie Valley",
+        "description": "Rural valley 30-45 min west, across Signal Mountain. Best value for large ranch/horse acreage.",
+        "medianHomePrice": "$150,000 - $500,000",
+        "pros": ["Lowest land prices for 10+ acres", "True rural/ranch character", "Horse-friendly", "Beautiful valley setting"],
+        "cons": ["30-45 min commute to Chattanooga schools/churches", "Limited amenities", "Separate county (Sequatchie County)"],
+        "familyRating": "Good for rural lifestyle",
+        "shortlisted": false
+      }
+    ]
+  },
+
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "Grace Baptist Academy (Grace Academy)",
+        "type": "Classical Christian",
+        "grades": "K3-12",
+        "enrollment": "500+",
+        "studentTeacherRatio": "8:1 (15 avg class size)",
+        "tuition": {
+          "fullDay": "$400/month (10-month year, ~$4,000/year)",
+          "halfDayK": "$350/month",
+          "multiChildDiscount": "Yes — $50-$100 off per additional student",
+          "note": "Tuition is very affordable compared to most classical schools. TN Education Freedom Scholarship and ESA grants may further reduce cost."
+        },
+        "accreditation": "Cognia (formerly AdvancED), ACSI member",
+        "academics": "95th percentile test scores nationally. SAT avg 1380 (vs 1051 national). 100% college acceptance. 12 AP courses. Latin required grades 3-8. Logic & Rhetoric 7-12.",
+        "distinctives": "Morning prayer, house system, uniforms, biblical worldview. Voted top 3 private schools in Chattanooga 5 years running.",
+        "website": "https://www.gracechatt.org/",
+        "address": "1804 Morris Hill Rd, Chattanooga, TN 37421",
+        "waitlisted": true,
+        "waitlistedNote": "Apply early — waitlists are common",
+        "topChoice": true
+      },
+      {
+        "name": "Veritas Classical Schools (Chattanooga & Hixson campuses)",
+        "type": "Classical Christian Hybrid (homeschool supplement)",
+        "grades": "K-12",
+        "schedule": "2 days/week in-person (Tue/Thu Chattanooga campus, Mon/Wed Hixson campus)",
+        "tuition": "Contact for rates (hybrid model, generally less than full-time schools)",
+        "location": "Chattanooga campus at Woodland Park Baptist Church (6735 Standifer Gap Rd); Hixson campus at Hixson Presbyterian Church (1450 Jackson Mill Dr)",
+        "distinctives": "Christ-centered classical education in a hybrid homeschool model. Good option for families who want classical education with homeschool flexibility.",
+        "website": "https://www.veritasschools.com/chattanooga-tn",
+        "topChoice": false
+      }
+    ],
+    "otherPrivateSchools": [
+      {
+        "name": "Silverdale Baptist Academy",
+        "type": "Private Christian",
+        "grades": "PreK-12",
+        "enrollment": 1307,
+        "studentTeacherRatio": "7:1",
+        "tuition": "$13,010/year",
+        "website": "https://www.silverdaleba.org/",
+        "note": "Large, well-established. Voted among Chattanooga's best private schools. More contemporary evangelical than classical."
+      },
+      {
+        "name": "Signal Mountain Christian School",
+        "type": "Private Christian",
+        "grades": "K-5 only",
+        "enrollment": 89,
+        "studentTeacherRatio": "7:1",
+        "website": "https://www.smcstn.org/",
+        "note": "Small mountain community school. K-5 only — would need transition plan for older grades. Convenient if living on Signal Mountain."
+      },
+      {
+        "name": "Chattanooga Christian School",
+        "type": "Private Christian",
+        "grades": "PreK-12",
+        "note": "Another large Christian school option in the area."
+      },
+      {
+        "name": "McCallie School",
+        "type": "Private college-prep (boys)",
+        "grades": "6-12",
+        "note": "Prestigious boys' school. Not specifically Reformed but rigorous academics."
+      },
+      {
+        "name": "Girls Preparatory School (GPS)",
+        "type": "Private college-prep (girls)",
+        "grades": "6-12",
+        "note": "Prestigious girls' school. Companion to McCallie."
+      },
+      {
+        "name": "Baylor School",
+        "type": "Private college-prep (co-ed)",
+        "grades": "6-12",
+        "note": "Prestigious boarding/day school on the Tennessee River."
+      }
+    ],
+    "publicSchools": {
+      "district": "Hamilton County Schools",
+      "overallRanking": "#58 out of 147 districts in Tennessee (top 50%)",
+      "graduationRate": 94.2,
+      "graduationRateNote": "Highest-ever rate for the district (2024-25). Surpassed state average for second consecutive year.",
+      "designation": "Recognized as 'advancing district' for 2024-25 by TN Dept of Education",
+      "notableSchools": [
+        "Signal Mountain Middle/High School — 98.4% graduation rate, highly rated",
+        "Chattanooga High School Center for Creative Arts — 100% graduation rate",
+        "Chattanooga School for the Liberal Arts — 100% graduation rate",
+        "STEM School Chattanooga — 100% graduation rate"
+      ]
+    },
+    "homeschoolCoops": [
+      {
+        "name": "Classical Conversations",
+        "type": "Classical Christian homeschool program",
+        "locations": "Signal Mountain (Tuesdays), East Brainerd (Thursdays), Ooltewah (Wednesdays)",
+        "ages": "4-18",
+        "cost": "~$350/month per child",
+        "website": "https://classicalconversations.com/",
+        "note": "Multiple communities in the Chattanooga area. Strong community of like-minded Reformed/classical families."
+      },
+      {
+        "name": "Chattanooga Classical Beginnings",
+        "type": "Classical homeschool co-op",
+        "grades": "1st-12th",
+        "schedule": "Monday-Thursday",
+        "note": "Covers reading/literature, handwriting, composition, spelling, grammar, math, some science and history."
+      },
+      {
+        "name": "CSTHEA (Chattanooga Southeast Home Education Association)",
+        "type": "Support organization",
+        "note": "Supports home educators in Chattanooga, southeast TN, and north GA areas.",
+        "website": "https://csthea2025.weebly.com/"
+      },
+      {
+        "name": "Nickajack Homeschool Co-op",
+        "type": "Homeschool co-op",
+        "schedule": "Wednesday mornings, South Chattanooga",
+        "ages": "4-12"
+      },
+      {
+        "name": "Compass Rose Homeschool Co-Op",
+        "type": "Homeschool co-op",
+        "website": "https://www.compassrosehomeschoolcoop.org/"
+      }
+    ]
+  },
+
+  "faith": {
+    "summary": "Chattanooga has one of the strongest Reformed/Presbyterian concentrations in the Southeast. The PCA (Presbyterian Church in America) was founded in the Chattanooga area, and its denominational headquarters (Committee on Mission to North America) has historical ties to the region. Covenant College (PCA) sits on Lookout Mountain. The Tennessee Valley Presbytery is active and healthy.",
+    "reformedChurches": [
+      {
+        "name": "Covenant Presbyterian Church",
+        "denomination": "PCA",
+        "address": "8451 East Brainerd Road, Chattanooga, TN 37421",
+        "website": "https://cpcchatt.org/",
+        "size": "~450 members",
+        "pastor": "Dr. Tim Smith (Westminster Seminary)",
+        "description": "Expository preaching, grace-centered theology, strongly committed to Westminster Standards. 15+ home groups. AWANA, youth group, nursery. Church planting and mercy ministries focus.",
+        "shortlisted": true,
+        "ratings": {
+          "doctrine": 5,
+          "multigenerational": 4,
+          "kidsMinistry": 4,
+          "communityGroups": 4,
+          "longevity": 4
+        }
+      },
+      {
+        "name": "Lookout Mountain Presbyterian Church (LMPC)",
+        "denomination": "PCA",
+        "address": "316 North Bragg Ave, Lookout Mountain, TN 37350",
+        "website": "https://lmpc.org/",
+        "size": "1,000+ (four Sunday morning services; grew from 600 to 1,100+ in the 1990s)",
+        "sizeNote": "Estimate based on historical growth data and current 4-service format",
+        "description": "Large, historic PCA congregation organized in 1892. Multiple worship services (sanctuary and fellowship hall). Adjacent to Covenant College. Strong multi-generational community. Major Reformed anchor in the region.",
+        "shortlisted": true,
+        "ratings": {
+          "doctrine": 5,
+          "multigenerational": 5,
+          "kidsMinistry": 5,
+          "communityGroups": 5,
+          "longevity": 5
+        }
+      },
+      {
+        "name": "Signal Mountain Presbyterian Church",
+        "denomination": "EPC",
+        "address": "612 James Boulevard, Signal Mountain, TN 37377",
+        "website": "https://signalpres.org/",
+        "size": "~300 members",
+        "description": "90+ year history. Mountain community church. Family-integrated worship, reformed theological commitments. Strong Sunday School, VBS. Weekly women's Bible studies and mom's groups. 5 min from Signal Mountain neighborhoods.",
+        "shortlisted": true,
+        "ratings": {
+          "doctrine": 4,
+          "multigenerational": 4,
+          "kidsMinistry": 4,
+          "communityGroups": 4,
+          "longevity": 4
+        }
+      },
+      {
+        "name": "Christ the King Presbyterian Church",
+        "denomination": "PCA",
+        "address": "Chattanooga, TN",
+        "website": "https://ctktn.org/",
+        "size": "~200 members",
+        "description": "Young families, classical education supporters, gospel-centered expository preaching. Many homeschool families. Strong men's discipleship program.",
+        "shortlisted": false,
+        "ratings": {
+          "doctrine": 4,
+          "multigenerational": 3,
+          "kidsMinistry": 3,
+          "communityGroups": 4,
+          "longevity": 3
+        }
+      },
+      {
+        "name": "Red Bank Presbyterian Church",
+        "denomination": "PCA",
+        "address": "4320 Dayton Boulevard, Chattanooga, TN 37415",
+        "website": "https://redbankpres.org/",
+        "size": "Medium",
+        "description": "Reformed theology with Christ-centered worship and preaching."
+      },
+      {
+        "name": "New City Fellowship",
+        "denomination": "PCA",
+        "address": "Chattanooga, TN (two locations)",
+        "website": "https://newcityfellowship.com/",
+        "size": "Medium-Large",
+        "description": "Cross-cultural worshipping PCA church. Committed to racial reconciliation. Founded 1968 as mission Sunday School, organized as church 1976. Multi-ethnic emphasis."
+      },
+      {
+        "name": "Cornerstone OPC",
+        "denomination": "OPC",
+        "address": "1813 Long Street, Chattanooga, TN 37408",
+        "website": "https://cornerstone-opc.org/",
+        "size": "Small",
+        "description": "Only OPC congregation in the Chattanooga region. Committed to Westminster Standards. Conservative Reformed worship."
+      },
+      {
+        "name": "Trinity Reformed Church Chattanooga",
+        "denomination": "CREC",
+        "address": "Standifer Gap Road, Chattanooga, TN",
+        "website": "https://www.trinitychattanooga.com",
+        "size": "Small (mission church)",
+        "description": "CREC denomination (Doug Wilson/Canon Press orbit). 'All of Christ, for All of Life, for All of Chattanooga.' Strong family integration — children participate in worship. More traditional but culturally engaged.",
+        "shortlisted": false
+      },
+      {
+        "name": "Woodlands Gathering",
+        "denomination": "PCA",
+        "address": "9966 Lovell Rd., Soddy-Daisy, TN 37379",
+        "website": "https://woodlandsgathering.org/",
+        "size": "Small (mission church)",
+        "description": "PCA mission church in Soddy-Daisy area. Committed to Westminster Confession and grace-centered ministry."
+      },
+      {
+        "name": "Lookout Valley Presbyterian Church",
+        "denomination": "EPC",
+        "website": "https://www.lookoutvalleypc.com/",
+        "size": "Unknown",
+        "description": "EPC church in the Lookout Valley area."
+      },
+      {
+        "name": "Christ Reformed Baptist Church",
+        "denomination": "Reformed Baptist (1689 Confession)",
+        "website": "https://www.crbchattanooga.org/",
+        "size": "Small (church plant)",
+        "description": "New church plant committed to 2nd London Baptist Confession (1689)."
+      },
+      {
+        "name": "Grace Reformed Baptist Church",
+        "denomination": "Reformed Baptist",
+        "website": "https://www.grbchurch.org/",
+        "size": "Medium",
+        "description": "Reformed soteriology, baptistic tradition. Strong Reformed Baptist presence."
+      }
+    ],
+    "additionalPCAChurches": [
+      "East Ridge Presbyterian Church",
+      "First Presbyterian Church (Chattanooga)",
+      "Highland Park Fellowship",
+      "Mountain Fellowship",
+      "North Shore Fellowship",
+      "Restoration Southside Church",
+      "St. Elmo Presbyterian Church",
+      "Wayside Presbyterian Church"
+    ],
+    "churchDensity": "Very high for Reformed/Presbyterian. Estimated 15+ PCA churches in the metro area alone, plus OPC, EPC, CREC, and Reformed Baptist congregations. One of the densest Reformed church concentrations in the Southeast US.",
+    "christianCommunityOrganizations": [
+      {
+        "name": "Covenant College",
+        "type": "PCA Liberal Arts College",
+        "location": "Lookout Mountain, GA (adjacent to Chattanooga)",
+        "note": "~1,000 students. College of the PCA denomination. 400-acre campus. Reformed worldview education. Major anchor for Reformed community in the region."
+      },
+      {
+        "name": "PCA Administrative Committee / Tennessee Valley Presbytery",
+        "type": "Denominational governance",
+        "note": "Active presbytery overseeing PCA churches in the region."
+      },
+      {
+        "name": "MOPS / MomCo Chattanooga",
+        "type": "Mothers' ministry",
+        "note": "Multiple groups meeting at area churches."
+      },
+      {
+        "name": "Mayfly Coffee (Signal Mountain)",
+        "type": "Christian-owned business / community hub",
+        "note": "Christian-owned coffee shop by a pastor/barista. Community gathering spot on Signal Mountain."
+      }
+    ]
+  },
+
+  "lifestyle": {
+    "climate": {
+      "type": "Humid subtropical",
+      "summerAvgHigh": 89,
+      "summerAvgLow": 69,
+      "winterAvgHigh": 50,
+      "winterAvgLow": 31,
+      "springAvgHigh": 72,
+      "springAvgLow": 49,
+      "fallAvgHigh": 72,
+      "fallAvgLow": 49,
+      "temperatureUnit": "Fahrenheit",
+      "annualRainfallInches": 51,
+      "annualSnowfallInches": 2,
+      "sunnyDaysPerYear": 207,
+      "sunnyDaysNote": "Slightly above US average of 205",
+      "rainyDaysPerYear": 119,
+      "rainyDaysNote": "Estimate based on annual rainfall distribution",
+      "climateNotes": "Warm, humid summers. Mild winters with minimal snow. Mountain areas (Signal Mountain, Lookout Mountain) are 3-5 degrees cooler in summer. Very similar to Lexington KY but slightly warmer and with less snow."
+    },
+    "outdoorRecreation": {
+      "summary": "Chattanooga is widely considered one of the best outdoor recreation cities in the Southeast. Called the 'Scenic City' for a reason.",
+      "hiking": {
+        "description": "50+ trailheads within 30 min of downtown. 100+ miles of single-track trails.",
+        "notableTrails": [
+          "Cumberland Trail — multiple segments, diverse terrain, waterfalls, rock bluffs",
+          "Signal Point — 5.1-mile out and back with panoramic views",
+          "Lookout Mountain Big Daddy Loop — 10-mile loop, 7 connected trails",
+          "Stringers Ridge — urban North Chattanooga hike with city views",
+          "Rainbow Lake Trail (Signal Mountain)",
+          "Chickamauga & Chattanooga National Military Park trails",
+          "Prentice Cooper State Forest — extensive trail system"
+        ]
+      },
+      "rockClimbing": {
+        "description": "One of the highest concentrations of climbing spots on the East Coast.",
+        "notableAreas": [
+          "Stone Fort (LRC) — world-class bouldering, one of the best in the Southeast",
+          "Sunset Park (Lookout Mountain) — some of the best climbing in Tennessee",
+          "Tennessee Wall — sport and trad climbing",
+          "Foster Falls — Sport climbing near the Grundy County line"
+        ]
+      },
+      "equestrian": {
+        "description": "Good equestrian access in the surrounding area.",
+        "trails": [
+          "Enterprise South Nature Park — 10 miles of horseback riding trails",
+          "Prentice Cooper State Forest — miles of equestrian trails",
+          "Sequatchie Valley — rural area ideal for private horse property",
+          "Hamilton County Parks maintain designated horse trails"
+        ]
+      },
+      "waterSports": {
+        "description": "Tennessee River runs through downtown. Excellent paddling, fishing, and boating.",
+        "activities": [
+          "Tennessee River Blueway — 45 miles of scenic flatwater paddling",
+          "Chickamauga Lake — nationally recognized largemouth bass fishing",
+          "Kayaking and SUP on the Tennessee River (rentals available downtown)",
+          "Harrison Bay State Park — boating, swimming, fishing",
+          "Whitewater: Ocoee River (1996 Olympic venue), Hiwassee River, Nantahala River all within 1-2 hour drive"
+        ]
+      },
+      "cycling": {
+        "description": "Growing cycling scene with 100+ miles of trails.",
+        "notableFeatures": [
+          "Tennessee Riverwalk — 13+ mile paved riverside path",
+          "Enterprise South Nature Park mountain biking",
+          "Raccoon Mountain — mountain biking",
+          "Stringer's Ridge mountain biking trails"
+        ]
+      },
+      "otherOutdoor": [
+        "Hang gliding at Lookout Mountain Flight Park",
+        "Rock City, Ruby Falls (tourist attractions on Lookout Mountain)",
+        "Camping at multiple state parks within 30 min",
+        "Tennessee Aquarium (world-class, family favorite)"
+      ]
+    },
+    "crimeRates": {
+      "violentCrimeRatePer100K": 471.4,
+      "violentCrimeVsNational": "24% above national average",
+      "propertyCrimeRatePer100K": 2647.7,
+      "propertyCrimeVsNational": "45% above national average",
+      "trend": "Significant improvement — overall crime decreased 15% in 2025. Homicides down 48%. Non-fatal shootings down 26%. Violent crime down 24% year-over-year. Property crime down 19%.",
+      "note": "City-wide stats include high-crime inner-city areas. Suburban areas (Signal Mountain, Lookout Mountain, Hixson, East Brainerd, Soddy-Daisy) have significantly lower crime rates. Signal Mountain and Lookout Mountain have very low crime.",
+      "suburbSafety": "Signal Mountain and Lookout Mountain are among the safest communities in the metro area."
+    },
+    "walkability": {
+      "cityWalkScore": 29,
+      "walkScoreNote": "Car-dependent overall. Downtown scores 69. North Chattanooga scores 62. Suburban areas require a car.",
+      "bikeScore": "Low — minimal bike infrastructure outside of trails",
+      "transitScore": "Low — about 10 bus lines, minimal public transit",
+      "averageCommuteMinutes": 19,
+      "averageCommuteNote": "Below national average of 26.9 minutes. Metro-wide average is 24.1 minutes."
+    }
+  },
+
+  "community": {
+    "cityPopulation": 196108,
+    "cityPopulationNote": "2026 estimate",
+    "metroPopulation": 437000,
+    "metroPopulationNote": "2025 estimate (Chattanooga TN-GA MSA)",
+    "populationGrowthRate": "0.9-1.2% annually",
+    "populationGrowthNote": "Steady growth. City population up 7.59% since 2020 census. Metro grew from ~350K (2001) to ~437K (2025).",
+    "rankings": [
+      "#1 Best Place to Live in Tennessee (U.S. News & World Report)",
+      "#27 Best Place to Live in the U.S. (U.S. News — rose 21 spots from #48)",
+      "Lookout Mountain: #1 best suburb for families in Chattanooga area (Niche)",
+      "Signal Mountain: #2 best suburb for families in Chattanooga area (Niche)"
+    ],
+    "familyFriendliness": "High. Strong family-oriented suburban communities, especially Signal Mountain and Lookout Mountain. Tennessee Aquarium, Coolidge Park, multiple state parks. Good schools. Low cost of living enables single-income families.",
+    "homeschoolCommunity": "Very active. Multiple Classical Conversations communities, Veritas Classical Schools hybrid program, CSTHEA support organization, and numerous co-ops. Tennessee has favorable homeschool laws (independent homeschool with minimal state oversight).",
+    "conservativeFaithCommunity": "Very strong. Chattanooga is in the Bible Belt with a large evangelical and Reformed Christian presence. Hamilton County leans conservative politically. The PCA denominational presence is one of the strongest in the nation for this metro size. Covenant College on Lookout Mountain adds a Reformed academic dimension.",
+    "communityConnections": [
+      {
+        "name": "Signal Mountain Moms Facebook Group",
+        "description": "1,200+ members, very active. Great for meeting local moms and getting recommendations.",
+        "link": "https://www.facebook.com/groups/signalmountainmoms/"
+      },
+      {
+        "name": "Mayfly Coffee (Signal Mountain)",
+        "description": "Christian-owned coffee shop. Pastor/barista. Community gathering spot.",
+        "link": "https://www.mayflycoffee.com/"
+      },
+      {
+        "name": "SMAC Fitness (Signal Mountain Athletic Club)",
+        "description": "THE local Signal Mountain gym. Community-focused, where neighbors work out.",
+        "link": "https://www.smacfitness.com/"
+      },
+      {
+        "name": "Outdoor Chattanooga",
+        "description": "Weekly family hikes and nature activities including Toddler Treks.",
+        "link": "https://outdoorchattanooga.com/"
+      },
+      {
+        "name": "Fit4Mom Chattanooga",
+        "description": "Stroller Strides, prenatal fitness. Mom community. Classes at Coolidge Park, Riverpark.",
+        "link": "https://chattanooga.fit4mom.com/"
+      },
+      {
+        "name": "Grace Academy Parent Community",
+        "description": "Strong parent participation. Built-in community of classical Christian education families.",
+        "link": "https://www.gracechatt.org/"
+      }
+    ]
+  },
+
+  "keyAdvantages": [
+    "No state income tax on earned income — immediate raise vs. Kentucky's ~4.5% flat tax",
+    "One of the strongest Reformed/PCA church concentrations in the Southeast",
+    "Grace Academy: affordable classical Christian school with elite academics ($4K/year, 95th percentile test scores)",
+    "World-class outdoor recreation — hiking, climbing, paddling, equestrian all within 30 min",
+    "Affordable cost of living (11-12% below national average) with low property taxes",
+    "Family-friendly suburban communities (Signal Mountain, Lookout Mountain ranked #1 and #2)",
+    "Available ranch/acreage land in Sequatchie Valley and Soddy-Daisy at reasonable prices",
+    "EPB gigabit fiber internet — relevant for remote work",
+    "Strong population growth and economic momentum",
+    "Covenant College (PCA) adds Reformed academic/cultural depth to the community"
+  ],
+
+  "keyConsiderations": [
+    "Higher-than-average crime rates in the city proper (though suburbs are very safe)",
+    "9.25% sales tax rate is among the highest in the nation",
+    "Car-dependent — low walkability outside downtown",
+    "Grace Academy has waitlists — apply early",
+    "Best acreage land (Sequatchie Valley) is 30-45 min from Chattanooga churches/schools",
+    "Signal Mountain has limited large-acreage lots",
+    "Humid summers with temps reaching upper 80s-90s",
+    "Smaller metro (437K) than Lexington (530K metro) — fewer big-city amenities"
+  ],
+
+  "comparisonToLexington": {
+    "stateIncomeTax": "TN 0% vs KY ~4.5% — significant savings",
+    "salesTax": "TN 9.25% vs KY 6% — TN is higher",
+    "propertyTax": "TN effective ~0.56% vs KY effective ~0.83% — TN is lower",
+    "medianHomePrice": "Similar range ($330K-$345K Chattanooga vs ~$280K-$310K Lexington)",
+    "costOfLiving": "Both below national average; Chattanooga slightly lower overall",
+    "reformedChurchDensity": "Chattanooga has significantly more PCA/Reformed churches",
+    "classicalChristianSchools": "Grace Academy in Chattanooga is a standout; Lexington has Lexington Christian Academy and Veritas Christian Academy",
+    "outdoorRecreation": "Chattanooga is far superior for hiking, climbing, and water sports due to mountains and river",
+    "ranchLand": "Both areas have rural land available within 30-45 min. Sequatchie Valley pricing competitive with central KY.",
+    "climate": "Very similar. Chattanooga slightly warmer, slightly less snow.",
+    "population": "Similar metro sizes. Chattanooga growing faster."
+  },
+
+  "sources": [
+    "https://www.rentcafe.com/cost-of-living-calculator/us/tn/chattanooga/",
+    "https://www.salary.com/research/cost-of-living/chattanooga-tn",
+    "https://www.redfin.com/city/3641/TN/Chattanooga/housing-market",
+    "https://www.zillow.com/home-values/37837/chattanooga-tn/",
+    "https://www.noradarealestate.com/blog/chattanooga-real-estate-market/",
+    "https://alloutmoves.com/blog/hamilton-county-tn-property-taxes/",
+    "https://www.hamiltontn.gov/pdf/trustee/CurrentPropertyTaxRates.pdf",
+    "https://www.yondatax.com/cities/chattanooga",
+    "https://www.salestaxhandbook.com/tennessee/rates/hamilton-county",
+    "https://www.landsearch.com/properties/chattanooga-tn",
+    "https://www.landsearch.com/properties/sequatchie-county-tn",
+    "https://www.landsearch.com/properties/soddy-daisy-tn",
+    "https://www.gracechatt.org/",
+    "https://www.gracechatt.org/required-records/tuition-financial-aid",
+    "https://gbaos.org/financial-guide",
+    "https://www.privateschoolreview.com/grace-baptist-academy-profile/37421",
+    "https://www.veritasschools.com/chattanooga-tn",
+    "https://www.silverdaleba.org/",
+    "https://www.smcstn.org/",
+    "https://www.timesfreepress.com/news/2025/oct/30/hamilton-county-high-school-graduation-rate/",
+    "https://www.publicschoolreview.com/tennessee/hamilton-county-school-district/4701590-school-district",
+    "https://www.niche.com/k12/search/best-public-high-schools/c/hamilton-county-tn/",
+    "https://cpcchatt.org/",
+    "https://lmpc.org/",
+    "https://signalpres.org/",
+    "https://ctktn.org/",
+    "https://cornerstone-opc.org/",
+    "https://www.trinitychattanooga.com",
+    "https://redbankpres.org/",
+    "https://newcityfellowship.com/",
+    "https://woodlandsgathering.org/",
+    "https://covenant.edu/",
+    "https://www.pcaac.org/church-directory/",
+    "https://www.bestplaces.net/climate/city/tn/chattanooga",
+    "https://weatherspark.com/y/15110/Average-Weather-in-Chattanooga-Tennessee-United-States-Year-Round",
+    "https://www.weather.gov/mrx/chaclimate",
+    "https://www.visitchattanooga.com/things-to-do/outdoors/",
+    "https://parks.hamiltontn.gov/325/Hiking-Biking-and-Horse-Trails",
+    "https://outdoorchattanooga.com/",
+    "https://www.neighborhoodscout.com/tn/chattanooga/crime",
+    "https://chattanooga.gov/stay-informed/latest-news/crime-down-significantly-year-over-year-chattanooga-new-statistics-show",
+    "https://www.walkscore.com/TN/Chattanooga",
+    "https://worldpopulationreview.com/us-cities/tennessee/chattanooga",
+    "https://www.macrotrends.net/global-metrics/cities/22955/chattanooga/population",
+    "https://www.bls.gov/eag/eag.tn_chattanooga_msa.htm",
+    "https://realestate.usnews.com/places/tennessee/chattanooga",
+    "https://chattanoogachamber.com/chattanooga-named-best-place-to-live-in-tennessee-by-u-s-news-world-report/",
+    "https://classicalconversations.com/",
+    "https://homeschoolchattanoogastyle.weebly.com/co-ops.html",
+    "https://www.primelandbuyers.com/blog/tennessee-land-price-per-acre-by-county",
+    "https://comptroller.tn.gov/office-functions/pa/property-taxes/how-to-figure-your-tax-bill.html",
+    "https://signalmountaintn.gov/how_do_i/review_property_taxes.php",
+    "https://www.chattanoogan.com/2025/6/26/505388/Signal-Mountain-Goes-Without-Tax.aspx",
+    "https://www.payscale.com/cost-of-living-calculator/Tennessee-Chattanooga"
+  ]
+}

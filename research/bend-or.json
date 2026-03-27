@@ -1,0 +1,604 @@
+{
+  "city": "Bend",
+  "state": "Oregon",
+  "lastUpdated": "2026-03-27",
+  "costOfLiving": {
+    "overallIndex": 133,
+    "overallIndexNote": "National average = 100. Bend is 33% above national average, primarily driven by housing costs.",
+    "medianHouseholdIncome": 105100,
+    "medianHouseholdIncomeNote": "Area Median Income (AMI) for a household of four is $123,500 as of 2025. Homeowner median is $127,868; renter median is $78,908.",
+    "stateIncomeTaxRate": {
+      "brackets": [
+        { "rate": "4.75%", "single": "Up to $4,050", "joint": "Up to $8,100" },
+        { "rate": "6.75%", "single": "$4,050 - $10,200", "joint": "$8,100 - $20,400" },
+        { "rate": "8.75%", "single": "$10,200 - $125,000", "joint": "$20,400 - $250,000" },
+        { "rate": "9.9%", "single": "Over $125,000", "joint": "Over $250,000" }
+      ],
+      "topRate": "9.9%",
+      "note": "Oregon has one of the highest state income tax rates in the US. No sales tax offsets this."
+    },
+    "salesTaxRate": "0%",
+    "salesTaxNote": "Oregon has NO sales tax - one of only five states without one. This is a significant advantage for consumer purchases.",
+    "propertyTaxRate": {
+      "effectiveRate": "0.72%",
+      "medianAnnualBill": 3982,
+      "note": "Effective rate varies by location within Bend (Deschutes vs Crook County portions). Oregon's Measure 50 limits assessed value growth to 3% per year, so assessed values are often well below market value. The Deschutes County median effective rate is about 0.56%."
+    },
+    "propertyTaxOn400kHome": {
+      "estimatedAnnualTax": 2880,
+      "note": "Estimated at 0.72% effective rate on $400K. However, Oregon's Measure 50 means assessed value is often significantly lower than market value, so actual tax could be lower."
+    },
+    "groceryIndex": 106,
+    "groceryIndexNote": "6% above national average. Generally on par with Portland prices.",
+    "utilitiesIndex": 93,
+    "utilitiesIndexNote": "7% below national average. For a 2,000 sq ft home, budget $180-$250/month for electric, water, garbage, and gas.",
+    "transportationIndex": 112,
+    "transportationIndexNote": "12% above national average. Bend is car-dependent; fuel costs carry a 'resort premium' compared to the I-5 corridor.",
+    "healthCareIndex": 118,
+    "healthCareIndexNote": "18% above national average.",
+    "housingIndex": 199,
+    "housingIndexNote": "99% above national average - the primary driver of elevated overall cost of living.",
+    "unemploymentRate": "5.0%",
+    "unemploymentRateNote": "Bend-Redmond MSA as of November 2025, up from 3.9% a year prior. Slightly above national average.",
+    "topIndustries": [
+      "Health Care and Social Assistance",
+      "Leisure and Hospitality (tourism)",
+      "Manufacturing (including brewing)",
+      "Professional and Business Services",
+      "Construction",
+      "Retail Trade"
+    ],
+    "topEmployers": [
+      "St. Charles Health System",
+      "Bend-La Pine Schools",
+      "Deschutes County",
+      "Mt. Bachelor",
+      "Les Schwab Tire Centers (HQ)"
+    ],
+    "topEmployersNote": "Estimated based on known major employers. Bend's economy is diversified with significant tourism, tech startups, outdoor industry, and craft brewing."
+  },
+  "housing": {
+    "medianHomePrice": 679000,
+    "medianHomePriceNote": "As of January 2026, down 0.44% year-over-year. Prices have fluctuated between $675K-$731K in late 2025/early 2026.",
+    "pricePerAcreRuralLand": {
+      "deschutesCounty": {
+        "averagePricePerAcre": 8047,
+        "medianPricePerAcre": 22464,
+        "note": "Wide variation. Average $8,047/acre for broader Bend area land. Median across Deschutes County is higher at $22,464 due to premium areas. Improved/irrigated parcels cost significantly more."
+      },
+      "crookCounty": {
+        "medianPricePerAcre": 2070,
+        "note": "Prineville area (30-45 min from Bend). Significantly more affordable. Horse properties with improvements are $5,000-$15,000+/acre."
+      },
+      "jeffersonCounty": {
+        "estimatedPricePerAcre": 1500,
+        "note": "Estimated. Madras area (45 min north). Generally the most affordable option in the metro area.",
+        "isEstimated": true
+      }
+    },
+    "tenPlusAcreAvailability": {
+      "available": true,
+      "description": "Good availability of 10+ acre parcels, especially in rural Deschutes County, Crook County (Prineville), and Jefferson County (Madras). Deschutes County RR10 zoning requires 10-acre minimum for new parcels. EFU (Exclusive Farm Use) zones allow agricultural and equestrian uses.",
+      "horseZoning": "Permitted in EFU, RR10 (Rural Residential), and RI (Rural Intermediate) zones. Deschutes County offers an Agricultural or Equine Exempt Permit for equestrian facilities. Horse stables are an allowed use in EFU and rural zones.",
+      "exampleListings": [
+        "20-acre turnkey horse property with 18 acres COI irrigation, outdoor arena, round pen, steel pipe fencing, barn with tack room",
+        "Two 20-acre parcels in West Redmond with irrigation water rights, buildable with septic feasibility done",
+        "62-acre property between Redmond and Sisters, zoned RR10",
+        "30-acre property in Terrebonne with 28 acres of irrigation water rights",
+        "49.5-acre EFU farmstead near Prineville with fenced pastures, barn with stalls, hay loft"
+      ]
+    },
+    "marketConditions": {
+      "monthsOfSupply": 3.19,
+      "monthsOfSupplyNote": "As of February 2026. Approaching balanced market territory (4-6 months). Healthiest inventory since 2019.",
+      "medianDaysOnMarket": 66,
+      "medianDaysOnMarketNote": "As of late February 2026, up 21% year-over-year. Market is cooling from seller's market.",
+      "trend": "Modest growth expected. Experts anticipate 1-2% appreciation in 2026. More balanced market giving buyers more options.",
+      "inventoryTrend": "Increasing - approaching balanced market for first time since pre-pandemic"
+    },
+    "notableNeighborhoods": [
+      {
+        "name": "Northwest Crossing",
+        "description": "Master-planned, walkable community on Bend's west side. Modern craftsman homes, parks, playgrounds, farmers market, boutique shops. Near High Lakes Elementary, Pacific Crest Middle, Summit High. Strong community feel.",
+        "priceRange": "Upper range - $600K-$1M+"
+      },
+      {
+        "name": "Summit West / Westside",
+        "description": "Near Cascade Mountain foothills. Easy access to Deschutes River, Cascade Lakes, Mt. Bachelor. Newer homes, parks, excellent schools. Popular with active, outdoor-oriented families.",
+        "priceRange": "$550K-$900K"
+      },
+      {
+        "name": "Old Bend / Downtown",
+        "description": "Historic character, walkable to restaurants, shops, Drake Park along Deschutes River. Mix of older bungalows and updated homes.",
+        "priceRange": "$500K-$800K"
+      },
+      {
+        "name": "Southeast Bend",
+        "description": "More affordable area with newer developments. Growing rapidly with young families.",
+        "priceRange": "$400K-$600K"
+      },
+      {
+        "name": "Tumalo / Rural Bend",
+        "description": "Unincorporated area northwest of Bend. Larger lots, horse properties, rural feel with 10-20 min drive to town. Popular for families wanting acreage.",
+        "priceRange": "$500K-$1.5M+ depending on acreage"
+      }
+    ]
+  },
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "No classical Christian school in Bend proper",
+        "note": "There is currently no ACCS-accredited classical Christian school in Bend. The nearest classical Christian schools are in the Portland metro area (Paideia Classical Christian School in Gladstone, St. Stephen's Academy in Beaverton). This is a significant gap for families prioritizing classical Christian education.",
+        "isGap": true
+      }
+    ],
+    "christianSchools": [
+      {
+        "name": "Morning Star Christian School",
+        "grades": "Nursery - 8th Grade",
+        "enrollment": 192,
+        "tuition": 7950,
+        "tuitionNote": "Per year for highest grade. 20% sibling discount. Financial aid available through FACTS.",
+        "curriculum": "Christ-centered with STEM focus via Project Lead The Way. Biblical worldview integration.",
+        "studentTeacherRatio": "9:1",
+        "accreditation": "Not specified as ACCS. Standard Christian school."
+      },
+      {
+        "name": "Trinity Lutheran School",
+        "grades": "PreK - 12th Grade",
+        "enrollment": 670,
+        "tuition": {
+          "elementary": 10750,
+          "middleSchool": 11650,
+          "highSchool": 12500
+        },
+        "curriculum": "Rigorous academics in Christ-centered environment. Not formally classical but strong academics.",
+        "studentTeacherRatio": "14:1",
+        "graduationRate": "100%",
+        "averageSAT": 1210,
+        "collegeAttendance": "75% attend 4-year college",
+        "averageGPA": 3.81,
+        "denomination": "Lutheran Church - Missouri Synod (LCMS)"
+      },
+      {
+        "name": "Calvary Bend Academy",
+        "grades": "PreK-4, expanding to K-5",
+        "enrollment": "Small, new school",
+        "tuition": "Not publicly listed",
+        "curriculum": "Christ-centered Biblical instruction. Ministry of Calvary Chapel Bend.",
+        "note": "Established approximately 3 years ago. Still expanding grade levels."
+      },
+      {
+        "name": "Three Sisters Adventist Christian School",
+        "grades": "PreK - 8th Grade",
+        "enrollment": "Small",
+        "tuition": "Not found",
+        "curriculum": "Christ-centered, Seventh-day Adventist. Operating since 1924.",
+        "denomination": "Seventh-day Adventist"
+      }
+    ],
+    "otherNotablePrivateSchools": [
+      {
+        "name": "Seven Peaks School",
+        "grades": "Preschool - 8th Grade",
+        "tuition": 18735,
+        "note": "Top-ranked in Bend. Full International Baccalaureate (IB) school. Secular.",
+        "ranking": "1st among Bend private schools (Niche)"
+      },
+      {
+        "name": "Cascades Academy",
+        "grades": "PreK - 12th Grade",
+        "tuition": 22900,
+        "note": "51-acre campus in Tumalo. Place-based, progressive education. Secular. Over 35% of students receive financial aid.",
+        "ranking": "Top-ranked (Private School Review)"
+      },
+      {
+        "name": "St. Francis of Assisi Catholic School",
+        "grades": "PreK - 8th Grade",
+        "tuition": "Not found",
+        "note": "Catholic school option in Bend."
+      }
+    ],
+    "publicSchoolDistrict": {
+      "name": "Bend-La Pine Schools",
+      "enrollment": 17075,
+      "studentTeacherRatio": "19:1",
+      "nicheRating": "Above Average",
+      "mathProficiency": "45%",
+      "readingProficiency": "56%",
+      "mathProficiencyVsState": "45% vs 31% state average",
+      "readingProficiencyVsState": "59% vs 44% state average",
+      "notableHighSchools": [
+        {
+          "name": "Summit High School",
+          "greatSchoolsRating": "10/10",
+          "graduationRate": "95%",
+          "usNewsRanking": "15th in Oregon"
+        },
+        {
+          "name": "Mountain View Senior High School",
+          "usNewsRanking": "17th in Oregon"
+        },
+        {
+          "name": "Bend Senior High School",
+          "greatSchoolsRating": "5/10",
+          "graduationRate": "87%"
+        }
+      ],
+      "overallGraduationRate": "87-95% depending on school",
+      "collegeReadiness": {
+        "readingProficiencyHighSchool": "37%",
+        "mathProficiencyHighSchool": "21%",
+        "note": "Below national averages for college readiness on standardized tests, though Summit High is significantly above average."
+      }
+    },
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "present": "Unconfirmed",
+        "note": "Classical Conversations operates statewide in Oregon and has communities listed, but a specific Bend/Central Oregon CC community could not be confirmed through public search. The CC community search tool should be checked directly for current Bend-area availability."
+      },
+      "otherCoOps": [
+        {
+          "name": "Cascade Christian Co-op",
+          "description": "Faith-based homeschool co-op supporting families in Central Oregon through supplementary educational classes, social events, field trips, and prayer. Meets Friday mornings for three 8-week sessions. Birth through high school.",
+          "type": "Christian"
+        },
+        {
+          "name": "Uplift Central Oregon",
+          "description": "Homeschool support and enrichment organization serving Central Oregon families.",
+          "type": "General"
+        },
+        {
+          "name": "Oregon Family School",
+          "description": "Hybrid model with locations in Bend and Redmond. Virtual distance learning or one-day-per-week community day option.",
+          "type": "Public charter"
+        },
+        {
+          "name": "Central Oregon Open Learners (COOL)",
+          "description": "Secular, inclusive support group for unschoolers and relaxed homeschoolers in Central Oregon.",
+          "type": "Secular"
+        },
+        {
+          "name": "Wildheart Nature School",
+          "description": "Homeschool programs for ages 6-13. Wilderness skills, outdoor education, weekly outings.",
+          "type": "Nature-based"
+        }
+      ],
+      "homeschoolFriendliness": "Oregon is homeschool-friendly. Parents must notify the local ESD (High Desert ESD for Bend). Testing required at grades 3, 5, 8, 10. No curriculum approval needed. Multiple co-op and support options available."
+    }
+  },
+  "faith": {
+    "reformedPresbyterianChurches": {
+      "PCA": {
+        "churches": [],
+        "note": "No PCA (Presbyterian Church in America) congregation currently exists in Bend. The nearest PCA church appears to be in the Portland metro area (Hillsboro, Eugene, Beaverton, Portland, Newberg, Salem). The Pacific Northwest Presbytery covers OR/WA/ID/AK with 30+ churches, but none in Central Oregon. This is a notable gap."
+      },
+      "OPC": {
+        "churches": [
+          {
+            "name": "Grace Reformed Presbyterian Church",
+            "denomination": "Orthodox Presbyterian Church (OPC)",
+            "address": "62162 Hamby Road, Bend, OR 97701",
+            "phone": "541-382-1572",
+            "pastor": "Pastor Dan",
+            "services": "Education Hour: Sunday 9:00 AM, Lord's Service: Sunday 10:30 AM",
+            "confession": "Westminster Confession of Faith",
+            "seminary": "Pastor holds M.Div. from Westminster Theological Seminary in California",
+            "size": "Small congregation",
+            "sizeNote": "Estimated small (under 100 members). Exact size not publicly listed.",
+            "isEstimated": true,
+            "ministries": ["Psalm singing", "Small group Bible studies"],
+            "memberOfBendMinisterialAssociation": true
+          }
+        ]
+      },
+      "EPC": {
+        "churches": [],
+        "note": "No Evangelical Presbyterian Church (EPC) congregation found in Bend or Central Oregon."
+      },
+      "CREC": {
+        "churches": [],
+        "note": "No CREC (Communion of Reformed Evangelical Churches) congregation found in Bend or Central Oregon. The nearest CREC church is Reformation Covenant Church in Oregon City (Portland metro), about 3 hours away."
+      }
+    },
+    "otherReformedCongregations": [
+      {
+        "name": "Sovereign Grace Church",
+        "denomination": "Reformed Baptist (1689 London Baptist Confession)",
+        "address": "40 SE 5th Street, Bend, OR 97701 (Golden Agers Club building)",
+        "services": "Sunday at 10:00 AM",
+        "size": "Small",
+        "sizeNote": "Appears to be a small, plant-stage congregation meeting in a rented facility.",
+        "isEstimated": true
+      },
+      {
+        "name": "Grace Bible Church of Bend",
+        "denomination": "Acts29 Network (Reformed-leaning evangelical)",
+        "description": "Community of believers focused on gospel community and living on mission. Part of the Acts29 church planting network, which has Reformed theological convictions.",
+        "size": "Medium",
+        "sizeNote": "Estimated medium-sized congregation.",
+        "isEstimated": true
+      },
+      {
+        "name": "Redeemer's Church",
+        "location": "Redmond, OR (15 miles north of Bend)",
+        "established": 2013,
+        "note": "Denomination and theological specifics unclear from public search. Not confirmed as PCA despite similar name to PCA plants."
+      }
+    ],
+    "otherNotableChurches": [
+      {
+        "name": "First Presbyterian Church of Bend",
+        "denomination": "PCUSA",
+        "note": "Mainline Presbyterian, describes itself as offering 'A Spacious Christianity.' Not theologically Reformed/conservative."
+      },
+      {
+        "name": "Community Presbyterian Church",
+        "location": "Redmond, OR",
+        "denomination": "PCUSA",
+        "note": "Mainline Presbyterian in nearby Redmond."
+      },
+      {
+        "name": "Westside Church",
+        "location": "Bend, OR",
+        "denomination": "Non-denominational evangelical",
+        "note": "Large, well-known Bend church. Part of Bend's active evangelical community."
+      },
+      {
+        "name": "Calvary Chapel Bend",
+        "denomination": "Calvary Chapel",
+        "note": "Parent church of Calvary Bend Academy. Non-denominational evangelical."
+      }
+    ],
+    "churchDensityAndVitality": {
+      "description": "Bend has an active evangelical church community but is relatively thin on Reformed/confessional options. The Bend Ministerial Association comprises Bible-believing churches and ministries. However, the Reformed presence is notably small: one OPC church and one Reformed Baptist church, both small congregations. Bend's spiritual landscape is more characterized by non-denominational evangelical, Calvary Chapel, and charismatic churches.",
+      "reformedPresenceStrength": "Weak",
+      "evangelicalPresenceStrength": "Moderate to Strong",
+      "overallChurchDensity": "Moderate"
+    },
+    "christianCommunityOrganizations": [
+      {
+        "name": "Bend Ministerial Association",
+        "description": "Coalition of Bible-believing churches and ministries serving Bend. Promotes the ministry of the Gospel, unity of the Church, and collaborative Christian witness in the Oregon high desert region."
+      },
+      {
+        "name": "Shepherds House Ministries",
+        "description": "Free long-term residential programs for men, women, and children in need."
+      },
+      {
+        "name": "Life Impact",
+        "description": "Provides rest, relaxation, and mentorship to aid workers, ministry leaders, and missionaries."
+      },
+      {
+        "name": "Connect Central Oregon / United Way of Central Oregon",
+        "description": "Community engagement through volunteerism, mentoring, and partnerships. Over 250 organizations list opportunities."
+      }
+    ],
+    "totalChristianNonprofits": 77,
+    "totalChristianNonprofitRevenue": "$5M+/year"
+  },
+  "lifestyle": {
+    "climate": {
+      "type": "High desert / arid continental",
+      "description": "Cold winters, warm dry summers, significant day-night temperature swings (especially summer). Very dry compared to western Oregon. Located east of the Cascades in the rain shadow.",
+      "averageTemperaturesByMonth": {
+        "january": { "highF": 42, "lowF": 25 },
+        "february": { "highF": 46, "lowF": 24 },
+        "march": { "highF": 52, "lowF": 28 },
+        "april": { "highF": 58, "lowF": 31 },
+        "may": { "highF": 66, "lowF": 37 },
+        "june": { "highF": 74, "lowF": 42 },
+        "july": { "highF": 84, "lowF": 49 },
+        "august": { "highF": 83, "lowF": 48 },
+        "september": { "highF": 76, "lowF": 41 },
+        "october": { "highF": 63, "lowF": 34 },
+        "november": { "highF": 49, "lowF": 28 },
+        "december": { "highF": 41, "lowF": 23 }
+      },
+      "averageTemperaturesBySeason": {
+        "spring": { "highF": "52-66", "lowF": "28-37", "description": "Cool and variable. Snow possible into April at elevation. Gradual warming." },
+        "summer": { "highF": "74-84", "lowF": "42-49", "description": "Warm, dry, sunny. Low humidity. Cool nights even in summer. Ideal outdoor weather." },
+        "fall": { "highF": "49-76", "lowF": "28-41", "description": "Crisp and clear. Beautiful fall colors. Quick cool-down by November." },
+        "winter": { "highF": "41-46", "lowF": "23-25", "description": "Cold but not extreme. Moderate snowfall in town. Lots of clear, sunny cold days." }
+      },
+      "annualRainfallInches": 10.62,
+      "annualSnowfallInches": 22,
+      "sunnyDaysPerYear": 158,
+      "sunnyOrMostlySunnyDays": 239,
+      "sunnyDaysNote": "158 fully sunny days plus ~80 mostly sunny days = 239 total sunny/mostly sunny days (2025 actual count). Oregon's climatologist calculated 202 sunny/mostly sunny days using standard methodology. The '300 days of sunshine' marketing claim is overstated but Bend is genuinely one of the sunniest places in the Pacific Northwest."
+    },
+    "outdoorRecreation": {
+      "overall": "World-class. Bend is consistently ranked as one of the best outdoor recreation cities in the US.",
+      "hiking": {
+        "description": "223+ scenic trails on AllTrails. Ranging from easy urban trails to challenging alpine routes.",
+        "highlights": ["Pilot Butte (in-city panoramic views)", "Upper Deschutes River Trail", "Shevlin Park", "South Sister summit", "Broken Top", "Smith Rock State Park (25 min)"],
+        "nationalForestsNearby": ["Deschutes National Forest", "Newberry Volcanic Monument"]
+      },
+      "equestrianTrails": {
+        "description": "Thriving equestrian scene with hundreds of miles of horse trails in surrounding national forest and BLM land.",
+        "highlights": [
+          "Broken Top Loop / Todd Creek Horse Camp",
+          "Sisters Cow Camp (adopted by Central Oregon Equestrian Trails chapter)",
+          "Swamp Wells Horse Camp (south of Bend, free camping)",
+          "Brown Mountain Trail",
+          "Brasada Ranch Equestrian Club (900 acres, guided rides)"
+        ],
+        "stables": [
+          "FlySpur Horse Ranch (year-round private/semi-private trail rides)",
+          "Wilderness Horse Adventures (customized guided rides)",
+          "Sunriver Stables (resort-based)",
+          "Black Butte Stables (casual to all-day adventures)"
+        ],
+        "organization": "Oregon Equestrian Trails - Central Oregon Chapter (active volunteer and trail maintenance group)"
+      },
+      "fishing": {
+        "description": "Outstanding. Deschutes County is one of Oregon's premier fishing destinations.",
+        "species": ["Rainbow trout", "Brown trout", "Brook trout", "Mackinaw (lake trout)", "Kokanee salmon", "Largemouth bass"],
+        "highlights": ["Deschutes River", "Cascade Lakes", "Wickiup Reservoir", "Crane Prairie Reservoir", "East Lake", "Paulina Lake"]
+      },
+      "skiing": {
+        "description": "Mt. Bachelor ski resort 22 miles west of Bend. 4,318-foot vertical drop, 101 runs, season late Nov - April.",
+        "otherWinterSports": ["Nordic skiing", "Snowmobiling", "Dog-sledding", "Snowshoeing"]
+      },
+      "mountainBiking": {
+        "description": "Bend is a mountain biking mecca with hundreds of miles of trails.",
+        "highlights": ["Phil's Trail Complex", "Wanoga Sno-Park trails", "Big Sky Bike Park (pump track, skills course, singletrack)"],
+        "trailMiles": "300+ miles of singletrack within 30 minutes of downtown"
+      },
+      "otherRecreation": [
+        "Rock climbing at Smith Rock State Park (world-class)",
+        "River activities (kayaking, paddleboarding, floating on Deschutes River)",
+        "Golf (multiple courses including destination resort courses)",
+        "Spelunking volcanic caverns (Lava River Cave)",
+        "Camping throughout Deschutes National Forest"
+      ]
+    },
+    "crimeRates": {
+      "violentCrimePer100k": 168.5,
+      "propertyCrimePer100k": 1362.0,
+      "totalCrimePer100k": 1530.5,
+      "comparisonToNational": "27.78% below national average overall",
+      "violentCrimeVsNational": "Well below national average",
+      "violentCrimeVsState": "49.1% lower than Oregon state average of 331/100K",
+      "propertyCrimeVsNational": "22.6% lower than national average of 1,760/100K",
+      "note": "Bend is considered safe relative to national and Oregon state averages. Violent crime is notably low. Property crime is the more common concern.",
+      "source": "FBI UCR 2024 data"
+    },
+    "walkabilityScore": {
+      "cityAverage": 32,
+      "downtown": 91,
+      "note": "City average of 32 = 'Car Dependent.' Downtown scores 91 = 'Walker's Paradise.' Significant variation by neighborhood. Northwest Crossing and Old Bend are the most walkable areas. Most of Bend requires a car."
+    },
+    "commutePatterns": {
+      "averageCommuteMinutes": 14.76,
+      "driveAlone": "73.9%",
+      "publicTransit": "0.4%",
+      "walk": "2.6%",
+      "bike": "2.3%",
+      "note": "Short commutes - well below national average. Growing traffic on US-97 and Third Street during evening peak, but manageable compared to larger cities."
+    }
+  },
+  "community": {
+    "population": {
+      "city": 110545,
+      "metro": 260919,
+      "metroNote": "Bend MSA includes Deschutes, Crook, and Jefferson counties as of 2023 OMB designation.",
+      "asOf": "2026 estimate"
+    },
+    "populationGrowthTrend": {
+      "annualGrowthRate": "1.66%",
+      "growthSince2020Census": "10.89%",
+      "census2020Population": 99687,
+      "projectedGrowthBy2045": "54%",
+      "note": "Bend has been one of the fastest-growing cities in Oregon and the US. Growth rate is moderating from peak years but remains strong. Population roughly tripled from ~35,000 in 1999 to 110,000+ today."
+    },
+    "familyFriendliness": {
+      "rating": "High",
+      "indicators": [
+        "Numerous parks and playgrounds (Bend Parks & Rec is well-funded and active)",
+        "Strong youth sports and outdoor programs",
+        "Multiple school choice options (public, private, charter, homeschool)",
+        "Northwest Crossing and Summit West specifically designed as family neighborhoods",
+        "Low violent crime rate",
+        "Outdoor-oriented lifestyle encourages family activities year-round"
+      ]
+    },
+    "homeschoolCommunityStrength": {
+      "rating": "Moderate to Strong",
+      "description": "Oregon is homeschool-friendly with minimal regulations. Multiple co-ops available including faith-based (Cascade Christian Co-op) and secular options. High Desert ESD manages registration. Oregon Family School offers hybrid model in Bend and Redmond. The faith-based homeschool community is present but not as large or visible as in some southern states.",
+      "cocurriculars": "Bend Parks & Rec offers many programs open to homeschoolers. Nature-based programs (Wildheart Nature School, Nighthawk Naturalist School) are especially popular."
+    },
+    "conservativeFaithCommunityPresence": {
+      "rating": "Mixed",
+      "description": "Bend and Deschutes County have shifted notably Democratic over the past decade. The city itself leans progressive/liberal, with the 2024 elections demonstrating clear Democratic advantages. However, surrounding rural areas (Crook County/Prineville, Jefferson County/Madras, and suburban Deschutes County) lean more conservative. Registered Democrats outnumber Republicans in Bend by 9,000+. The surrounding 53rd district (Republican-leaning suburbs and rural towns) has 3,000+ more Republicans than Democrats.",
+      "politicalContext": "Oregon is a blue state with high income taxes, progressive policies, and liberal social culture in urban areas. Bend specifically has shifted from a historically moderate/conservative outdoor town to a more progressive city as it has grown. For a family seeking a conservative/faith-oriented community, the rural areas surrounding Bend (Tumalo, Terrebonne, Redmond, Prineville) may be a better cultural fit than Bend itself.",
+      "faithCommunityStrength": "Moderate evangelical presence. Weak Reformed/confessional presence. The Bend Ministerial Association provides a cohesive evangelical network. Christian schools exist but no classical Christian option."
+    },
+    "civicEngagement": {
+      "description": "Active civic culture. City maintains robust volunteer programs, neighborhood districts for citizen participation, and community garden programs. Connect Central Oregon coordinates 250+ organizations. Bend implementing innovative citizen assemblies for local governance.",
+      "volunteerInfrastructure": "Strong. Connect Central Oregon portal, VolunteerMatch listings, Assistance League of Bend (14,572 volunteer hours in 2023-2024)."
+    },
+    "qualityOfLifeNotes": [
+      "Nationally recognized for outdoor recreation and quality of life",
+      "Strong craft brewery and food scene (20+ breweries)",
+      "Significant 'resort town premium' on goods and services",
+      "Housing affordability is the #1 concern for residents",
+      "Growing inequality between homeowners and renters",
+      "Very dry climate - wildfire smoke can be an issue in late summer",
+      "Relatively remote from major metro areas (Portland is 3+ hours away)",
+      "Small but growing tech/remote worker community"
+    ]
+  },
+  "sources": [
+    "https://www.areavibes.com/bend-or/cost-of-living/",
+    "https://www.salary.com/research/cost-of-living/bend-or",
+    "https://www.bestplaces.net/cost_of_living/city/oregon/bend",
+    "https://www.numbeo.com/cost-of-living/in/Bend",
+    "https://housesinbendoregon.com/blog/bend-oregon-cost-of-living",
+    "https://smartasset.com/taxes/oregon-property-tax-calculator",
+    "https://www.ownwell.com/trends/oregon/deschutes-county/bend",
+    "https://www.bendoregon.gov/government/departments/finance/other-financial-topics/property-taxes",
+    "https://blog.turbotax.intuit.com/income-tax-by-state/oregon-113473/",
+    "https://remotelaws.com/state-income-tax/us-states/oregon/",
+    "https://www.zillow.com/home-values/50962/bend-or/",
+    "https://www.redfin.com/city/1543/OR/Bend/housing-market",
+    "https://www.noradarealestate.com/blog/bend-or-real-estate-market/",
+    "https://www.houzeo.com/housing-market/oregon/bend",
+    "https://housesinbendoregon.com/blog/bend-housing-market",
+    "https://www.justinbend.com/writing/market-update-march-2026",
+    "https://www.landsearch.com/properties/bend-or",
+    "https://www.landwatch.com/oregon-land-for-sale/deschutes-county",
+    "https://www.land.com/Crook-County-OR/all-land/",
+    "https://www.horseproperties.net/properties/deschutes-county-oregon-united-states",
+    "https://www.deschutes.org/cd/page/application-guide-agricultural-or-equine-exempt-permit",
+    "https://www.deschutes.org/cd/page/efu-f1-mua10-rc-ri-rr10-uar10-base-zones",
+    "https://www.mscsbend.org/",
+    "https://www.niche.com/k12/morning-star-christian-school-bend-or/",
+    "https://www.saints.org/",
+    "https://www.privateschoolreview.com/trinity-lutheran-school-profile/97701",
+    "https://calvarybendacademy.com/",
+    "https://www.sevenpeaksschool.org/admissions/finacial-aid",
+    "https://www.cascadesacademy.org/admission/tuition",
+    "https://www.privateschoolreview.com/oregon/bend",
+    "https://www.niche.com/k12/d/bend-lapine-school-district-or/",
+    "https://www.greatschools.org/oregon/bend/",
+    "https://www.bend.k12.or.us/district/academics/college-readiness-testing",
+    "https://classicalconversations.com/locations/homeschool-oregon/",
+    "https://www.thehomeschoolmom.com/local/cascade-christian-co-op/",
+    "https://www.ohen.org/homeschooling-in-oregon/connect-to-community/central-oregon/",
+    "https://gracerpcbend.com/about",
+    "https://www.pacificnorthwestpresbytery.com/churches",
+    "https://sovereigngracebend.org/",
+    "https://gracebibleofbend.org/",
+    "https://reformationcovenant.org",
+    "https://crechurches.org/",
+    "https://bendministerialassociation.org/",
+    "https://www.causeiq.com/directory/christian-organizations-list/bend-or-metro/",
+    "https://www.usclimatedata.com/climate/bend/oregon/united-states/usor0031",
+    "https://weatherspark.com/y/1215/Average-Weather-in-Bend-Oregon-United-States-Year-Round",
+    "https://bendbulletin.com/2026/01/09/did-bend-receive-300-days-of-sunshine-in-2025-we-counted-again/",
+    "https://www.homesnacks.com/or/bend-crime/",
+    "https://www.areavibes.com/bend-or/crime/",
+    "https://crimegrade.org/violent-crime-bend-or/",
+    "https://www.walkscore.com/score/bend-or",
+    "https://bendbulletin.com/newsroomstafflist/4952356-151/short-commutes-still-the-norm-in-bend",
+    "https://worldpopulationreview.com/us-cities/oregon/bend",
+    "https://www.census.gov/quickfacts/bendcityoregon",
+    "https://ktvz.com/news/bend/2025/11/18/central-oregon-counties-cities-see-slow-but-steady-growth-in-new-portland-state-university-estimates/",
+    "https://visitbend.com/journal/horseback-riding-in-bend-oregon/",
+    "https://visitcentraloregon.com/things-to-do/tours/horseback-riding/",
+    "https://nwhorsetrails.com/blogs/central-oregon-horse-trails",
+    "https://www.oregonequestriantrails.org/chapters/central-oregon-chapter/",
+    "https://visitbend.com/journal/hiking-in-bend-oregon/",
+    "https://bendtrails.org/",
+    "https://movingtobend.com/playing-in-bend/outdoor-recreation-in-bend/",
+    "https://allthingsbend.org/blog/neighborhoods-bend-oregon",
+    "https://www.enjoybendlife.com/blog/best-neighborhoods-young-families-bend/",
+    "https://bernardrealestategroup.com/bend-or-best-neighborhoods/",
+    "https://www.bestplaces.net/voting/city/oregon/bend",
+    "https://www.opb.org/article/2024/11/05/central-oregon-state-senate-deschutes-sheriff-bend-city-coucil/",
+    "https://www.bls.gov/eag/eag.or_bend_msa.htm",
+    "https://bendchamber.org/economy/central-oregon-economic-indicators-june-2025/",
+    "https://www.niche.com/places-to-live/bend-deschutes-or/crime-safety/"
+  ]
+}

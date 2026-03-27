@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology — Where Next?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="./index.html" class="nav-logo">Where Next?</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="nav-link">Overview</a></li>
+        <li><a href="./cost-of-living.html" class="nav-link">Cost of Living</a></li>
+        <li><a href="./housing.html" class="nav-link">Housing</a></li>
+        <li><a href="./education.html" class="nav-link">Education</a></li>
+        <li><a href="./faith.html" class="nav-link">Faith</a></li>
+        <li><a href="./lifestyle.html" class="nav-link">Lifestyle</a></li>
+        <li><a href="./community.html" class="nav-link">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1. Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Methodology</h1>
+      <p class="subtitle">How the scores were calculated, what criteria drive each category, and where the underlying data came from.</p>
+    </div>
+  </section>
+
+  <!-- 2. Scoring System -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Scoring System</h2>
+      </div>
+      <p>Each city is scored from 1 to 10 across six categories. These category scores are combined into a single weighted average that represents overall fit for the Short family's priorities.</p>
+      <p>The six categories and their default weights are:</p>
+      <div class="table-responsive mt-3">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Weight</th>
+              <th>Rationale</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Faith</td>
+              <td>25%</td>
+              <td>Access to Reformed churches is a non-negotiable filter for the family.</td>
+            </tr>
+            <tr>
+              <td>Education</td>
+              <td>25%</td>
+              <td>Classical Christian schooling and strong homeschool communities are essential.</td>
+            </tr>
+            <tr>
+              <td>Lifestyle</td>
+              <td>20%</td>
+              <td>Outdoor recreation, equestrian access, climate, and safety matter significantly.</td>
+            </tr>
+            <tr>
+              <td>Housing</td>
+              <td>15%</td>
+              <td>Affordable homes and ranch/acreage availability are important but secondary to faith and education.</td>
+            </tr>
+            <tr>
+              <td>Cost of Living</td>
+              <td>10%</td>
+              <td>Lower cost of living is preferred, but the family can absorb moderate differences.</td>
+            </tr>
+            <tr>
+              <td>Community</td>
+              <td>5%</td>
+              <td>Family-friendliness and conservative community presence are valued but less decisive.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-3">The overall score is calculated as: <strong>(Faith x 0.25) + (Education x 0.25) + (Lifestyle x 0.20) + (Housing x 0.15) + (Cost of Living x 0.10) + (Community x 0.05)</strong>. Weights are adjustable via the sliders on the Overview page.</p>
+    </div>
+  </section>
+
+  <!-- 3. Category Scoring Criteria -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Category Scoring Criteria</h2>
+        <p class="section-subtitle">What factors determine each city's 1-10 score in each category.</p>
+      </div>
+
+      <h3 class="mb-2">Faith</h3>
+      <p>Number of Reformed churches (PCA, OPC, EPC, CREC) within reasonable driving distance. Presence of Reformed seminaries or theological institutions. Overall Christian community vitality and opportunities for fellowship, church planting, and conference culture.</p>
+
+      <h3 class="mt-4 mb-2">Education</h3>
+      <p>Availability and quality of classical Christian schools (especially ACCS-accredited). Strength and size of the homeschool community, including co-ops and Classical Conversations chapters. Public school ratings provide context but are weighted less heavily given the family's preference for classical Christian education.</p>
+
+      <h3 class="mt-4 mb-2">Lifestyle</h3>
+      <p>Quality and variety of outdoor recreation (hiking, biking, skiing, water sports). Equestrian access and horse-friendly culture. Climate desirability across all four seasons. Safety as measured by violent and property crime rates.</p>
+
+      <h3 class="mt-4 mb-2">Housing</h3>
+      <p>Median home price relative to national average and household income. Availability of ranch and acreage properties (5+ acres). Horse-friendly zoning and rural land accessibility within a reasonable commute.</p>
+
+      <h3 class="mt-4 mb-2">Cost of Living</h3>
+      <p>Overall cost-of-living index (lower index = better score). State income tax rate and effective property tax rate. Everyday costs including groceries, utilities, and transportation.</p>
+
+      <h3 class="mt-4 mb-2">Community</h3>
+      <p>Family-friendliness as reflected by demographics, schools, and amenities. Homeschool community size and engagement. Conservative and faith-community presence. Population growth trends (growing communities tend to offer more opportunity).</p>
+    </div>
+  </section>
+
+  <!-- 4. Scores Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Complete Scores</h2>
+        <p class="section-subtitle">All eight cities scored across every category, sorted by weighted total.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Faith (25%)</th>
+              <th>Education (25%)</th>
+              <th>Lifestyle (20%)</th>
+              <th>Housing (15%)</th>
+              <th>Cost of Living (10%)</th>
+              <th>Community (5%)</th>
+              <th>Weighted Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>10</td>
+              <td>9</td>
+              <td>8</td>
+              <td>8</td>
+              <td>10</td>
+              <td>9</td>
+              <td><strong>9.00</strong></td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>10</td>
+              <td>9</td>
+              <td>8</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td><strong>8.65</strong></td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>7</td>
+              <td>6</td>
+              <td>5</td>
+              <td>9</td>
+              <td>7</td>
+              <td>6</td>
+              <td><strong>6.60</strong></td>
+            </tr>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>5</td>
+              <td>7</td>
+              <td>6</td>
+              <td>8</td>
+              <td>8</td>
+              <td>7</td>
+              <td><strong>6.55</strong></td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>5</td>
+              <td>6</td>
+              <td>8</td>
+              <td>3</td>
+              <td>4</td>
+              <td>9</td>
+              <td><strong>5.65</strong></td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>3</td>
+              <td>6</td>
+              <td>6</td>
+              <td>5</td>
+              <td>6</td>
+              <td>4</td>
+              <td><strong>5.00</strong></td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>2</td>
+              <td>3</td>
+              <td>9</td>
+              <td>2</td>
+              <td>3</td>
+              <td>5</td>
+              <td><strong>3.90</strong></td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>1</td>
+              <td>2</td>
+              <td>9</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td><strong>3.35</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Data Sources -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Data Sources</h2>
+        <p class="section-subtitle">Primary sources consulted during research.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Domain</th>
+              <th>Sources</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cost of Living</td>
+              <td>BestPlaces.net, Numbeo, U.S. Census Bureau</td>
+            </tr>
+            <tr>
+              <td>Housing</td>
+              <td>Zillow, Realtor.com, local MLS data</td>
+            </tr>
+            <tr>
+              <td>Schools</td>
+              <td>GreatSchools, Niche, ACCS directory, individual school websites</td>
+            </tr>
+            <tr>
+              <td>Churches</td>
+              <td>PCA Church Finder, OPC Directory, CREC Directory, individual church websites</td>
+            </tr>
+            <tr>
+              <td>Climate</td>
+              <td>NOAA, Weather.com, ClimateData.org</td>
+            </tr>
+            <tr>
+              <td>Crime</td>
+              <td>FBI Uniform Crime Reports, NeighborhoodScout, local police departments</td>
+            </tr>
+            <tr>
+              <td>Demographics</td>
+              <td>U.S. Census Bureau, World Population Review</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Caveats -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Caveats</h2>
+      </div>
+      <p>All data was gathered in March 2026. Housing markets, cost-of-living indices, church directories, and school enrollment figures change over time. These scores represent a snapshot, not a permanent ranking.</p>
+      <p>Personal visits are essential before making a relocation decision. No amount of desk research can substitute for walking a neighborhood, attending a church service, touring a school, or talking to local families.</p>
+      <p>These scores reflect one family's priorities. The weighting system is deliberately opinionated toward Reformed faith and classical Christian education. A different family with different priorities would produce a very different ranking.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="./methodology.html">Methodology & Sources</a>
+      <span>Research date: March 2026</span>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,689 @@
+{
+  "city": "Coeur d'Alene",
+  "state": "Idaho",
+  "metro": "Coeur d'Alene-Post Falls MSA",
+  "researchDate": "2026-03-27",
+
+  "costOfLiving": {
+    "overallIndex": {
+      "value": 114,
+      "nationalAverage": 100,
+      "note": "14% above national average, driven primarily by housing costs"
+    },
+    "groceryIndex": {
+      "value": 102,
+      "nationalAverage": 100,
+      "note": "Groceries roughly at national average; some sources cite 110"
+    },
+    "housingIndex": {
+      "value": 137,
+      "nationalAverage": 100,
+      "note": "37% above national average; biggest cost driver in CDA"
+    },
+    "utilitiesIndex": {
+      "value": 100,
+      "nationalAverage": 100,
+      "note": "Near national average overall; energy/heating costs run ~18% higher due to cold winters but offset by low electricity rates"
+    },
+    "transportationIndex": {
+      "value": 119,
+      "nationalAverage": 100,
+      "note": "Gasoline ~20% higher than national average"
+    },
+    "healthcareIndex": {
+      "value": 102,
+      "nationalAverage": 100,
+      "note": "Slightly above national average"
+    },
+    "medianHouseholdIncome": {
+      "value": 73526,
+      "year": 2023,
+      "note": "Some sources report lower ($54,763 for city proper); owner-occupied households median is $99,611. The MSA income tends higher."
+    },
+    "stateIncomeTax": {
+      "rate": "5.30%",
+      "type": "flat",
+      "effectiveDate": "2025-01-01",
+      "note": "Reduced from 5.69% to 5.30% flat rate in 2025. Applies to all Idaho taxable income."
+    },
+    "salesTaxRate": {
+      "state": "6.00%",
+      "local": "0.00%",
+      "combined": "6.00%",
+      "note": "Idaho has no local sales tax option. 6% statewide. Prescriptions and some medical items exempt."
+    },
+    "propertyTaxRate": {
+      "stateAverage": "0.50%",
+      "kootenaiCountyEffective": "0.63%",
+      "kootenaiCountyMedianEffective": "0.32% to 0.36%",
+      "note": "Varies significantly by taxing district. The effective rate with homeowner exemption is notably lower. Idaho offers a homeowner's exemption that reduces assessed value for primary residences."
+    },
+    "estimatedPropertyTaxOn400kHome": {
+      "annualEstimateLow": 1280,
+      "annualEstimateHigh": 2520,
+      "note": "Estimate: $400K assessed value. With homeowner exemption (~$125K off), taxable value ~$275K at 0.8-1.2% combined levy rate = $2,200-$3,300. Without exemption at 0.32-0.63% effective = $1,280-$2,520. Actual depends on district levies."
+    },
+    "unemploymentRate": {
+      "value": "3.6%",
+      "asOf": "December 2025",
+      "note": "Idaho statewide rate; CDA metro tracks close to this. Nonfarm job growth of 2.6% year-over-year in Aug 2025."
+    },
+    "topIndustries": [
+      "Healthcare (Kootenai Health is #1 employer with 2,000+ staff)",
+      "Education (Coeur d'Alene School District, North Idaho College)",
+      "Retail/Hospitality (Hagadone Hospitality, Silverwood Theme Park, Coeur d'Alene Casino)",
+      "Manufacturing (6,058 local jobs)",
+      "Professional/Technical Services (44% job growth in recent years, from 3,035 to 4,385 jobs)",
+      "Government (Kootenai County, City of CDA)",
+      "Construction (booming due to population growth)"
+    ],
+    "topEmployers": [
+      "Kootenai Health (2,000+ employees)",
+      "Coeur d'Alene School District",
+      "Walmart",
+      "Hagadone Hospitality (The Coeur d'Alene Resort)",
+      "Kootenai County (government)",
+      "Post Falls School District",
+      "North Idaho College",
+      "Lakeland School District",
+      "Coeur d'Alene Casino",
+      "Silverwood Theme Park"
+    ]
+  },
+
+  "housing": {
+    "medianHomePrice": {
+      "cityOfCDA": {
+        "value": 601000,
+        "asOf": "February 2026",
+        "yearOverYearChange": "+4.6%",
+        "note": "CDA city proper. Some months like Nov 2025 saw median of $757,500."
+      },
+      "kootenaiCounty": {
+        "value": 549000,
+        "asOf": "Late 2025",
+        "yearOverYearChange": "+4.3%",
+        "note": "County-wide median for single-family homes"
+      }
+    },
+    "medianPricePerSqFt": {
+      "value": 288,
+      "trend": "Down 6.8% year-over-year",
+      "asOf": "Early 2026"
+    },
+    "marketConditions": {
+      "competitiveness": "Somewhat competitive",
+      "averageOffersPerHome": 2,
+      "averageDaysOnMarket": 45,
+      "outlook2026": "Modest price appreciation expected. Interest rate stabilization rebuilding buyer confidence. More inventory expected than 2021-2023 boom years.",
+      "note": "CDA has gotten significantly more expensive since 2020. Pre-pandemic median was ~$350K. Massive appreciation driven by CA/WA/OR migration during COVID."
+    },
+    "ruralLandPricing": {
+      "kootenaiCounty": {
+        "medianPricePerAcre": 47409,
+        "undevelopedMedianPerAcre": 25000,
+        "averageLotPrice": 941532,
+        "note": "Wide range. Closer to CDA/Hayden = premium. Rathdrum Prairie more affordable."
+      },
+      "bonnerCounty": {
+        "medianPricePerAcre": 22588,
+        "averageLotPrice": 838695,
+        "note": "North toward Sandpoint. More affordable per acre but farther from CDA amenities (45-60 min)."
+      },
+      "sandpointArea": {
+        "averagePricePerAcre": 95297,
+        "note": "Sandpoint proper is premium. Rural Bonner County parcels outside town are much cheaper."
+      },
+      "rathdrumPrairie": {
+        "medianListingPrice": 569000,
+        "note": "Fastest-growing area. Mix of subdivisions and larger parcels. 32 land listings active."
+      }
+    },
+    "horsePropertyAvailability": {
+      "available": true,
+      "note": "10+ acre parcels available in Kootenai and Bonner counties. Agricultural zoning permits livestock. Dalton Gardens requires 1-acre minimum lots and allows livestock. Horse properties actively listed on HorseProperties.net for both Kootenai and Bonner counties. Suggested land uses in Kootenai County include agriculture, grazing, dairy, and sheep/goats.",
+      "typicalPricing": "10-acre horse-ready properties with improvements: $500K-$900K in Kootenai County. Raw 10-acre parcels: $250K-$500K depending on location and improvements.",
+      "bestAreasForAcreage": [
+        "Rathdrum Prairie (east of Rathdrum, relatively flat, good for horses)",
+        "Worley/south Kootenai County (25 min from CDA, more affordable)",
+        "Spirit Lake area (north of Rathdrum, more rural)",
+        "Bonner County south of Sandpoint (more acreage, lower per-acre cost)",
+        "Dalton Gardens (1-acre min lots, allows livestock, but very close-in and premium priced)"
+      ]
+    },
+    "notableAreasForFamilies": {
+      "hayden": {
+        "description": "Growing suburb north of CDA. Family-friendly, good schools, newer developments. North Idaho Christian School located here.",
+        "medianHome": "estimate $475K-$550K",
+        "character": "Suburban, mix of newer subdivisions and some acreage on outskirts"
+      },
+      "postFalls": {
+        "population": 43391,
+        "description": "West of CDA along I-90. More affordable than CDA proper. Real Life Ministries campuses here. Immanuel PCA church plant located here. Kootenai Classical Academy in Post Falls.",
+        "medianHome": "estimate $425K-$500K",
+        "character": "Fastest-growing, more commercial development, family-oriented"
+      },
+      "rathdrum": {
+        "population": "estimate 10,000+",
+        "description": "North of Post Falls. Highest growth rate in county (6.19% since 2020). More rural feel with access to larger parcels.",
+        "character": "Small-town feel, growing rapidly, good for acreage seekers"
+      },
+      "daltonGardens": {
+        "description": "Unincorporated community between CDA and Hayden. 1-acre minimum lot sizes. Allows horses, barns, livestock. Very family-friendly, quiet, tree-lined roads.",
+        "character": "Semi-rural enclave, premium pricing, horse trailers and barns common, 5 min from CDA amenities",
+        "bestForHorses": true
+      }
+    }
+  },
+
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "Classical Christian Academy (CCA)",
+        "location": "4810 N. Ramsey Road, Coeur d'Alene, ID 83815",
+        "grades": "K-12",
+        "enrollment": 164,
+        "studentTeacherRatio": "8:1",
+        "tuition": "$7,490/year (approx)",
+        "acceptanceRate": "90%",
+        "founded": 1995,
+        "description": "Christ-centered classical education rooted in biblical truth. All subjects taught from a Biblical worldview. Offers basketball, cross country, soccer, volleyball.",
+        "accreditation": "Not specified in sources",
+        "note": "This is the primary classical Christian school in the CDA area."
+      },
+      {
+        "name": "Kootenai Classical Academy",
+        "location": "8320 N Fennecus Road, Post Falls, ID 83854",
+        "grades": "Estimated K-12 (middle and high school confirmed)",
+        "enrollment": "Not published",
+        "tuition": "Not published",
+        "description": "Classical education affiliated with Hillsdale College K-12 program. Accredited by Cognia. Emphasizes core virtues and honor code.",
+        "accreditation": "Cognia",
+        "note": "Hillsdale-affiliated charter/classical school. Not explicitly Christian-branded but classical liberal arts with virtue emphasis."
+      },
+      {
+        "name": "Coeur du Christ Academy",
+        "location": "Downtown Coeur d'Alene, ID",
+        "grades": "High school",
+        "description": "Classical private high school in the Catholic tradition. Founded by families seeking rigorous, integrated education.",
+        "note": "Catholic classical, not Protestant"
+      }
+    ],
+    "logosSchoolMoscow": {
+      "name": "Logos School",
+      "location": "Moscow, ID",
+      "distanceFromCDA": "84 miles / ~1 hour 20 minutes driving",
+      "grades": "PK-12",
+      "enrollment": 686,
+      "studentTeacherRatio": "14:1",
+      "founded": "1981",
+      "founder": "Doug Wilson",
+      "accreditation": "Association of Classical Christian Schools (ACCS) - charter member, accredited 2000",
+      "crecConnection": "Operates within the institutional ecosystem of Christ Church Moscow (CREC). Not formally CREC-affiliated as a school but deeply connected through founder and community.",
+      "note": "Premier classical Christian school in Idaho. 84 miles south — too far for daily commute from CDA but relevant for the broader North Idaho Reformed community. Logos Online School also available for remote students."
+    },
+    "otherPrivateSchools": [
+      {
+        "name": "North Idaho Christian School (NICS)",
+        "location": "251 W Miles Ave, Hayden, ID",
+        "grades": "K-12",
+        "enrollment": 206,
+        "studentTeacherRatio": "11:1",
+        "tuition": "$5,721 - $6,638/year",
+        "established": "Over 30 years (est. early 1990s)",
+        "note": "Offers variable/needs-based tuition with discounts up to 50%. Sports: basketball, soccer, volleyball."
+      },
+      {
+        "name": "Summit Christian Academy",
+        "location": "Coeur d'Alene, ID",
+        "grades": "Preschool - 8th grade",
+        "description": "Private Christian elementary/middle school"
+      },
+      {
+        "name": "Coeur d'Alene Christian School",
+        "location": "Coeur d'Alene, ID",
+        "description": "Additional Christian school option in the area"
+      }
+    ],
+    "publicSchoolDistrict": {
+      "name": "Coeur d'Alene School District #271",
+      "ranking": "#36 out of 172 districts in Idaho (top 30%)",
+      "topPercentiles": [
+        "Top 20% for reading/language arts proficiency",
+        "Top 10% for graduation rate",
+        "Top 1% for student body size"
+      ],
+      "graduationRate": {
+        "districtWide": "89%",
+        "cdaHighSchool": "91% (range 90.7%-96.1% over past 5 years)",
+        "stateAverage": "80%"
+      },
+      "note": "Solid public school system. CDA Charter Academy ranks in top 1% statewide."
+    },
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "present": true,
+        "note": "CC has communities in Idaho with an Area Representative serving the state. Specific CDA-area community locations not publicly listed — use classicalconversations.com/community-search/ to find current local groups. The annual North Idaho Homeschool Conference is held at Candlelight Christian Fellowship in Coeur d'Alene."
+      },
+      "otherCoOps": [
+        {
+          "name": "INCH (Inland Northwest Christian Homeschoolers)",
+          "description": "Christian co-op and support group. Parent-run, not a drop-off program. Serves CDA and surrounding areas.",
+          "location": "Coeur d'Alene area"
+        },
+        {
+          "name": "Cabrini Homeschool Co-op",
+          "description": "Parent-led Catholic hybrid co-op. Classical, sacrament-focused, screen-free approach. Emphasizes truth, goodness, beauty.",
+          "location": "Coeur d'Alene area",
+          "note": "Catholic tradition"
+        },
+        {
+          "name": "Coeur d'Alene Area Homeschool Community",
+          "description": "Local support and community group for CDA, Hayden, Rathdrum, Post Falls and surrounding areas."
+        },
+        {
+          "name": "Christian Family Home Educators (CFHE)",
+          "description": "Regional homeschool support organization with local resource listings"
+        }
+      ],
+      "homeschoolStrength": "Strong. North Idaho has one of the highest homeschool concentrations in the state. Multiple co-ops, annual conferences (Homeschool Idaho North Conference), and a deeply supportive community. Idaho homeschool law is very permissive — no registration, testing, or curriculum requirements.",
+      "privateSchoolPenetration": "10% of K-12 students in CDA attend private schools vs. 6% state average. 90% of private schools are religiously affiliated."
+    }
+  },
+
+  "faith": {
+    "reformedPresbyterianChurches": [
+      {
+        "name": "Covenant Orthodox Presbyterian Church",
+        "denomination": "OPC (Orthodox Presbyterian Church)",
+        "location": "1250 W Lancaster Rd, Hayden, ID 83835",
+        "pastor": "Rev. Todd Smith",
+        "foundingPastor": "Rev. Dr. David Graves",
+        "rulingElders": ["Michael Cooper", "Ed De Bruin", "Kris Kord"],
+        "founded": "Home group 2014, OPC supervision 2016, particularized June 2021",
+        "size": "Small congregation — described as 'several young families with plenty of children'",
+        "serviceTime": "Sunday 10:30am",
+        "confessionalStandard": "Westminster Confession of Faith and Catechisms",
+        "phone": "(208) 494-2522",
+        "website": "https://covenantopc.church/"
+      },
+      {
+        "name": "Immanuel Presbyterian Church",
+        "denomination": "PCA (Presbyterian Church in America)",
+        "location": "Jacklin Arts Center, 405 N William St, Post Falls, ID 83854",
+        "founded": 2023,
+        "size": "Church plant — growing",
+        "serviceTimes": "10:30 AM and 5:00 PM Sundays",
+        "description": "New PCA church plant serving reformed believers and families in Post Falls, CDA, and surrounding North Idaho.",
+        "website": "https://immanuelpca.org/"
+      },
+      {
+        "name": "Trinity Church CDA",
+        "denomination": "CREC (Communion of Reformed Evangelical Churches)",
+        "location": "Coeur d'Alene, ID",
+        "pastor": "Chase Fluhart",
+        "founded": "2006 (some sources say 2010)",
+        "description": "Reformed evangelical church affiliated with CREC. Part of the broader Doug Wilson / Moscow CREC ecosystem.",
+        "website": "https://trinitycda.org/"
+      }
+    ],
+    "moscowIdahoConnection": {
+      "distanceFromCDA": "84 miles, approximately 1 hour 20 minutes driving",
+      "christChurch": {
+        "name": "Christ Church",
+        "denomination": "CREC",
+        "pastor": "Doug Wilson",
+        "description": "Flagship CREC congregation. Hub for Logos School, Canon Press, New Saint Andrews College. Major center of Reformed evangelical life in Idaho.",
+        "note": "Too far for regular Sunday attendance from CDA, but the CREC network has Trinity Church CDA as its CDA-area presence. Moscow is a realistic day-trip for events, conferences, and community connections."
+      },
+      "newSaintAndrewsCollege": "Liberal arts college in Moscow, part of the CREC institutional ecosystem",
+      "relevance": "The Moscow CREC community is a significant draw for Reformed families moving to Idaho. While CDA is 84 miles away, the cultural and theological influence extends into North Idaho through Trinity CDA and connected families."
+    },
+    "otherReformedEvangelicalChurches": [
+      {
+        "name": "Grace Bible Church",
+        "location": "North side of Coeur d'Alene",
+        "description": "Bible church with family of believers",
+        "website": "https://www.gracebiblecda.com/"
+      },
+      {
+        "name": "CDA Bible Church",
+        "location": "Coeur d'Alene, ID",
+        "website": "https://cdabible.org/"
+      },
+      {
+        "name": "Post Falls Community Presbyterian Church",
+        "location": "Post Falls, ID",
+        "website": "https://pfcpc.org/",
+        "note": "Denomination not confirmed (may be PCUSA)"
+      },
+      {
+        "name": "First Presbyterian Church",
+        "denomination": "PCUSA",
+        "location": "Coeur d'Alene, ID",
+        "note": "PCUSA — mainline, not conservative Reformed"
+      }
+    ],
+    "largerEvangelicalChurches": [
+      {
+        "name": "Real Life Ministries",
+        "denomination": "Non-denominational",
+        "locations": ["Post Falls", "Coeur d'Alene", "Spirit Lake", "Hayden", "Online"],
+        "serviceTimes": "Sundays 8:30am, 10:00am, 11:30am",
+        "description": "Large non-denominational church with multiple campuses. Major community presence in North Idaho.",
+        "note": "One of the largest churches in Idaho. Not Reformed but significant evangelical presence."
+      },
+      {
+        "name": "Candlelight Christian Fellowship",
+        "location": "Coeur d'Alene, ID",
+        "description": "Large fellowship with family ministries, youth groups, children's programs. Hosts the annual North Idaho Homeschool Conference.",
+        "note": "Major community church with extensive family programming"
+      },
+      {
+        "name": "The Cause Church",
+        "location": "Coeur d'Alene, ID",
+        "website": "https://www.thecausecda.com/"
+      },
+      {
+        "name": "One Place Church",
+        "location": "North Idaho",
+        "description": "Jesus for North Idaho",
+        "website": "https://www.oneplacechurch.com/"
+      }
+    ],
+    "epcPresence": {
+      "note": "No EPC (Evangelical Presbyterian Church) congregation identified specifically in the CDA metro area. Nearest EPC congregations would need to be verified via epc.org locator. Spokane, WA (30 min west) may have EPC options."
+    },
+    "churchDensityAndVitality": {
+      "totalChristianNonprofits": 100,
+      "combinedRevenue": "$16 million+",
+      "assessment": "High church density and vitality. North Idaho has a strong, active Christian community. Multiple denominations represented. The Reformed ecosystem is small but present (OPC, PCA, CREC) and growing — the PCA church plant launched in 2023 signals demand. The broader evangelical community is robust with megachurches like Real Life Ministries and large fellowships like Candlelight.",
+      "note": "The faith community in CDA is notably active compared to Pacific Northwest norms. Many relocating families cite faith community as a primary draw."
+    },
+    "christianCommunityOrganizations": [
+      "American Heritage Girls (AHG) — faith-based character development for girls",
+      "Trail Life — Christ-centered adventure ministry for boys",
+      "Families Ignite — monthly family ministry at Candlelight Christian Fellowship",
+      "King's Highway Ministries — housing, food programs, mental health support",
+      "Communio CDA — Catholic community organization",
+      "Multiple church-based food banks and community outreach programs"
+    ]
+  },
+
+  "lifestyle": {
+    "climate": {
+      "type": "Four-season continental / Pacific maritime influenced",
+      "seasons": {
+        "summer": {
+          "avgHighF": 82,
+          "avgLowF": 52,
+          "description": "Short, warm, dry, mostly clear. Peak highs can reach 86-95F. June-August."
+        },
+        "fall": {
+          "avgHighF": 55,
+          "avgLowF": 34,
+          "description": "Cool and pleasant. Beautiful fall colors. September-November."
+        },
+        "winter": {
+          "avgHighF": 35,
+          "avgLowF": 24,
+          "description": "Very cold, snowy, mostly cloudy. December-February. Lows can drop below 9F occasionally."
+        },
+        "spring": {
+          "avgHighF": 57,
+          "avgLowF": 35,
+          "description": "Cool and gradually warming. March-May. Can be wet."
+        }
+      },
+      "annualRainfallInches": 27,
+      "annualSnowfallInches": {
+        "low": 42,
+        "high": 56,
+        "note": "Varies by source and elevation. City gets ~42 inches; surrounding hills more. January is snowiest month (~16 inches)."
+      },
+      "sunnyDaysPerYear": {
+        "low": 174,
+        "high": 200,
+        "note": "Varies by source. Winters are notably cloudy; summers are sunny and dry."
+      },
+      "comparisonToLexingtonKY": "Colder winters (CDA avg winter low 24F vs Lexington ~25F — similar), significantly more snow (42-56 in vs ~13 in), drier summers, less humid. Fewer sunny days overall due to cloudy Pacific Northwest-influenced winters."
+    },
+    "outdoorRecreation": {
+      "skiing": [
+        {
+          "name": "Schweitzer Mountain Resort",
+          "distance": "~80 miles north (1.5 hrs)",
+          "terrain": "2,900 acres, 92 trails",
+          "annualSnowfall": "300 inches",
+          "note": "Idaho's largest ski resort. Something for every skill level."
+        },
+        {
+          "name": "Silver Mountain Resort",
+          "distance": "~35 miles east (30-40 min via I-90)",
+          "description": "Year-round resort in Kellogg, ID. Skiing, snowboarding, snow tubing, snowshoeing. Also has waterpark.",
+          "note": "Closest ski area to CDA"
+        },
+        {
+          "name": "Lookout Pass Ski Area",
+          "distance": "~60 miles east (1 hr via I-90)",
+          "description": "On the Idaho-Montana border. Known for deep powder and family-friendly atmosphere."
+        }
+      ],
+      "waterSports": {
+        "lakeCoeurDAlene": "25 miles long, 1-3 miles wide. Boating, swimming, paddleboarding, kayaking, fishing. One of the most beautiful lakes in the US. Marina access, public beaches.",
+        "priestLake": "About 75 miles north. Remote, pristine. Boating, fishing, camping, swimming. Year-round recreation.",
+        "haydenLake": "North of CDA. Smaller, quieter. Boating, fishing.",
+        "note": "Lake recreation is a defining feature of CDA life. Summer revolves around the lake."
+      },
+      "hiking": {
+        "trails": "Hundreds of miles in Idaho Panhandle National Forests",
+        "highlights": [
+          "Trail of the Coeur d'Alenes — 72-mile paved scenic bike/walk path along CDA River",
+          "Tubbs Hill — iconic waterfront trail in downtown CDA",
+          "Caribou Ridge — 12.1 miles with 2,185 ft elevation gain",
+          "Mineral Ridge Trail — lake views",
+          "Canfield Mountain trails"
+        ]
+      },
+      "equestrian": {
+        "trailRiding": "Permitted on most national forest land. Idaho Panhandle National Forests offer horse riding and camping. Multiple trailheads with equestrian access.",
+        "specificTrails": [
+          "Lower Marie Creek Trail — classic horse riding trail",
+          "Trestle Creek, Gold Creek, Trout Creek, Rapid Lightening Creek drainages",
+          "Coeur d'Alene River National Recreation Trail"
+        ],
+        "guidedRides": "Available year-round at Riverside State Park and other locations",
+        "note": "Excellent equestrian area. National forest access, long riding season (spring through fall), and many horse-friendly properties."
+      },
+      "fishingAndHunting": {
+        "fishing": "Lake Coeur d'Alene (bass, trout, pike), fly fishing on CDA River, Priest Lake, St. Joe River. World-class fly fishing within 1-2 hours.",
+        "hunting": "Elk, mule deer, white-tailed deer, bear, upland birds, waterfowl. Idaho Fish & Game Region 1. Extensive national forest and BLM land access.",
+        "note": "Idaho is a premier state for hunting and fishing. Resident licenses are affordable."
+      },
+      "otherRecreation": [
+        "Silverwood Theme Park — largest theme park in the Pacific Northwest, located in Athol (15 min north of CDA)",
+        "Golf — The Coeur d'Alene Resort Golf Course (famous floating green), multiple other courses",
+        "Mountain biking — extensive trail network",
+        "Snowmobiling — extensive trails in winter",
+        "Cross-country skiing and snowshoeing",
+        "ATV/UTV trails throughout the region"
+      ]
+    },
+    "crimeRate": {
+      "totalCrimeRatePer100k": 1197,
+      "nationalAveragePer100k": 2119,
+      "comparisonToNational": "43.5% lower than national average",
+      "violentCrime": {
+        "totalIncidents": 139,
+        "ratePer100k": 241.5,
+        "chanceOfBeingVictim": "1 in 414"
+      },
+      "propertyCrime": {
+        "totalIncidents": 550,
+        "ratePer100k": 955.5,
+        "chanceOfBeingVictim": "1 in 105"
+      },
+      "trend": "Crime decreased 12% from 2023 to 2024, continuing a decade-long downward trend.",
+      "safetyRanking": "#42 out of 58 Idaho cities; #5,120 out of 9,896 US cities",
+      "note": "Overall safe. Crime rate well below national average. Property crime is the main concern, typical for a growing tourist area. Violent crime is low."
+    },
+    "walkabilityAndTraffic": {
+      "walkScore": 35,
+      "walkScoreDescription": "Car-dependent; most errands require a car. Downtown CDA is more walkable (up to 82 in some areas).",
+      "bikeScore": "Somewhat bikeable; varies by neighborhood",
+      "trafficCongestion": {
+        "status": "Increasing with population growth",
+        "hotspot": "I-90 between Post Falls and CDA — traffic volumes expected to double by 2045",
+        "improvements": "I-90 widening to 4 lanes each direction (State Hwy 41 to US-95) started 2025. Government Way widening project adding bike lanes, sidewalks, turn lanes.",
+        "note": "CDA has gotten noticeably more congested since 2020 growth boom. Rush hour backups on I-90 and US-95 are real but manageable compared to major metros. Not comparable to Lexington traffic — still relatively easy by city standards."
+      }
+    }
+  },
+
+  "community": {
+    "population": {
+      "cityOfCDA": {
+        "value": 58195,
+        "year": 2025,
+        "projected2026": 59086
+      },
+      "postFalls": {
+        "value": 43391,
+        "year": 2024
+      },
+      "metroMSA": {
+        "value": 188323,
+        "year": 2024,
+        "note": "Kootenai County total. Includes CDA, Post Falls, Hayden, Rathdrum, Dalton Gardens, etc."
+      },
+      "hayden": {
+        "value": "estimate 17,000-18,000",
+        "note": "Growing rapidly"
+      }
+    },
+    "populationGrowth": {
+      "cdaAnnualRate": "2.3%",
+      "kootenaiCountyRate": "1.7% (July 2023 to July 2024)",
+      "rathdrumRate": "6.19% since 2020 (highest in county)",
+      "tenYearTrend": "CDA grew from ~34,000 in early 2000s to ~58,000 in 2025. Massive acceleration during 2020-2023 pandemic migration.",
+      "migrationDrivers": [
+        "COVID-era exodus from CA, WA, OR, particularly Seattle and Portland metro areas",
+        "Remote work enabling relocation from high-cost cities",
+        "Political/cultural migration — conservative families seeking like-minded communities",
+        "American Redoubt movement adherents",
+        "Outdoor lifestyle seekers",
+        "Lower taxes compared to WA/OR/CA (no state income tax in WA but WA has high property tax; CA/OR have much higher income tax)"
+      ],
+      "note": "Growth has moderated from the 2020-2022 peak but remains strong. This is NOT a sleepy small town anymore — it is a rapidly growing small metro."
+    },
+    "familyFriendliness": {
+      "rating": "Very high",
+      "factors": [
+        "Strong public and private school options",
+        "Abundant outdoor recreation for all ages",
+        "Low crime rates",
+        "Active church communities with family programming",
+        "Silverwood Theme Park nearby",
+        "Lake recreation in summer",
+        "Ski resorts in winter",
+        "Multiple youth sports leagues and organizations",
+        "AHG (American Heritage Girls) and Trail Life programs available"
+      ]
+    },
+    "homeschoolCommunityStrength": {
+      "rating": "Very strong",
+      "details": "North Idaho has one of the strongest homeschool communities in the western US. Multiple co-ops (INCH, CC, Cabrini, CDA Homeschool Community), annual North Idaho conference at Candlelight Christian Fellowship, very permissive Idaho homeschool law (no registration, testing, or curriculum requirements). Many relocating families specifically cite homeschool friendliness.",
+      "idahoHomeschoolLaw": "Idaho has some of the most homeschool-friendly laws in the nation. No notification to state required. No standardized testing. No curriculum approval. Parents have full autonomy."
+    },
+    "conservativeFaithCommunityPresence": {
+      "strength": "Very strong",
+      "details": "North Idaho is one of the most politically and religiously conservative areas in the Pacific Northwest. The region has attracted thousands of conservative Christian families, particularly since 2016 and accelerating during 2020-2022. Churches are well-attended. Faith-based organizations are numerous. The community aligns strongly with traditional values.",
+      "politicalContext": "Kootenai County is deep red Republican. Idaho legislature is supermajority Republican. North Idaho state legislators tend to be among the most conservative in the state."
+    },
+    "americanRedoubt": {
+      "presence": "Significant",
+      "description": "The American Redoubt is a political migration movement proposed in 2011 by James Wesley Rawles designating Idaho, Montana, Wyoming, and eastern OR/WA as a safe haven for conservative, liberty-minded, and Christian families. North Idaho (especially Kootenai and Bonner counties) is one of the primary destinations.",
+      "impact": "Has contributed to population growth, pushed local politics further right, created 'Redoubt Realtors' specializing in resettlement. Clients typically seek defensible rural property and identify as Christian.",
+      "nuance": "The movement is a spectrum — from mainstream conservative Christian families seeking community to more survivalist/prepper-oriented adherents. Most newcomers are normal families attracted to the values, outdoor lifestyle, and lower cost of living (relative to coastal cities). Media coverage tends to focus on the extreme end.",
+      "note": "This is relevant context for your relocation. The movement has brought many like-minded Reformed/evangelical families to the area, strengthening the faith community. However, it has also driven up real estate prices and brought some political tensions with longer-term residents."
+    },
+    "civicEngagement": {
+      "level": "High",
+      "details": "Active community involvement. High voter turnout for Idaho. Engaged school boards. Multiple community organizations. The faith community drives significant civic participation. Library board, school board, and county commission races are often competitive and well-attended.",
+      "note": "North Idaho politics can be intense. School board and library board elections have become focal points for community values debates."
+    },
+    "spokanePullFactor": {
+      "distance": "33 miles west / 30-40 minutes via I-90",
+      "relevance": "Spokane, WA (pop ~230,000, metro ~600,000) provides big-city amenities — airport (GEG), major hospitals, shopping, restaurants, entertainment — while allowing CDA-area residents to live in Idaho's lower-tax, more conservative environment. Many CDA residents commute to Spokane for work or use it for shopping/flights.",
+      "note": "This is a major advantage of CDA — access to a mid-size city's amenities while living in a small-city/rural environment."
+    }
+  },
+
+  "sources": [
+    "https://www.areavibes.com/coeur+d'alene-id/cost-of-living/",
+    "https://www.salary.com/research/cost-of-living/coeur-d-alene-id",
+    "https://tax.idaho.gov/taxes/income-tax/individual-income/individual-income-tax-rate-schedule/",
+    "https://taxfoundation.org/location/idaho/",
+    "https://smartasset.com/taxes/idaho-tax-calculator",
+    "https://www.redfin.com/city/4370/ID/Coeur-d-Alene/housing-market",
+    "https://theeasyhomebuyer.com/blog/coeur-dalene-id-real-estate-market-trends-2026/",
+    "https://cdapress.com/news/2026/jan/11/kootenai-county-median-home-price-rises/",
+    "https://www.zillow.com/home-values/136166/coeur-dalene-id/",
+    "https://www.landwatch.com/idaho-land-for-sale/kootenai-county",
+    "https://www.land.com/Kootenai-County-ID/",
+    "https://www.land.com/Northern-Idaho-region/",
+    "https://www.land.com/Bonner-County-ID/all-land/",
+    "https://www.horseproperties.net/properties/kootenai-county-idaho-united-states",
+    "https://www.kcgov.us/958/Kootenai-County-Property-Tax-Rates",
+    "https://www.ownwell.com/trends/idaho/kootenai-county",
+    "https://www.niche.com/k12/classical-christian-academy-coeur-dalene-id/",
+    "https://www.classicalchristian.com/",
+    "https://www.kootenaiclassical.org",
+    "https://coeurduchrist.org/",
+    "https://www.northidahochristianschool.com/",
+    "https://www.scaidaho.org/",
+    "https://www.privateschoolreview.com/idaho/coeur-d-alene",
+    "https://logosschool.com/",
+    "https://en.wikipedia.org/wiki/Logos_School",
+    "https://www.niche.com/k12/d/coeur-dalene-school-district-id/",
+    "https://www.publicschoolreview.com/idaho/coeur-d-alene-school-district/1600780-school-district",
+    "https://www.usnews.com/education/best-high-schools/idaho/districts/coeur-dalene-district/coeur-d-alene-high-school-6270",
+    "https://classicalconversations.com/locations/homeschool-idaho/",
+    "https://www.inchhome.com/how_to_join.php",
+    "https://www.thehomeschoolmom.com/homeschooling-in-idaho/homeschool-co-ops-academic-enrichment-classes/",
+    "https://homeschoolidaho.org/north-idaho-conference/",
+    "https://covenantopc.church/about/",
+    "https://immanuelpca.org/about/",
+    "https://trinitycda.org/",
+    "https://crechurches.org/churches/",
+    "https://www.northidaho.org/resources/churches",
+    "https://www.reallifeministries.com",
+    "https://www.causeiq.com/directory/christian-organizations-list/coeur-dalene-id-metro/",
+    "https://candlelight.org/ministries/family",
+    "https://weatherspark.com/y/2174/Average-Weather-in-Coeur-d'Alene-Idaho-United-States-Year-Round",
+    "https://www.bestplaces.net/climate/city/idaho/coeur_d'alene",
+    "https://en.climate-data.org/north-america/united-states-of-america/idaho/coeur-d-alene-15962/",
+    "https://www.schweitzer.com/",
+    "https://www.silvermt.com/",
+    "https://visitidaho.org/regions/north/",
+    "https://www.fs.usda.gov/r01/idahopanhandle/recreation/opportunities/horse-riding-and-camping",
+    "https://www.alltrails.com/us/idaho/coeur-d-alene--2/horseback-riding",
+    "https://www.homesnacks.com/id/coeur-d'alene-crime/",
+    "https://crimegrade.org/safest-places-in-coeur-d-alene-id/",
+    "https://cdapress.com/news/2025/apr/26/report-coeur-dalene-crime-rate-decreases/",
+    "https://www.walkscore.com/ID/Coeur_d'Alene",
+    "https://www.krem.com/article/money/economy/boomtown-inland-northwest/boomtown-i-90-expanding-post-falls-coeur-dalene/293-e36d950e-290d-4dd6-9653-9c06c32fcbb5",
+    "https://www.census.gov/quickfacts/fact/table/coeurdalenecityidaho/PST045224",
+    "https://worldpopulationreview.com/us-cities/idaho/coeur-dalene",
+    "https://cdapress.com/news/2025/mar/19/north-idaho-cities-continue-to-grow-as-state-population-growth-slows/",
+    "https://en.wikipedia.org/wiki/American_Redoubt",
+    "https://www.washingtonpost.com/religion/2023/02/24/idaho-christian-nationalism-marjorie-taylor-greene/",
+    "https://www.bls.gov/eag/eag.id_coeurdalene_msa.htm",
+    "https://fred.stlouisfed.org/series/COEU616UR",
+    "https://www.spokanejournal.com/articles/15631-kootenai-countys-largest-employers-list",
+    "https://businessjournalnorthidaho.com/news/2024/jun/25/jobs-plus-leader-industry-leaders-remain-nibj/",
+    "https://ourtowncda.com/our-areas/dalton-gardens/",
+    "https://www.travelmath.com/drive-distance/from/Coeur+d'Alene,+ID/to/Moscow,+ID",
+    "https://www.208homesforsale.com/horse-property/"
+  ]
+}

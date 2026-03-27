@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Housing &amp; Land — Where Next?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="./index.html" class="nav-brand">Where Next?</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="nav-link">Overview</a></li>
+        <li><a href="./cost-of-living.html" class="nav-link">Cost of Living</a></li>
+        <li><a href="./housing.html" class="nav-link active">Housing</a></li>
+        <li><a href="./education.html" class="nav-link">Education</a></li>
+        <li><a href="./faith.html" class="nav-link">Faith</a></li>
+        <li><a href="./lifestyle.html" class="nav-link">Lifestyle</a></li>
+        <li><a href="./community.html" class="nav-link">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Housing &amp; Land</h1>
+      <p class="subtitle">Comparing housing markets, property taxes, and ranch/acreage availability across all eight cities. Land for horses and family space is a top priority.</p>
+    </div>
+  </section>
+
+  <!-- Median Home Price Bar Chart -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Median Home Price</h2>
+        <p class="section-subtitle">All eight cities, sorted lowest to highest</p>
+      </div>
+
+      <div class="bar-chart">
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Columbia, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 39.3%;">
+              <span class="bar-chart-value">$271K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Lexington, KY</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill baseline" style="width: 47.8%;">
+              <span class="bar-chart-value">$330K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Chattanooga, TN</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 48.6%;">
+              <span class="bar-chart-value">$335K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Greenville, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 50.7%;">
+              <span class="bar-chart-value">$350K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sarasota, FL</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 70.3%;">
+              <span class="bar-chart-value">$485K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Coeur d'Alene, ID</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 87.1%;">
+              <span class="bar-chart-value">$601K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Bend, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 98.4%;">
+              <span class="bar-chart-value">$679K</span>
+            </div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sisters, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 100%;">
+              <span class="bar-chart-value">$690K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Conditions Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Market Conditions</h2>
+        <p class="section-subtitle">Home prices, market pace, and property tax burden</p>
+      </div>
+
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Median Home Price</th>
+              <th>Days on Market</th>
+              <th>Market Condition</th>
+              <th>Property Tax on $400K</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>$271,000</td>
+              <td>50</td>
+              <td>Balanced</td>
+              <td>$1,800</td>
+            </tr>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>$330,000</td>
+              <td>64</td>
+              <td>Balanced</td>
+              <td>$3,480</td>
+            </tr>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>$335,000</td>
+              <td>45</td>
+              <td>Seller's</td>
+              <td>$1,510</td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>$350,000</td>
+              <td>67</td>
+              <td>Balanced</td>
+              <td>$1,800</td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>$485,000</td>
+              <td>54</td>
+              <td>Balanced</td>
+              <td>$3,700</td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>$601,000</td>
+              <td>45</td>
+              <td>Balanced</td>
+              <td>$2,520</td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>$679,000</td>
+              <td>66</td>
+              <td>Balanced</td>
+              <td>$2,880</td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>$690,000</td>
+              <td>70</td>
+              <td>Buyer's</td>
+              <td>$2,600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ranch & Acreage Section -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Ranch &amp; Acreage Land</h2>
+        <p class="section-subtitle">A top priority for the family -- space for horses, room to roam, and rural character within reach of town</p>
+      </div>
+
+      <div class="table-responsive mb-4">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Price Per Acre (Ranch Land)</th>
+              <th>Land Availability</th>
+              <th>Horse-Friendly Zoning</th>
+              <th>Best Areas for Land</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>$6K - $30K</td>
+              <td>Excellent</td>
+              <td>Yes</td>
+              <td>Surrounding counties (Woodford, Scott, Jessamine)</td>
+            </tr>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>$12K - $20K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Sequatchie Valley, Soddy-Daisy</td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>$9K - $25K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Laurens County, Pickens County, Easley</td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>$10K - $54K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Newberry County, Lexington County</td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>$2K - $22K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Crook County, Jefferson County (cheaper)</td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>$8K - $48K</td>
+              <td>Limited</td>
+              <td>Yes</td>
+              <td>Tumalo area (best for ranch)</td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>$35K - $54K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Myakka City, east county</td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>$22K - $47K</td>
+              <td>Good</td>
+              <td>Yes</td>
+              <td>Bonner County (cheaper), Kootenai County</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="mb-3">Land Profiles by City</h3>
+
+      <div class="grid-2">
+        <article class="stat-card baseline-highlight">
+          <h4 class="mb-1">Lexington, KY</h4>
+          <p>The Horse Capital of the World. Surrounding counties (Woodford, Scott, Jessamine, Madison) offer abundant 10+ acre parcels at $6K-$30K per acre. This is one of the best places in the country for equestrian land -- horse-friendly zoning is the norm, not the exception. Southern Fayette County provides equestrian estates with rural character while remaining minutes from city amenities.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Chattanooga, TN</h4>
+          <p>The Sequatchie Valley (30-45 min west) offers the best ranch value at $12K-$20K per acre, with parcels of 10+ acres regularly available. Soddy-Daisy provides more affordable horse property closer to town. Hamilton County zoning accommodates livestock on larger lots throughout the unincorporated areas.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Greenville, SC</h4>
+          <p>Easley and Pickens County to the west, plus Fountain Inn and Laurens County to the south, offer the most affordable acreage at $9K-$25K per acre. The agricultural character of these areas makes horse ownership straightforward. Tryon, NC (a major equestrian hub) is only 45 minutes away, adding to the equestrian infrastructure.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Columbia, SC</h4>
+          <p>Newberry and outer Lexington County provide good ranch land at $10K-$54K per acre, with the lower end of that range available in more rural areas. Lake Murray suburbs like Chapin offer some larger lots. The Aiken equestrian district, one of the premier horse communities in the Southeast, is about an hour away.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Bend, OR</h4>
+          <p>The cheapest raw acreage of any city on the list -- Crook and Jefferson counties start around $2K per acre for large parcels. Tumalo and rural Bend offer horse properties with larger lots. The Deschutes National Forest provides extensive equestrian trail access. The trade-off is that home prices in Bend proper are among the highest.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Sisters, OR</h4>
+          <p>Cascade Meadow Ranch is a premier equestrian community with smaller lots. For larger ranch parcels, the Tumalo area between Sisters and Bend is the best option but comes at $8K-$48K per acre. Overall land availability is limited due to the tiny market and surrounding federal land. The Sisters Rodeo and national forest trail access are strong equestrian draws.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Sarasota, FL</h4>
+          <p>Myakka City and east Sarasota County offer rural acreage at $35K-$54K per acre -- the most expensive ranch land on the list. Horse-friendly zoning exists in these areas but inventory is limited and prices are elevated. The 30-45 minute drive to downtown Sarasota is the trade-off for rural living. Private equestrian communities like Little Manatee provide options.</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Coeur d'Alene, ID</h4>
+          <p>Dalton Gardens (a semi-rural enclave with 1-acre minimum lots) allows horses and sits close to town. Rathdrum and Post Falls offer larger parcels. Bonner County to the north is significantly cheaper than Kootenai County. National forest horse trails are abundant. Land prices range from $22K-$47K per acre, placing it in the upper-middle tier.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neighborhoods of Interest -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Neighborhoods of Interest</h2>
+        <p class="section-subtitle">Recommended neighborhoods with price ranges and family ratings</p>
+      </div>
+
+      <!-- Lexington, KY -->
+      <h3 class="mb-2">Lexington, KY</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card baseline-highlight">
+          <h4 class="mb-1">Chevy Chase-Ashland Park</h4>
+          <p class="label mb-1">$300K - $600K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Historic charm, tree-lined streets, near UK campus</p>
+        </article>
+        <article class="stat-card baseline-highlight">
+          <h4 class="mb-1">Tates Creek</h4>
+          <p class="label mb-1">$250K - $450K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Diverse, inclusive, family-friendly</p>
+        </article>
+        <article class="stat-card baseline-highlight">
+          <h4 class="mb-1">Southern Fayette County</h4>
+          <p class="label mb-1">$400K - $1M+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Equestrian estates, 10+ acre lots, rural character</p>
+        </article>
+      </div>
+
+      <!-- Chattanooga, TN -->
+      <h3 class="mb-2">Chattanooga, TN</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Signal Mountain</h4>
+          <p class="label mb-1">$225K - $1M+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Stunning views, cooler temps, near EPC church</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Lookout Mountain</h4>
+          <p class="label mb-1">$400K - $3M+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Covenant College, LMPC nearby, premier family suburb</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Sequatchie Valley</h4>
+          <p class="label mb-1">$150K - $500K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Best value for 10+ acre ranch, 30-45 min west</p>
+        </article>
+      </div>
+
+      <!-- Greenville, SC -->
+      <h3 class="mb-2">Greenville, SC</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Travelers Rest</h4>
+          <p class="label mb-1">$300K - $600K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Mountain gateway, Swamp Rabbit Trail, small-town feel</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Simpsonville</h4>
+          <p class="label mb-1">$300K - $550K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Top schools, GCA located here</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Easley / Pickens County</h4>
+          <p class="label mb-1">$200K - $400K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Best for acreage, horse-friendly, lower prices</p>
+        </article>
+      </div>
+
+      <!-- Columbia, SC -->
+      <h3 class="mb-2">Columbia, SC</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Lexington, SC</h4>
+          <p class="label mb-1">$175K - $400K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Top school district, Lake Murray access, safest suburb</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Chapin</h4>
+          <p class="label mb-1">$300K - $600K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Lakeside, outstanding schools (Lex-Rich 5), small-town charm</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Blythewood</h4>
+          <p class="label mb-1">$265K - $500K</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Newer developments, strong schools, safer than 94% of SC</p>
+        </article>
+      </div>
+
+      <!-- Coeur d'Alene, ID -->
+      <h3 class="mb-2">Coeur d'Alene, ID</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Dalton Gardens</h4>
+          <p class="label mb-1">$500K - $800K+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>1-acre min lots, horses allowed, semi-rural enclave</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Post Falls</h4>
+          <p class="label mb-1">$425K - $500K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>More affordable, Immanuel PCA, Kootenai Classical</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Rathdrum</h4>
+          <p class="label mb-1">$400K - $550K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Small-town feel, highest growth, larger parcels</p>
+        </article>
+      </div>
+
+      <!-- Sarasota, FL -->
+      <h3 class="mb-2">Sarasota, FL</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Lakewood Ranch</h4>
+          <p class="label mb-1">$400K - $1M+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Award-winning master-planned, top schools</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Bee Ridge / Sarasota Springs</h4>
+          <p class="label mb-1">$300K - $500K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>More affordable, solid value</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Myakka City / East County</h4>
+          <p class="label mb-1">$350K - $600K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Rural, best for acreage/horses, 30-45 min to downtown</p>
+        </article>
+      </div>
+
+      <!-- Bend, OR -->
+      <h3 class="mb-2">Bend, OR</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Northwest Crossing</h4>
+          <p class="label mb-1">$600K - $1M+</p>
+          <p class="caption mb-1">Family Rating: Excellent</p>
+          <p>Master-planned, walkable, parks, near top schools</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Southeast Bend</h4>
+          <p class="label mb-1">$400K - $600K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>More affordable, newer developments</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Tumalo / Rural Bend</h4>
+          <p class="label mb-1">$500K - $1.5M+</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Horse properties, larger lots, rural feel</p>
+        </article>
+      </div>
+
+      <!-- Sisters, OR -->
+      <h3 class="mb-2">Sisters, OR</h3>
+      <div class="grid-3 mb-4">
+        <article class="stat-card">
+          <h4 class="mb-1">Tollgate</h4>
+          <p class="label mb-1">$500K - $800K</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Family-friendly, pool, tennis, 2 miles from town</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Cascade Meadow Ranch</h4>
+          <p class="label mb-1">$800K - $1.5M+</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Premier equestrian community, smaller lots</p>
+        </article>
+        <article class="stat-card">
+          <h4 class="mb-1">Tumalo Area</h4>
+          <p class="label mb-1">$500K - $1.5M+</p>
+          <p class="caption mb-1">Family Rating: Good</p>
+          <p>Best for 10+ acre horse/ranch property</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Takeaways -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Key Takeaways</h2>
+      </div>
+
+      <p><strong>Most affordable housing:</strong> Columbia, SC stands out with a median home price of $271K -- roughly 60% less than the Oregon cities. Chattanooga ($335K) and Lexington ($330K) follow closely and also carry low property tax burdens, with Chattanooga offering the lowest property tax of any city on the list at $1,510 on a $400K home.</p>
+
+      <p><strong>Best land availability:</strong> Lexington, KY earns an "Excellent" rating for land availability and offers the strongest horse-friendly infrastructure in the country. Its surrounding counties provide 10+ acre parcels starting at just $6K per acre. Bend, OR has surprisingly cheap raw acreage in neighboring Crook and Jefferson counties (from $2K/acre), though home prices in town are prohibitive.</p>
+
+      <p><strong>Best combination of affordable homes and available acreage:</strong> Chattanooga, Greenville, and Lexington offer the strongest overall package. All three have median home prices under $350K, ranch land priced at $6K-$25K per acre, horse-friendly zoning, and good-to-excellent land availability. Among these, Lexington has the edge for equestrian families, while Chattanooga offers the lowest overall cost with no state income tax. Greenville provides the best balance of affordable surrounding-county land with proximity to a vibrant, growing metro.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="./methodology.html">Methodology &amp; Sources</a>
+      <span>Research date: March 2026</span>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

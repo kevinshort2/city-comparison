@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cost of Living — Where Next?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="./index.html" class="nav-logo">Where Next?</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="nav-link">Overview</a></li>
+        <li><a href="./cost-of-living.html" class="nav-link active">Cost of Living</a></li>
+        <li><a href="./housing.html" class="nav-link">Housing</a></li>
+        <li><a href="./education.html" class="nav-link">Education</a></li>
+        <li><a href="./faith.html" class="nav-link">Faith</a></li>
+        <li><a href="./lifestyle.html" class="nav-link">Lifestyle</a></li>
+        <li><a href="./community.html" class="nav-link">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1. Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Cost of Living</h1>
+      <p class="subtitle">Comparing affordability, taxes, and everyday expenses across all 8 candidate cities, with Lexington, KY as the baseline (index 100 = national average).</p>
+    </div>
+  </section>
+
+  <!-- 2. Overall Cost of Living Index -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Overall Cost of Living Index</h2>
+        <p class="section-subtitle">National average = 100. Lower is more affordable. Sorted from most to least affordable.</p>
+      </div>
+      <div class="bar-chart">
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Chattanooga, TN</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 66.1%"><span class="bar-chart-value">88.6</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Lexington, KY</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill baseline" style="width: 67.8%"><span class="bar-chart-value">90.8</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Greenville, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 68.1%"><span class="bar-chart-value">91.3</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Columbia, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 73.9%"><span class="bar-chart-value">99.0</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sarasota, FL</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 78.4%"><span class="bar-chart-value">105.0</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Coeur d'Alene, ID</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 85.1%"><span class="bar-chart-value">114.0</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Bend, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 99.3%"><span class="bar-chart-value">133.0</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sisters, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 100%"><span class="bar-chart-value">134.0</span></div>
+            <div style="position:absolute;left:74.6%;top:0;bottom:0;border-left:2px dashed var(--color-text-muted);z-index:1;" title="National Avg (100)"></div>
+          </div>
+        </div>
+      </div>
+      <p class="caption mt-2">Dashed line = national average (100). Amber bar = Lexington baseline.</p>
+    </div>
+  </section>
+
+  <!-- 3. Tax Comparison Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Tax Comparison</h2>
+        <p class="section-subtitle">State income tax, sales tax, and effective property tax rates.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>State Income Tax</th>
+              <th>Sales Tax</th>
+              <th>Property Tax Rate</th>
+              <th>Property Tax on $400K Home</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>0%</td>
+              <td>9.25%</td>
+              <td>0.56%</td>
+              <td>$1,510</td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>0%</td>
+              <td>7.0%</td>
+              <td>1.05%</td>
+              <td>$3,700</td>
+            </tr>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>3.5%</td>
+              <td>6.0%</td>
+              <td>0.87%</td>
+              <td>$3,480</td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>0% - 6.0%</td>
+              <td>6.0%</td>
+              <td>0.45%</td>
+              <td>$1,800</td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>0% - 6.0%</td>
+              <td>7.49%</td>
+              <td>0.45%</td>
+              <td>$1,800</td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>5.30%</td>
+              <td>6.0%</td>
+              <td>0.63%</td>
+              <td>$2,520</td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>4.75% - 9.9%</td>
+              <td>0%</td>
+              <td>0.72%</td>
+              <td>$2,880</td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>4.75% - 9.9%</td>
+              <td>0%</td>
+              <td>0.65%</td>
+              <td>$2,600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Housing Cost Index -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Housing Cost Index</h2>
+        <p class="section-subtitle">National average = 100. Housing is typically the largest factor in cost-of-living differences.</p>
+      </div>
+      <div class="bar-chart">
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Lexington, KY</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill baseline" style="width: 37.8%"><span class="bar-chart-value">76</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Chattanooga, TN</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 42.3%"><span class="bar-chart-value">85</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Greenville, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 47.3%"><span class="bar-chart-value">95</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Columbia, SC</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 51.2%"><span class="bar-chart-value">103</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sarasota, FL</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 64.7%"><span class="bar-chart-value">130</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Coeur d'Alene, ID</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 68.2%"><span class="bar-chart-value">137</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Bend, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 99.0%"><span class="bar-chart-value">199</span></div>
+          </div>
+        </div>
+        <div class="bar-chart-row">
+          <span class="bar-chart-label">Sisters, OR</span>
+          <div class="bar-chart-track">
+            <div class="bar-chart-fill" style="width: 100%"><span class="bar-chart-value">201</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="caption mt-2">Amber bar = Lexington baseline. Sorted from most to least affordable.</p>
+    </div>
+  </section>
+
+  <!-- 5. Everyday Costs Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Everyday Costs</h2>
+        <p class="section-subtitle">Grocery, utilities, and transportation indices. National average = 100. Arrows show delta vs. Lexington.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Grocery Index</th>
+              <th>Utilities Index</th>
+              <th>Transportation Index</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>100.0</td>
+              <td>86.0</td>
+              <td>96.0</td>
+            </tr>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>96.5 <span class="delta delta--green">&#9660; -3.5</span></td>
+              <td>86.6 <span class="delta delta--red">&#9650; +0.6</span></td>
+              <td>89.0 <span class="delta delta--green">&#9660; -7.0</span></td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>99.7 <span class="delta delta--green">&#9660; -0.3</span></td>
+              <td>96.9 <span class="delta delta--red">&#9650; +10.9</span></td>
+              <td>76.2 <span class="delta delta--green">&#9660; -19.8</span></td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>99.0 <span class="delta delta--green">&#9660; -1.0</span></td>
+              <td>100.0 <span class="delta delta--red">&#9650; +14.0</span></td>
+              <td>91.0 <span class="delta delta--green">&#9660; -5.0</span></td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>107.0 <span class="delta delta--red">&#9650; +7.0</span></td>
+              <td>105.0 <span class="delta delta--red">&#9650; +19.0</span></td>
+              <td>102.0 <span class="delta delta--red">&#9650; +6.0</span></td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>102.0 <span class="delta delta--red">&#9650; +2.0</span></td>
+              <td>100.0 <span class="delta delta--red">&#9650; +14.0</span></td>
+              <td>119.0 <span class="delta delta--red">&#9650; +23.0</span></td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>106.0 <span class="delta delta--red">&#9650; +6.0</span></td>
+              <td>93.0 <span class="delta delta--red">&#9650; +7.0</span></td>
+              <td>112.0 <span class="delta delta--red">&#9650; +16.0</span></td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>106.0 <span class="delta delta--red">&#9650; +6.0</span></td>
+              <td>93.0 <span class="delta delta--red">&#9650; +7.0</span></td>
+              <td>112.0 <span class="delta delta--red">&#9650; +16.0</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Income & Employment Table -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Income and Employment</h2>
+        <p class="section-subtitle">Median household income, unemployment rates, and major industries.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Median Household Income</th>
+              <th>Unemployment Rate</th>
+              <th>Top Industries</th>
+              <th>Remote-Friendly</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="baseline-row">
+              <td>Lexington, KY</td>
+              <td>$75,818</td>
+              <td>3.8%</td>
+              <td>Higher Ed / Healthcare, Manufacturing, Logistics, Equine, Tech</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Bend, OR</td>
+              <td>$105,100</td>
+              <td>5.0%</td>
+              <td>Healthcare, Hospitality, Manufacturing, Professional Services, Construction</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Sisters, OR</td>
+              <td>$94,524</td>
+              <td>4.8%</td>
+              <td>Healthcare, Hospitality, Education, Construction, Government</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Sarasota, FL</td>
+              <td>$70,065</td>
+              <td>4.3%</td>
+              <td>Healthcare, Retail, Professional Services, Tourism, Construction</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Chattanooga, TN</td>
+              <td>$61,028</td>
+              <td>3.2%</td>
+              <td>Healthcare / Insurance, Manufacturing, Technology, Logistics, Tourism</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>Greenville, SC</td>
+              <td>$68,460</td>
+              <td>4.4%</td>
+              <td>Healthcare, Manufacturing (GE, Michelin), Automotive (BMW), Professional Services, Education</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>$55,653</td>
+              <td>4.5%</td>
+              <td>State Government, Military (Ft. Jackson), Healthcare, Higher Ed (USC), Manufacturing</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Coeur d'Alene, ID</td>
+              <td>$73,526</td>
+              <td>3.6%</td>
+              <td>Healthcare, Education, Retail / Hospitality, Manufacturing, Professional Services</td>
+              <td>High</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Key Takeaways -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Key Takeaways</h2>
+      </div>
+      <p>
+        <strong>Chattanooga, TN</strong> is the most affordable city overall (index 88.6), narrowly edging out Lexington (90.8) and Greenville (91.3). All three sit well below the national average of 100. <strong>Columbia, SC</strong> (99.0) is nearly average, while <strong>Sarasota</strong> (105) and <strong>Coeur d'Alene</strong> (114) run moderately above. The Oregon cities -- <strong>Bend</strong> (133) and <strong>Sisters</strong> (134) -- are the most expensive, driven almost entirely by housing indices near 200.
+      </p>
+      <p>
+        On taxes, <strong>Florida</strong> and <strong>Tennessee</strong> stand out with zero state income tax. Chattanooga offsets this with a high 9.25% sales tax but has the lowest property tax bill ($1,510 on a $400K home). <strong>Oregon</strong> has no sales tax but imposes steep income tax (up to 9.9%). South Carolina and Idaho fall in the middle with moderate income tax and property tax. Lexington's 3.5% flat income tax and $3,480 property tax on $400K are moderate by comparison.
+      </p>
+      <p>
+        For remote workers earning an out-of-state income, the no-income-tax states (FL, TN) offer the clearest financial advantage. For families prioritizing overall affordability with a balanced tax picture, Chattanooga, Lexington, and Greenville offer the strongest value.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="./methodology.html">Methodology &amp; Sources</a>
+      <span>Research date: March 2026</span>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+
+  <style>
+    /* Delta arrows inline in tables */
+    .delta {
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 0.25rem;
+    }
+    .delta--green { color: var(--color-positive); }
+    .delta--red { color: var(--color-negative); }
+    .delta--neutral { color: var(--color-text-muted); }
+  </style>
+</body>
+</html>

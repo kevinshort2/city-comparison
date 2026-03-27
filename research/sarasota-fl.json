@@ -1,0 +1,418 @@
+{
+  "city": "Sarasota",
+  "state": "Florida",
+  "metro": "North Port-Bradenton-Sarasota MSA",
+  "researchDate": "2026-03-27",
+
+  "costOfLiving": {
+    "overallIndex": 105,
+    "overallIndexNote": "5-8% above national average (100), varies by source; housing is primary driver",
+    "medianHouseholdIncome": 70065,
+    "medianHouseholdIncomeCounty": 80633,
+    "stateIncomeTaxRate": 0.0,
+    "stateIncomeTaxNote": "Florida has no state income tax",
+    "salesTaxRate": 0.07,
+    "salesTaxBreakdown": {
+      "state": 0.06,
+      "county": 0.01
+    },
+    "propertyTaxRate": {
+      "effectiveMedianCounty": 0.0109,
+      "effectiveMedianCity": 0.0105,
+      "homesteadedApproximate": 0.012,
+      "nonHomesteadedApproximate": 0.014,
+      "note": "Varies significantly within county. Myakka City lowest at 0.74%, North Venice highest at 1.82%"
+    },
+    "groceryIndex": 107,
+    "groceryIndexNote": "Groceries cost ~7% more than national average",
+    "utilitiesIndex": 105,
+    "utilitiesIndexNote": "Utilities ~5% above national average; basic utilities (electric, water, trash) for 915sqft ~$162/mo, which is 22% below national average for that metric",
+    "transportationIndex": 102,
+    "transportationIndexNote": "Transportation ~2% above national average; gas ~$3.31/gal; ~$550-600/mo for two-car household",
+    "unemploymentRate": 0.043,
+    "unemploymentRateDate": "July 2025",
+    "topIndustries": [
+      "Healthcare & Social Assistance (37,286 jobs)",
+      "Retail Trade (35,979 jobs)",
+      "Professional & Business Services",
+      "Hospitality & Tourism",
+      "Construction & Real Estate"
+    ],
+    "majorEmployers": [
+      "Sarasota Memorial Hospital (10,597 employees)",
+      "School Board of Sarasota County",
+      "Publix Super Markets",
+      "Sarasota County Government"
+    ],
+    "averageAnnualWage": 65111,
+    "aliceReportSurvivalBudgetFamily4": 104425,
+    "aliceReportNote": "United Way ALICE report estimates bare-bones survival at $104,425/yr for family of 4, well above median household income"
+  },
+
+  "housing": {
+    "medianHomePriceSingleFamily": 485000,
+    "medianHomePriceDate": "December 2025",
+    "medianHomePriceMetro": 465000,
+    "medianHomePriceMetroNote": "Sarasota-Manatee County metro, ~8% below 2022 peak but 40% above pre-pandemic 2020 ($332K)",
+    "pricePerAcreRuralRanch": {
+      "myakkaCityAverage": 53832,
+      "myakkaCityFarmland": 36218,
+      "tenAcreParcelEstimate": "35000-54000 per acre",
+      "eastManateeCountyMedian": 48192,
+      "note": "A recent 10-acre lot in Myakka listed at ~$395K ($39,500/acre). Farmland cheaper; developed parcels more expensive."
+    },
+    "horsePropertyAvailability": {
+      "available": true,
+      "equestrianCommunities": [
+        "Desoto Acres",
+        "Magnolia Hill",
+        "Myakka Valley Ranches",
+        "Panther Ridge",
+        "Pomello Park",
+        "Saddle Creek",
+        "Saddle Oak",
+        "Sarasota Polo Club",
+        "Waterbury Tracts"
+      ],
+      "typicalLotSizes": "1-10 acres, many communities have 5 or 10 acre minimums",
+      "zoning": "Agricultural/rural zoning in Myakka area and east Manatee readily supports horses and livestock",
+      "note": "10+ acre parcels available in Myakka City (Sarasota/Manatee county line area), ~30-45 min from downtown Sarasota"
+    },
+    "marketConditions": {
+      "inventoryActiveListingsSingleFamily": 3245,
+      "inventoryDate": "November 2025",
+      "monthsOfSupplySingleFamily": 5.0,
+      "monthsOfSupplyCondo": 7.5,
+      "medianDaysToContract": 54,
+      "medianDaysToClose": 94,
+      "marketTrend": "Shifting from seller's market to balanced market. Most balanced conditions since 2014. Single-family more stable than condos.",
+      "yearOverYearPriceChange": "-8% from 2022 peak, prices stabilizing in 2025-2026"
+    },
+    "propertyTaxOn400KHome": {
+      "estimatedAnnual": 4200,
+      "estimatedWithHomesteadExemption": 3700,
+      "note": "Assumes homesteaded at ~1.05% effective rate on $400K. Homestead exemption reduces taxable value by $50K. Actual varies by location within county."
+    },
+    "notableNeighborhoodsForFamilies": [
+      {
+        "name": "Lakewood Ranch",
+        "description": "Award-winning master-planned community spanning 30,000+ acres across Sarasota and Manatee counties. Top-rated schools, golf courses, fitness centers, pools. One of fastest-growing communities in US.",
+        "priceRange": "$400K-$1M+"
+      },
+      {
+        "name": "Palmer Ranch",
+        "description": "Established 10,000+ acre master-planned community. Mature landscaping, excellent schools, diverse housing options from single-family to luxury estates.",
+        "priceRange": "$350K-$800K"
+      },
+      {
+        "name": "Bee Ridge / Sarasota Springs",
+        "description": "More affordable areas with good school access and established neighborhoods. Solid value for families.",
+        "priceRange": "$300K-$500K"
+      },
+      {
+        "name": "Myakka City / East County",
+        "description": "Rural agricultural community. Best option for acreage, horses, ranch lifestyle. 30-45 min to downtown Sarasota.",
+        "priceRange": "$350K-$600K for homes on 5+ acres"
+      }
+    ]
+  },
+
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "The Classical Academy of Sarasota (TCA)",
+        "grades": "PK-12",
+        "enrollment": 932,
+        "approximateTuition": 12500,
+        "tuitionNote": "~$12,500/yr for private students. Florida Private School Choice Scholarships available to all K-12 families regardless of income.",
+        "accreditation": "Accredited",
+        "approach": "Rigorous content-rich classical liberal arts education with focus on virtuous character development",
+        "website": "tcasarasota.com"
+      },
+      {
+        "name": "Liberty Christian Academy",
+        "grades": "K-7 (growing through 12th)",
+        "enrollment": 87,
+        "approximateTuition": null,
+        "tuitionNote": "Founded 2022, growing school. Tuition offset by state EdChoice scholarships. Contact for current rates.",
+        "accreditation": "Newer school, accreditation in progress",
+        "approach": "Classical Christian model emphasizing thinking clearly, living virtuously, loving what is true, good, and beautiful. 10:1 student-teacher ratio.",
+        "website": "lcasarasota.com"
+      }
+    ],
+    "otherNotablePrivateSchools": [
+      {
+        "name": "Sarasota Christian School",
+        "grades": "PK-12",
+        "description": "Christ-centered education with variable tuition (40-90% of full cost). Well-established.",
+        "website": "sarasotachristian.org"
+      },
+      {
+        "name": "Pine View School",
+        "type": "Public gifted magnet",
+        "grades": "2-12",
+        "description": "Consistently ranked among top public schools in Florida and nationally. 99% graduation rate.",
+        "note": "Public school but admission by qualifying IQ test"
+      }
+    ],
+    "publicSchoolDistrict": {
+      "name": "Sarasota County Schools",
+      "overallGrade": "A",
+      "gradeStreak": "22 consecutive years of 'A' rating from Florida DOE",
+      "stateRanking": "#2 best school district in Florida (Niche 2025)",
+      "percentAorBSchools": 95,
+      "graduationRates": {
+        "pineViewSchool": 0.99,
+        "suncoastPolytechnical": 0.98,
+        "riverviewHigh": 0.89
+      },
+      "collegeReadinessScores": {
+        "pineViewSchool": 98.7,
+        "suncoastPolytechnical": 60.8,
+        "riverviewHigh": 63.0
+      }
+    },
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "available": true,
+        "region": "Central SW FL",
+        "locations": "Multiple communities in Bradenton, Sarasota, Venice, and surrounding areas",
+        "programs": ["Foundations", "Essentials", "Challenge"],
+        "description": "Weekly co-op meetings with trained parent tutors. K-12 classical curriculum with memorization, oral presentations, science experiments, fine arts, essay writing, math, debates, and labs.",
+        "website": "classicalconversations.com/community-search/"
+      },
+      "otherCoOps": [
+        "Florida Parent Educators Association (FPEA) lists multiple Sarasota County homeschool groups",
+        "Learning and Families Organization (local homeschool support)"
+      ],
+      "homeschoolLegalNote": "Florida is homeschool-friendly with multiple legal pathways: county notification, private school umbrella, or private tutor options"
+    }
+  },
+
+  "faith": {
+    "reformedPresbyterianChurches": [
+      {
+        "name": "Covenant Life Church (PCA)",
+        "denomination": "Presbyterian Church in America",
+        "location": "8490 McIntosh Rd, Sarasota, FL 34238",
+        "approximateSize": "Small-medium (estimated 100-200 members based on available data)",
+        "sizeNote": "Estimated; exact membership not publicly available. 825 Facebook likes.",
+        "description": "PCA congregation focused on gospel outreach, making disciples, equipping families, and seeking transformation of the city.",
+        "website": "covenantlifepca.com"
+      },
+      {
+        "name": "Providence Orthodox Presbyterian Church (OPC)",
+        "denomination": "Orthodox Presbyterian Church",
+        "location": "4455 30th St E, Bradenton, FL 34203",
+        "approximateSize": "Small (estimated 50-100 members)",
+        "sizeNote": "Estimated based on available data. ~15 min north of Sarasota in Bradenton.",
+        "serviceTimes": "10:30 AM and 5:00 PM",
+        "description": "Confessional Presbyterian church committed to expository preaching through entire books of Scripture.",
+        "website": "providence-opc.org"
+      }
+    ],
+    "epcChurches": {
+      "note": "No EPC congregation found specifically in Sarasota. Nearest EPC churches may be in Tampa area (~60 min north).",
+      "estimated": true
+    },
+    "crecChurches": {
+      "note": "No CREC congregation found in the Sarasota area. Nearest CREC church likely in Orlando or further.",
+      "estimated": true
+    },
+    "otherReformedCongregations": [
+      {
+        "name": "Bethel Community Church",
+        "denomination": "Reformed Baptist (1689 Confession)",
+        "description": "Confesses the 1689 London Baptist Confession of Faith. Affirms 5 Solas of the Reformation.",
+        "website": "bethelcomchurch.org"
+      },
+      {
+        "name": "The Cornerstone Baptist Church of Sarasota",
+        "denomination": "Reformed Southern Baptist",
+        "description": "Holds to the Doctrines of Grace. Committed to expository preaching and teaching.",
+        "listedOn": "9Marks, Founders Church Search"
+      },
+      {
+        "name": "Northminster Presbyterian Church",
+        "denomination": "Reformed tradition (PCUSA or ECO - unconfirmed)",
+        "description": "Founded 1958. Active congregation in the Reformed tradition.",
+        "website": "npcsarasota.com"
+      }
+    ],
+    "churchDensityAndVitality": {
+      "reformedDensity": "Low",
+      "overallChristianPresence": "Moderate-strong",
+      "assessment": "Sarasota has a limited but present Reformed church community. Only 1 PCA and 1 OPC (in nearby Bradenton). No EPC or CREC congregations found. A few Reformed Baptist options. The area is more heavily represented by non-denominational evangelical, Baptist, and Catholic churches. The Reformed community is small but committed.",
+      "comparisonNote": "This is notably thinner than what you'd find in cities with stronger Reformed infrastructure. The PCA church (Covenant Life) would likely be the anchor for a Reformed family."
+    },
+    "christianCommunityOrganizations": [
+      "Sarasota Christian School (PK-12)",
+      "Classical Conversations co-ops",
+      "Florida Parent Educators Association (FPEA) homeschool groups",
+      "Various church-based community groups and ministries"
+    ]
+  },
+
+  "lifestyle": {
+    "climate": {
+      "averageHighLowBySeasonF": {
+        "winter": { "high": 72, "low": 52, "months": "Dec-Feb" },
+        "spring": { "high": 82, "low": 62, "months": "Mar-May" },
+        "summer": { "high": 91, "low": 75, "months": "Jun-Aug" },
+        "fall": { "high": 84, "low": 66, "months": "Sep-Nov" }
+      },
+      "annualRainfallInches": 49.1,
+      "rainfallPattern": "Wet season Jun-Sep (7-9 inches/mo), dry season Nov-Apr (2-3 inches/mo)",
+      "hurricaneRisk": {
+        "level": "Moderate-High",
+        "season": "June 1 - November 30",
+        "peakMonths": "August-October",
+        "note": "West-facing coast provides some protection (hurricanes typically approach from east/south), but still at significant risk. Hurricane Ian (2022) caused major damage to nearby Fort Myers. Storm surge and flooding are primary concerns."
+      },
+      "sunnyDaysPerYear": 251,
+      "climateType": "Humid subtropical (Cfa). Hot humid summers, mild dry winters."
+    },
+    "outdoorRecreation": {
+      "beaches": [
+        "Siesta Key Beach (consistently ranked #1 beach in US - fine quartz sand)",
+        "Lido Key Beach",
+        "Longboat Key",
+        "Manasota Key (Manasota Beach, Blind Pass Beach)",
+        "Venice Beach (famous for shark teeth hunting)"
+      ],
+      "parks": [
+        "Myakka River State Park (17,000+ acres - biking, hiking, canopy trails, boat tours, fishing, camping)",
+        "Oscar Scherer State Park (canoeing, fishing, swimming, hiking, Legacy Trail access)",
+        "Little Manatee River State Park (camping, fishing, hiking, horseback riding, paddling)",
+        "Myakka State Forest (camping, bird watching, equestrian, fishing, hiking, hunting)",
+        "140+ county parks with diverse amenities"
+      ],
+      "equestrianTrails": [
+        "Little Manatee River State Park (~15 miles of equestrian trails)",
+        "Myakka State Forest (equestrian use permitted)",
+        "North Port equestrian trails (State Road 72)",
+        "Multiple private equestrian communities in Myakka area"
+      ],
+      "fishingAndBoating": [
+        "World-class Gulf of Mexico fishing (inshore and offshore)",
+        "Kayaking and paddleboarding in inland waterways",
+        "Multiple boat ramps throughout county",
+        "Charter fishing available from numerous marinas"
+      ],
+      "biking": [
+        "Legacy Trail (20+ miles through wildlife habitats)",
+        "Venetian Waterway Trail"
+      ]
+    },
+    "crimeRates": {
+      "violentCrimePer100K": 592,
+      "violentCrimeVsNational": "53% higher than national average (national ~387)",
+      "propertyCrimePer100K": 2749,
+      "propertyCrimeVsNational": "Above national average",
+      "note": "Crime rates vary significantly by source and methodology. Some sources report lower figures (~1,616 property crime/100K). City of Sarasota rates are higher than Sarasota County overall. Suburban areas like Lakewood Ranch and Palmer Ranch have significantly lower crime.",
+      "safestAreas": "Lakewood Ranch, Palmer Ranch, Myakka City area, Osprey"
+    },
+    "walkabilityScore": 52,
+    "walkabilityNote": "Somewhat walkable overall. Downtown Sarasota much higher. Car-dependent in suburbs and rural areas.",
+    "trafficAndCommute": {
+      "averageCommuteMinutes": 20.4,
+      "driveAlonePercent": 82.9,
+      "publicTransitPercent": 1.1,
+      "trafficNote": "Below national average commute time. Seasonal traffic increases significantly Nov-Apr (snowbird season). I-75 and US-41 are main corridors."
+    }
+  },
+
+  "community": {
+    "population": {
+      "city": 59047,
+      "metro": 772000,
+      "metroName": "North Port-Bradenton-Sarasota MSA",
+      "year": 2025
+    },
+    "populationGrowthTrend": {
+      "annualGrowthRate": 0.011,
+      "annualGrowthRateNote": "1.1% annually for city; county grew 14.4% from 2010-2020 (~15 new residents/day)",
+      "metroGrowthRate": 0.0092,
+      "metroGrowthRateNote": "0.92% metro increase 2024-2025",
+      "trend": "Consistent growth driven by retirees, remote workers, and climate migrants. Growth moderated from 2020-2022 peak but remains positive."
+    },
+    "familyFriendliness": {
+      "rating": "Mixed",
+      "medianAge": 48.2,
+      "medianAgeCounty": 57.3,
+      "assessment": "Sarasota skews heavily toward retirees. The median age of 57.3 in the county is one of the oldest in Florida. While master-planned communities like Lakewood Ranch and Palmer Ranch are genuinely family-oriented with excellent schools and amenities, the broader Sarasota culture/economy is oriented toward retirees and empty-nesters. Families with young children are a smaller demographic. This means fewer kid-centric businesses, activities, and peer groups compared to younger cities.",
+      "familyFriendlyPockets": [
+        "Lakewood Ranch (most family-oriented area)",
+        "Palmer Ranch",
+        "Bee Ridge / Fruitville area"
+      ]
+    },
+    "homeschoolCommunityStrength": {
+      "rating": "Moderate-Good",
+      "assessment": "Florida is one of the most homeschool-friendly states legally. Multiple Classical Conversations communities, FPEA-listed groups, and other co-ops exist in the area. The community is present but may not be as dense as in younger-family-dominated metros."
+    },
+    "conservativeFaithCommunityPresence": {
+      "rating": "Moderate",
+      "assessment": "Florida is a politically purple state with conservative leanings in many areas. Sarasota County tends to lean conservative (voted ~55% Republican in recent elections). There is a strong church community but it is more broadly evangelical/non-denominational than specifically Reformed. The Reformed/confessional community is small. Conservative values are generally well-represented in civic life.",
+      "politicalLeaning": "Leans conservative (55-57% Republican in recent presidential elections)"
+    },
+    "civicEngagement": {
+      "assessment": "Active civic community with high voter turnout (retiree population tends to be highly engaged). Strong arts and culture scene. Numerous community organizations and volunteer opportunities. Sarasota is known as Florida's cultural coast.",
+      "notableFeatures": [
+        "Ringling Museum and cultural campus",
+        "Sarasota Opera, Orchestra, Ballet",
+        "Strong volunteer community (retiree-driven)",
+        "Active chamber of commerce and economic development"
+      ]
+    }
+  },
+
+  "sources": [
+    "https://www.rentcafe.com/cost-of-living-calculator/us/fl/sarasota/",
+    "https://www.locallifehomes.com/blog/cost-of-living-sarasota-fl/",
+    "https://www.areavibes.com/sarasota-fl/cost-of-living/",
+    "https://www.sarasotamagazine.com/news-and-profiles/2025/07/how-much-does-it-cost-to-live-in-sarasota-right-now",
+    "https://www.zillow.com/home-values/20362/sarasota-fl/",
+    "https://www.redfin.com/city/16463/FL/Sarasota/housing-market",
+    "https://www.myrasm.com/yearend2025",
+    "https://www.myrasm.com/november2025",
+    "https://www.ownwell.com/trends/florida/sarasota-county",
+    "https://www.tax-rates.org/florida/sarasota_county_property_tax",
+    "https://www.avalara.com/taxrates/en/state-rates/florida/cities/sarasota.html",
+    "https://tcasarasota.com/admissions/tuition-fees/",
+    "https://www.privateschoolreview.com/the-classical-academy-of-sarasota-profile",
+    "https://lcasarasota.com/",
+    "https://www.sarasotachristian.org/",
+    "https://www.niche.com/k12/d/sarasota-county-schools-fl/",
+    "https://www.sarasotacountyschools.net/article/2300107",
+    "https://classicalconversations.com/community-search/",
+    "https://www.covenantlifepca.com/",
+    "https://providence-opc.org/",
+    "https://www.bethelcomchurch.org/",
+    "https://www.9marks.org/church/the-cornerstone-baptist-church-of-sarasota-fl/",
+    "https://www.npcsarasota.com/",
+    "https://www.usclimatedata.com/climate/sarasota/florida/united-states/usfl1072",
+    "https://www.bestplaces.net/climate/city/florida/sarasota",
+    "https://weatherspark.com/y/16875/Average-Weather-in-Sarasota-Florida-United-States-Year-Round",
+    "https://climatecheck.com/florida/sarasota",
+    "https://www.neighborhoodscout.com/fl/sarasota/crime",
+    "https://www.areavibes.com/sarasota-fl/crime/",
+    "https://www.walkscore.com/FL/Sarasota",
+    "https://www.scgov.net/government/parks-recreation-and-natural-resources/things-to-do/activities/equestrian-trails",
+    "https://www.visitsarasota.com/things-to-do/sports-recreation",
+    "https://floridaonfoot.com/florida-state-parks-near-sarasota/",
+    "https://worldpopulationreview.com/us-cities/florida/sarasota",
+    "https://www.florida-demographics.com/sarasota-demographics",
+    "https://www.macrotrends.net/global-metrics/cities/23136/sarasota-bradenton/population",
+    "https://fred.stlouisfed.org/series/FLSARA5URN",
+    "https://www.bls.gov/eag/eag.fl_sarasota_msa.htm",
+    "https://datausa.io/profile/geo/sarasota-fl",
+    "https://www.landsearch.com/properties/myakka-city-fl",
+    "https://www.land.com/Myakka-City-FL/all-land/",
+    "https://www.sunnysarasotahomes.com/horse-properties/",
+    "https://www.locallifehomes.com/blog/best-neighborhoods-in-sarasota-for-families/",
+    "https://beyondrealtyfl.com/blog/top-family-friendly-neighborhoods-in-sarasota-and-lakewood-ranch",
+    "https://fpea.com/group-county/sarasota",
+    "https://www.edcsarasotacounty.com/taxes/"
+  ]
+}

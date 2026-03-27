@@ -1,0 +1,576 @@
+{
+  "city": "Lexington",
+  "state": "Kentucky",
+  "isBaseline": true,
+  "researchDate": "2026-03-27",
+
+  "costOfLiving": {
+    "overallIndex": 90.8,
+    "nationalAverageBaseline": 100,
+    "description": "9.2% below the national average per BestPlaces",
+    "medianHouseholdIncome": 75818,
+    "averageWeeklyWage": 1246,
+    "stateIncomeTaxRate": {
+      "rate2025": "4.0%",
+      "rate2026": "3.5%",
+      "notes": "Kentucky is systematically reducing income tax; dropped from 4% to 3.5% effective Jan 1 2026. Goal is eventual elimination. Local occupational license taxes (local income taxes) of ~2.0% may apply in Lexington on top of state rate."
+    },
+    "salesTaxRate": "6.0%",
+    "salesTaxNotes": "Flat statewide, no local add-ons",
+    "propertyTaxRate": {
+      "effectiveRate": "0.87%",
+      "medianAnnualBill": 2391,
+      "medianHomeValueForCalc": 293500,
+      "notes": "Fayette County effective rate ~0.87%. Includes state, county, school district, and other taxing district levies. Homestead exemption of $49,100 for 65+ homeowners."
+    },
+    "propertyTaxOn400kHome": {
+      "estimated": true,
+      "annualTax": 3480,
+      "calculation": "$400,000 x 0.87% effective rate"
+    },
+    "groceryIndex": 100,
+    "groceryNotes": "Essentially at the national average (0-1% above)",
+    "utilitiesIndex": 86,
+    "utilitiesNotes": "About 14% below the national average; ~$150/month for electricity, water, gas",
+    "transportationIndex": 96,
+    "transportationNotes": "About 4% below national average",
+    "healthcareIndex": 94,
+    "healthcareNotes": "About 6% below the national average",
+    "housingIndex": 76,
+    "housingNotes": "About 24% below the national average",
+    "unemploymentRate": {
+      "rate": "3.8%",
+      "asOf": "November 2025"
+    },
+    "topIndustries": [
+      "Higher Education & Healthcare (University of Kentucky - 26,846 employees)",
+      "Advanced Manufacturing (Toyota, Lockheed Martin, Hitachi - 25,000+ employees)",
+      "Logistics & Warehousing (Amazon and others - 24,000+ employees)",
+      "Equine Industry (Keeneland, horse farms, breeding operations)",
+      "Healthcare (CHI/CommonSpirit Health - 2,029 employees; Lexington Clinic)",
+      "Government & Military",
+      "Technology & Professional Services"
+    ],
+    "topEmployers": [
+      "University of Kentucky (26,846 employees)",
+      "Fayette County Public Schools",
+      "Amazon",
+      "Toyota Motor Manufacturing (Georgetown nearby)",
+      "CHI/CommonSpirit Health (2,029 employees)",
+      "Lexington Clinic",
+      "Lockheed Martin",
+      "Keeneland"
+    ]
+  },
+
+  "housing": {
+    "medianHomePrice": {
+      "value": 330000,
+      "range": "Various sources report $280K-$340K depending on methodology",
+      "asOf": "January 2026",
+      "yearOverYearChange": "-2.3% (Redfin) to +23.6% (Houzeo) depending on source/methodology"
+    },
+    "pricePerAcreRuralLand": {
+      "kentuckyAverageFarmland": 5480,
+      "kentuckyPastureLand": 3900,
+      "kentuckyCropLand": 6450,
+      "lexingtonAreaEquestrian": {
+        "averagePricePerAcre": 40204,
+        "range": "$15,000-$80,000+ per acre depending on improvements and proximity",
+        "notes": "Equestrian property in the Bluegrass is premium. Average listing price for equestrian properties near Lexington is $4.6M."
+      },
+      "surroundingCounties": {
+        "scottCounty": {
+          "description": "Rich nutrients, natural water sources ideal for horses. Most common lot sizes 40-50 acres.",
+          "estimatedPricePerAcre": "$8,000-$20,000 for unimproved land",
+          "estimated": true
+        },
+        "woodfordCounty": {
+          "description": "Heart of horse country. Properties typically 20-200 acres. Largest industry is equine.",
+          "estimatedPricePerAcre": "$10,000-$30,000 for unimproved land",
+          "estimated": true
+        },
+        "jessamineCounty": {
+          "description": "Flat topography ideal for horses, natural springs and creeks. More affordable than Woodford/Fayette.",
+          "estimatedPricePerAcre": "$7,000-$18,000 for unimproved land",
+          "estimated": true
+        },
+        "bourbonCounty": {
+          "description": "Traditional horse farming area northeast of Lexington.",
+          "estimatedPricePerAcre": "$6,000-$15,000 for unimproved land",
+          "estimated": true
+        }
+      }
+    },
+    "horseFriendlyZoning": {
+      "availability": "Excellent",
+      "details": "Lexington is the Horse Capital of the World. Surrounding counties (Scott, Woodford, Jessamine, Bourbon, Clark) all have abundant horse-friendly zoning. 10+ acre parcels widely available within 30-45 min of downtown. Fayette County itself has Agricultural-Rural (A-R) zoning districts. Southern Fayette County has 10-acre equestrian estates 12 miles from Man-O-War Blvd. Glennlake Estates offers 10-acre lots at ~$325K.",
+      "tenPlusAcreAvailability": "Very High"
+    },
+    "marketConditions": {
+      "activeInventory": 927,
+      "activeInventoryAsOf": "January 2026",
+      "inventoryYearOverYearChange": "+88.03%",
+      "medianDaysOnMarket": 64,
+      "daysOnMarketAsOf": "January 2026",
+      "daysOnMarketYearOverYearChange": "Up from 51 days last year",
+      "monthsOfSupply": 2.12,
+      "marketType": "Transitioning from seller's market toward balanced; inventory rising significantly",
+      "singleFamilyActiveListings2025": 1112,
+      "notes": "25 consecutive months of year-over-year inventory growth. Still relatively tight but improving for buyers."
+    },
+    "notableNeighborhoodsForFamilies": [
+      {
+        "name": "Chevy Chase-Ashland Park",
+        "description": "Historic charm, tree-lined streets, suburban feel close to downtown. Cassidy Elementary, Morton Middle, near UK campus."
+      },
+      {
+        "name": "Tates Creek",
+        "description": "Diverse neighborhood with range of housing options. Known for inclusiveness and family-friendly atmosphere."
+      },
+      {
+        "name": "Southland-Deerfield-Open Gates",
+        "description": "Southwest of city center. Parks, restaurants, green spaces like Wellington Park and Hill N Dale Park."
+      },
+      {
+        "name": "Gleneagles",
+        "description": "Growing community with modern housing developments and green spaces. Contemporary suburban lifestyle."
+      },
+      {
+        "name": "Hamburg",
+        "description": "Major commercial/retail area on east side with newer subdivisions, shopping, and family amenities."
+      },
+      {
+        "name": "Southern Fayette County (Rural)",
+        "description": "Equestrian estates, larger lots, rural character while still within Fayette County limits. 10-15 min to Man-O-War."
+      }
+    ]
+  },
+
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "Trinity Christian Academy",
+        "grades": "PreK-12",
+        "enrollment": 438,
+        "tuition": 14229,
+        "tuitionNotes": "Annual tuition ~$14,229; varies by grade level",
+        "accreditation": "Kentucky Non-Public Schools Commission; member of Society for Classical Learning and ACCS (since 1998, not ACCS accredited but member)",
+        "founded": 1988,
+        "description": "Central Kentucky's premier classical Christian day school. Two campuses: PreK-5 at 3900 Rapid Run Dr, Lexington; 6-12 at 800 E Brannon Rd, Nicholasville.",
+        "curriculum": "Classical Christian (trivium-based)"
+      },
+      {
+        "name": "Veritas Christian Academy",
+        "grades": "JK-12 (Junior Kindergarten through High School)",
+        "enrollment": null,
+        "enrollmentEstimated": "Small; ~100-200 students",
+        "tuition": null,
+        "tuitionNotes": "University Model school (2 days/week lower school, 3 days/week upper school) - tuition lower than traditional day school. Financial aid available. Contact school for current rates.",
+        "accreditation": "Information not publicly listed",
+        "founded": 2011,
+        "description": "Only University Model school in Kentucky. Combines homeschooling with on-campus classical Christian instruction. Located at 2598 Liberty Rd, Lexington.",
+        "curriculum": "Classical Christian, University Model (hybrid homeschool)"
+      }
+    ],
+    "otherNotablePrivateSchools": [
+      {
+        "name": "Lexington Christian Academy",
+        "grades": "PreK-12",
+        "enrollment": 1354,
+        "tuitionRange": "~$10,000-$25,000 depending on grade level",
+        "description": "Large, well-established Christian school. Not classical but broadly evangelical Christian.",
+        "accreditation": "ACSI accredited"
+      },
+      {
+        "name": "Sayre School",
+        "grades": "PreK-12",
+        "tuitionRange": "$8,000-$29,600 depending on grade level",
+        "description": "Independent college-preparatory school. Not religious. Highly ranked academically.",
+        "accreditation": "ISACS and SACS"
+      },
+      {
+        "name": "Christ the King School",
+        "grades": "PreK-8",
+        "description": "Catholic school. Top-ranked among Lexington private schools on Niche.",
+        "tuition": null,
+        "tuitionNotes": "Contact school for current rates"
+      },
+      {
+        "name": "Calvary Christian School",
+        "grades": "PreK-12",
+        "tuition": null,
+        "tuitionNotes": "Application fee $80, enrollment processing fee $125-$400, curriculum fee $300-$350. Annual tuition not publicly listed.",
+        "description": "Christian school in Lexington area."
+      }
+    ],
+    "publicSchoolDistrict": {
+      "name": "Fayette County Public Schools",
+      "nicheGrade": "A-",
+      "nicheRanking": "#16 Best School Districts in Kentucky (2026)",
+      "totalSchools": 85,
+      "totalStudents": 41697,
+      "notableSchools": [
+        "Lafayette High School (10/10 GreatSchools)",
+        "Tates Creek High School (91% graduation rate)"
+      ],
+      "graduationRate": "~88-91% depending on school",
+      "description": "Large district with significant variation between schools. Above-average overall."
+    },
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "available": true,
+        "communities": [
+          {
+            "name": "Classical Conversations - Lexington area",
+            "description": "Multiple CC communities in and around Lexington offering Foundations (K-6), Essentials (4th-6th), and Challenge (7th-12th) programs.",
+            "meetingDays": "Varies by community; typically one day per week",
+            "estimatedTuition": "$150-$650 per semester depending on program level"
+          },
+          {
+            "name": "Classical Conversations - Wilmore",
+            "description": "Meets Mondays or Wednesdays, 8:30-3:00. K-12. Near Asbury University/Seminary.",
+            "meetingDays": "Mondays or Wednesdays",
+            "tuition": "$150-$650 per semester"
+          }
+        ]
+      },
+      "otherCoOps": [
+        {
+          "name": "Christian Home Educators of the Bluegrass (CHEB)",
+          "description": "Christian support and enrichment classes. Elementary 'Learning Zone' for K-5th with enrichment 12:30-3:30 PM.",
+          "meetingDay": "Mondays, 9 AM - 4 PM",
+          "location": "Tates Creek Christian Church",
+          "cost": null
+        },
+        {
+          "name": "Heritage Homeschool Fellowship",
+          "description": "Christian support with supplemental classes PreK-12, plus clubs and activities.",
+          "meetingDay": "Mondays, 9:00-12:30 + afternoon clubs",
+          "cost": "$30-$45/month per family based on family size"
+        },
+        {
+          "name": "Christian Homeschool of the Commonwealth (CHC)",
+          "description": "Weekly co-op with core and elective academic classes, social opportunities, and family events in a Christian environment.",
+          "meetingDay": "Weekly throughout school year"
+        },
+        {
+          "name": "Bluegrass Homeschool Learning Cooperative",
+          "description": "Secular/inclusive enrichment classes and activities for PreK through high school. Not faith-based.",
+          "meetingDay": "Varies"
+        }
+      ],
+      "homeschoolCommunityStrength": "Strong",
+      "notes": "Multiple Facebook groups (Bluegrass Education, Central KY Co Op, Central Kentucky Homeschool Social Group, Lexington Kentucky Homeschoolers). Kentucky is a homeschool-friendly state with minimal regulation."
+    },
+    "collegeReadiness": {
+      "notes": "Varies significantly by school. Lafayette High rated 10/10. Fayette County district ranked A- overall by Niche. Proximity to University of Kentucky provides educational resources and dual-enrollment opportunities.",
+      "estimated": true
+    }
+  },
+
+  "faith": {
+    "reformedPresbyterianChurches": {
+      "PCA": [
+        {
+          "name": "Tates Creek Presbyterian Church",
+          "denomination": "PCA",
+          "address": "3900 Rapid Run Drive, Lexington, KY 40515",
+          "approximateSize": 700,
+          "sizeDescription": "~700 members",
+          "services": "Sundays at 9:00 AM and 11:15 AM",
+          "website": "https://tcpca.org",
+          "notes": "Significant PCA congregation. Active in Bluegrass Network church planting."
+        },
+        {
+          "name": "Christ Covenant Presbyterian Church",
+          "denomination": "PCA",
+          "address": "898 E High St, Lexington, KY 40502",
+          "approximateSize": 150,
+          "sizeDescription": "Estimated ~100-200 members",
+          "sizeEstimated": true,
+          "founded": 1974,
+          "website": "https://ccpclex.org",
+          "notes": "One of the older PCA congregations in Lexington."
+        },
+        {
+          "name": "Immanuel Baptist/Reformed congregations",
+          "notes": "Additional PCA and Reformed congregations exist in the Lexington metro area. The PCA directory lists multiple Kentucky churches."
+        }
+      ],
+      "OPC": {
+        "presence": "Limited/None in immediate Lexington area",
+        "notes": "The OPC locator does not show a congregation in Lexington proper. Nearest OPC churches may be in Louisville or other cities. Check opc.org/locator.html for current listings.",
+        "estimated": true
+      },
+      "EPC": {
+        "presence": "Unknown/Limited",
+        "notes": "No specific EPC congregation identified in Lexington during research. The EPC has a smaller footprint in Kentucky generally.",
+        "estimated": true
+      },
+      "CREC": {
+        "presence": "None identified in Lexington",
+        "notes": "No CREC congregation found in Lexington from the CREC church directory. Nearest CREC churches are likely in other states.",
+        "estimated": true
+      },
+      "RPCNA": {
+        "presence": "Unknown/Limited",
+        "notes": "The Reformed Presbyterian Church of North America has a congregation finder at reformedpresbyterian.org. No Lexington congregation confirmed during research.",
+        "estimated": true
+      }
+    },
+    "otherNotableReformedCongregations": [
+      {
+        "name": "Maxwell Street Presbyterian Church",
+        "denomination": "PC(USA)",
+        "address": "Lexington, KY",
+        "website": "https://www.maxpres.org",
+        "notes": "PC(USA) congregation - mainline, not confessionally Reformed in the PCA/OPC sense."
+      },
+      {
+        "name": "Christ Presbyterian Church",
+        "website": "https://www.cpcky.org",
+        "notes": "Presbyterian congregation in Lexington. Denomination details from website."
+      }
+    ],
+    "churchDensityAndVitality": {
+      "overall": "Moderate to High",
+      "reformedSpecifically": "Moderate",
+      "notes": "Lexington has a solid evangelical Christian presence with multiple denominations represented. The PCA has a meaningful presence with at least 2-3 congregations. Kentucky's Bible Belt culture supports church vitality generally. The Lexington Leadership Foundation coordinates faith-based community work. 53% of private schools are religiously affiliated. However, as a university city, Lexington is more culturally diverse/progressive than rural Kentucky."
+    },
+    "christianCommunityOrganizations": [
+      {
+        "name": "Lexington Leadership Foundation",
+        "description": "Engages people of faith to transform Lexington. Focus on education, employment, affordable housing.",
+        "website": "https://www.lexlf.org"
+      },
+      {
+        "name": "Christian Home Educators of the Bluegrass (CHEB)",
+        "description": "Homeschool support community with Christian foundation."
+      },
+      {
+        "name": "Numerous church-based ministries",
+        "description": "Multiple churches run food banks, mentorship programs, youth development, and community service initiatives."
+      }
+    ]
+  },
+
+  "lifestyle": {
+    "climate": {
+      "type": "Humid subtropical (Koppen Cfa)",
+      "averageTemperatures": {
+        "spring": {
+          "highF": 65,
+          "lowF": 43,
+          "notes": "March-May. Mild and rainy."
+        },
+        "summer": {
+          "highF": 85,
+          "lowF": 65,
+          "notes": "June-August. Warm and humid. July avg high 85.1F."
+        },
+        "fall": {
+          "highF": 67,
+          "lowF": 45,
+          "notes": "September-November. Mild and pleasant, beautiful foliage."
+        },
+        "winter": {
+          "highF": 42,
+          "lowF": 26,
+          "notes": "December-February. Cold, wet. January avg low 25.7F."
+        }
+      },
+      "annualRainfallInches": 49.1,
+      "annualSnowfallInches": 10,
+      "sunnyDaysPerYear": 188,
+      "notes": "Four distinct seasons. Summers warm and humid, winters cold but not extreme. More rain than national average (38 inches). Snowfall is light/moderate."
+    },
+    "outdoorRecreation": {
+      "hiking": [
+        {
+          "name": "Raven Run Nature Sanctuary",
+          "description": "734-acre sanctuary bordering Kentucky River. 10 miles of trails through meadows, woodlands, streams."
+        },
+        {
+          "name": "Legacy Trail",
+          "description": "12-mile paved multi-use trail connecting downtown to Kentucky Horse Park. Great for running and cycling."
+        },
+        {
+          "name": "Veterans Park",
+          "description": "409-acre park with sports fields, playgrounds, lake with fishing and paddleboats."
+        },
+        {
+          "name": "Masterson Station Park",
+          "description": "600 acres, largest park in Lexington. Wide range of recreational activities."
+        },
+        {
+          "name": "UK Arboretum Loop",
+          "description": "University of Kentucky campus trail, accessible for all skill levels."
+        }
+      ],
+      "equestrianTrails": [
+        {
+          "name": "Hisle Farm Park",
+          "description": "Equestrian trails open to hikers and horseback riders within city limits."
+        },
+        {
+          "name": "Kentucky Horse Park",
+          "description": "Guided 35-minute trail rides mid-March through October. World-class equestrian facility."
+        },
+        {
+          "name": "Surrounding county trails",
+          "description": "Extensive horse trails throughout Woodford, Scott, Jessamine, and Bourbon counties. The Bluegrass region is built for equestrian activities."
+        }
+      ],
+      "fishing": [
+        {
+          "name": "Kentucky River",
+          "description": "Sections between Boonesboro and Frankfort popular for fishing and boating. Nearest boat ramp at Clays Ferry (I-75 Exit 99)."
+        },
+        {
+          "name": "Jacobson Park",
+          "description": "Reservoir with fishing and paddle boat rentals."
+        },
+        {
+          "name": "Veterans Park Lake",
+          "description": "Lake within city limits for fishing."
+        }
+      ],
+      "nearbyNaturalAttractions": [
+        "Red River Gorge (~1 hour east, world-class climbing and hiking)",
+        "Daniel Boone National Forest (~1 hour southeast)",
+        "Natural Bridge State Park (~1 hour east)",
+        "Kentucky River Palisades (dramatic cliffs along Kentucky River)",
+        "Shaker Village of Pleasant Hill (~30 min south, trails and history)"
+      ]
+    },
+    "crimeRates": {
+      "violentCrimePer100k": 300,
+      "violentCrimeNotes": "~3 per 1,000 residents. 1 in 361 chance of being a victim. 1.37x LESS than national average for violent crime.",
+      "propertyCrimePer100k": 2901,
+      "propertyCrimeNotes": "~29 per 1,000 residents. 1 in 34 chance. 1.29x MORE than national average for property crime.",
+      "overallCrimeRatePer1000": 27,
+      "notes": "Violent crime is below national average, but property crime is above. Crime varies significantly by neighborhood. Overall crime 1.20x the national average. Lexington is safer than many similar-sized cities for violent crime specifically.",
+      "estimated": true
+    },
+    "walkabilityScore": {
+      "cityWide": 34,
+      "description": "Car-dependent overall. Downtown Walk Score of 93.",
+      "notes": "Lexington is primarily a car-dependent city outside of the downtown core. Most suburban and rural areas require driving."
+    },
+    "commuteAndTraffic": {
+      "averageCommuteMinutes": 21,
+      "trafficDelayHoursPerYear": 57,
+      "peakTrafficTimes": "8 AM and 5 PM weekdays",
+      "nationalRankForDelays": 60,
+      "notes": "Relatively manageable traffic for a city of 330K. 20-minute trip requires ~25 minutes during peak. Off-peak driving is easy."
+    }
+  },
+
+  "community": {
+    "population": {
+      "city": 332841,
+      "cityAsOf": "2026 estimate",
+      "metro": 351000,
+      "metroAsOf": "2025 estimate",
+      "notes": "Lexington-Fayette is a consolidated city-county (merged government since 1974). City and county population are the same."
+    },
+    "populationGrowthTrend": {
+      "annualGrowthRate": "0.51-0.82%",
+      "fiveYearGrowth": "3.17% since 2020 census (322,628 to 332,841)",
+      "metroGrowthRate": "0.87-1.15% annually in recent years",
+      "trend": "Steady, modest growth. Fourth consecutive year of growth after COVID-era decline in 2020-2021. Outpacing Louisville (Jefferson County) in growth rate.",
+      "notes": "Fayette County grew by 2,680 (0.82%) between 2024-25."
+    },
+    "familyFriendliness": {
+      "rating": "High",
+      "indicators": [
+        "Multiple top-rated private and public schools",
+        "600+ acres of parks and recreation",
+        "Low violent crime relative to national average",
+        "Strong homeschool community with multiple co-ops",
+        "Numerous youth sports and extracurricular programs",
+        "Cost of living 9% below national average",
+        "Stable job market with low unemployment"
+      ]
+    },
+    "homeschoolCommunityStrength": {
+      "rating": "Strong",
+      "details": "Multiple Classical Conversations communities, 4+ Christian co-ops (CHEB, Heritage, CHC, etc.), secular options available, active Facebook groups, Veritas Christian Academy hybrid model. Kentucky has minimal homeschool regulation (notification only)."
+    },
+    "conservativeFaithCommunityPresence": {
+      "rating": "Moderate",
+      "details": "Lexington is in the Bible Belt but is more moderate than rural Kentucky due to University of Kentucky and urban character. Strong evangelical Christian presence but also significant progressive/secular community. Church attendance is above national average. Multiple PCA churches indicate a Reformed presence. The city has a robust faith-based nonprofit sector (Lexington Leadership Foundation). Politically, Fayette County tends to vote blue in presidential elections while surrounding counties are solidly red.",
+      "notes": "The surrounding Bluegrass counties (Woodford, Scott, Jessamine, Bourbon) are more consistently conservative. Living 30-45 min outside Lexington in a surrounding county provides a more conservative community while maintaining access to Lexington amenities."
+    },
+    "civicEngagementAndVolunteerCulture": {
+      "rating": "Strong",
+      "details": "Active civic organizations including CivicLex, Kentuckians For Good (launched 2025), Step Forward Lexington (part of Leadership Lexington), VolunteerMatch presence. UK provides volunteer infrastructure. Lexington Leadership Foundation coordinates faith-based civic work. Multiple mentorship, food security, refugee support, and youth development organizations.",
+      "organizations": [
+        "CivicLex",
+        "Lexington Leadership Foundation",
+        "Step Forward Lexington / Leadership Lexington",
+        "Kentuckians For Good",
+        "University of Kentucky Service-Learning programs"
+      ]
+    }
+  },
+
+  "sources": [
+    "https://www.bestplaces.net/cost_of_living/city/kentucky/lexington",
+    "https://www.rentcafe.com/cost-of-living-calculator/us/ky/lexington/",
+    "https://www.salary.com/research/cost-of-living/lexington-ky",
+    "https://taxfoundation.org/location/kentucky/",
+    "https://www.baldwincpas.com/insights/kentucky-tax-overhaul-guide-to-2025-26-tax-changes",
+    "https://taxnews.ey.com/news/2025-0543-kentucky-lowers-personal-income-tax-rate-effective-january-1-2026",
+    "https://smartasset.com/taxes/kentucky-tax-calculator",
+    "https://fayettepva.com/tax-districts-and-calculator/",
+    "https://www.ownwell.com/trends/kentucky/fayette-county",
+    "https://www.redfin.com/city/11746/KY/Lexington/housing-market",
+    "https://www.zillow.com/home-values/25574/lexington-ky/",
+    "https://www.houzeo.com/housing-market/kentucky/lexington",
+    "https://www.steadily.com/blog/lexington-real-estate-market",
+    "https://fred.stlouisfed.org/series/MEDDAYONMAR30460",
+    "https://superlandbuyer.com/how-much-is-an-acre-of-land-in-kentucky/",
+    "https://agecon.mgcafe.uky.edu/articles/2025-farmland-values",
+    "https://www.landsearch.com/equestrian/lexington-ky",
+    "https://www.lexhorsefarms.com/woodford-county-land-for-sale.php",
+    "https://www.lexhorsefarms.com/jessamine-county-land-for-sale.php",
+    "https://www.lexhorsefarms.com/scott-county-land-for-sale.php",
+    "https://www.trinitylex.org",
+    "https://classicalchristian.org/school/trinity-christian-academy-ky/",
+    "https://veritaschristianky.com/",
+    "https://www.privateschoolreview.com/kentucky/lexington",
+    "https://www.niche.com/k12/search/best-school-districts/t/lexington-fayette-ky/",
+    "https://www.greatschools.org/kentucky/lexington/fayette-county/",
+    "https://classicalconversations.com/locations/homeschool-kentucky/",
+    "https://www.bluegrasseducation.com/homeschool-co-ops.html",
+    "https://www.cheblex.com/",
+    "https://bluegrasshomeschool.com/",
+    "https://tcpca.org/",
+    "https://ccpclex.org/",
+    "https://meadowviewpca.org/",
+    "https://www.pcaac.org/church-directory/",
+    "https://opc.org/locator.html",
+    "https://crechurches.org/churches/",
+    "https://www.lexlf.org/",
+    "https://weatherspark.com/y/15764/Average-Weather-in-Lexington-Kentucky-United-States-Year-Round",
+    "https://www.usclimatedata.com/climate/lexington/kentucky/united-states/usky1079",
+    "https://www.neighborhoodscout.com/ky/lexington/crime",
+    "https://www.areavibes.com/lexington-fayette-ky/crime/",
+    "https://crimegrade.org/violent-crime-lexington-ky/",
+    "https://www.walkscore.com/KY/",
+    "https://www.visitlex.com/things-to-do/outdoors/",
+    "https://www.lexingtonky.gov/playing/parks-natural-areas/trails",
+    "https://www.alltrails.com/us/kentucky/lexington",
+    "https://worldpopulationreview.com/us-cities/kentucky/lexington",
+    "https://www.macrotrends.net/global-metrics/cities/23047/lexington-fayette/population",
+    "https://locateinlexington.com/major-employer/",
+    "https://lextoday.6amcity.com/city-guide/work/largest-employers-lexington-ky",
+    "https://www.bls.gov/eag/eag.ky_lexington_msa.htm",
+    "https://www.extraspace.com/blog/city-guides/best-neighborhoods-in-lexington-for-families/",
+    "https://fox56news.com/news/local/lexington/how-long-are-drivers-sitting-in-lexington-traffic/",
+    "https://www.sayreschool.org/",
+    "https://lca.edu/tuition/"
+  ]
+}

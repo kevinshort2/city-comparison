@@ -1,0 +1,621 @@
+{
+  "city": "Columbia",
+  "state": "South Carolina",
+  "researchDate": "2026-03-27",
+  "costOfLiving": {
+    "overallIndex": 99,
+    "nationalAverage": 100,
+    "groceryIndex": 99,
+    "healthCareIndex": 100,
+    "housingIndex": 103,
+    "transportationIndex": 91,
+    "utilitiesIndex": 100,
+    "goodsAndServicesIndex": 98,
+    "notes": "Columbia's cost of living is essentially at the national average. Transportation is notably cheaper (9% below). Housing runs slightly above average at 103. Utilities can run higher in summer due to intense heat and AC costs.",
+    "medianHouseholdIncome": {
+      "cityProper": 55653,
+      "metroArea": 71443,
+      "note": "City proper income ($55,653) is lower due to student population and urban demographics. Metro area income ($71,443) is 12.2% below the national average."
+    },
+    "stateTaxes": {
+      "incomeTax": {
+        "topRate": "6%",
+        "brackets": [
+          { "range": "$0 - $3,560", "rate": "0%" },
+          { "range": "$3,561 - $17,830", "rate": "3%" },
+          { "range": "$17,831+", "rate": "6%" }
+        ],
+        "note": "SC has a relatively simple 3-bracket income tax. The top rate of 6% kicks in at $17,830, which is a low threshold. No tax on Social Security benefits."
+      },
+      "salesTax": {
+        "stateRate": "6%",
+        "averageLocalRate": "1.49%",
+        "averageCombinedRate": "7.49%",
+        "note": "Groceries are taxed at a reduced rate in SC."
+      },
+      "propertyTax": {
+        "stateAverageEffectiveRate": "0.49%",
+        "richlandCountyEffectiveRate": "0.70%",
+        "lexingtonCountyEffectiveRate": "0.57%",
+        "primaryResidenceAssessmentRatio": "4%",
+        "nonPrimaryAssessmentRatio": "6%",
+        "note": "SC has very favorable property taxes for primary residences. Homes are assessed at only 4% of market value, then millage applied. Owner-occupied homes are also exempt from school operations millage."
+      }
+    },
+    "propertyTaxOn400kHome": {
+      "richlandCounty": {
+        "calculation": "$400,000 x 4% = $16,000 assessed value x 127.7 mills = ~$2,043/year",
+        "estimatedAnnual": 2043,
+        "note": "Richland County millage is higher. Actual amount varies by tax district within the county."
+      },
+      "lexingtonCounty": {
+        "calculation": "$400,000 x 4% = $16,000 assessed value x ~100 mills = ~$1,600/year",
+        "estimatedAnnual": 1600,
+        "note": "Lexington County has lower millage rates. Exact amount depends on specific tax district. Estimate based on effective rate of ~0.43%."
+      }
+    },
+    "unemploymentRate": {
+      "rate": "4.5%",
+      "asOf": "November 2025",
+      "note": "Slightly above the national average at the time."
+    },
+    "topIndustries": [
+      "State government (largest employer, ~25,000 employees)",
+      "Military (Fort Jackson - largest Army basic training center in the US)",
+      "Healthcare (Prisma Health - 15,000+ employees; BlueCross BlueShield SC - ~7,000 employees)",
+      "Higher education (University of South Carolina)",
+      "Manufacturing (automotive, aerospace, engineering components)",
+      "Insurance and financial services"
+    ]
+  },
+  "housing": {
+    "medianHomePrice": {
+      "cityProper": 271000,
+      "metroArea": 265000,
+      "note": "Columbia metro median sale price is ~$265K, holding steady. The city proper median was $271K (up 10.6% YoY). Zillow typical home value for city proper is $221,883. Market is 41% below the national median."
+    },
+    "marketConditions": {
+      "competitivenessScore": "61/100 (somewhat competitive)",
+      "forecast": "Zillow predicts 2.5% price increase from 2025-2026",
+      "inventory": "Active listings projected to grow ~9% in 2026",
+      "status": "Market described as 'balanced' for first time in nearly a decade. Mortgage rates normalizing toward 6.0%.",
+      "daysOnMarket": "Moderate - not a frenzied market"
+    },
+    "landPricing": {
+      "lexingtonCounty": {
+        "averagePricePerAcre": 143217,
+        "note": "Average across all Lexington County listings. Highly variable by location and lot size. Smaller lots near town are much higher per acre."
+      },
+      "chapinArea": {
+        "averagePricePerAcre": 185282,
+        "note": "Chapin commands a premium due to Lake Murray proximity and top-rated schools."
+      },
+      "newberryCounty": {
+        "averagePricePerAcre": 53883,
+        "note": "30 minutes northwest of Columbia. Significantly cheaper rural land. Good option for acreage buyers."
+      },
+      "aikenCounty": {
+        "averagePricePerAcre": 52742,
+        "equestrianPropertyAverageListing": 946954,
+        "equestrianPricePerAcre": 57941,
+        "priceRanges": {
+          "hobbyFarm5to10acres": "$250,000 - $600,000",
+          "equestrianEstate10to20acres": "$600,000 - $1,500,000",
+          "luxuryHorseFarm20plusAcres": "$1,500,000 - $5,000,000+"
+        },
+        "distanceFromColumbia": "~60-75 minutes southwest",
+        "note": "Aiken is a world-class equestrian community. Prices reflect premium equestrian facilities. Raw land is cheaper."
+      }
+    },
+    "horsePropertyAvailability": {
+      "lexingtonCounty": "Multiple horse-friendly properties available. Zoning generally permissive for livestock in unincorporated areas. Example: Wescott Farms - 6 acres with 3-stall barn, hayloft, pasture.",
+      "aikenCounty": "Premier equestrian destination in the Southeast. 113+ equestrian properties for sale. Established horse culture, trails, and facilities. ~1 hour from Columbia.",
+      "newberryCounty": "Rural tracts 7-55 acres available. More affordable land but less equestrian infrastructure.",
+      "note": "10+ acre horse-friendly parcels are readily available within 30-45 minutes of Columbia, especially in rural Lexington County and Newberry County. Aiken offers the elite equestrian experience at ~1 hour distance."
+    },
+    "notableSuburbs": {
+      "lexingtonSC": {
+        "medianHomePrice": 174900,
+        "character": "Family-friendly suburb with top school district (Lexington One). Close to Lake Murray. Affordable housing, strong community. US 378 and I-20 access.",
+        "safetyRating": "One of the safest Columbia suburbs"
+      },
+      "chapin": {
+        "character": "Lakeside community on Lake Murray, ~30 min from downtown Columbia. Small-town charm with rodeo events. Rapidly developing. Outstanding schools (Lex-Rich 5 district). Very popular with families.",
+        "note": "Families often move specifically for the Chapin schools."
+      },
+      "blythewood": {
+        "medianHomePrice": 265100,
+        "character": "Northeast suburb. Newer development with master-planned communities. Strong schools (Richland Two district). Safe and family-oriented.",
+        "safetyRating": "Safer than 94% of South Carolina cities"
+      },
+      "irmo": {
+        "character": "Family-friendly suburb with Lake Murray access. Established community with good amenities.",
+        "safetyScore": "62/100 (Nextdoor)"
+      },
+      "forestAcres": {
+        "character": "Close-in suburb with tree-lined streets, top-rated public schools, six community parks, weekly farmers market. 10-minute commute to downtown."
+      }
+    }
+  },
+  "education": {
+    "classicalChristianSchools": [
+      {
+        "name": "Covenant Classical Christian School",
+        "location": "6515 North Trenholm Road, Columbia, SC 29206 (Forest Acres area)",
+        "gradesServed": "K-12",
+        "enrollment": 115,
+        "studentTeacherRatio": "6:1",
+        "tuition": {
+          "highestGrade": 7550,
+          "note": "Tuition approximately $6,000-$7,550 depending on grade. Multi-child discount of 5% on 2nd, 3rd, 4th child. Need-based 'Tailored Tuition' assistance available."
+        },
+        "accreditation": ["ACCS (Association of Classical Christian Schools)", "NCPSA", "SCISA member", "Schole School"],
+        "curriculum": "Classical trivium (grammar, logic, rhetoric). Latin grades 3-9, Biblical Greek, formal logic, rhetoric, Great Ideas of Western Civilization, Bible Hermeneutics and Apologetics. Art and music K-12. Dual enrollment/CLEP options.",
+        "testScores": {
+          "averageSAT": 1375,
+          "satVerbal": 700,
+          "satMath": 725,
+          "note": "Consistently well above national average"
+        },
+        "graduationRate": "100%",
+        "averageGPA": 3.59,
+        "faculty": "All full-time teachers ACCS-certified. 100% hold bachelor's or higher. 50%+ have graduate degrees.",
+        "collegeAcceptances": ["Grove City College", "The Citadel", "Clemson", "USC", "Covenant College", "Belmont University"],
+        "note": "This is the primary classical Christian school in the Columbia metro. Small, intimate environment. Strong academics with impressive SAT scores for school size."
+      }
+    ],
+    "otherNotablePrivateSchools": [
+      {
+        "name": "Ben Lippen School",
+        "affiliation": "Columbia International University",
+        "gradesServed": "PK-12",
+        "tuition": "$9,175 - $17,300 depending on grade level",
+        "character": "Christian school affiliated with CIU. Strong academics and faith integration."
+      },
+      {
+        "name": "Hammond School",
+        "gradesServed": "PK-12",
+        "tuition": "~$21,160 (highest grade)",
+        "character": "College-prep independent school. 110-acre campus. Strong academics, global studies, fine arts, competitive sports."
+      },
+      {
+        "name": "Heathwood Hall Episcopal School",
+        "gradesServed": "EC2-12",
+        "tuition": "$11,855 (early childhood) to $22,855 (upper school)",
+        "character": "Prestigious Episcopal day school. 133-acre campus. Robust arts, athletics, outdoor leadership programs. Founded 1951."
+      }
+    ],
+    "publicSchoolDistricts": {
+      "lexingtonRichland5": {
+        "nicheRating": "A",
+        "ranking": "#1 school district in the Midlands, #3 in South Carolina (Niche 2026)",
+        "notableSchools": [
+          "Chapin High School - #24 Best Public High School in SC, 1,630 students, 89% reading proficiency",
+          "Chapin Elementary - Rated 'Excellent', 792 students",
+          "Chapin Middle - Rated 'Excellent', 1,030 students",
+          "Spring Hill High - Rated 'Excellent'",
+          "Lake Murray Elementary - Rated 'Excellent'"
+        ],
+        "note": "Covers Chapin, Irmo, and parts of Lexington County. Five schools rated 'Excellent'. This is the top-performing district in the Columbia metro."
+      },
+      "lexingtonDistrictOne": {
+        "coverage": "Central Lexington County including town of Lexington",
+        "highlights": "Nine schools rated 'Excellent'. 79.3% college or career readiness rate. Graduation and readiness rates improving.",
+        "note": "Strong district that drives the Lexington housing market."
+      },
+      "richlandTwo": {
+        "coverage": "Northeast Richland County including Blythewood",
+        "graduationRate": "86.6%",
+        "highlights": "Number of 'Excellent' schools doubled from 3 to 6. Blythewood High: 93.9% graduation rate. No schools rated 'Unsatisfactory'."
+      },
+      "richlandOne": {
+        "coverage": "Columbia city proper and surrounding areas",
+        "note": "Generally lower-performing than suburban districts. This is the city district."
+      }
+    },
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "presence": "Multiple communities in the Columbia/Midlands area",
+        "model": "Weekly meetings with trained parent directors and tutors. Classical model: grammar, dialectic, rhetoric stages.",
+        "searchUrl": "classicalconversations.com/community-search",
+        "note": "Columbia area has an active Classical Conversations presence. Use their community search tool for current locations."
+      },
+      "otherCoOps": [
+        {
+          "name": "HERO (Home Educator's Resource Organization)",
+          "location": "Irmo, SC",
+          "description": "Resources, encouragement, and activities for homeschoolers. Open to all regardless of religious preference."
+        },
+        {
+          "name": "GROUNDED (Riverland Hills Baptist Church)",
+          "description": "Co-op academy for K-9th grade homeschoolers. Meets Thursdays, September through May. Community ministry of Riverland Hills Baptist Church."
+        },
+        {
+          "name": "Grace Community Academy",
+          "description": "Part-time classes for homeschool high schoolers in the Columbia/Midlands area."
+        }
+      ],
+      "homeschoolLegalFramework": "South Carolina has three legal options for homeschooling: (1) approval through local school district, (2) membership in SC Association of Independent Home Schools (SCAIHS), or (3) accountability through an association like the Homeschool Association of SC.",
+      "communityStrength": "Active and well-organized homeschool community in the Midlands with multiple co-ops, support groups, and resource organizations."
+    },
+    "graduationRates": {
+      "stateAverage": "~84%",
+      "blythewoodHigh": "93.9%",
+      "richlandTwo": "86.6%",
+      "covenantClassical": "100%",
+      "note": "Suburban districts significantly outperform the state average."
+    }
+  },
+  "faith": {
+    "reformedPresbyterianChurches": {
+      "pca": {
+        "denominationName": "Presbyterian Church in America (PCA)",
+        "columbiaMidlandsChurches": [
+          {
+            "name": "Christ Covenant Church",
+            "location": "3100 Covenant Rd, Columbia, SC 29204",
+            "pastor": "Justin McGuire (Pastor), Mark Capper (Assistant Pastor)",
+            "worshipTime": "10:30 AM Sunday",
+            "elders": 8,
+            "deacons": 5,
+            "sizeEstimate": "Medium (estimated 150-300 based on staff and governance structure)",
+            "website": "christcovenantsc.org"
+          },
+          {
+            "name": "Northeast Presbyterian Church",
+            "location": "601 Polo Road, Columbia, SC 29223",
+            "worshipTime": "9:30 AM Sunday; Sunday School 11:00 AM",
+            "sizeEstimate": "Large (estimated 400-900 based on staff, programs, and multiple ministries)",
+            "ministries": "Kids, youth, women's (FOCUS), men's Bible studies, music, missions, congregational care, Life Groups, Mother's Morning Out",
+            "website": "nepresbyterian.org",
+            "note": "One of the larger PCA churches in the Columbia area with extensive programming."
+          },
+          {
+            "name": "St. Andrews Presbyterian Church",
+            "location": "6952 St Andrews Rd, Columbia, SC 29212 (Irmo area)",
+            "worshipTime": "10:30 AM Sunday; Growth Classes 9:15 AM; Wednesday Nights 5:30 PM",
+            "sizeEstimate": "Medium-Large",
+            "ministries": "Children, youth, young adults, men, women, senior adults, member care, missions, music & arts, prayer",
+            "website": "sapc.net",
+            "note": "Planted Chapin Presbyterian in 2002. Active Wednesday night programming."
+          },
+          {
+            "name": "Rose Hill Presbyterian Church",
+            "location": "229 South Saluda Avenue, Columbia, SC 29205",
+            "worshipTime": "10:30 AM Sunday; Sunday School 9:30 AM; Evening Worship 5:00 PM",
+            "sizeEstimate": "Small-Medium",
+            "history": "Serving Five Points, Shandon, and Rosewood neighborhoods since 1919. Joined PCA in 1983.",
+            "website": "rosehillpca.org",
+            "note": "Historic church with morning and evening worship. Reformed worship tradition."
+          },
+          {
+            "name": "Columbia Presbyterian Church",
+            "location": "Columbia, SC",
+            "worshipTime": "Sunday services (~75 minutes)",
+            "website": "colapres.com"
+          },
+          {
+            "name": "Chapin Presbyterian Church",
+            "location": "600 Old Lexington Hwy, Chapin, SC 29036",
+            "worshipTime": "9:30 AM Sunday; Sunday School (adults) 8:30 AM; Sunday School (all ages) 10:45 AM",
+            "planted": "2002, from St. Andrews Presbyterian Church",
+            "ministries": "Community Groups, children's & student ministry, music, women's, men's, senior adult, mercy & care",
+            "website": "chapinpres.org",
+            "note": "Relatively young church plant in the fast-growing Chapin community."
+          },
+          {
+            "name": "Lexington Presbyterian Church",
+            "location": "246 Barr Road, Lexington, SC 29072",
+            "website": "lexpreschurch.com"
+          },
+          {
+            "name": "Sandol Presbyterian Church",
+            "location": "Columbia, SC"
+          },
+          {
+            "name": "Cornerstone Presbyterian Church",
+            "location": "Columbia, SC"
+          },
+          {
+            "name": "Covenant Presbyterian Church",
+            "location": "Columbia, SC"
+          },
+          {
+            "name": "Eau Claire Presbyterian Church",
+            "location": "629 Wildwood Ave, Columbia, SC 29203",
+            "worshipTime": "11:00 AM Sunday"
+          },
+          {
+            "name": "Blythewood Presbyterian Church",
+            "location": "Blythewood, SC"
+          },
+          {
+            "name": "Faith Presbyterian Church",
+            "location": "Irmo, SC"
+          },
+          {
+            "name": "Grace Point Presbyterian Church",
+            "location": "Irmo, SC"
+          },
+          {
+            "name": "Heritage Presbyterian Church",
+            "location": "West Columbia, SC"
+          },
+          {
+            "name": "Columbia Agape Presbyterian Church",
+            "location": "Columbia, SC"
+          },
+          {
+            "name": "Covenant Community Church",
+            "location": "Lexington, SC"
+          },
+          {
+            "name": "Watershed Fellowship",
+            "location": "Lexington, SC"
+          }
+        ],
+        "totalPCAChurchesInMidlands": "18+",
+        "note": "Columbia has an exceptionally strong PCA presence with 18+ congregations across the metro area, ranging from small historic churches to large suburban congregations. This is one of the highest PCA concentrations in the Southeast outside of major cities like Charlotte or Atlanta."
+      },
+      "opc": {
+        "denominationName": "Orthodox Presbyterian Church (OPC)",
+        "nearestCongregation": "No OPC congregation in the Columbia metro area",
+        "statePresence": [
+          {
+            "name": "Covenant Presbyterian Church",
+            "location": "Taylors, SC (Greenville area, ~100 miles NW)",
+            "pastor": "Peter C. VanDoodewaard"
+          },
+          {
+            "name": "Covenant Presbyterian Church",
+            "location": "Bluffton, SC (~200 miles SE)",
+            "pastor": "Andrew Wann"
+          }
+        ],
+        "note": "No OPC presence in Columbia. The nearest OPC church is in the Greenville area, about 2 hours away."
+      },
+      "epc": {
+        "denominationName": "Evangelical Presbyterian Church (EPC)",
+        "note": "Limited EPC presence found in Columbia area. Columbia Evangelical Church exists but denomination affiliation unclear from research."
+      },
+      "crec": {
+        "denominationName": "Communion of Reformed Evangelical Churches (CREC)",
+        "note": "No CREC congregations found in the Columbia area."
+      },
+      "arp": {
+        "denominationName": "Associate Reformed Presbyterian Church",
+        "presence": [
+          {
+            "name": "Centennial Associate Reformed Presbyterian Church",
+            "location": "Columbia, SC",
+            "note": "The ARP denomination is headquartered in nearby Greenville, SC. ARP has historical roots in South Carolina."
+          }
+        ]
+      }
+    },
+    "seminariesAndTheologicalEducation": {
+      "erskineTheologicalSeminary": {
+        "location": "Columbia extension site (main campus in Due West, SC)",
+        "denomination": "Associate Reformed Presbyterian Church",
+        "degrees": ["Master of Divinity", "MA in Practical Ministry", "MA in Theological Studies", "Master of Theology", "Doctor of Ministry"],
+        "note": "Erskine has an extension site in Columbia with in-person classes. Can complete full degrees. Part of the Carolina Consortium for cross-registration."
+      },
+      "columbiaInternationalUniversity": {
+        "location": "Columbia, SC (main campus)",
+        "seminary": "Columbia Biblical Seminary",
+        "degrees": ["M.Div.", "M.A.", "D.Min.", "MA in Theological Studies", "MA in Missiological Studies", "MA in Bible Exposition", "MA in Care and Counseling"],
+        "theologicalOrientation": "Evangelical, multidenominational. Faculty includes both Calvinistic and Arminian perspectives. Strong missions focus. Official premillennial position but not required of students.",
+        "note": "CIU is a significant evangelical institution in Columbia with a substantial seminary program. Not specifically Reformed but has Reformed-friendly faculty."
+      },
+      "reformedTheologicalSeminary": {
+        "note": "RTS does not have a campus in Columbia. Nearest RTS campus is in Charlotte, NC (~90 miles). However, Erskine Seminary students can cross-register at RTS Charlotte through the Carolina Consortium."
+      }
+    },
+    "churchDensityAndVitality": {
+      "overallAssessment": "Columbia sits in the Deep South Bible Belt with high church attendance. The PCA presence is particularly strong with 18+ congregations. The city benefits from multiple seminaries and Christian institutions (CIU, Erskine extension). South Carolina is broadly conservative and faith-oriented.",
+      "reformedSpecific": "The Reformed community is robust, anchored by the PCA. While no OPC, EPC, or CREC congregations were found, the PCA network provides extensive options from urban historic churches to suburban plants.",
+      "keyStrength": "Multiple PCA churches in every suburb (Lexington, Chapin, Irmo, Blythewood, West Columbia) means a family can find a Reformed church close to wherever they choose to live."
+    },
+    "christianCommunityOrganizations": {
+      "note": "Columbia has active Christian community organizations. CIU hosts events and conferences. Multiple church-based mercy ministries operate in the area (referenced at Christ Covenant and Chapin Presbyterian). The Midlands region has strong Vacation Bible School participation, men's and women's Bible studies, and inter-church fellowship."
+    }
+  },
+  "lifestyle": {
+    "climate": {
+      "classification": "Humid subtropical (Koppen: Cfa)",
+      "averageTemperatures": {
+        "spring": { "highF": 75, "lowF": 50, "note": "March-May. Pleasant with occasional rain." },
+        "summer": { "highF": 92, "lowF": 71, "note": "June-August. Hot and humid. July avg high 91.6F. Temps regularly reach mid-90s." },
+        "fall": { "highF": 74, "lowF": 50, "note": "September-November. Mild and pleasant. Best season." },
+        "winter": { "highF": 55, "lowF": 34, "note": "December-February. Mild. January avg high 52.9F. Occasional 70-degree winter days." }
+      },
+      "annualRainfallInches": 45,
+      "annualSnowfallInches": 1,
+      "snowDaysPerYear": 0.7,
+      "sunnyDaysPerYear": 217,
+      "note": "Columbia is notably hot in summer - one of the hottest cities in the Southeast. Winters are very mild with snow being extremely rare. 217 sunny days is above the US average of 205. Summers are the primary climate concern - extended heat and humidity from June through September."
+    },
+    "outdoorRecreation": {
+      "congareeNationalPark": {
+        "distance": "~20 minutes southeast of downtown Columbia",
+        "features": "Only National Park in SC. 25 miles of trails. 2.4-mile Boardwalk Loop Trail (wheelchair accessible). 6.6-mile canoe/kayak trail on Cedar Creek. Old-growth bottomland hardwood forest with champion trees. Free admission.",
+        "activities": ["Hiking", "Canoeing/Kayaking", "Birdwatching", "Camping", "Nature photography"]
+      },
+      "lakeMurray": {
+        "size": "50,000 acres, 650 miles of shoreline",
+        "distance": "10-30 minutes west of Columbia depending on access point",
+        "features": "Major recreational lake. Dreher Island State Park on 3 islands. Fishing (striped bass, largemouth bass). Boating, swimming, kayaking.",
+        "note": "Lake Murray is a major lifestyle amenity. Chapin and Lexington are lakeside communities."
+      },
+      "threeRiversGreenway": {
+        "length": "12 miles",
+        "features": "Paved trail along the Saluda, Broad, and Congaree Rivers. Walking, running, biking."
+      },
+      "equestrianRecreation": {
+        "manchesterStateForest": {
+          "distance": "~45 minutes southeast of Columbia",
+          "features": "20 miles of equestrian loop trails through pine-oak forest. Three easy-to-moderate loops.",
+          "requirements": "SC State Forest permit required. Negative Coggins Test Certificate required."
+        },
+        "hoofprintMeadows": {
+          "location": "Just north of Columbia",
+          "description": "Equestrian facility on secluded rolling hills."
+        },
+        "aikenEquestrianDistrict": {
+          "distance": "~60-75 minutes southwest",
+          "features": "World-class equestrian facilities. Polo, eventing, foxhunting, dressage. Multiple trail systems.",
+          "note": "Aiken is one of the premier equestrian destinations in the United States."
+        },
+        "scTrailSystem": "650+ miles of publicly accessible horseback riding trails statewide. SC Horse Council maintains trail maps and information."
+      },
+      "otherRecreation": [
+        "Sesquicentennial State Park - hiking, fishing, splash pad",
+        "Harbison State Forest - mountain biking and hiking close to city",
+        "Saluda Shoals Park - river access, trails",
+        "Riverbanks Zoo & Garden - top-rated zoo",
+        "Dreher Island State Park - camping, fishing on Lake Murray"
+      ]
+    },
+    "crimeRates": {
+      "cityProper": {
+        "rate": "41 per 1,000 residents",
+        "assessment": "One of the highest crime rates in America compared to communities of all sizes",
+        "note": "Columbia city proper has elevated crime, particularly in certain neighborhoods. This is heavily influenced by urban poverty pockets and university-area crime."
+      },
+      "suburbs": {
+        "blythewood": "Safer than 94% of SC cities",
+        "lexington": {
+          "nextdoorScore": 67,
+          "assessment": "One of the safest Columbia suburbs"
+        },
+        "chapin": {
+          "nextdoorScore": 65,
+          "assessment": "Very safe, rural-suburban character"
+        },
+        "irmo": {
+          "nextdoorScore": 62,
+          "assessment": "Family-friendly, moderate safety"
+        },
+        "forestAcres": "Considered safe, close-in suburb"
+      },
+      "note": "There is a stark contrast between Columbia city proper crime rates and the surrounding suburbs. Families overwhelmingly choose suburbs like Lexington, Chapin, and Blythewood for safety. Suburb crime rates are comparable to or better than national averages."
+    },
+    "walkabilityAndTraffic": {
+      "walkScore": 35,
+      "assessment": "Car-dependent city overall",
+      "walkableNeighborhoods": "University Hills (84), Martin Luther King area (81), Shandon",
+      "commuteTime": "15 minutes or less typical within metro",
+      "publicTransit": "Minimal - 31 bus lines, limited coverage",
+      "traffic": "Generally manageable. Not a severe traffic city compared to Charlotte or Atlanta. Suburban commutes are short.",
+      "note": "Columbia is a car-dependent city. The suburbs especially require driving for everything. However, traffic is mild by Southern metro standards, and commutes are short."
+    }
+  },
+  "community": {
+    "population": {
+      "cityProper": 149087,
+      "metroArea": 777000,
+      "asOf": "2025 estimates",
+      "note": "City proper population ~149K (up 9.45% since 2020 census of 136,207). Metro area ~777K."
+    },
+    "populationGrowth": {
+      "annualRate": "1.44% (2024-2025)",
+      "trend": "Consistent growth of 1.4-1.6% annually in recent years",
+      "drivers": "In-migration from higher-cost states, military base growth, university expansion, affordable cost of living",
+      "note": "Moderate but steady growth. Not as explosive as Greenville or Charleston, SC, which keeps it more affordable."
+    },
+    "familyFriendliness": {
+      "assessment": "Strong",
+      "factors": [
+        "Affordable housing relative to national market",
+        "Multiple excellent school districts in suburbs",
+        "Low property taxes for primary residences",
+        "Abundant outdoor recreation (lake, national park, trails)",
+        "Strong church communities across denominations",
+        "Short commutes and manageable traffic",
+        "Family-oriented suburbs (Lexington, Chapin, Blythewood)"
+      ]
+    },
+    "homeschoolCommunity": {
+      "strength": "Active and well-organized",
+      "details": "Multiple co-ops and support groups. Classical Conversations communities present. HERO in Irmo. Church-based co-ops (GROUNDED at Riverland Hills). Grace Community Academy for high schoolers. South Carolina has 3 legal homeschool pathways. The Reformed church network provides natural community for homeschool families.",
+      "note": "South Carolina is generally friendly to homeschooling. The Columbia area has a robust homeschool community with both secular and faith-based options."
+    },
+    "conservativeAndFaithCommunity": {
+      "assessment": "Very strong",
+      "details": "South Carolina is a deeply conservative state. Columbia, while having a more moderate urban core due to the university and state government, is surrounded by strongly conservative suburbs. Church attendance is high across the metro. The PCA has an unusually strong presence. Multiple Christian schools and organizations.",
+      "note": "The suburbs (Lexington, Chapin, Blythewood) are solidly conservative. The city proper leans more moderate/mixed due to USC and government workers."
+    },
+    "universityTownFeel": {
+      "university": "University of South Carolina (USC)",
+      "enrollment": "~35,000 students",
+      "impact": {
+        "positive": [
+          "Cultural amenities (museums, performing arts, speakers)",
+          "SEC athletics (football gamedays are major community events)",
+          "Economic engine and major employer",
+          "Diverse dining and entertainment options",
+          "Medical facilities associated with USC School of Medicine"
+        ],
+        "considerations": [
+          "Five Points area near campus can be rowdy/unsafe at night",
+          "Gameday traffic on football Saturdays",
+          "Student population inflates city crime statistics",
+          "Some neighborhoods around campus are student rental areas (not family-oriented)"
+        ]
+      },
+      "note": "USC gives Columbia a college-town energy that smaller cities lack. For a family in the suburbs, it provides cultural access without the downsides of living near campus."
+    }
+  },
+  "sources": [
+    "https://www.rentcafe.com/cost-of-living-calculator/us/sc/columbia/",
+    "https://www.areavibes.com/columbia-sc/cost-of-living/",
+    "https://smartasset.com/taxes/south-carolina-tax-calculator",
+    "https://taxfoundation.org/location/south-carolina/",
+    "https://www.aarp.org/states/south-carolina/state-tax-guide/",
+    "https://www.noradarealestate.com/blog/columbia-sc-real-estate-market/",
+    "https://www.redfin.com/city/4149/SC/Columbia/housing-market",
+    "https://www.zillow.com/home-values/4174/columbia-sc/",
+    "https://www.landwatch.com/south-carolina-land-for-sale/lexington-county",
+    "https://www.landsearch.com/equestrian/aiken-county-sc",
+    "https://www.firstaiagent.com/blog/buying-horse-property-in-aiken-read-this-first/",
+    "https://www.covenantcs.org/school-profile",
+    "https://www.privateschoolreview.com/covenant-classical-christian-school-profile",
+    "https://www.niche.com/k12/d/lexington-richland-school-district-no-5-sc/",
+    "https://www.lexrich5.org/departments/communications/media-releases/details/~board/2025-2026-media-releases/post/school-district-five-named-top-school-district-in-the-midlands",
+    "https://www.niche.com/k12/chapin-high-school-chapin-sc/",
+    "https://www.pcahistory.org/churches/southcarolina.html",
+    "https://christcovenantsc.org/leadership-and-staff",
+    "https://nepresbyterian.org/",
+    "https://www.sapc.net/",
+    "https://www.rosehillpca.org/",
+    "https://www.chapinpres.org/who-we-are/",
+    "https://lexpreschurch.com/",
+    "https://opc.org/locator.html?search_go=Y&state=SC",
+    "https://seminary.erskine.edu/",
+    "https://ciu.edu/academics/seminary-missions/",
+    "https://www.bestplaces.net/climate/city/south_carolina/columbia",
+    "https://weatherspark.com/y/17874/Average-Weather-in-Columbia-South-Carolina-United-States-Year-Round",
+    "https://www.nps.gov/cong/planyourvisit/trail-information.htm",
+    "https://www.lakemurraycountry.com/listing-categories/outdoor-recreation/parks-trails/",
+    "https://schorsecouncil.com/trails/",
+    "https://southcarolinaparks.com/see-and-do/trails/equestrian-trails",
+    "https://www.neighborhoodscout.com/sc/columbia/crime",
+    "https://www.extraspace.com/blog/city-guides/safe-affordable-suburbs-in-columbia/",
+    "https://www.walkscore.com/score/columbia-sc",
+    "https://www.macrotrends.net/global-metrics/cities/22962/columbia-south-carolina/population",
+    "https://worldpopulationreview.com/us-cities/south-carolina/columbia",
+    "https://www.bls.gov/eag/eag.sc_columbia_msa.htm",
+    "https://www.jeffcookrealestate.com/columbia/columbia-economy/",
+    "https://classicalconversations.com/locations/homeschool-south-carolina/",
+    "https://www.homeschoolingsc.org/support-groups-directory/sc-support-groups/co-ops-classes-resource/",
+    "https://www.niche.com/places-to-live/search/best-suburbs-for-families/m/columbia-metro-area/",
+    "https://www.huntllc.com/blog/how-to-calculate-property-taxes-in-south-carolina",
+    "https://mgcrealestate.com/property-taxes-in-south-carolina-4-vs-6/",
+    "https://lex-co.sc.gov/departments/auditor/millage-information",
+    "https://www.richlandcountysc.gov/Property-Business/Taxes/Property-Tax",
+    "https://www.privateschoolreview.com/ben-lippen-school-profile",
+    "https://www.privateschoolreview.com/hammond-school-profile",
+    "https://www.heathwood.org/admission/tuition-and-affordability",
+    "https://www.land.com/Newberry-County-SC/all-land/"
+  ]
+}

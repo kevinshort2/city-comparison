@@ -1,0 +1,770 @@
+{
+  "city": "Sisters",
+  "state": "Oregon",
+  "zip": "97759",
+  "county": "Deschutes County",
+  "metroArea": "Bend-Redmond, OR (broader area)",
+  "researchDate": "2026-03-27",
+
+  "costOfLiving": {
+    "overallIndex": {
+      "value": 134,
+      "nationalAverage": 100,
+      "note": "34% above national average; driven primarily by housing costs",
+      "source": "AreaVibes"
+    },
+    "categoryIndexes": {
+      "note": "Index where 100 = national average",
+      "grocery": 106,
+      "housing": 201,
+      "utilities": 93,
+      "transportation": 112,
+      "healthcare": 118,
+      "goodsAndServices": 104,
+      "source": "AreaVibes"
+    },
+    "monthlyCosts2026": {
+      "singlePerson": 2778,
+      "familyOfFour": 6117,
+      "yearOverYearChange": "+3%",
+      "source": "Salary.com"
+    },
+    "medianHouseholdIncome": {
+      "value": 94524,
+      "year": 2024,
+      "note": "Average household income reported at $111,241 by another source",
+      "source": "DataUSA / Point2Homes"
+    },
+    "stateIncomeTaxRate": {
+      "brackets": [
+        { "rate": "4.75%", "description": "Lowest bracket" },
+        { "rate": "6.75%", "description": "Second bracket" },
+        { "rate": "8.75%", "description": "Third bracket" },
+        { "rate": "9.9%", "description": "Top bracket (one of highest in US)" }
+      ],
+      "note": "Oregon has a 'kicker' refund when revenues exceed forecasts (9.863% of prior year tax liability for 2025 returns)",
+      "source": "Oregon Dept of Revenue / TurboTax"
+    },
+    "salesTaxRate": {
+      "state": "0%",
+      "local": "0%",
+      "total": "0%",
+      "note": "Oregon is one of five states with NO sales tax. This is a significant advantage over most states."
+    },
+    "propertyTaxRate": {
+      "effectiveRate": "0.59% to 0.72%",
+      "note": "Deschutes County effective rate varies by area (Redmond highest at 0.72%, Terrebonne lowest at 0.51%). Oregon's Measure 50 limits assessed value growth to 3% per year, so assessed value is often much lower than market value.",
+      "medianAnnualTaxBill": 3746,
+      "estimatedTaxOn400kHome": {
+        "value": "2,360 to 2,880",
+        "note": "Estimated based on 0.59%-0.72% effective rate. However, Oregon taxes assessed value (not market value), which is typically much lower. Actual tax may be significantly less on a home purchased at $400K market value if assessed value is lower.",
+        "isEstimate": true
+      },
+      "source": "Ownwell / tax-rates.org / SmartAsset"
+    },
+    "unemploymentRate": {
+      "value": "4.8%",
+      "period": "December 2025",
+      "trend": "Rising — up 0.6 percentage points from a year prior",
+      "note": "Uses Deschutes County data; Sisters-specific data not available",
+      "usesCountyData": true,
+      "source": "FRED / Bend Bulletin"
+    },
+    "topIndustries": [
+      "Healthcare and Social Assistance",
+      "Leisure and Hospitality",
+      "Manufacturing",
+      "Education",
+      "Government/Public Sector",
+      "Construction",
+      "Biotech/Aerospace (Lonza, Epic Aircraft)"
+    ],
+    "topEmployers": [
+      { "name": "St. Charles Health System", "employees": 4742 },
+      { "name": "Bend-La Pine School District", "employees": 2385 },
+      { "name": "Deschutes County", "employees": 1334 },
+      { "name": "Mt. Bachelor", "employees": 1094 },
+      { "name": "BASX Solutions (Redmond)", "employees": 1060 },
+      { "name": "Sunriver Resort", "employees": 975 },
+      { "name": "Redmond School District", "employees": 901 },
+      { "name": "Central Oregon Community College", "employees": 801 }
+    ],
+    "topEmployersNote": "Uses Deschutes County / Central Oregon data. Sisters itself has limited major employers; most residents commute to Bend or work remotely.",
+    "topEmployersSource": "EDCO / Central Oregon Daily"
+  },
+
+  "housing": {
+    "medianHomePrice": {
+      "value": 690000,
+      "period": "November 2025",
+      "yearOverYearChange": "-14.8%",
+      "note": "Prices vary significantly: Redfin reports $690K median (Nov 2025), Movoto reported $797K (Oct 2025). DataUSA shows $631K median property value (2024). Market is softening.",
+      "source": "Redfin"
+    },
+    "medianPricePerSqFt": {
+      "value": 392,
+      "yearOverYearChange": "-4.4%",
+      "source": "Redfin"
+    },
+    "marketConditions": {
+      "daysOnMarket": 70,
+      "daysOnMarketPriorYear": 53,
+      "competitiveness": "Somewhat competitive",
+      "homesSoldPerMonth": 7,
+      "homesSoldPriorYear": 9,
+      "trend": "Market is cooling. Longer time on market, fewer sales, declining prices year-over-year.",
+      "source": "Redfin"
+    },
+    "ruralLandPricing": {
+      "averagePricePerAcre": 47783,
+      "note": "Average based on 639 acres of listed land. Individual parcels vary enormously by location, irrigation, and improvements.",
+      "averageListingPrice": 1328283,
+      "numberOfListings": 31,
+      "source": "LandSearch"
+    },
+    "horsePropertyAvailability": {
+      "available": true,
+      "keyAreas": [
+        {
+          "name": "Cascade Meadow Ranch",
+          "description": "Premier equestrian community in Sisters. 360-acre gated ranch, 24 lots (1.63-2.96 acres), surrounded by USDA Forest Service lands. Indoor/outdoor arenas, full-care horse staff, 100 acres of turnout pastures, tack room, direct trail access to Deschutes National Forest.",
+          "distanceFromSisters": "2 miles",
+          "lotSizes": "1.63 to 2.96 acres",
+          "note": "Small lot sizes but excellent equestrian amenities. Not suitable for 10+ acre ranch."
+        },
+        {
+          "name": "Tumalo Area",
+          "description": "Between Bend, Redmond, and Sisters. Known for small farms and horse properties. Larger acreage available (5-35+ acres). Irrigated pastures via Tumalo Irrigation District. Some properties back to BLM land.",
+          "distanceFromSisters": "10-15 miles (between Sisters and Bend)",
+          "lotSizes": "5 to 35+ acres typical",
+          "note": "Best option for 10+ acre horse/ranch property close to Sisters"
+        },
+        {
+          "name": "Camp Sherman / Metolius River Area",
+          "description": "Rural area northwest of Sisters near the Metolius River. More remote, heavily forested. Limited ranch properties but scenic rural living.",
+          "distanceFromSisters": "10-15 miles northwest"
+        },
+        {
+          "name": "Tollgate",
+          "description": "Family-friendly housing community 2 miles west of Sisters on Hwy 20. Seasonal pool, tennis, basketball. More residential than ranch.",
+          "distanceFromSisters": "2 miles"
+        },
+        {
+          "name": "Crossroads",
+          "description": "Tucked in the ponderosas near Sisters. Residential neighborhood with forested lots.",
+          "distanceFromSisters": "Near town"
+        },
+        {
+          "name": "Black Butte Ranch",
+          "description": "Resort community 9 miles NW of Sisters. 1,800 acres. Golf, horseback riding, swimming. Mix of full-time residents and vacation homes. Not ranch/acreage lifestyle.",
+          "distanceFromSisters": "9 miles northwest"
+        }
+      ],
+      "zoningNote": "Oregon land use law no longer allows new forest and sagebrush subdivisions, making existing rural lots/neighborhoods special and somewhat limited. Deschutes County has Exclusive Farm Use (EFU) and Forest (F1/F2) zoning that allows agricultural/equestrian use on larger parcels. Rural residential zones exist but new subdivision of rural land is restricted.",
+      "source": "Cascade Meadow Ranch HOA / Fay Ranches / Central Oregon Realty Group"
+    },
+    "notableForFamilies": [
+      "Tollgate — family-friendly community with pool, 2 mi from Sisters",
+      "Crossroads — forested residential near town",
+      "In-town Sisters — walkable to schools and shops",
+      "Tumalo area — best for ranch/horse families wanting acreage",
+      "Cascade Meadow Ranch — premier equestrian, smaller lots"
+    ],
+    "propertyTaxOn400kHome": {
+      "estimated": "2,360 to 2,880 per year",
+      "note": "Based on effective rate of 0.59%-0.72%. Oregon's Measure 50 means assessed value grows only 3%/year and is typically well below market value, so actual taxes on a newly purchased $400K home would depend on the assessed value at the time of purchase.",
+      "isEstimate": true
+    }
+  },
+
+  "education": {
+    "publicSchools": {
+      "districtName": "Sisters School District 6",
+      "districtRanking": "#6 of 143 districts in Oregon (Niche)",
+      "students": 1173,
+      "studentTeacherRatio": "16:1",
+      "graduationRate": {
+        "value": "90-94%",
+        "stateAverage": "81-82%",
+        "source": "PublicSchoolReview / Niche"
+      },
+      "proficiencyRates": {
+        "reading": "55% (all grades)",
+        "math": "34% (all grades)",
+        "elementaryReading": "63%",
+        "elementaryMath": "44%",
+        "middleSchoolReading": "54%",
+        "middleSchoolMath": "36%"
+      },
+      "schools": [
+        "Sisters Elementary School",
+        "Sisters Middle School",
+        "Sisters High School"
+      ],
+      "source": "Niche / U.S. News / GreatSchools"
+    },
+    "classicalChristianSchools": {
+      "inSisters": {
+        "note": "Sisters Christian Academy (classical model) permanently CLOSED as of June 2020. No classical Christian school currently operates in Sisters proper."
+      },
+      "withinDrivingDistance": [
+        {
+          "name": "Morning Star Christian School",
+          "location": "Bend, OR",
+          "distance": "~25 min from Sisters",
+          "grades": "PK-8",
+          "tuition": "$7,950/year (highest grade)",
+          "studentTeacherRatio": "9:1",
+          "approach": "Christ-centered with STEM focus (Project Lead the Way). NOT classical model.",
+          "source": "PrivateSchoolReview / mscsbend.org"
+        },
+        {
+          "name": "Three Sisters Adventist Christian School",
+          "location": "Bend, OR (21155 Tumalo Rd)",
+          "distance": "~20 min from Sisters",
+          "grades": "PK-8",
+          "studentTeacherRatio": "16:1",
+          "denomination": "Seventh-day Adventist",
+          "approach": "Christ-centered. NOT classical model.",
+          "note": "Oldest Christian school in Central Oregon, since 1924.",
+          "source": "Niche / PrivateSchoolReview"
+        }
+      ],
+      "accsSchoolsInOregon": {
+        "note": "No ACCS (Association of Classical Christian Schools) member schools exist in the Bend/Sisters/Central Oregon area. Nearest ACCS schools are in the Portland metro (St. Stephen's Academy, Veritas School) — 3+ hours away.",
+        "source": "ACCS find-a-school / PrivateSchoolReview"
+      },
+      "gap": "There is a SIGNIFICANT GAP in classical Christian education in the Sisters/Bend area. No classical Christian day school currently operates within 30 minutes. The closest options are homeschool co-ops or online programs like Logos Online School."
+    },
+    "otherPrivateSchools": [
+      {
+        "name": "Seven Peaks School",
+        "location": "Bend, OR",
+        "note": "Top-rated private school in Bend, non-religious"
+      },
+      {
+        "name": "Cascades Academy",
+        "location": "Bend, OR",
+        "note": "Independent school, nature-based"
+      },
+      {
+        "name": "St. Francis of Assisi Catholic School",
+        "location": "Bend, OR",
+        "note": "Catholic school"
+      }
+    ],
+    "homeschoolCoOps": {
+      "classicalConversations": {
+        "presenceInArea": "Likely present but not confirmed",
+        "note": "Classical Conversations has communities in all 50 states and Oregon. The CC community search tool requires interactive use to find specific Bend/Sisters communities. Oregon has active CC communities statewide. Prospective families should search at classicalconversations.com/community-search/ or contact CC directly.",
+        "source": "classicalconversations.com"
+      },
+      "otherCoOps": [
+        {
+          "name": "Cascade Christian Co-op",
+          "description": "Homeschool group supporting Central Oregon families through supplementary classes, social events, field trips, and prayer.",
+          "location": "Central Oregon (Bend area)",
+          "source": "TheHomeSchoolMom"
+        },
+        {
+          "name": "Commonplace Sisters",
+          "description": "Classes, private lessons in art, music, drama, and education for Central Oregon community.",
+          "location": "Sisters, OR",
+          "source": "commonplacesisters.com"
+        }
+      ],
+      "stateSupport": {
+        "organization": "OCEANetwork (Oregon Christian Home Education Association Network)",
+        "description": "Supports, encourages, protects and advances private Christian home education in Oregon. Maintains directory of affiliated support groups.",
+        "website": "oceanetwork.org",
+        "source": "OCEANetwork"
+      }
+    }
+  },
+
+  "faith": {
+    "reformedChurches": {
+      "inSisters": {
+        "note": "No PCA, OPC, EPC, or CREC congregation currently exists in Sisters proper. Sisters has approximately 10 churches, none Reformed/Presbyterian in the confessional sense."
+      },
+      "inBendArea": [
+        {
+          "name": "Grace Reformed Presbyterian Church",
+          "denomination": "OPC (Orthodox Presbyterian Church)",
+          "address": "62162 Hamby Road, Bend, OR 97701",
+          "phone": "541-382-1572",
+          "pastor": "Dan Dillard",
+          "seminary": "Westminster Theological Seminary (California)",
+          "services": "Education Hour: Sunday 9:00 AM, Lord's Service: Sunday 10:30 AM",
+          "theology": "Committed to Biblical and historic Christian faith in the Reformed tradition. Psalm singing.",
+          "distanceFromSisters": "~25-30 min drive",
+          "website": "gracerpcbend.com",
+          "source": "gracerpcbend.com"
+        },
+        {
+          "name": "Sovereign Grace Church",
+          "denomination": "Reformed Baptist (1689 London Baptist Confession)",
+          "address": "40 SE 5th Street, Bend, OR 97701",
+          "services": "Sunday at 10:00 AM",
+          "contact": "Elder Jeff Smith; Gene Kroeker (541) 550-8515",
+          "distanceFromSisters": "~25-30 min drive",
+          "website": "sovereigngracebend.org",
+          "source": "sovereigngracebend.org"
+        }
+      ],
+      "pcaPresence": {
+        "note": "NO PCA (Presbyterian Church in America) church exists in Bend, Redmond, Sisters, or anywhere in Central Oregon. The nearest PCA churches are in the Willamette Valley (Newberg, Salem, Portland area — 2.5-3+ hours away). The Pacific Northwest Presbytery lists zero Central Oregon congregations.",
+        "source": "PCA Pacific Northwest Presbytery / pcaac.org"
+      },
+      "epcPresence": {
+        "note": "No EPC (Evangelical Presbyterian Church) congregation found in Bend/Sisters/Central Oregon. An ECO church plant (Crux) was being established in Bend by Rev. Pete Santucci, but current status is unclear.",
+        "source": "EPC Presbytery of the Pacific Northwest"
+      },
+      "crecPresence": {
+        "note": "No CREC (Communion of Reformed Evangelical Churches) congregation found in Bend/Sisters/Central Oregon. Nearest CREC churches appear to be in Portland metro area.",
+        "source": "crechurches.org"
+      },
+      "summary": "The Reformed church landscape in Sisters/Central Oregon is THIN. Only one OPC church (Grace Reformed Presbyterian) and one Reformed Baptist church (Sovereign Grace) exist in Bend, both ~25-30 minutes from Sisters. No PCA, EPC, or CREC congregations exist in the area. This is a significant consideration for families prioritizing Reformed community."
+    },
+    "churchesInSistersProper": [
+      {
+        "name": "Sisters Community Church",
+        "denomination": "Non-denominational / Evangelical",
+        "address": "1300 W McKenzie Hwy, Sisters, OR",
+        "services": "Sunday at 10:00 AM",
+        "ministries": "Marriage ministry, youth ministry, men's/women's groups, life groups, community care team, Wellhouse Market food pantry (serves 80 families/week)",
+        "note": "Largest and most active church in Sisters. Contemporary and traditional worship. Strong community presence.",
+        "source": "sisterschurch.com"
+      },
+      {
+        "name": "Wellhouse Church",
+        "denomination": "Non-denominational (formerly Westside Sisters, a satellite of Westside Church Bend)",
+        "address": "442 N Trinity Way, Sisters, OR 97759",
+        "phone": "541-549-4184",
+        "note": "Became independent church in 2020. Runs Wellhouse Market food pantry.",
+        "source": "wellhousechurch.org"
+      },
+      {
+        "name": "Calvary Chapel Sisters",
+        "denomination": "Calvary Chapel",
+        "location": "Sisters, OR",
+        "source": "Yelp"
+      },
+      {
+        "name": "Episcopal Church of The Transfiguration",
+        "denomination": "Episcopal",
+        "address": "121 North Brooks Camp Rd, Sisters, OR",
+        "phone": "541-549-7087",
+        "services": "Sunday 8:30 AM and 10:15 AM",
+        "source": "transfiguration-sisters.org"
+      },
+      {
+        "name": "Shepherd of the Hills Lutheran Church",
+        "denomination": "Lutheran",
+        "address": "386 North Fir Street, Sisters, OR",
+        "source": "shepherdofthehillslutheranchurch.com"
+      },
+      {
+        "name": "St. Edward the Martyr",
+        "denomination": "Roman Catholic",
+        "address": "123 Trinity Way, Sisters, OR",
+        "phone": "541-549-9391",
+        "source": "stedwardsisters.org"
+      },
+      {
+        "name": "Sisters Adventist Church",
+        "denomination": "Seventh-day Adventist",
+        "location": "Sisters, OR",
+        "source": "sistersor.adventistchurch.org"
+      },
+      {
+        "name": "The Church of Jesus Christ of Latter-day Saints",
+        "denomination": "LDS",
+        "address": "68885 Trinity Way, Sisters, OR",
+        "source": "churchofjesuschrist.org"
+      }
+    ],
+    "christianCommunityOrganizations": [
+      "Wellhouse Market — food pantry serving 80 families/week (run by Wellhouse Church)",
+      "Sisters Community Church Community Care Team — benevolence ministry",
+      "Cascade Christian Co-op — homeschool support",
+      "OCEANetwork — statewide Christian homeschool advocacy",
+      "Bend Ministerial Association — ecumenical clergy group in Bend"
+    ]
+  },
+
+  "lifestyle": {
+    "climate": {
+      "temperaturesByMonth": {
+        "january": { "high": 41, "low": 21 },
+        "february": { "high": 44, "low": 22 },
+        "march": { "high": 51, "low": 25 },
+        "april": { "high": 57, "low": 29 },
+        "may": { "high": 66, "low": 34 },
+        "june": { "high": 74, "low": 39 },
+        "july": { "high": 86, "low": 43 },
+        "august": { "high": 85, "low": 42 },
+        "september": { "high": 76, "low": 36 },
+        "october": { "high": 61, "low": 29 },
+        "november": { "high": 47, "low": 24 },
+        "december": { "high": 39, "low": 20 },
+        "unit": "Fahrenheit"
+      },
+      "seasonalSummary": {
+        "spring": { "avgHigh": "51-66", "avgLow": "25-34", "note": "Cool, gradually warming. Light precipitation." },
+        "summer": { "avgHigh": "74-86", "avgLow": "39-43", "note": "Warm and dry. Cool nights. Excellent for outdoor activities." },
+        "fall": { "avgHigh": "47-76", "avgLow": "24-36", "note": "Rapid cooling Sep-Nov. Beautiful fall colors." },
+        "winter": { "avgHigh": "39-44", "avgLow": "20-22", "note": "Cold with snow. Below freezing nights." }
+      },
+      "annualRainfall": {
+        "inches": 15.2,
+        "note": "Semi-arid climate. Much drier than western Oregon."
+      },
+      "annualSnowfall": {
+        "inches": "32 (estimated, sources vary from 16 to 60)",
+        "note": "Sources vary significantly. BestPlaces reports ~32 inches. Mountains nearby receive much more. Snow season Dec-Apr.",
+        "isEstimate": true
+      },
+      "sunnyDaysPerYear": {
+        "value": 162,
+        "usAverage": 205,
+        "note": "Below US average, but significantly sunnier than western Oregon. Central Oregon's 'high desert' climate provides more sun than Cascade west side."
+      },
+      "generalDescription": "Semi-arid high desert climate at ~3,200 ft elevation. Summers are warm, dry, and sunny. Winters are cold with moderate snowfall. Low humidity year-round. Significantly drier and sunnier than Portland/western Oregon.",
+      "source": "US Climate Data / BestPlaces / WeatherSpark"
+    },
+    "outdoorRecreation": {
+      "hiking": {
+        "highlights": [
+          "Peterson Ridge Trail System — 25 miles of trails at south edge of town, all ability levels",
+          "South Sister Trail — 11.6 miles, 5,000 ft elevation gain, Three Sisters Wilderness",
+          "Moraine Lake Trail — 5 miles out-and-back, 1,500 ft gain",
+          "Sahalie Falls & Koosah Falls — 2.4 mile loop along McKenzie River",
+          "McKenzie Pass Scenic Bikeway — lava flows, Dee Wright Observatory",
+          "Pacific Crest Trail access nearby",
+          "Three Sisters Wilderness — extensive backcountry hiking",
+          "Deschutes National Forest — thousands of miles of trails"
+        ],
+        "source": "Sisters Trails Alliance / AllTrails / Visit Central Oregon"
+      },
+      "equestrian": {
+        "highlights": [
+          "Cascade Meadow Ranch — indoor/outdoor arenas, 100 acres pasture, full-care staff, forest trail access",
+          "Deschutes National Forest trails accessible from multiple trailheads",
+          "Black Butte Ranch horseback riding",
+          "Sisters Rodeo — one of Oregon's largest, annual since 1940",
+          "Tumalo area horse properties with BLM land access"
+        ],
+        "note": "Strong equestrian culture in Sisters Country. Multiple horse communities and extensive public land trail access."
+      },
+      "fishing": {
+        "highlights": [
+          "Metolius River — world-class fly-fishing paradise (fly-fishing only)",
+          "Deschutes River",
+          "Suttle Lake — camping and fishing",
+          "Multiple alpine lakes in Cascade Range"
+        ],
+        "localResource": "The Fly Fisher's Place — guided trips and gear in Sisters"
+      },
+      "skiing": {
+        "hoodoo": {
+          "name": "Hoodoo Ski Area",
+          "distance": "22 miles west / 25-35 min drive from Sisters",
+          "details": "34 runs, freestyle terrain park, cross-country trails. Family-friendly, less crowded. 'Oregon's best ski secret.'",
+          "note": "Closest ski area to Sisters."
+        },
+        "bachelor": {
+          "name": "Mt. Bachelor",
+          "distance": "~50-60 min drive from Sisters (30 min from Bend)",
+          "details": "Major destination ski resort. 4,300+ acres, 101 runs, 3,365 ft vertical drop. One of the largest ski areas in the Pacific Northwest."
+        }
+      },
+      "mountainBiking": {
+        "highlights": [
+          "Peterson Ridge Trail System — hiking and biking",
+          "McKenzie Pass Scenic Bikeway",
+          "Phil's Trail Complex (near Bend) — world-class mountain biking",
+          "Fat biking in winter",
+          "Gravel biking, adaptive biking supported"
+        ]
+      },
+      "otherActivities": [
+        "Golf (Black Butte Ranch, Aspen Lakes)",
+        "Rock climbing (Smith Rock State Park ~35 min away)",
+        "Camping (Suttle Lake, Deschutes NF)",
+        "Paddleboarding/kayaking",
+        "Snowshoeing and cross-country skiing",
+        "Mountain and road cycling"
+      ]
+    },
+    "crimeRates": {
+      "totalCrimeRate": "26.43 per 1,000 residents annually",
+      "chanceOfBeingVictim": "1 in 246 (vs national average 1 in 47)",
+      "violentCrimeRate": "Well below national average",
+      "propertyCrimeRate": "15.32 per 1,000 residents",
+      "safetyPercentile": "43rd percentile (safer than 43% of all US cities)",
+      "comparedToOregon": "Lower crime rate than 89% of Oregon communities",
+      "safestAreas": "North part of city considered safest (1 in 75 chance)",
+      "leastSafeAreas": "South part of city (1 in 26 chance)",
+      "annualCrimeCost": "$3,007,085 total / $336 per resident",
+      "source": "NeighborhoodScout / CrimeGrade / AreaVibes"
+    },
+    "walkabilityAndAmenities": {
+      "downtownWalkability": "Good — downtown Sisters has walkable local shops, restaurants, and galleries along Cascade Ave (Hwy 20)",
+      "distanceToBend": "23 miles / 35-50 min drive",
+      "distanceToRedmond": "~20 miles / 25-30 min drive",
+      "nearestAirport": "Redmond Municipal Airport (RDM) — ~30 min drive. Served by Alaska, American, Delta, United",
+      "groceryInSisters": "Limited — small grocery stores in town",
+      "majorShoppingGrocery": "Bend has Costco, Fred Meyer, Trader Joe's, Whole Foods, etc.",
+      "medicalAccess": "St. Charles Health System in Bend (25-30 min); limited medical facilities in Sisters proper"
+    }
+  },
+
+  "community": {
+    "population": {
+      "city": {
+        "value": 2899,
+        "year": 2026,
+        "source": "World Population Review"
+      },
+      "greaterSistersArea": {
+        "value": "10,000+",
+        "note": "The broader Sisters area including surrounding neighborhoods (Tollgate, Crossroads, Black Butte Ranch, rural areas) is home to 10,000+ people.",
+        "source": "SistersOregonGuide"
+      },
+      "deschutesCounty": {
+        "value": "~210,000",
+        "note": "Estimated, using broader county data",
+        "isEstimate": true
+      }
+    },
+    "populationGrowthTrend": {
+      "2000to2010": "+108.8% (1,063 people)",
+      "2010to2020": "+50.5% (1,031 people)",
+      "recent": "-0.99% annually, -5.66% since 2020 census",
+      "note": "After decades of rapid growth, Sisters city population has been declining slightly since 2020. This may reflect pandemic-era reverse migration or measurement methodology. The broader Deschutes County continues to grow.",
+      "source": "Oregon Demographics / World Population Review / KTVZ"
+    },
+    "demographics": {
+      "medianAge": 49.6,
+      "percentAge65Plus": "38.9%",
+      "raceEthnicity": {
+        "white": "84.4%",
+        "twoOrMore": "9.8%",
+        "hispanic": "4.9%"
+      },
+      "educationLevel": "42% with bachelor's degree or higher (vs 36.3% statewide)",
+      "povertyRate": "7.66%"
+    },
+    "communityCharacter": {
+      "description": "Sisters is a vibrant, artsy community with charming 1880s Old West facades and genuine small-town ambience. It's a modern Wild West town with period-appropriate architecture. The town values quality over quantity, connection over distraction, and beauty over efficiency.",
+      "identity": "Mix of tourism destination, retirement community, outdoor recreation hub, and creative arts community. NOT primarily a young-family town — median age is 49.6 and nearly 39% are 65+. However, families do live in the broader area and the school district is strong.",
+      "tourism": "Significant tourist component — Sisters draws visitors year-round for its western charm, galleries, festivals, and outdoor access. The Sisters Rodeo (since 1940), Sisters Outdoor Quilt Show (largest in the world), and other events are major draws.",
+      "festivals": [
+        "Sisters Rodeo — annual since 1940, one of Oregon's largest",
+        "Sisters Outdoor Quilt Show — world's largest outdoor quilt show",
+        "Sisters Folk Festival",
+        "Various seasonal events and art walks"
+      ],
+      "civicEngagement": "Active community organizations, strong volunteerism. The Nugget Newspaper serves as community paper. City government is accessible. Small-town feel where 'you'll often see familiar faces around town.'",
+      "source": "Travel Oregon / Visit Central Oregon / SistersVacation.com"
+    },
+    "familyFriendliness": {
+      "rating": "Moderate",
+      "strengths": [
+        "Strong public school district (#6 in Oregon)",
+        "Safe community (low crime)",
+        "Excellent outdoor recreation for families",
+        "Family-friendly neighborhoods (Tollgate has pool, tennis, basketball)",
+        "Close-knit community feel",
+        "Active youth sports and school programs"
+      ],
+      "weaknesses": [
+        "Older demographic (median age 49.6, 39% over 65) — not a young-family dominant community",
+        "No classical Christian school nearby",
+        "Limited Reformed church options",
+        "Limited amenities — need to drive to Bend for major shopping, medical, dining",
+        "High housing costs limit young family entry",
+        "Limited job market in Sisters itself"
+      ]
+    },
+    "homeschoolCommunity": {
+      "assessment": "Moderate — Central Oregon has homeschool support infrastructure through OCEANetwork and co-ops like Cascade Christian Co-op, but specific Sisters-area homeschool community is likely small. Bend (25 min away) would be the hub for most homeschool activities and co-ops.",
+      "resources": [
+        "Classical Conversations — may have community in Bend area (verify via CC community search)",
+        "Cascade Christian Co-op — supplementary classes, social events, field trips",
+        "Commonplace Sisters — art, music, drama classes",
+        "OCEANetwork — statewide Christian homeschool support",
+        "Logos Online School — online classical Christian education option"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "url": "https://www.areavibes.com/sisters-or/cost-of-living/",
+      "title": "Sisters, OR Cost of Living — AreaVibes",
+      "dataUsed": "Cost of living indexes"
+    },
+    {
+      "url": "https://www.salary.com/research/cost-of-living/sisters-or",
+      "title": "Cost of Living in Sisters, OR — Salary.com",
+      "dataUsed": "Monthly cost estimates, category breakdowns"
+    },
+    {
+      "url": "https://www.redfin.com/city/17408/OR/Sisters/housing-market",
+      "title": "Sisters Housing Market — Redfin",
+      "dataUsed": "Median home price, days on market, market conditions"
+    },
+    {
+      "url": "https://datausa.io/profile/geo/sisters-or",
+      "title": "Sisters, OR — Data USA",
+      "dataUsed": "Median household income, demographics"
+    },
+    {
+      "url": "https://www.ownwell.com/trends/oregon/deschutes-county",
+      "title": "Deschutes County Property Taxes — Ownwell",
+      "dataUsed": "Property tax rates"
+    },
+    {
+      "url": "https://www.tax-rates.org/oregon/deschutes_county_property_tax",
+      "title": "Deschutes County Property Tax — Tax-Rates.org",
+      "dataUsed": "Property tax rate, median tax bill"
+    },
+    {
+      "url": "https://smartasset.com/taxes/oregon-property-tax-calculator",
+      "title": "Oregon Property Tax Calculator — SmartAsset",
+      "dataUsed": "Property tax calculation"
+    },
+    {
+      "url": "https://www.oregon.gov/dor/programs/individuals/pages/pit.aspx",
+      "title": "Oregon Personal Income Tax — Oregon DOR",
+      "dataUsed": "State income tax rates"
+    },
+    {
+      "url": "https://www.avalara.com/taxrates/en/state-rates/oregon.html",
+      "title": "Oregon Sales Tax — Avalara",
+      "dataUsed": "Sales tax rate (0%)"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/ORDESC7URN",
+      "title": "Deschutes County Unemployment Rate — FRED",
+      "dataUsed": "Unemployment rate"
+    },
+    {
+      "url": "https://www.edcoinfo.com/about-the-area/major-employers",
+      "title": "EDCO Major Employers",
+      "dataUsed": "Top employers in Central Oregon"
+    },
+    {
+      "url": "https://www.niche.com/k12/d/sisters-school-district-or/",
+      "title": "Sisters School District — Niche",
+      "dataUsed": "School district rankings, graduation rates"
+    },
+    {
+      "url": "https://gracerpcbend.com/about",
+      "title": "Grace Reformed Presbyterian Church — About",
+      "dataUsed": "OPC church details in Bend"
+    },
+    {
+      "url": "https://sovereigngracebend.org/",
+      "title": "Sovereign Grace Church Bend",
+      "dataUsed": "Reformed Baptist church details"
+    },
+    {
+      "url": "https://www.pacificnorthwestpresbytery.com/churches",
+      "title": "PCA Pacific Northwest Presbytery Churches",
+      "dataUsed": "PCA church directory (no Central Oregon churches)"
+    },
+    {
+      "url": "https://www.usclimatedata.com/climate/sisters/oregon/united-states/usor0324",
+      "title": "Sisters Oregon Climate Data — US Climate Data",
+      "dataUsed": "Monthly temperature and precipitation data"
+    },
+    {
+      "url": "https://www.neighborhoodscout.com/or/sisters/crime",
+      "title": "Sisters Crime Rates — NeighborhoodScout",
+      "dataUsed": "Crime statistics"
+    },
+    {
+      "url": "https://crimegrade.org/safest-places-in-sisters-or/",
+      "title": "Sisters Safety — CrimeGrade",
+      "dataUsed": "Crime statistics, safety grades"
+    },
+    {
+      "url": "https://worldpopulationreview.com/us-cities/oregon/sisters",
+      "title": "Sisters Population 2026 — World Population Review",
+      "dataUsed": "Population data"
+    },
+    {
+      "url": "https://www.landsearch.com/properties/sisters-or",
+      "title": "Sisters OR Land for Sale — LandSearch",
+      "dataUsed": "Land pricing, availability"
+    },
+    {
+      "url": "https://cascademeadowranch.com/",
+      "title": "Cascade Meadow Ranch",
+      "dataUsed": "Equestrian community details"
+    },
+    {
+      "url": "https://www.cascademeadowranchhoa.com/",
+      "title": "Cascade Meadow Ranch HOA",
+      "dataUsed": "Equestrian facilities and lot information"
+    },
+    {
+      "url": "https://fayranches.com/property/juliet-farm-oregon/",
+      "title": "Juliet Farm Tumalo — Fay Ranches",
+      "dataUsed": "Tumalo horse property examples"
+    },
+    {
+      "url": "https://www.bendsunriverhomesforsale.com/guide/central-oregon-equestrian-real-estate/",
+      "title": "Central Oregon Equestrian Real Estate",
+      "dataUsed": "Horse property overview"
+    },
+    {
+      "url": "https://classicalconversations.com/community-search/",
+      "title": "Classical Conversations Community Search",
+      "dataUsed": "Homeschool co-op availability"
+    },
+    {
+      "url": "https://oceanetwork.org/find-support/",
+      "title": "OCEANetwork — Find Support",
+      "dataUsed": "Oregon Christian homeschool support"
+    },
+    {
+      "url": "https://exploresisters.com/outdoors/",
+      "title": "Sisters Outdoors — Explore Sisters",
+      "dataUsed": "Outdoor recreation"
+    },
+    {
+      "url": "https://sisterstrails.org/",
+      "title": "Sisters Trails Alliance",
+      "dataUsed": "Trail systems"
+    },
+    {
+      "url": "https://www.sistersoregonguide.com/post/neighborhoods-of-sisters",
+      "title": "Neighborhoods of Sisters",
+      "dataUsed": "Neighborhood descriptions"
+    },
+    {
+      "url": "https://www.sisterschurch.com/",
+      "title": "Sisters Community Church",
+      "dataUsed": "Church details and ministries"
+    },
+    {
+      "url": "https://www.mscsbend.org/",
+      "title": "Morning Star Christian School",
+      "dataUsed": "Christian school details"
+    },
+    {
+      "url": "https://visitcentraloregon.com/cities/sisters/",
+      "title": "A Guide to Sisters, OR — Visit Central Oregon",
+      "dataUsed": "Community character, family activities"
+    },
+    {
+      "url": "https://centraloregonluxury.com/blog/sisters-vs-bend-which-fits-your-life",
+      "title": "Sisters vs Bend Living",
+      "dataUsed": "Distance to Bend, walkability comparison"
+    }
+  ]
+}
