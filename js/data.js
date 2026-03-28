@@ -169,7 +169,8 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Chesterton Academy of Mater Dei", grades: "9-12", tuition: "$2,400", students: "8 (opened Fall 2025)", accreditation: "Chesterton Schools Network", notes: "Catholic classical high school — Central Oregon's first classical school. Part of nationwide Chesterton network." }
+        { name: "Chesterton Academy of Mater Dei", grades: "9-12", tuition: "$2,400", students: "8 (opened Fall 2025)", accreditation: "Chesterton Schools Network", notes: "Catholic classical high school — Central Oregon's first classical school. Part of nationwide Chesterton network." },
+        { name: "Immanuel Classical School", grades: "K-12", tuition: "Contact school", students: "Small", accreditation: "Classical Christian", notes: "Classical Christian school rooted in Reformed theology. Covenantal discipleship model." }
       ],
       otherPrivateSchools: [
         { name: "Trinity Lutheran School", grades: "PreK-12", tuition: 12500, notes: "670 students, strong academics, LCMS" },
@@ -1024,8 +1025,8 @@ const DEFAULT_WEIGHTS = {
  *   Columbia: 7 — Covenant Classical (ACCS) + Heritage Christian Academy (ACCS, Lexington suburb), active homeschool
  *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (916 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
  *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, Coeur du Christ Academy (Catholic classical), very strong homeschool
- *   Bend: 4 — Only Chesterton Academy (Catholic classical, 8 students) — one small classical school plus CC active, moderate homeschool
- *   Sisters: 2 — No classical Christian school in town, only Chesterton Academy in Bend (25 min away, Catholic, 8 students)
+ *   Bend: 5 — Chesterton Academy (Catholic classical, 8 students) + Immanuel Classical School (Reformed, K-12) — two classical schools plus CC active, moderate homeschool
+ *   Sisters: 3 — No classical Christian school in town, but Immanuel Classical School + Chesterton Academy in Bend (25 min away)
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
  *   Sisters: 9 — World-class outdoors, excellent equestrian, very safe, but harsh winter
@@ -1069,8 +1070,8 @@ const DEFAULT_WEIGHTS = {
  */
 const SCORES = {
   "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
-  "bend-or":          { faith: 2, education: 4, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
-  "sisters-or":       { faith: 1, education: 2, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
+  "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
+  "sisters-or":       { faith: 1, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
   "sarasota-fl":      { faith: 3, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
