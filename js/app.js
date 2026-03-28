@@ -195,6 +195,26 @@ function initMobileNav() {
   });
 }
 
+function initNavDropdowns() {
+  document.querySelectorAll('.nav-dropdown > a').forEach((trigger) => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      const dropdown = trigger.parentElement;
+      const wasOpen = dropdown.classList.contains('open');
+      // Close all dropdowns first
+      document.querySelectorAll('.nav-dropdown.open').forEach((d) => d.classList.remove('open'));
+      if (!wasOpen) dropdown.classList.add('open');
+    });
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-dropdown')) {
+      document.querySelectorAll('.nav-dropdown.open').forEach((d) => d.classList.remove('open'));
+    }
+  });
+}
+
 function highlightActiveNavLink() {
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-link').forEach((link) => {
@@ -413,6 +433,7 @@ function initResponsiveTables() {
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
+  initNavDropdowns();
   highlightActiveNavLink();
   initSmoothScroll();
   initWeightSliders();
