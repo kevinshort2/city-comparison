@@ -3,10 +3,10 @@
   "state": "Oregon",
   "lastUpdated": "2026-03-27",
   "costOfLiving": {
-    "overallIndex": 133,
-    "overallIndexNote": "National average = 100. Bend is 33% above national average, primarily driven by housing costs.",
-    "medianHouseholdIncome": 105100,
-    "medianHouseholdIncomeNote": "Area Median Income (AMI) for a household of four is $123,500 as of 2025. Homeowner median is $127,868; renter median is $78,908.",
+    "overallIndex": 127,
+    "overallIndexNote": "National average = 100. Bend is 27% above national average, primarily driven by housing costs.",
+    "medianHouseholdIncome": 96000,
+    "medianHouseholdIncomeNote": "Census median household income ~$96K. HUD Area Median Income (AMI) is higher at ~$105K. AMI for a household of four is $123,500 as of 2025. Homeowner median is $127,868; renter median is $78,908.",
     "stateIncomeTaxRate": {
       "brackets": [
         { "rate": "4.75%", "single": "Up to $4,050", "joint": "Up to $8,100" },
@@ -437,7 +437,7 @@
         "highlights": ["Deschutes River", "Cascade Lakes", "Wickiup Reservoir", "Crane Prairie Reservoir", "East Lake", "Paulina Lake"]
       },
       "skiing": {
-        "description": "Mt. Bachelor ski resort 22 miles west of Bend. 4,318-foot vertical drop, 101 runs, season late Nov - April.",
+        "description": "Mt. Bachelor ski resort 22 miles west of Bend. 3,365-foot vertical drop, 101 runs, season late Nov - April.",
         "otherWinterSports": ["Nordic skiing", "Snowmobiling", "Dog-sledding", "Snowshoeing"]
       },
       "mountainBiking": {

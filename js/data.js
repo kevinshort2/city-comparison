@@ -41,7 +41,7 @@ const CITIES = {
       marketCondition: "Balanced",
       daysOnMarket: 64,
       neighborhoods: [
-        { name: "Chevy Chase-Ashland Park", priceRange: "$300K-$600K", familyRating: "Excellent", notes: "Historic charm, tree-lined streets, near UK campus" },
+        { name: "Chevy Chase-Ashland Park", priceRange: "$500K-$800K+", familyRating: "Excellent", notes: "Historic charm, tree-lined streets, near UK campus" },
         { name: "Tates Creek", priceRange: "$250K-$450K", familyRating: "Good", notes: "Diverse, inclusive, family-friendly" },
         { name: "Hamburg", priceRange: "$300K-$500K", familyRating: "Good", notes: "Newer subdivisions, retail, family amenities" },
         { name: "Southern Fayette County", priceRange: "$400K-$1M+", familyRating: "Excellent", notes: "Equestrian estates, 10+ acre lots, rural character" },
@@ -67,7 +67,7 @@ const CITIES = {
         { name: "CHC", type: "Christian Co-op", notes: "Christian Homeschool of the Commonwealth" }
       ],
       classicalConversations: true,
-      graduationRate: 90
+      graduationRate: 92.4
     },
 
     faith: {
@@ -93,8 +93,8 @@ const CITIES = {
         summerHigh: 85, summerLow: 65,
         fallHigh: 67, fallLow: 45,
         winterHigh: 42, winterLow: 26,
-        annualRainfall: "46 inches",
-        annualSnowfall: "10 inches",
+        annualRainfall: "49.8 inches",
+        annualSnowfall: "14.5 inches",
         sunnyDays: 188
       },
       outdoorRec: [
@@ -105,8 +105,8 @@ const CITIES = {
         { activity: "Climbing", quality: 4, notes: "Red River Gorge ~1hr east, world-class" }
       ],
       equestrianAccess: "Excellent",
-      crimeViolentPer100K: 270,
-      crimePropertyPer100K: 2716,
+      crimeViolentPer100K: 300,
+      crimePropertyPer100K: 2400,
       walkScore: 34,
       avgCommute: "21 min",
       culturalAmenities: "University of Kentucky campus, Keeneland racing, bourbon distilleries, Rupp Arena events"
@@ -114,7 +114,7 @@ const CITIES = {
 
     community: {
       population: 332841,
-      metroPopulation: 351000,
+      metroPopulation: 533000,
       populationGrowthRate: "0.8%/year",
       medianAge: 34,
       familyFriendliness: "Good",
@@ -131,12 +131,12 @@ const CITIES = {
     isBaseline: false,
 
     costOfLiving: {
-      overallIndex: 133,
+      overallIndex: 127,
       housingIndex: 199,
       groceryIndex: 106,
       utilitiesIndex: 93,
       transportationIndex: 112,
-      medianHouseholdIncome: 105100,
+      medianHouseholdIncome: 96000,
       stateIncomeTaxRate: "4.75%-9.9%",
       salesTaxRate: "0%",
       propertyTaxEffectiveRate: 0.0072,
@@ -174,7 +174,7 @@ const CITIES = {
       ],
       otherPrivateSchools: [
         { name: "Trinity Lutheran School", grades: "PreK-12", tuition: 12500, notes: "670 students, strong academics, LCMS" },
-        { name: "Morning Star Christian School", grades: "N-8", tuition: 7950, notes: "Christ-centered with STEM focus, 192 students. ACCS member school." },
+        { name: "Morning Star Christian School", grades: "N-8", tuition: 7950, notes: "Christ-centered STEM/project-based curriculum. 192 students." },
         { name: "Seven Peaks School", grades: "Pre-8", tuition: 18735, notes: "Top-ranked, IB program, secular" }
       ],
       publicSchoolRating: "B+",
@@ -183,7 +183,7 @@ const CITIES = {
         { name: "Uplift Central Oregon", type: "General", notes: "Homeschool support and enrichment" }
       ],
       classicalConversations: "Active — CC communities confirmed in the Bend area",
-      graduationRate: 91
+      graduationRate: 85.3
     },
 
     faith: {
@@ -215,7 +215,7 @@ const CITIES = {
       },
       outdoorRec: [
         { activity: "Hiking", quality: 5, notes: "223+ trails, Deschutes NF, Smith Rock, Three Sisters Wilderness" },
-        { activity: "Skiing", quality: 5, notes: "Mt. Bachelor 22 miles, 4,318ft vertical, 101 runs" },
+        { activity: "Skiing", quality: 5, notes: "Mt. Bachelor 22 miles, 3,365 ft vertical, 101 runs" },
         { activity: "Mountain Biking", quality: 5, notes: "300+ miles singletrack, Phil's Trail, world-class" },
         { activity: "Equestrian", quality: 4, notes: "Extensive national forest trails, OR Equestrian Trails chapter" },
         { activity: "Fishing", quality: 5, notes: "Deschutes River, Cascade Lakes, premier trout fishing" },
@@ -233,7 +233,7 @@ const CITIES = {
       population: 110545,
       metroPopulation: 260919,
       populationGrowthRate: "1.7%/year",
-      medianAge: 38,
+      medianAge: 40.9,
       familyFriendliness: "Good",
       homeschoolCommunity: "Moderate",
       conservativePresence: "Low",
@@ -248,7 +248,7 @@ const CITIES = {
     isBaseline: false,
 
     costOfLiving: {
-      overallIndex: 134,
+      overallIndex: 131,
       housingIndex: 201,
       groceryIndex: 106,
       utilitiesIndex: 93,
@@ -270,12 +270,12 @@ const CITIES = {
     },
 
     housing: {
-      medianHomePrice: 690000,
+      medianHomePrice: 775000,
       pricePerAcreRanch: "$8K-$48K (Tumalo area best for ranch)",
       landAvailability: "Limited",
       horseFriendlyZoning: true,
       marketCondition: "Buyer's",
-      daysOnMarket: 70,
+      daysOnMarket: 53,
       neighborhoods: [
         { name: "Tollgate", priceRange: "$500K-$800K", familyRating: "Good", notes: "Family-friendly, pool, tennis, 2mi from town" },
         { name: "Cascade Meadow Ranch", priceRange: "$800K-$1.5M+", familyRating: "Good", notes: "Premier equestrian community, small lots" },
@@ -311,7 +311,7 @@ const CITIES = {
       totalReformedCount: 0,
       reformedDensity: "Very Weak",
       seminaries: [],
-      christianOrgs: ["Wellhouse Market food pantry", "OCEANetwork"]
+      christianOrgs: ["CORE Market food pantry", "OCEANetwork"]
     },
 
     lifestyle: {
@@ -322,7 +322,7 @@ const CITIES = {
         winterHigh: 41, winterLow: 21,
         annualRainfall: "11 inches",
         annualSnowfall: "16 inches",
-        sunnyDays: 263
+        sunnyDays: 162
       },
       outdoorRec: [
         { activity: "Hiking", quality: 5, notes: "Peterson Ridge trails, South Sister, Three Sisters Wilderness, PCT" },
@@ -332,8 +332,8 @@ const CITIES = {
         { activity: "Mountain Biking", quality: 4, notes: "Peterson Ridge, McKenzie Pass" }
       ],
       equestrianAccess: "Excellent",
-      crimeViolentPer100K: 62,
-      crimePropertyPer100K: 450,
+      crimeViolentPer100K: 150,
+      crimePropertyPer100K: 1532,
       walkScore: 40,
       avgCommute: "25 min (to Bend)",
       culturalAmenities: "Old West town charm, Sisters Rodeo, world's largest outdoor quilt show, galleries, Folk Festival"
@@ -363,7 +363,7 @@ const CITIES = {
       groceryIndex: 107,
       utilitiesIndex: 105,
       transportationIndex: 102,
-      medianHouseholdIncome: 70065,
+      medianHouseholdIncome: 72105,
       stateIncomeTaxRate: "0%",
       salesTaxRate: "7.0%",
       propertyTaxEffectiveRate: 0.0105,
@@ -396,7 +396,7 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "The Classical Academy of Sarasota", grades: "PK-12", tuition: 12500, students: 932, accreditation: "Accredited", notes: "Rigorous classical liberal arts, virtuous character development" },
+        { name: "The Classical Academy of Sarasota", grades: "PK-12", tuition: 12500, students: 916, accreditation: "Accredited", notes: "Rigorous classical liberal arts, virtuous character development" },
         { name: "Liberty Christian Academy", grades: "K-7 (growing to 12)", tuition: null, students: 87, accreditation: "In progress", notes: "Founded 2022, 10:1 ratio, EdChoice scholarships" },
         { name: "Chesterton Academy of St. Padre Pio", grades: "9-12", tuition: 11500, students: "small (opened Aug 2024)", accreditation: "Chesterton Academy Network", notes: "Catholic classical high school. Step Up scholarships accepted — most families pay ~$2,822 after scholarship." },
         { name: "Incarnation Catholic School", grades: "PreK-8", tuition: 8015, students: 197, accreditation: "Diocese of Venice", notes: "Catholic classical liberal arts. Rooted in tradition, centered on the Eucharist." },
@@ -404,7 +404,7 @@ const CITIES = {
       ],
       otherPrivateSchools: [
         { name: "Sarasota Christian School", grades: "PK-12", tuition: null, notes: "Variable tuition (40-90% of full cost)" },
-        { name: "Pine View School", grades: "2-12", tuition: null, notes: "Public gifted magnet, #1 in FL, 99% grad rate" },
+        { name: "Pine View School", grades: "2-12", tuition: null, notes: "Public gifted magnet, #1 in FL, 95% grad rate" },
         { name: "Sarasota Classical Preparatory Academy", grades: "K-6 (opening Fall 2026)", tuition: "FREE (public charter)", notes: "Hillsdale-affiliated classical charter. Will grow to K-12. Great Works literature, Latin, moral character development." }
       ],
       publicSchoolRating: "A",
@@ -439,7 +439,7 @@ const CITIES = {
     lifestyle: {
       climate: {
         springHigh: 82, springLow: 62,
-        summerHigh: 91, summerLow: 75,
+        summerHigh: 89, summerLow: 79,
         fallHigh: 84, fallLow: 66,
         winterHigh: 72, winterLow: 52,
         annualRainfall: "56 inches",
@@ -449,13 +449,13 @@ const CITIES = {
       outdoorRec: [
         { activity: "Beach", quality: 5, notes: "Siesta Key #1 beach in US, Lido Key, Venice" },
         { activity: "Fishing", quality: 5, notes: "World-class Gulf fishing, inshore and offshore" },
-        { activity: "Hiking", quality: 3, notes: "Myakka River State Park 17K+ acres, Oscar Scherer" },
+        { activity: "Hiking", quality: 3, notes: "Myakka River State Park 37,000+ acres, Oscar Scherer" },
         { activity: "Equestrian", quality: 3, notes: "Little Manatee trails, Myakka State Forest, private communities" },
-        { activity: "Cycling", quality: 4, notes: "Legacy Trail 20+ miles" }
+        { activity: "Cycling", quality: 4, notes: "Legacy Trail 18.5 miles" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 549,
-      crimePropertyPer100K: 3144,
+      crimeViolentPer100K: 592,
+      crimePropertyPer100K: 2749,
       walkScore: 52,
       avgCommute: "20 min",
       culturalAmenities: "Ringling Museum, Sarasota Opera/Orchestra/Ballet, vibrant arts scene, Florida's Cultural Coast"
@@ -463,7 +463,7 @@ const CITIES = {
 
     community: {
       population: 59047,
-      metroPopulation: 772000,
+      metroPopulation: 934000,
       populationGrowthRate: "1.1%/year",
       medianAge: 48.2,
       familyFriendliness: "Moderate",
@@ -489,7 +489,7 @@ const CITIES = {
       stateIncomeTaxRate: "0%",
       salesTaxRate: "9.25%",
       propertyTaxEffectiveRate: 0.0056,
-      propertyTaxOn400K: 1510,
+      propertyTaxOn400K: 2240,
       unemploymentRate: 3.2,
       topIndustries: [
         "Healthcare & Insurance",
@@ -519,12 +519,14 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Grace Baptist Academy", grades: "K3-12", tuition: 4000, students: 500, accreditation: "Cognia, ACSI", notes: "95th percentile nationally, SAT avg 1380, $4K/yr tuition, Latin grades 3-8" },
         { name: "Veritas Classical Schools", grades: "K-12", tuition: null, students: null, accreditation: "N/A", notes: "Hybrid 2 days/week, two campuses" },
         { name: "Candies Creek Academy", grades: "PK-12", tuition: "Contact school", students: "78", accreditation: "ACCS member", notes: "30 minutes away in Charleston, TN. Classical Christian school." },
         { name: "Point Christian Academy", grades: "PreK-4th (expanding)", tuition: null, students: 82, accreditation: "AACS", notes: "Classical trivium model, growing school. Income-based financial assistance available." },
         { name: "Regents Classical School", grades: "TBD", tuition: null, students: null, accreditation: "Classical Christian", notes: "Worshipful, liturgical, excellence-driven learning community. Newer school using classical trivium." },
         { name: "Classical Beginnings Tutorial", grades: "Elementary focus", tuition: null, students: null, accreditation: "N/A", notes: "Homeschool tutorial (not full school). Trivium-based: phonics, reading, writing, math, Bible, Latin." }
+      ],
+      otherNotableChristianSchools: [
+        { name: "Grace Baptist Academy", grades: "K3-12", tuition: 4000, students: 536, accreditation: "Cognia, ACSI", notes: "Traditional Christian curriculum (not classical). SAT avg 1080-1300 range, $4K/yr tuition, 90-96% college acceptance, Latin grades 3-8" }
       ],
       otherPrivateSchools: [
         { name: "Silverdale Baptist Academy", grades: "PreK-12", tuition: 13010, notes: "1,307 students, well-established" },
@@ -556,7 +558,7 @@ const CITIES = {
         { name: "Cornerstone OPC", size: "Small", notes: "Only OPC in Chattanooga region" }
       ],
       epcChurches: [
-        { name: "Signal Mountain Presbyterian Church", size: "~300 members", notes: "90+ year history, family-integrated worship" },
+        { name: "Signal Mountain Presbyterian Church", size: "~300 members", notes: "Established 1981, family-integrated worship" },
         { name: "Lookout Valley Presbyterian Church", size: "Unknown", notes: "EPC church" }
       ],
       crecChurches: [
@@ -568,7 +570,7 @@ const CITIES = {
       ],
       totalReformedCount: 20,
       reformedDensity: "Exceptional",
-      seminaries: ["Covenant College (PCA, Lookout Mountain)"],
+      colleges: ["Covenant College (PCA liberal arts college, Lookout Mountain, GA)"],
       christianOrgs: ["Covenant College", "Tennessee Valley Presbytery", "Grace Academy parent community"]
     },
 
@@ -621,7 +623,7 @@ const CITIES = {
       groceryIndex: 99.7,
       utilitiesIndex: 96.9,
       transportationIndex: 76.2,
-      medianHouseholdIncome: 68460,
+      medianHouseholdIncome: 71472,
       stateIncomeTaxRate: "0%-6.0%",
       salesTaxRate: "6.0%",
       propertyTaxEffectiveRate: 0.0045,
@@ -655,16 +657,16 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Greenville Classical Academy", grades: "K4-12", tuition: 10300, students: 335, accreditation: "ACCS, AACS", notes: "Flagship classical Christian, founded 2004, strong academics" },
-        { name: "Veritas Preparatory School", grades: "K-12", tuition: 6250, students: 387, accreditation: "N/A", notes: "Hybrid university-model, 2-3 days/week campus" },
+        { name: "Greenville Classical Academy", grades: "K4-12", tuition: 10300, students: 335, accreditation: "Cognia accredited, ACCS member", notes: "Flagship classical Christian, founded 2004, strong academics" },
+        { name: "Veritas Preparatory School", grades: "K-12", tuition: 6250, students: 312, accreditation: "N/A", notes: "Hybrid university-model, 2-3 days/week campus" },
         { name: "King's Classical School", grades: "K-2 (expanding)", tuition: null, students: null, accreditation: "N/A", notes: "Launched 2025 by St. Paul's Anglican members" }
       ],
       otherPrivateSchools: [
-        { name: "Bob Jones Academy", grades: "PK-12", tuition: 9930, notes: "1,283 students, affiliated with BJU" },
+        { name: "Bob Jones Academy", grades: "PK-12", tuition: "$8,610-$10,640 (varies by grade)", notes: "1,283 students, affiliated with BJU" },
         { name: "Christ Church Episcopal School", grades: "K5-12", tuition: null, notes: "1,150 students, prestigious" },
-        { name: "Southside Christian School", grades: "EarlyEd-12", tuition: 16795, notes: "~1,400 students, well-established Christian school. 10% alumni discount." },
-        { name: "First Presbyterian Academy at Shannon Forest", grades: "K3-12", tuition: 12925, notes: "~580 students, 8:1 ratio. Merger of two historic schools (1953/1968). College-prep with IGNITE gifted program." },
-        { name: "Ascent Classical Academy of Greenville", grades: "K-12 (opening Fall 2026)", tuition: "FREE (public charter)", notes: "Tuition-free classical charter. American classical education, no technology in classroom. Opening delayed to Fall 2026." }
+        { name: "Southside Christian School", grades: "EarlyEd-12", tuition: 16795, notes: "~1,300 students, well-established Christian school. 10% alumni discount." },
+        { name: "First Presbyterian Academy at Shannon Forest", grades: "K3-12", tuition: 10700, notes: "~580 students, 8:1 ratio. Merger of two historic schools (1953/1968). College-prep with IGNITE gifted program." },
+        { name: "Ascent Classical Academy of Greenville", grades: "K-8 initially, expanding to K-12 (opening Fall 2026)", tuition: "FREE (public charter)", notes: "Tuition-free classical charter. American classical education, no technology in classroom. Opening delayed to Fall 2026." }
       ],
       publicSchoolRating: "B+",
       homeschoolCoOps: [
@@ -680,7 +682,7 @@ const CITIES = {
     faith: {
       pcaChurches: [
         { name: "Second Presbyterian Church", size: "~500+ members", notes: "Historic (1892), hosts Greenville Conference on Reformed Theology" },
-        { name: "Mitchell Road Presbyterian Church", size: "~500+ members", notes: "Well-established, active community" },
+        { name: "Mitchell Road Presbyterian Church", size: "~1,000+ members", notes: "Well-established, active community" },
         { name: "Fellowship Presbyterian Church (Greer)", size: "Unknown", notes: "Serves northeast metro" },
         { name: "Woodruff Road Presbyterian (Simpsonville)", size: "Unknown", notes: "Growing Five Forks corridor" },
         { name: "Redeemer Presbyterian (Travelers Rest)", size: "Unknown", notes: "PCA in Travelers Rest" }
@@ -733,7 +735,7 @@ const CITIES = {
     community: {
       population: 75282,
       metroPopulation: 1014101,
-      populationGrowthRate: "1.5%/year",
+      populationGrowthRate: "1.7%/year",
       medianAge: 34,
       familyFriendliness: "Excellent",
       homeschoolCommunity: "Very Strong",
@@ -756,7 +758,7 @@ const CITIES = {
       transportationIndex: 91,
       medianHouseholdIncome: 55653,
       stateIncomeTaxRate: "0%-6.0%",
-      salesTaxRate: "7.49%",
+      salesTaxRate: "8.0%",
       propertyTaxEffectiveRate: 0.0045,
       propertyTaxOn400K: 1800,
       unemploymentRate: 4.5,
@@ -787,13 +789,13 @@ const CITIES = {
 
     education: {
       classicalChristianSchools: [
-        { name: "Covenant Classical Christian School", grades: "K-12", tuition: 7550, students: 115, accreditation: "ACCS, NCPSA, SCISA", notes: "SAT avg 1375, 6:1 ratio, Latin grades 3-9, 100% grad rate" },
-        { name: "Heritage Christian Academy", grades: "PK-8", tuition: "$6,000 (estimated)", students: "120", accreditation: "ACCS member", notes: "Located in Lexington, SC suburb. Classical Christian elementary/middle school." }
+        { name: "Covenant Classical Christian School", grades: "K-12", tuition: 7550, students: 115, accreditation: "ACCS, NCPSA, SCISA", notes: "SAT avg 1210-1240, 6:1 ratio, Latin grades 3-9, 100% grad rate" },
+        { name: "Heritage Christian Academy", grades: "PK-8", tuition: "$7,100-$9,500 (varies by grade)", students: "120", accreditation: "ACCS member", notes: "Located in Lexington, SC suburb. Classical Christian elementary/middle school." }
       ],
       otherPrivateSchools: [
         { name: "Ben Lippen School", grades: "PK-12", tuition: 17300, notes: "CIU-affiliated, strong academics" },
         { name: "Hammond School", grades: "PK-12", tuition: 21160, notes: "110-acre campus, college-prep" },
-        { name: "Heathwood Hall Episcopal", grades: "EC2-12", tuition: 22855, notes: "Prestigious, 133-acre campus" },
+        { name: "Heathwood Hall Episcopal", grades: "EC2-12", tuition: 22855, notes: "Prestigious, 122-acre campus" },
         { name: "Ascent Classical Academy of Columbia", grades: "K-8 (opening 2026-27)", tuition: "FREE (public charter)", notes: "First tuition-free classical charter in Columbia area. Will grow to K-12. Ascent Classical Academies network." }
       ],
       publicSchoolRating: "B",
@@ -857,7 +859,7 @@ const CITIES = {
       population: 149087,
       metroPopulation: 777000,
       populationGrowthRate: "1.4%/year",
-      medianAge: 31,
+      medianAge: 29,
       familyFriendliness: "Good",
       homeschoolCommunity: "Strong",
       conservativePresence: "Strong",
@@ -872,9 +874,9 @@ const CITIES = {
     isBaseline: false,
 
     costOfLiving: {
-      overallIndex: 114,
+      overallIndex: 115,
       housingIndex: 137,
-      groceryIndex: 102,
+      groceryIndex: 111,
       utilitiesIndex: 100,
       transportationIndex: 119,
       medianHouseholdIncome: 73526,
@@ -895,7 +897,7 @@ const CITIES = {
 
     housing: {
       medianHomePrice: 601000,
-      pricePerAcreRanch: "$22K-$47K (Kootenai Co; Bonner Co cheaper)",
+      pricePerAcreRanch: "~$55K median (Kootenai Co; Bonner Co cheaper)",
       landAvailability: "Good",
       horseFriendlyZoning: true,
       marketCondition: "Balanced",
@@ -911,20 +913,20 @@ const CITIES = {
     education: {
       classicalChristianSchools: [
         { name: "Classical Christian Academy", grades: "K-12", tuition: 7490, students: 164, accreditation: "N/A", notes: "Christ-centered classical, 8:1 ratio, founded 1995" },
-        { name: "Kootenai Classical Academy (Post Falls)", grades: "K-12", tuition: null, students: null, accreditation: "Cognia", notes: "Hillsdale-affiliated, classical liberal arts with virtue emphasis" },
+        { name: "Kootenai Classical Academy (Post Falls)", grades: "K-10 (expanding to K-12 by 2027)", tuition: "Tuition-free (public charter)", students: null, accreditation: "Cognia", notes: "Hillsdale-affiliated, classical liberal arts with virtue emphasis" },
         { name: "Coeur du Christ Academy", grades: "9-12", tuition: "Sliding scale", students: 49, accreditation: "Catholic classical; NAPCIS candidate", notes: "Catholic classical high school, opened 2022. Growing quickly — purchased larger facility in 2025. Cardinal Newman Society recommended." }
       ],
       otherPrivateSchools: [
         { name: "North Idaho Christian School", grades: "K-12", tuition: 6638, notes: "206 students, 30+ years, needs-based tuition" }
       ],
-      publicSchoolRating: "B+",
+      publicSchoolRating: "B",
       homeschoolCoOps: [
         { name: "INCH", type: "Christian", notes: "Inland Northwest Christian Homeschoolers" },
         { name: "Classical Conversations - CDA", type: "Classical Christian", notes: "Communities in Idaho" },
         { name: "CDA Homeschool Community", type: "Support", notes: "CDA, Hayden, Rathdrum, Post Falls" }
       ],
       classicalConversations: true,
-      graduationRate: 91
+      graduationRate: 89
     },
 
     faith: {
@@ -959,8 +961,8 @@ const CITIES = {
       },
       outdoorRec: [
         { activity: "Lake Recreation", quality: 5, notes: "Lake CDA 25mi long, Priest Lake, Hayden Lake" },
-        { activity: "Skiing", quality: 5, notes: "Silver Mountain 35mi, Schweitzer 80mi, Lookout Pass" },
-        { activity: "Hiking", quality: 5, notes: "Trail of the Coeur d'Alenes 72mi, Tubbs Hill, Idaho Panhandle NF" },
+        { activity: "Skiing", quality: 5, notes: "Silver Mountain 35mi, Schweitzer 58mi, Lookout Pass" },
+        { activity: "Hiking", quality: 5, notes: "Trail of the Coeur d'Alenes 73mi, Tubbs Hill, Idaho Panhandle NF" },
         { activity: "Equestrian", quality: 4, notes: "National forest horse trails, multiple trailheads" },
         { activity: "Fishing/Hunting", quality: 5, notes: "Premier state for both, lake and river fishing, elk/deer/bear" }
       ],
@@ -968,15 +970,15 @@ const CITIES = {
       crimeViolentPer100K: 242,
       crimePropertyPer100K: 956,
       walkScore: 35,
-      avgCommute: "18 min",
-      culturalAmenities: "Coeur d'Alene Resort, Silverwood Theme Park, Spokane 30 min for big-city amenities"
+      avgCommute: "20 min",
+      culturalAmenities: "Coeur d'Alene Resort, Silverwood Theme Park, Spokane 35 min for big-city amenities"
     },
 
     community: {
       population: 58195,
       metroPopulation: 188323,
-      populationGrowthRate: "2.3%/year",
-      medianAge: 38,
+      populationGrowthRate: "1.0%/year",
+      medianAge: 40.1,
       familyFriendliness: "Excellent",
       homeschoolCommunity: "Very Strong",
       conservativePresence: "Very Strong",
@@ -1017,11 +1019,11 @@ const DEFAULT_WEIGHTS = {
  *   Sisters: 1 — Zero Reformed churches in town, must drive 25-30 min to Bend's thin options
  *
  * EDUCATION (classical Christian schools, quality, homeschool community):
- *   Chattanooga: 9 — Grace Academy (elite, $4K, 95th percentile), Veritas hybrid, 3+ CC communities
+ *   Chattanooga: 9 — Grace Academy ($4K, strong outcomes), Veritas hybrid, 3+ CC communities, multiple classical options
  *   Greenville: 9 — GCA (ACCS), Veritas Prep, King's Classical, very strong homeschool
  *   Lexington: 8 — Trinity Christian Academy (PreK-12), Lexington Latin School (affordable hybrid), Veritas hybrid, strong homeschool
  *   Columbia: 7 — Covenant Classical (ACCS) + Heritage Christian Academy (ACCS, Lexington suburb), active homeschool
- *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (932 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
+ *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (916 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
  *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, Coeur du Christ Academy (Catholic classical), very strong homeschool
  *   Bend: 5 — Now has Immanuel Classical School (K-12) + Chesterton Academy (Catholic classical) — two classical schools plus CC active, moderate homeschool
  *   Sisters: 3 — No classical Christian school in town, but nearby Immanuel Classical and Chesterton Academy in Bend (25 min away)
@@ -1044,7 +1046,7 @@ const DEFAULT_WEIGHTS = {
  *   Sarasota: 5 — Median $485K, decent Myakka land, but elevated housing cost
  *   Coeur d'Alene: 3 — Median $601K, expensive even with decent land availability
  *   Bend: 2 — Median $679K, housing index 199, extremely expensive
- *   Sisters: 2 — Median $690K, very limited inventory, tiny market
+ *   Sisters: 2 — Median $775K, very limited inventory, tiny market
  *
  * COST OF LIVING (overall index — lower index = better score):
  *   Chattanooga: 10 — Index 88.6, no income tax, low property tax
@@ -1052,9 +1054,9 @@ const DEFAULT_WEIGHTS = {
  *   Greenville: 8 — Index 91.3, low property tax, low transportation
  *   Columbia: 7 — Index 99, essentially national average
  *   Sarasota: 6 — Index 105, no income tax helps but housing elevated
- *   Coeur d'Alene: 4 — Index 114, housing and transportation drive costs up
- *   Bend: 3 — Index 133, very high cost driven by housing
- *   Sisters: 3 — Index 134, similar to Bend with even less amenity access
+ *   Coeur d'Alene: 4 — Index 115, housing and transportation drive costs up
+ *   Bend: 3 — Index 127, very high cost driven by housing
+ *   Sisters: 3 — Index 131, similar to Bend with even less amenity access
  *
  * COMMUNITY (family-friendliness, homeschool community, conservative presence):
  *   Chattanooga: 9 — Excellent family suburbs, very strong homeschool/conservative community
