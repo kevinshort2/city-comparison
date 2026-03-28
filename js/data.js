@@ -93,7 +93,7 @@ const CITIES = {
         summerHigh: 85, summerLow: 65,
         fallHigh: 67, fallLow: 45,
         winterHigh: 42, winterLow: 26,
-        annualRainfall: "49.1 inches",
+        annualRainfall: "46 inches",
         annualSnowfall: "10 inches",
         sunnyDays: 188
       },
@@ -105,8 +105,8 @@ const CITIES = {
         { activity: "Climbing", quality: 4, notes: "Red River Gorge ~1hr east, world-class" }
       ],
       equestrianAccess: "Excellent",
-      crimeViolentPer100K: 300,
-      crimePropertyPer100K: 2901,
+      crimeViolentPer100K: 270,
+      crimePropertyPer100K: 2716,
       walkScore: 34,
       avgCommute: "21 min",
       culturalAmenities: "University of Kentucky campus, Keeneland racing, bourbon distilleries, Rupp Arena events"
@@ -210,8 +210,8 @@ const CITIES = {
         fallHigh: 63, fallLow: 34,
         winterHigh: 43, winterLow: 24,
         annualRainfall: "10.6 inches",
-        annualSnowfall: "22 inches",
-        sunnyDays: 158
+        annualSnowfall: "33 inches",
+        sunnyDays: 263
       },
       outdoorRec: [
         { activity: "Hiking", quality: 5, notes: "223+ trails, Deschutes NF, Smith Rock, Three Sisters Wilderness" },
@@ -320,9 +320,9 @@ const CITIES = {
         summerHigh: 82, summerLow: 41,
         fallHigh: 61, fallLow: 30,
         winterHigh: 41, winterLow: 21,
-        annualRainfall: "15.2 inches",
-        annualSnowfall: "32 inches",
-        sunnyDays: 162
+        annualRainfall: "11 inches",
+        annualSnowfall: "16 inches",
+        sunnyDays: 263
       },
       outdoorRec: [
         { activity: "Hiking", quality: 5, notes: "Peterson Ridge trails, South Sister, Three Sisters Wilderness, PCT" },
@@ -332,8 +332,8 @@ const CITIES = {
         { activity: "Mountain Biking", quality: 4, notes: "Peterson Ridge, McKenzie Pass" }
       ],
       equestrianAccess: "Excellent",
-      crimeViolentPer100K: 150,
-      crimePropertyPer100K: 1532,
+      crimeViolentPer100K: 62,
+      crimePropertyPer100K: 450,
       walkScore: 40,
       avgCommute: "25 min (to Bend)",
       culturalAmenities: "Old West town charm, Sisters Rodeo, world's largest outdoor quilt show, galleries, Folk Festival"
@@ -442,7 +442,7 @@ const CITIES = {
         summerHigh: 91, summerLow: 75,
         fallHigh: 84, fallLow: 66,
         winterHigh: 72, winterLow: 52,
-        annualRainfall: "49.1 inches",
+        annualRainfall: "56 inches",
         annualSnowfall: "0 inches",
         sunnyDays: 251
       },
@@ -454,8 +454,8 @@ const CITIES = {
         { activity: "Cycling", quality: 4, notes: "Legacy Trail 20+ miles" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 592,
-      crimePropertyPer100K: 2749,
+      crimeViolentPer100K: 549,
+      crimePropertyPer100K: 3144,
       walkScore: 52,
       avgCommute: "20 min",
       culturalAmenities: "Ringling Museum, Sarasota Opera/Orchestra/Ballet, vibrant arts scene, Florida's Cultural Coast"
@@ -590,8 +590,8 @@ const CITIES = {
         { activity: "Cycling", quality: 4, notes: "TN Riverwalk 13+ miles, Enterprise South MTB" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 471,
-      crimePropertyPer100K: 2648,
+      crimeViolentPer100K: 824,
+      crimePropertyPer100K: 3955,
       walkScore: 29,
       avgCommute: "19 min",
       culturalAmenities: "Tennessee Aquarium, EPB gigabit fiber, Coolidge Park, Lookout Mountain attractions"
@@ -723,8 +723,8 @@ const CITIES = {
         { activity: "Waterfalls", quality: 5, notes: "Multiple within 30-60 min: Rainbow Falls, Raven Cliff, Laurel Fork" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 600,
-      crimePropertyPer100K: 3271,
+      crimeViolentPer100K: 644,
+      crimePropertyPer100K: 3468,
       walkScore: 43,
       avgCommute: "17 min",
       culturalAmenities: "Award-winning downtown, Falls Park, Liberty Bridge, thriving restaurant/arts scene"
@@ -846,8 +846,8 @@ const CITIES = {
         { activity: "Zoo", quality: 4, notes: "Riverbanks Zoo & Garden, top-rated" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 800,
-      crimePropertyPer100K: 3300,
+      crimeViolentPer100K: 770,
+      crimePropertyPer100K: 3233,
       walkScore: 35,
       avgCommute: "15 min",
       culturalAmenities: "USC campus, SEC athletics, Riverbanks Zoo, State Capitol, Columbia Museum of Art"
@@ -954,8 +954,8 @@ const CITIES = {
         fallHigh: 55, fallLow: 34,
         winterHigh: 35, winterLow: 24,
         annualRainfall: "27 inches",
-        annualSnowfall: "49 inches",
-        sunnyDays: 187
+        annualSnowfall: "42 inches",
+        sunnyDays: 174
       },
       outdoorRec: [
         { activity: "Lake Recreation", quality: 5, notes: "Lake CDA 25mi long, Priest Lake, Hayden Lake" },
