@@ -1024,7 +1024,7 @@ const DEFAULT_WEIGHTS = {
  *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (932 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
  *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, Coeur du Christ Academy (Catholic classical), very strong homeschool
  *   Bend: 5 — Now has Immanuel Classical School (K-12) + Chesterton Academy (Catholic classical) — two classical schools plus CC active, moderate homeschool
- *   Sisters: 2 — No classical Christian school in town, limited options, must drive to Bend
+ *   Sisters: 3 — No classical Christian school in town, but nearby Immanuel Classical and Chesterton Academy in Bend (25 min away)
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
  *   Sisters: 9 — World-class outdoors, excellent equestrian, very safe, but harsh winter
@@ -1069,7 +1069,7 @@ const DEFAULT_WEIGHTS = {
 const SCORES = {
   "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
   "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
-  "sisters-or":       { faith: 1, education: 2, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
+  "sisters-or":       { faith: 1, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
   "sarasota-fl":      { faith: 3, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
