@@ -1,0 +1,258 @@
+{
+  "city": "Flagstaff",
+  "state": "Arizona",
+  "lastUpdated": "2026-03-29",
+  "costOfLiving": {
+    "overallIndex": 127,
+    "overallIndexNote": "National average = 100. Flagstaff is 27% above national average, primarily driven by high housing costs. Source: AreaVibes C2ER data.",
+    "housingIndex": 181,
+    "housingIndexNote": "81% above national average — the primary driver of elevated overall cost of living. Flagstaff housing is constrained by surrounding national forest and limited buildable land.",
+    "groceryIndex": 102,
+    "groceryIndexNote": "2% above national average. Groceries are essentially at parity with national prices.",
+    "utilitiesIndex": 90,
+    "utilitiesIndexNote": "10% below national average. Dry climate and affordable electricity from APS keep utility costs relatively low.",
+    "transportationIndex": 104,
+    "transportationIndexNote": "4% above national average. City is somewhat car-dependent (Walk Score 39) but small-town commutes keep transportation costs manageable.",
+    "medianHouseholdIncome": 65652,
+    "medianHouseholdIncomeNote": "Census ACS 5-year estimate. Lower than many comparison cities due to large NAU student population depressing the median. Working household income is likely higher.",
+    "stateIncomeTaxRate": "2.5% flat",
+    "stateIncomeTaxNote": "Arizona has a flat 2.5% income tax rate as of 2023 (reduced from graduated brackets). One of the lowest state income tax rates in the country.",
+    "salesTaxRate": "9.386%",
+    "salesTaxNote": "Combined rate: 5.6% AZ state + 1.3% Coconino County + 2.486% City of Flagstaff. Rate increased 0.205% in July 2025.",
+    "propertyTaxRate": {
+      "effectiveRate": "0.42%",
+      "note": "Coconino County effective rate per SmartAsset. Arizona uses a dual primary/secondary property tax system. Assessed value is 10% of full cash value for owner-occupied residential."
+    },
+    "propertyTaxOn400kHome": {
+      "estimatedAnnualTax": 1680,
+      "note": "Estimated at 0.42% effective rate on $400K market value. Actual may vary based on location within Flagstaff, school district, and special districts."
+    },
+    "unemploymentRate": "6.6%",
+    "unemploymentRateNote": "Above national average. Influenced by seasonal tourism employment patterns and large student population. Coconino County rate.",
+    "topIndustries": [
+      "Tourism & Hospitality ($563M industry, 8,000+ employees, 6M visitors/year)",
+      "Higher Education (NAU — 2,571 employees, 25,000 students)",
+      "Healthcare (Flagstaff Medical Center — 2,200 employees)",
+      "Advanced Manufacturing & Bioscience (W.L. Gore — 1,950 employees; Flagstaff 14x more specialized in biomedical manufacturing than national average)",
+      "Government (FUSD 1,375 + Coconino County 1,200 + City 657)"
+    ],
+    "remoteFriendly": "High",
+    "remoteFriendlyNote": "Good internet infrastructure, mountain-town lifestyle attracts remote workers, NAU talent pipeline. Flagstaff has positioned itself as a remote-work-friendly mountain community."
+  },
+  "housing": {
+    "medianHomePrice": 630000,
+    "medianHomePriceNote": "Range of $580K-$700K depending on source and timeframe. Winter 2025/2026 data shows median around $630K, down ~15% from peaks. Market is softening from prior highs.",
+    "pricePerAcreRanch": "$15K-$75K (Doney Park/Bellemont more affordable; in-city lots very expensive)",
+    "pricePerAcreNote": "Average listed at $271K/acre across all Flagstaff listings, heavily skewed by small in-city lots. Rural parcels in Doney Park, Bellemont, and Kachina Village are significantly cheaper. Williams (30 min west) has parcels at $10K-$50K/acre.",
+    "landAvailability": "Limited",
+    "landAvailabilityNote": "Flagstaff is surrounded by Coconino National Forest on nearly all sides, severely constraining new development. Doney Park and Bellemont offer more acreage options. Zoning constraints and geographic limits keep supply tight.",
+    "horseFriendlyZoning": true,
+    "horseFriendlyZoningNote": "Doney Park (A-R zoning, 1+ acre lots), North Peak (A-R zoning, 2-5 acre lots, no HOA), and Lockett Ranches have equestrian-friendly zoning. Several active horse properties and equestrian estates on market.",
+    "marketCondition": "Balanced",
+    "marketConditionNote": "4.2 months of supply as of late 2025. Homes selling at 95.8% of asking price. Not yet a buyer's market (needs 6+ months supply) but trending toward balance. Inventory up ~26% YoY.",
+    "daysOnMarket": 67,
+    "daysOnMarketNote": "Up from 35 days a year ago. Homes taking significantly longer to sell, indicating shift toward buyers.",
+    "neighborhoods": [
+      {
+        "name": "Ponderosa Trails",
+        "priceRange": "$450K-$1M",
+        "familyRating": "Excellent",
+        "notes": "Newer 2000s-era community, parks, trails, FUSD schools including Mountain Charter School (K-5). Very family-oriented with dog walkers, playdates, picnics. Homes 3-4 bedrooms."
+      },
+      {
+        "name": "University Heights",
+        "priceRange": "$400K-$700K",
+        "familyRating": "Excellent",
+        "notes": "1960s neighborhood, large backyards, forest trails, clubhouse with pool/spa/gym. Quiet streets near quality schools."
+      },
+      {
+        "name": "Continental Country Club",
+        "priceRange": "$350K-$800K+",
+        "familyRating": "Good",
+        "notes": "Golf community with condos to custom estates. Multiple amenities: golf, pools, tennis. Eclectic mix of housing styles."
+      },
+      {
+        "name": "Kachina Village",
+        "priceRange": "$300K-$550K",
+        "familyRating": "Good",
+        "notes": "10 miles south of downtown, rustic mountain community in ponderosa pines. More affordable, surrounded by national forest. Privacy and nature focus."
+      },
+      {
+        "name": "Doney Park / North Peak",
+        "priceRange": "$400K-$900K+",
+        "familyRating": "Good",
+        "notes": "Rural area east of Flagstaff. 1-5+ acre lots, A-R zoning, no HOA. Best option for horse property and ranch-style living. Mountain views."
+      }
+    ]
+  },
+  "education": {
+    "classicalChristianSchools": [],
+    "classicalChristianSchoolsNote": "No classical Christian school identified in Flagstaff. The two Christian schools (Flagstaff Christian School and Northland Christian School) use traditional Christian curricula (Abeka) rather than classical trivium-based education.",
+    "otherPrivateSchools": [
+      {
+        "name": "Flagstaff Christian School",
+        "grades": "K-9",
+        "tuition": 6300,
+        "students": 244,
+        "accreditation": "Not specified",
+        "notes": "Largest private school in Flagstaff. Students taught grade level ahead, emphasis on work ethic and Christian values. Math and reading placement by ability level. 12 interscholastic sports. Student-teacher ratio 29:1."
+      },
+      {
+        "name": "Northland Christian School",
+        "grades": "K-10",
+        "tuition": 6400,
+        "students": 93,
+        "accreditation": "American Association of Christian Schools (AACS)",
+        "notes": "Abeka curriculum from Pensacola Christian College. Student-teacher ratio 12:1. Consumable textbooks included in tuition."
+      },
+      {
+        "name": "BASIS Flagstaff",
+        "grades": "5-12",
+        "tuition": "Free (public charter)",
+        "students": null,
+        "notes": "Highly ranked public charter school — top 5% in Arizona. Rigorous STEM-focused curriculum. Nationally recognized BASIS network."
+      }
+    ],
+    "publicSchoolRating": "C+",
+    "publicSchoolRatingNote": "FUSD manages 16 schools serving 8,820 students. District ranked #328 of 601 AZ districts. Student-teacher ratio 16:1. Spending $13,457/student (above state median). Flagstaff High School individually ranks in top 50% of AZ.",
+    "homeschoolCoOps": [
+      {
+        "name": "Northern AZ Homeschool Support Group",
+        "type": "General Support",
+        "notes": "Support group for homeschoolers in Northern Arizona / Flagstaff area"
+      },
+      {
+        "name": "Trailblazers Learning Community",
+        "type": "Secular Enrichment",
+        "notes": "Hands-on, project-based learning for ages 6-14"
+      },
+      {
+        "name": "PATH Collective",
+        "type": "Enrichment",
+        "notes": "Enrichment education for homeschool students PreK-7th grade"
+      }
+    ],
+    "classicalConversations": "Uncertain — CC operates in Arizona (Coconino/Yavapai Counties listed) but no specific Flagstaff community confirmed. Contact CC directly to verify active communities.",
+    "classicalConversationsNote": "Classical Conversations has presence in Arizona serving Coconino, Maricopa, and Yavapai Counties. However, no specific Flagstaff community was confirmed in search results. The nearest confirmed CC communities may be in Phoenix/Prescott area.",
+    "graduationRate": 89,
+    "graduationRateNote": "FUSD district graduation rate of 89%, improved from 86% over five years. Flagstaff High School individually at 93%, well above AZ state average of 77%."
+  },
+  "faith": {
+    "pcaChurches": [
+      {
+        "name": "Church of the Resurrection (PCA)",
+        "size": "Small-Medium",
+        "address": "740 W University Heights Dr S, Flagstaff, AZ",
+        "notes": "PCA congregation. 'Faithful to the Scriptures, True to the Reformed Faith, and Obedient to the Great Commission.' Worships at Coconino Community College location and University Heights."
+      }
+    ],
+    "opcChurches": [],
+    "opcChurchesNote": "No OPC congregation in Flagstaff. Nearest OPC is Providence OPC in Scottsdale, AZ (~2.5 hours south).",
+    "epcChurches": [],
+    "epcChurchesNote": "No EPC congregation identified in Flagstaff.",
+    "crecChurches": [],
+    "crecChurchesNote": "No CREC congregation identified in Flagstaff.",
+    "otherReformed": [
+      {
+        "name": "Flagstaff Christian Fellowship",
+        "denomination": "Reformed Baptist",
+        "size": "Small-Medium",
+        "notes": "Reformed Baptist church at 123 S Beaver St. Considering affiliation with ACME Fellowship of Churches. Gospel-centered church near NAU."
+      },
+      {
+        "name": "Hope Community Church (CRC)",
+        "denomination": "Christian Reformed Church (CRCNA)",
+        "size": "Small-Medium",
+        "notes": "Christian Reformed congregation since 1966. Located at 3700 N Fanning Dr. Part of CRC denomination — Reformed tradition, Heidelberg Catechism. Originally Flagstaff Christian Reformed Church."
+      }
+    ],
+    "totalReformedCount": 3,
+    "reformedDensity": "Weak",
+    "reformedDensityNote": "Only 3 Reformed-tradition congregations: 1 PCA, 1 Reformed Baptist, 1 CRC. No OPC, EPC, CREC, or ARP presence. Limited options for confessionally Reformed families.",
+    "seminaries": [],
+    "seminariesNote": "No seminary in Flagstaff. Foundations Institute in Prescott Valley (~1.5 hrs) offers MDiv path through Firm Foundation Bible Church. Fuller Seminary extension campus in Phoenix (~2.5 hrs).",
+    "christianOrgs": [
+      "Crossroads Ministries (est. 1987)",
+      "Faithworks (12 annual mission projects)",
+      "Canterbury Campus Ministry at NAU (Episcopal/Lutheran)",
+      "60+ Christian nonprofits in metro area"
+    ]
+  },
+  "lifestyle": {
+    "climate": {
+      "springHigh": 58,
+      "springLow": 28,
+      "summerHigh": 82,
+      "summerLow": 50,
+      "fallHigh": 63,
+      "fallLow": 31,
+      "winterHigh": 43,
+      "winterLow": 17,
+      "annualRainfall": "8 inches",
+      "annualSnowfall": "81 inches",
+      "sunnyDays": 266,
+      "note": "True four-season mountain climate at 7,000 ft elevation. Very dry with intense sunshine. Large day-night temperature swings (30-40F). Heavy snowfall but melts quickly due to sun and dry air. Summer monsoon rains in July-Aug."
+    },
+    "outdoorRec": [
+      {
+        "activity": "Hiking",
+        "quality": 5,
+        "notes": "World-class: Coconino NF surrounds city, San Francisco Peaks (12,633 ft), Humphreys Peak (AZ high point), 56-mile FUTS urban trail system, proximity to Grand Canyon, Sedona, Oak Creek Canyon"
+      },
+      {
+        "activity": "Skiing",
+        "quality": 4,
+        "notes": "Arizona Snowbowl: 777 acres, 8 lifts, 2,300 ft vertical, snowmaking, season Nov-Apr. Nordic skiing and snowshoeing available. Not as large as major CO/UT resorts but convenient."
+      },
+      {
+        "activity": "Equestrian",
+        "quality": 4,
+        "notes": "Millions of acres of Coconino NF open for horseback riding. AZ High Mountain Trail Rides at Mormon Lake (30 min). Multiple equestrian-zoned areas (Doney Park, North Peak, Lockett Ranches). Guided rides available."
+      },
+      {
+        "activity": "Fishing",
+        "quality": 3,
+        "notes": "Mormon Lake, Upper and Lower Lake Mary nearby. Kayaking, paddle boarding available. Decent but not destination-level fishing."
+      },
+      {
+        "activity": "Cycling",
+        "quality": 5,
+        "notes": "Outstanding mountain biking through Coconino NF. Gravel biking, e-biking, fat biking in winter. 56-mile FUTS urban trail system. Bike Score of 65."
+      },
+      {
+        "activity": "Climbing",
+        "quality": 4,
+        "notes": "Numerous crags in the area with variety of rock types and climbing styles. Strong local climbing community. Not Smith Rock-level but very good access."
+      }
+    ],
+    "equestrianAccess": "Good",
+    "equestrianAccessNote": "Coconino National Forest provides millions of acres for trail riding. Multiple equestrian communities with A-R zoning. Active horse property market. Not as horse-culture-focused as Lexington but excellent trail access.",
+    "crimeViolentPer100K": 292,
+    "crimePropertyPer100K": 2418,
+    "crimeNote": "Violent crime slightly below Lexington baseline (300/100K). Property crime elevated at 2,418/100K. Overall crime trending downward over 21 years. NAU campus area and Route 66 corridor have higher incident rates.",
+    "walkScore": 39,
+    "walkScoreNote": "City-wide average 39 (Car-Dependent). Downtown/Southside much higher (80-90+). Bike Score 65 (Bikeable). Transit Score 39. 7.5% of commuters walk (vs 2.9% national average).",
+    "avgCommute": "16 min",
+    "avgCommuteNote": "Very short commute — well below national average of 26 minutes. 72% drive, 7.5% walk, 2.8% transit.",
+    "culturalAmenities": "Museum of Northern Arizona, Lowell Observatory (Pluto discovered here), Sunset Crater Volcano NM, Riordan Mansion State Historic Park, Route 66 heritage, NAU arts/theater, 8 craft breweries, 1 distillery, 1 meadery, vibrant downtown dining scene, proximity to Grand Canyon (80 mi) and Sedona (30 mi)"
+  },
+  "community": {
+    "population": 77763,
+    "metroPopulation": 145101,
+    "metroPopulationNote": "Flagstaff MSA = all of Coconino County. Coconino County is the second-largest county by area in the US.",
+    "populationGrowthRate": "0.14%/year",
+    "populationGrowthRateNote": "Very slow growth. Population increased only 0.87% since 2020 census (77,091). Geographic constraints (national forest) limit expansion.",
+    "medianAge": 25.9,
+    "medianAgeNote": "Extremely low median age due to NAU student population (25,000 students). Actual permanent resident median age is likely 35-40. This skews many demographic measures.",
+    "familyFriendliness": "Good",
+    "familyFriendlinessNote": "Strong family neighborhoods (Ponderosa Trails, University Heights), good schools, excellent outdoor recreation. However, high housing costs, limited private school options, and university-town character may not suit all families.",
+    "homeschoolCommunity": "Moderate",
+    "homeschoolCommunityNote": "Several homeschool support groups and co-ops (Northern AZ Homeschool, Trailblazers, PATH Collective). Arizona has very favorable homeschool laws. However, community appears smaller and less organized than Bible Belt cities.",
+    "conservativePresence": "Moderate",
+    "conservativePresenceNote": "Coconino County leans progressive (university town). However, surrounding rural areas and northern AZ generally trend more conservative. Mixed political environment.",
+    "smallTownFeel": "Yes",
+    "smallTownFeelNote": "Population 78K with genuine small-town mountain community character. Downtown is walkable and charming. Surrounded by forest. Everyone knows each other dynamic in certain neighborhoods.",
+    "volunteerCulture": "Active — Volunteer Flagstaff city portal, NAU Center for Service and Volunteerism, Big Brothers Big Sisters chapter, Flagstaff Family Food Center, 250+ registered volunteer opportunities",
+    "volunteerCultureNote": "Strong volunteer culture amplified by NAU student service-learning requirements and community engagement. City operates dedicated Volunteer Flagstaff platform."
+  }
+}

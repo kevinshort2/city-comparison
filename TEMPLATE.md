@@ -67,7 +67,7 @@ Every page must use this exact structure. Adjust the `<title>`, nav active state
 - Use the comparison-table, stat-card, bar-chart, section-header, hero, pros-cons CSS classes
 
 ## City slugs (for linking to city pages)
-lexington-ky, bend-or, sisters-or, sarasota-fl, chattanooga-tn, greenville-sc, columbia-sc, coeur-d-alene-id
+lexington-ky, bend-or, sisters-or, sarasota-fl, chattanooga-tn, greenville-sc, columbia-sc, coeur-d-alene-id, flagstaff-az
 
 ## City display order (by default weighted score)
 1. Chattanooga, TN
@@ -78,3 +78,4 @@ lexington-ky, bend-or, sisters-or, sarasota-fl, chattanooga-tn, greenville-sc, c
 6. Sarasota, FL
 7. Bend, OR
 8. Sisters, OR
+9. Flagstaff, AZ

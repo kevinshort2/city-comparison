@@ -1,7 +1,7 @@
 /**
  * City Comparison Data File
- * Generated from research JSON files on 2026-03-27
- * 8 cities compared for family relocation evaluation
+ * Generated from research JSON files on 2026-03-29
+ * 9 cities compared for family relocation evaluation
  */
 
 const CITIES = {
@@ -985,6 +985,122 @@ const CITIES = {
       smallTownFeel: "Yes",
       volunteerCulture: "High church-driven civic engagement, active school boards, American Redoubt migration has strengthened faith community"
     }
+  },
+
+  "flagstaff-az": {
+    name: "Flagstaff",
+    state: "AZ",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 127,
+      housingIndex: 181,
+      groceryIndex: 102,
+      utilitiesIndex: 90,
+      transportationIndex: 104,
+      medianHouseholdIncome: 65652,
+      stateIncomeTaxRate: "2.5% flat",
+      salesTaxRate: "9.386%",
+      propertyTaxEffectiveRate: 0.0042,
+      propertyTaxOn400K: 1680,
+      unemploymentRate: 6.6,
+      topIndustries: [
+        "Tourism & Hospitality",
+        "Higher Education (NAU)",
+        "Healthcare",
+        "Advanced Manufacturing & Bioscience (W.L. Gore)",
+        "Government"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 630000,
+      pricePerAcreRanch: "$15K-$75K (Doney Park/Bellemont cheaper; Williams $10K-$50K)",
+      landAvailability: "Limited",
+      horseFriendlyZoning: true,
+      marketCondition: "Balanced",
+      daysOnMarket: 67,
+      neighborhoods: [
+        { name: "Ponderosa Trails", priceRange: "$450K-$1M", familyRating: "Excellent", notes: "Newer community, parks/trails, Mountain Charter School, very family-oriented" },
+        { name: "University Heights", priceRange: "$400K-$700K", familyRating: "Excellent", notes: "1960s neighborhood, large backyards, forest trails, clubhouse with pool/spa/gym" },
+        { name: "Continental Country Club", priceRange: "$350K-$800K+", familyRating: "Good", notes: "Golf community, condos to custom estates, pools/tennis/amenities" },
+        { name: "Kachina Village", priceRange: "$300K-$550K", familyRating: "Good", notes: "10mi south, rustic mountain community in ponderosa pines, most affordable option" },
+        { name: "Doney Park / North Peak", priceRange: "$400K-$900K+", familyRating: "Good", notes: "Rural 1-5+ acre lots, A-R zoning, no HOA, best for horse property" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [],
+      otherPrivateSchools: [
+        { name: "Flagstaff Christian School", grades: "K-9", tuition: 6300, notes: "244 students, largest private school. Students taught grade level ahead. 12 sports." },
+        { name: "Northland Christian School", grades: "K-10", tuition: 6400, notes: "93 students, Abeka curriculum, AACS accredited, 12:1 student-teacher ratio" },
+        { name: "BASIS Flagstaff (charter)", grades: "5-12", tuition: "Free", notes: "Top 5% in AZ, rigorous STEM-focused public charter, nationally ranked" }
+      ],
+      publicSchoolRating: "C+",
+      homeschoolCoOps: [
+        { name: "Northern AZ Homeschool Support Group", type: "General Support", notes: "Homeschool families in Flagstaff / Northern Arizona" },
+        { name: "Trailblazers Learning Community", type: "Secular Enrichment", notes: "Hands-on, project-based learning for ages 6-14" },
+        { name: "PATH Collective", type: "Enrichment", notes: "Enrichment education for homeschool PreK-7th grade" }
+      ],
+      classicalConversations: "Uncertain — CC operates in AZ (Coconino County listed) but no specific Flagstaff community confirmed",
+      graduationRate: 89
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Church of the Resurrection", size: "Small-Medium", notes: "PCA congregation, 'Faithful to the Scriptures, True to the Reformed Faith'" }
+      ],
+      opcChurches: [],
+      epcChurches: [],
+      crecChurches: [],
+      otherReformed: [
+        { name: "Flagstaff Christian Fellowship", denomination: "Reformed Baptist", size: "Small-Medium", notes: "123 S Beaver St, considering ACME Fellowship affiliation, gospel-centered near NAU" },
+        { name: "Hope Community Church", denomination: "Christian Reformed (CRCNA)", size: "Small-Medium", notes: "Est. 1966, 3700 N Fanning Dr, Reformed tradition, Heidelberg Catechism" }
+      ],
+      totalReformedCount: 3,
+      reformedDensity: "Weak",
+      seminaries: [],
+      christianOrgs: ["Crossroads Ministries (est. 1987)", "Faithworks", "Canterbury Campus Ministry at NAU", "60+ Christian nonprofits"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 58, springLow: 28,
+        summerHigh: 82, summerLow: 50,
+        fallHigh: 63, fallLow: 31,
+        winterHigh: 43, winterLow: 17,
+        annualRainfall: "8 inches",
+        annualSnowfall: "81 inches",
+        sunnyDays: 266
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 5, notes: "Coconino NF, San Francisco Peaks (12,633 ft), 56-mi FUTS trail system, Grand Canyon 80mi, Sedona 30mi" },
+        { activity: "Skiing", quality: 4, notes: "Arizona Snowbowl: 777 acres, 8 lifts, 2,300 ft vertical, snowmaking, Nov-Apr season" },
+        { activity: "Equestrian", quality: 4, notes: "Millions of acres Coconino NF, AZ High Mountain Trail Rides at Mormon Lake, equestrian-zoned areas" },
+        { activity: "Fishing", quality: 3, notes: "Mormon Lake, Upper/Lower Lake Mary nearby, decent but not destination-level" },
+        { activity: "Cycling", quality: 5, notes: "Outstanding mountain biking in Coconino NF, gravel/fat biking, 56-mi FUTS, Bike Score 65" },
+        { activity: "Climbing", quality: 4, notes: "Numerous crags with variety of rock types and styles, strong local climbing community" }
+      ],
+      equestrianAccess: "Good",
+      crimeViolentPer100K: 292,
+      crimePropertyPer100K: 2418,
+      walkScore: 39,
+      avgCommute: "16 min",
+      culturalAmenities: "Museum of Northern Arizona, Lowell Observatory, Sunset Crater NM, Route 66 heritage, NAU arts, 8 craft breweries, Grand Canyon 80mi, Sedona 30mi"
+    },
+
+    community: {
+      population: 77763,
+      metroPopulation: 145101,
+      populationGrowthRate: "0.14%/year",
+      medianAge: 25.9,
+      familyFriendliness: "Good",
+      homeschoolCommunity: "Moderate",
+      conservativePresence: "Moderate",
+      smallTownFeel: "Yes",
+      volunteerCulture: "Active — Volunteer Flagstaff city portal, NAU service-learning center, Big Brothers Big Sisters, 250+ opportunities"
+    }
   }
 };
 
@@ -1015,6 +1131,7 @@ const DEFAULT_WEIGHTS = {
  *   Lexington: 5 — 3 Reformed congregations, moderate presence
  *   Coeur d'Alene: 5 — 4 Reformed churches (OPC, PCA plant, CREC), Moscow CREC ecosystem 84mi away
  *   Sarasota: 3 — 4 Reformed churches total, thin presence
+ *   Flagstaff: 2 — 1 PCA (Church of the Resurrection), 1 Reformed Baptist, 1 CRC. No OPC/CREC/EPC. No seminary.
  *   Bend: 2 — 1 OPC + 1 Reformed Baptist, no PCA/CREC
  *   Sisters: 1 — Zero Reformed churches in town, must drive 25-30 min to Bend's thin options
  *
@@ -1026,6 +1143,7 @@ const DEFAULT_WEIGHTS = {
  *   Sarasota: 7 — Richer classical landscape than initially thought: Classical Academy (916 students), Liberty Christian, Chesterton Academy (Catholic), Incarnation Catholic, Riverstone hybrid, plus Sarasota Classical Prep charter opening Fall 2026
  *   Coeur d'Alene: 6 — Classical Christian Academy, Kootenai Classical, Coeur du Christ Academy (Catholic classical), very strong homeschool
  *   Bend: 5 — Chesterton Academy (Catholic classical, 8 students) + Immanuel Classical School (Reformed, K-12) — two classical schools plus CC active, moderate homeschool
+ *   Flagstaff: 3 — No classical Christian school. Two Christian schools (FCS K-9, NCS K-10) use Abeka not classical. CC uncertain. Moderate homeschool. BASIS charter is excellent.
  *   Sisters: 3 — No classical Christian school in town, but Immanuel Classical School + Chesterton Academy in Bend (25 min away)
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
@@ -1034,6 +1152,7 @@ const DEFAULT_WEIGHTS = {
  *   Coeur d'Alene: 8 — Outstanding lake/mountain recreation, hunting/fishing, very safe, cold winters
  *   Chattanooga: 8 — Excellent hiking/climbing/water sports, good equestrian, mild climate
  *   Greenville: 8 — Blue Ridge foothills, lakes, waterfalls, Swamp Rabbit Trail, good climate
+ *   Flagstaff: 8 — World-class hiking (Coconino NF, Grand Canyon 80mi), Snowbowl skiing, 266 sunny days, 81in snow, excellent cycling, good equestrian
  *   Lexington: 6 — Decent outdoors (Red River Gorge nearby), top equestrian, humid climate
  *   Sarasota: 6 — Beaches and fishing excellent, limited hiking, hurricane risk, hot summers
  *   Columbia: 5 — Lake Murray and Congaree NP decent, extreme summer heat, high city crime
@@ -1045,6 +1164,7 @@ const DEFAULT_WEIGHTS = {
  *   Greenville: 7 — Median $350K, surrounding counties affordable for acreage
  *   Sarasota: 5 — Median $485K, decent Myakka land, but elevated housing cost
  *   Coeur d'Alene: 3 — Median $601K, expensive even with decent land availability
+ *   Flagstaff: 2 — Median $630K, housing index 181, land very limited (surrounded by national forest), expensive
  *   Bend: 2 — Median $679K, housing index 199, extremely expensive
  *   Sisters: 2 — Median $775K, very limited inventory, tiny market
  *
@@ -1055,6 +1175,7 @@ const DEFAULT_WEIGHTS = {
  *   Columbia: 7 — Index 99, essentially national average
  *   Sarasota: 6 — Index 105, no income tax helps but housing elevated
  *   Coeur d'Alene: 4 — Index 115, housing and transportation drive costs up
+ *   Flagstaff: 3 — Index 127, high cost driven by housing, but low 2.5% income tax and 0.42% property tax help offset
  *   Bend: 3 — Index 127, very high cost driven by housing
  *   Sisters: 3 — Index 131, similar to Bend with even less amenity access
  *
@@ -1065,6 +1186,7 @@ const DEFAULT_WEIGHTS = {
  *   Lexington: 7 — Good family-friendly, strong homeschool, moderate conservative (university city)
  *   Columbia: 6 — Good suburbs but city core less family-oriented, strong PCA network
  *   Sarasota: 4 — Retiree-oriented (median age 48+), moderate homeschool, limited young families
+ *   Flagstaff: 5 — Small-town feel, good family neighborhoods, moderate homeschool, moderate conservative, but university-town progressive lean
  *   Bend: 5 — Good family amenities but progressive city, moderate homeschool, weak conservative
  *   Sisters: 4 — Small town charm but aging (median 49.6), 39% over 65, limited amenities
  */
@@ -1076,7 +1198,8 @@ const SCORES = {
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
   "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
-  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 4, community: 9 }
+  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 4, community: 9 },
+  "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5 }
 };
 
 

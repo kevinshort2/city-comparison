@@ -35,6 +35,7 @@
             <li><a href="./cities/sarasota-fl.html">Sarasota, FL</a></li>
             <li><a href="./cities/bend-or.html">Bend, OR</a></li>
             <li><a href="./cities/sisters-or.html">Sisters, OR</a></li>
+            <li><a href="./cities/flagstaff-az.html">Flagstaff, AZ</a></li>
           </ul>
         </li>
       </ul>
@@ -46,7 +47,19 @@
   <section class="hero">
     <div class="container">
       <h1>Where Next?</h1>
-      <p class="subtitle">A data-driven comparison of 8 cities for the Short family's next chapter. Lexington, KY is our baseline.</p>
+      <p class="subtitle">A data-driven comparison of 9 cities for the Short family's next chapter. Lexington, KY is our baseline.</p>
+    </div>
+  </section>
+
+  <!-- City Map -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Cities Under Consideration</h2>
+      </div>
+      <div id="city-map" style="max-width:900px; margin:0 auto 2rem;">
+        <svg id="us-map-svg" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto;"></svg>
+      </div>
     </div>
   </section>
 
@@ -97,7 +110,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Overall Rankings</h2>
-        <p class="section-subtitle">All 8 cities ranked by weighted score. Adjust the sliders above to see how priorities change the order.</p>
+        <p class="section-subtitle">All 9 cities ranked by weighted score. Adjust the sliders above to see how priorities change the order.</p>
       </div>
       <div class="table-responsive">
         <table id="ranking-table" class="comparison-table">
@@ -128,7 +141,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Quick Stats</h2>
-        <p class="section-subtitle">Key metrics at a glance across all 8 cities.</p>
+        <p class="section-subtitle">Key metrics at a glance across all 9 cities.</p>
       </div>
       <div class="grid-4">
         <div class="stat-card">
@@ -208,7 +221,8 @@
         "chattanooga-tn": "chattanooga-tn",
         "greenville-sc": "greenville-sc",
         "columbia-sc": "columbia-sc",
-        "coeur-d-alene-id": "coeur-d-alene-id"
+        "coeur-d-alene-id": "coeur-d-alene-id",
+        "flagstaff-az": "flagstaff-az"
       };
 
       var CATEGORY_KEYS = ["faith", "education", "lifestyle", "housing", "costOfLiving", "community"];
@@ -324,7 +338,7 @@
         var minPrice = Math.min.apply(null, homePrices);
         var maxPrice = Math.max.apply(null, homePrices);
         document.getElementById("stat-home-price").textContent = formatCurrency(minPrice) + " - " + formatCurrency(maxPrice);
-        document.getElementById("stat-home-price-range").textContent = "across 8 cities";
+        document.getElementById("stat-home-price-range").textContent = "across 9 cities";
 
         var minR = Math.min.apply(null, reformedCounts);
         var maxR = Math.max.apply(null, reformedCounts);
@@ -396,6 +410,136 @@
       renderRankings();
       renderQuickStats();
       renderCityCards();
+    })();
+  </script>
+
+  <!-- Map rendering (D3-geo + TopoJSON) -->
+  <script src="https://cdn.jsdelivr.net/npm/d3-array@3/dist/d3-array.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-geo@3/dist/d3-geo.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script>
+    (function () {
+      var CITY_COORDS = [
+        { id: "lexington-ky",     label: "Lexington, KY",     lon: -84.50, lat: 38.04 },
+        { id: "bend-or",          label: "Bend, OR",          lon: -121.32, lat: 44.06 },
+        { id: "sisters-or",       label: "Sisters, OR",       lon: -121.55, lat: 44.29 },
+        { id: "sarasota-fl",      label: "Sarasota, FL",      lon: -82.53, lat: 27.34 },
+        { id: "chattanooga-tn",   label: "Chattanooga, TN",   lon: -85.31, lat: 35.05 },
+        { id: "greenville-sc",    label: "Greenville, SC",    lon: -82.39, lat: 34.85 },
+        { id: "columbia-sc",      label: "Columbia, SC",      lon: -81.03, lat: 34.00 },
+        { id: "coeur-d-alene-id", label: "Coeur d'Alene, ID", lon: -116.78, lat: 47.68 },
+        { id: "flagstaff-az",     label: "Flagstaff, AZ",     lon: -111.65, lat: 35.20 }
+      ];
+
+      var svg = document.getElementById("us-map-svg");
+      if (!svg) return;
+
+      var width = 960, height = 600;
+      var projection = d3.geoAlbersUsa().scale(1280).translate([width / 2, height / 2]);
+      var path = d3.geoPath().projection(projection);
+
+      fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json")
+        .then(function (r) { return r.json(); })
+        .then(function (us) {
+          var states = topojson.feature(us, us.objects.states);
+          var borders = topojson.mesh(us, us.objects.states, function (a, b) { return a !== b; });
+          var nation = topojson.mesh(us, us.objects.states);
+
+          // State fills — light gray
+          states.features.forEach(function (f) {
+            var p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            p.setAttribute("d", path(f));
+            p.setAttribute("fill", "#e8e8e8");
+            p.setAttribute("stroke", "none");
+            svg.appendChild(p);
+          });
+
+          // State borders — thin dark gray
+          var borderPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          borderPath.setAttribute("d", path(borders));
+          borderPath.setAttribute("fill", "none");
+          borderPath.setAttribute("stroke", "#bbb");
+          borderPath.setAttribute("stroke-width", "0.8");
+          svg.appendChild(borderPath);
+
+          // Nation outline — darker
+          var nationPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          nationPath.setAttribute("d", path(nation));
+          nationPath.setAttribute("fill", "none");
+          nationPath.setAttribute("stroke", "#888");
+          nationPath.setAttribute("stroke-width", "1.2");
+          svg.appendChild(nationPath);
+
+          // City markers
+          CITY_COORDS.forEach(function (city) {
+            var pt = projection([city.lon, city.lat]);
+            if (!pt) return;
+
+            var isBaseline = city.id === "lexington-ky";
+
+            // Red dot
+            var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+            circle.setAttribute("cx", pt[0]);
+            circle.setAttribute("cy", pt[1]);
+            circle.setAttribute("r", isBaseline ? 7 : 5.5);
+            circle.setAttribute("fill", "#DC2626");
+            circle.setAttribute("stroke", "#fff");
+            circle.setAttribute("stroke-width", isBaseline ? 2.5 : 1.5);
+            svg.appendChild(circle);
+
+            // Label — position to avoid overlaps
+            var lx = pt[0] + 10, ly = pt[1] + 4;
+            var anchor = "start";
+
+            // Bend/Sisters: label to the left (they're on the west coast)
+            if (city.id === "bend-or" || city.id === "sisters-or") {
+              lx = pt[0] - 10; anchor = "end";
+            }
+            // Coeur d'Alene: label to the right and down
+            if (city.id === "coeur-d-alene-id") {
+              lx = pt[0] + 10; ly = pt[1] + 5;
+            }
+            // Greenville/Columbia are close — offset vertically
+            if (city.id === "greenville-sc") {
+              ly = pt[1] - 8;
+            }
+            if (city.id === "columbia-sc") {
+              ly = pt[1] + 16;
+            }
+            // Chattanooga and Lexington are close — offset
+            if (city.id === "chattanooga-tn") {
+              lx = pt[0] - 10; anchor = "end";
+            }
+            // Flagstaff: label to right
+            if (city.id === "flagstaff-az") {
+              lx = pt[0] + 10; ly = pt[1] - 2;
+            }
+
+            var text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            text.setAttribute("x", lx);
+            text.setAttribute("y", ly);
+            text.setAttribute("text-anchor", anchor);
+            text.setAttribute("font-family", "Inter, system-ui, sans-serif");
+            text.setAttribute("font-size", "11");
+            text.setAttribute("font-weight", isBaseline ? "700" : "500");
+            text.setAttribute("fill", "#1A1A1A");
+            text.textContent = city.label;
+            svg.appendChild(text);
+
+            // Baseline indicator
+            if (isBaseline) {
+              var sub = document.createElementNS("http://www.w3.org/2000/svg", "text");
+              sub.setAttribute("x", lx);
+              sub.setAttribute("y", ly + 13);
+              sub.setAttribute("text-anchor", anchor);
+              sub.setAttribute("font-family", "Inter, system-ui, sans-serif");
+              sub.setAttribute("font-size", "9");
+              sub.setAttribute("fill", "#6B7280");
+              sub.textContent = "(baseline)";
+              svg.appendChild(sub);
+            }
+          });
+        });
     })();
   </script>
 </body>
