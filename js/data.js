@@ -1,7 +1,7 @@
 /**
  * City Comparison Data File
  * Generated from research JSON files on 2026-03-29
- * 9 cities compared for family relocation evaluation
+ * 13 cities compared for family relocation evaluation
  */
 
 const CITIES = {
@@ -1101,6 +1101,505 @@ const CITIES = {
       smallTownFeel: "Yes",
       volunteerCulture: "Active — Volunteer Flagstaff city portal, NAU service-learning center, Big Brothers Big Sisters, 250+ opportunities"
     }
+  },
+
+  "birmingham-al": {
+    name: "Birmingham",
+    state: "AL",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 90,
+      housingIndex: 76,
+      groceryIndex: 100,
+      utilitiesIndex: 104,
+      transportationIndex: 89,
+      medianHouseholdIncome: 93543,
+      stateIncomeTaxRate: "2%-5% graduated",
+      salesTaxRate: "8-10% (varies by municipality)",
+      propertyTaxEffectiveRate: 0.0045,
+      propertyTaxOn400K: 1800,
+      unemploymentRate: 2.2,
+      topIndustries: [
+        "Healthcare (UAB is largest employer)",
+        "Finance & Insurance (Regions, Protective Life)",
+        "Education (UAB, Samford)",
+        "Advanced Manufacturing & Materials",
+        "Technology & Professional Services"
+      ],
+      remoteFriendly: "Medium"
+    },
+
+    housing: {
+      medianHomePrice: 475000,
+      pricePerAcreRanch: "$15K-$30K (Shelby County for rural/equestrian land)",
+      landAvailability: "Good",
+      horseFriendlyZoning: true,
+      marketCondition: "Balanced",
+      daysOnMarket: 62,
+      neighborhoods: [
+        { name: "Hoover", priceRange: "$350K-$600K", familyRating: "Excellent", notes: "Largest suburb, top-5 school district in AL, excellent retail" },
+        { name: "Vestavia Hills", priceRange: "$400K-$700K", familyRating: "Excellent", notes: "#2 school district in Alabama, lowest crime rate in AL, median HHI $129K" },
+        { name: "Homewood", priceRange: "$400K-$650K", familyRating: "Excellent", notes: "Most walkable city in Alabama, charming downtown, strong community" },
+        { name: "Mountain Brook", priceRange: "$700K-$1.5M+", familyRating: "Excellent", notes: "Most affluent suburb, top schools, very low crime" },
+        { name: "Chelsea / Helena / Calera (South Shelby Co.)", priceRange: "$250K-$500K", familyRating: "Good", notes: "Fast-growing, larger lots, best for horse property, 20-30 min to Birmingham" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Westminster School at Oak Mountain", grades: "K-12", tuition: 10871, students: 563, accreditation: "ACCS", notes: "Ministry of Oak Mountain PCA. 100% grad rate, avg ACT 30, 97% attend 4-year college. 10:1 ratio." },
+        { name: "Evangel Classical Christian School", grades: "PK-12", tuition: 8900, students: 245, accreditation: "ACCS", notes: "Founded 2004 in Alabaster. Presbyterian-affiliated. 8:1 ratio. 95% attend 4-year college." }
+      ],
+      otherPrivateSchools: [
+        { name: "Briarwood Christian School", grades: "PK-12", tuition: "$8,550-$11,500", notes: "PCA-affiliated, 1,850 students, 99% grad rate, avg ACT 28" },
+        { name: "The Altamont School", grades: "5-12", tuition: 22000, notes: "Niche A+, independent college prep, 6:1 ratio" },
+        { name: "Indian Springs School", grades: "8-12", tuition: 28000, notes: "Niche A+, 350-acre campus, boarding/day, 8:1 ratio" }
+      ],
+      publicSchoolRating: "A-",
+      homeschoolCoOps: [
+        { name: "Brook Hills Co-op", type: "Tutorial", notes: "K-6 and 7-12 tracks at The Church at Brook Hills" },
+        { name: "SMIC Academy", type: "Academic co-op", notes: "South Mountain area structured classes" },
+        { name: "Created For a Purpose Cooperative", type: "History/Fine Arts", notes: "At Church at Shelby Crossings, Calera" }
+      ],
+      classicalConversations: "Multiple communities (4-6 in metro Birmingham)",
+      graduationRate: 95
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Briarwood Presbyterian Church", size: "~4,000 members", notes: "Birthplace of the PCA (first General Assembly 1973). Operates Briarwood Christian School." },
+        { name: "Covenant Presbyterian Church", size: "~400-600", notes: "Homewood area. Founded 1978. Planted Cahaba Park Church." },
+        { name: "Cahaba Park Church", size: "~200-400", notes: "Church plant of Covenant PCA (2007)" },
+        { name: "Faith Presbyterian Church", size: "~300-500", notes: "Valleydale Road. Part of Evangel Presbytery." },
+        { name: "Community PCA", size: "~100-200", notes: "Part of Evangel Presbytery" },
+        { name: "Evangel Church PCA", size: "~100-200", notes: "Alabaster. Part of Evangel Presbytery." },
+        { name: "Church of the Way PCA", size: "~50-100", notes: "Moody. Part of Evangel Presbytery." }
+      ],
+      opcChurches: [
+        { name: "Redeemer OPC", size: "~50-100", notes: "Committed to Westminster Standards" },
+        { name: "Ascension OPC", size: "~30-75", notes: "Birmingham area OPC" }
+      ],
+      epcChurches: [
+        { name: "Edgewood Presbyterian Church", size: "~200-400", notes: "EPC congregation" }
+      ],
+      crecChurches: [
+        { name: "Trinity Presbyterian Church", size: "~200-400", notes: "CREC (Athanasius Presbytery). Pastor Rich Lusk." },
+        { name: "Immanuel Reformed Church", size: "~30-75", notes: "Mission church of Trinity Presbyterian" }
+      ],
+      otherReformed: [
+        { name: "Birmingham Reformed Presbyterian Church", denomination: "RPCNA", size: "Small", notes: "Exclusive psalmody tradition" }
+      ],
+      totalReformedCount: 14,
+      reformedDensity: "Strong",
+      seminaries: ["Birmingham Theological Seminary (Reformed, $100/credit hour)", "Beeson Divinity School at Samford University"],
+      christianOrgs: ["Campus Outreach (HQ in Birmingham)", "Radical (David Platt)", "Iron City Church Planting Network"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 75, springLow: 53,
+        summerHigh: 90, summerLow: 71,
+        fallHigh: 76, fallLow: 54,
+        winterHigh: 57, winterLow: 37,
+        annualRainfall: "56.7 inches",
+        annualSnowfall: "1-2 inches",
+        sunnyDays: 213
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 5, notes: "Oak Mountain State Park (9,940 acres, 100+ mi trails), Red Mountain Park, Ruffner Mountain, Moss Rock Preserve" },
+        { activity: "Mountain Biking", quality: 5, notes: "Oak Mountain Red Trail 22mi, nationally recognized. Emerging MTB destination." },
+        { activity: "Equestrian", quality: 4, notes: "Oak Mountain 25+ mi equestrian trails, multiple Shelby County stables" },
+        { activity: "Fishing/Kayaking", quality: 4, notes: "Cahaba River (most biodiverse river per mile in N. America), Lake Purdy" },
+        { activity: "Golf", quality: 4, notes: "Robert Trent Jones Golf Trail nearby, Ross Bridge, year-round weather" }
+      ],
+      equestrianAccess: "Very Good",
+      crimeViolentPer100K: 78,
+      crimePropertyPer100K: 730,
+      walkScore: 33,
+      avgCommute: "22 min",
+      culturalAmenities: "Birmingham Museum of Art, Civil Rights Institute, Vulcan Park, Railroad Park, Alabama Theatre, James Beard Award-winning food scene"
+    },
+
+    community: {
+      population: 196000,
+      metroPopulation: 1155000,
+      populationGrowthRate: "0.92%/year",
+      medianAge: 35.9,
+      familyFriendliness: "Excellent",
+      homeschoolCommunity: "Strong",
+      conservativePresence: "Very Strong",
+      smallTownFeel: "Moderate",
+      volunteerCulture: "Very active — Hands On Birmingham connects 200+ nonprofits, strong church-based volunteerism"
+    }
+  },
+
+  "moscow-id": {
+    name: "Moscow",
+    state: "ID",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 103,
+      housingIndex: 115,
+      groceryIndex: 110,
+      utilitiesIndex: 100,
+      transportationIndex: 119,
+      medianHouseholdIncome: 62006,
+      stateIncomeTaxRate: "5.3% flat",
+      salesTaxRate: "6.0%",
+      propertyTaxEffectiveRate: 0.0075,
+      propertyTaxOn400K: 3000,
+      unemploymentRate: 3.6,
+      topIndustries: [
+        "Higher Education (University of Idaho)",
+        "Engineering/Technology (Schweitzer Engineering)",
+        "Healthcare (Gritman Medical Center)",
+        "Agriculture & Food Science",
+        "Retail & Services"
+      ],
+      remoteFriendly: "Medium"
+    },
+
+    housing: {
+      medianHomePrice: 456000,
+      pricePerAcreRanch: "$10K-$17K (Latah County agricultural/ranch land)",
+      landAvailability: "Good",
+      horseFriendlyZoning: true,
+      marketCondition: "Buyer's",
+      daysOnMarket: 54,
+      neighborhoods: [
+        { name: "Indian Hills", priceRange: "$340K-$725K", familyRating: "Good", notes: "Established, near University of Idaho, mix of homes" },
+        { name: "Edington", priceRange: "$400K-$550K", familyRating: "Excellent", notes: "Newest neighborhood, trail access, near ball fields, family-oriented" },
+        { name: "South Moscow / Arboretum Area", priceRange: "$375K-$600K", familyRating: "Excellent", notes: "Large lots near UI Arboretum, Palouse hill views" },
+        { name: "Meadow Brook", priceRange: "$350K-$500K", familyRating: "Good", notes: "Newer development, underground utilities" },
+        { name: "Rural Latah County", priceRange: "$350K-$800K+", familyRating: "Excellent", notes: "5-20 acre properties, horse-friendly, hobby farms, 5-15 min from town" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Logos School", grades: "PK-12", tuition: 6887, students: 686, accreditation: "ACCS (charter member, accredited since 2000)", notes: "Founded 1981 by Douglas Wilson. The original classical Christian school in America. 14:1 ratio. Multi-child discounts. Also runs Logos Online School." },
+        { name: "The Jubilee School", grades: "PK-12", tuition: null, students: "~40-60", accreditation: "Classical Christian", notes: "Non-denominational. Montessori model for PK-K, classical Christian. Personalized learning." }
+      ],
+      otherPrivateSchools: [
+        { name: "St. Mary's Catholic School", grades: "NS-8", tuition: 5665, notes: "Catholic parish school, 107 students" },
+        { name: "Palouse Hills Christian School", grades: "1-8", tuition: null, notes: "Seventh Day Adventist affiliated, 21 students" }
+      ],
+      publicSchoolRating: "B+",
+      homeschoolCoOps: [
+        { name: "Cornerstone Educational Cooperative", type: "Christian", notes: "Supports Christian homeschool families in the Palouse" },
+        { name: "Classical Conversations of Moscow", type: "Classical Christian", notes: "Weekly Community Day, K through college credit" }
+      ],
+      classicalConversations: true,
+      graduationRate: 80
+    },
+
+    faith: {
+      pcaChurches: [],
+      opcChurches: [],
+      epcChurches: [],
+      crecChurches: [
+        { name: "Christ Church", size: "~2,000-3,000 congregants", notes: "Founded late 1970s. Pastored by Douglas Wilson. CREC founding church. New 1,200-seat hall. ~10% of town attends." },
+        { name: "Trinity Reformed Church", size: "~200-400", notes: "Church plant of Christ Church (2003). Two Sunday services." },
+        { name: "King's Cross Church", size: "Small-Medium", notes: "Planted by Christ Church (2022). Shares campus ministry." },
+        { name: "Emmanuel Reformed Church", size: "Small", notes: "Mission church of Trinity Reformed" }
+      ],
+      otherReformed: [
+        { name: "Palouse Fellowship", denomination: "CREC (mission)", size: "Small", notes: "In Palouse, WA ~10mi from Moscow" }
+      ],
+      totalReformedCount: 5,
+      reformedDensity: "Very High (CREC epicenter)",
+      seminaries: ["New Saint Andrews College (classical Christian liberal arts)", "Greyfriars Hall (tuition-free pastoral training / MDiv)"],
+      christianOrgs: ["Canon Press (publishing)", "ACCS (headquartered nearby)", "Collegiate Reformed Fellowship (UI campus ministry)", "Bakwe Mission"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 58, springLow: 32,
+        summerHigh: 86, summerLow: 45,
+        fallHigh: 60, fallLow: 33,
+        winterHigh: 37, winterLow: 22,
+        annualRainfall: "27.8 inches",
+        annualSnowfall: "52 inches",
+        sunnyDays: 169
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 4, notes: "Moscow Mountain trails, Kamiak Butte, Cedar Grove old-growth, Idler's Rest" },
+        { activity: "Mountain Biking", quality: 4, notes: "Moscow Mountain trail system, Latah Trail 13mi paved" },
+        { activity: "Hunting", quality: 4, notes: "Excellent deer, elk, upland bird in surrounding national forests. Idaho is a premier hunting state." },
+        { activity: "Fishing", quality: 3, notes: "Spring Valley Reservoir (stocked trout), Clearwater River 45 min" },
+        { activity: "Skiing", quality: 3, notes: "XC on Latah Trail/Moscow Mtn. Schweitzer 3.5hr, Silver Mountain 2.5hr." }
+      ],
+      equestrianAccess: "Good",
+      crimeViolentPer100K: 91,
+      crimePropertyPer100K: 1016,
+      walkScore: 48,
+      avgCommute: "15 min",
+      culturalAmenities: "Moscow Farmers Market (since 1976), Prichard Art Gallery, Kenworthy Performing Arts Centre, Lionel Hampton Jazz Festival, UI Arboretum"
+    },
+
+    community: {
+      population: 27580,
+      metroPopulation: 90579,
+      populationGrowthRate: "1.26%/year",
+      medianAge: 25.7,
+      familyFriendliness: "Good",
+      homeschoolCommunity: "Strong",
+      conservativePresence: "Strong",
+      smallTownFeel: "Yes",
+      volunteerCulture: "Strong church-based volunteering, Saturday Farmers Market community, small-town civic participation"
+    }
+  },
+
+  "raleigh-nc": {
+    name: "Raleigh",
+    state: "NC",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 96,
+      housingIndex: 90,
+      groceryIndex: 100,
+      utilitiesIndex: 88,
+      transportationIndex: 89,
+      medianHouseholdIncome: 103757,
+      stateIncomeTaxRate: "3.99% flat (2026)",
+      salesTaxRate: "7.0%",
+      propertyTaxEffectiveRate: 0.0080,
+      propertyTaxOn400K: 3200,
+      unemploymentRate: 3.5,
+      topIndustries: [
+        "Technology/IT Services",
+        "Life Sciences & Biotech",
+        "Healthcare",
+        "Higher Education & Research",
+        "Professional & Financial Services"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 435000,
+      pricePerAcreRanch: "$15K-$70K (Johnston/Chatham counties cheaper; Wake County $150K+/acre)",
+      landAvailability: "Good",
+      horseFriendlyZoning: true,
+      marketCondition: "Balanced",
+      daysOnMarket: 50,
+      neighborhoods: [
+        { name: "Cary", priceRange: "$500K-$700K", familyRating: "Excellent", notes: "#1 safest city in NC, top-rated schools, 10 min to RTP" },
+        { name: "Apex", priceRange: "$450K-$600K", familyRating: "Excellent", notes: "'Peak of Good Living,' strong schools, small-town downtown" },
+        { name: "Holly Springs", priceRange: "$380K-$520K", familyRating: "Excellent", notes: "More affordable, new construction, good parks, 25 min to Raleigh" },
+        { name: "Wake Forest", priceRange: "$350K-$480K", familyRating: "Excellent", notes: "Small-town feel, SEBTS nearby, affordable relative to Cary" },
+        { name: "Fuquay-Varina", priceRange: "$380K-$550K", familyRating: "Good", notes: "Southern suburb, horse-friendly properties (Saddle Run), rural character" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Cary Christian School", grades: "K-12", tuition: 9981, students: 785, accreditation: "ACCS (accredited since 2002)", notes: "Founded 1996. One of the strongest ACCS schools in the Southeast. Classical curriculum with Latin, logic, rhetoric." },
+        { name: "Trinity Academy", grades: "PK-12", tuition: 16947, students: 627, accreditation: "SACS/CASI", notes: "Christian classical approach. Niche A+. 7:1 ratio." },
+        { name: "Trinity School of Durham and Chapel Hill", grades: "K-12", tuition: "$6,560-$29,890", students: 630, accreditation: "Independent classical Christian", notes: "22-acre campus. 8:1 ratio. Classical + Charlotte Mason hybrid. 96% attend 4-year college." }
+      ],
+      otherPrivateSchools: [
+        { name: "Thales Academy", grades: "K-12", tuition: "$6,000-$8,000", notes: "Affordable classical model, multiple campuses (Apex, Rolesville, Wake Forest)" },
+        { name: "Ravenscroft School", grades: "PK-12", tuition: 28000, notes: "Elite college prep, 135-acre campus" },
+        { name: "Cardinal Gibbons High School", grades: "9-12", tuition: 14000, notes: "Catholic college prep, strong athletics" }
+      ],
+      publicSchoolRating: "A",
+      homeschoolCoOps: [
+        { name: "Triangle Leadership Commonwealth", type: "Tutorial/Co-op", notes: "10+ year history, Thomas Jefferson Education model, ages 3-17" },
+        { name: "Raleigh Charlotte Mason Homeschoolers", type: "Charlotte Mason", notes: "Christian Charlotte Mason approach" },
+        { name: "NCHE Region 5 groups", type: "Regional network", notes: "NC Home Education association, multiple local co-ops" }
+      ],
+      classicalConversations: "15+ communities in greater Triangle area",
+      graduationRate: 91
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Peace Presbyterian Church", size: "Medium-Large", notes: "Cary, NC. Est. 1980. Strong children's/youth ministries." },
+        { name: "Redeemer Presbyterian Church", size: "Medium", notes: "Raleigh. Est. 1996. Two Sunday services." },
+        { name: "Christ the King Presbyterian", size: "Medium", notes: "Downtown Raleigh. Est. 2002." },
+        { name: "Calvary Presbyterian Church", size: "Medium", notes: "Raleigh. Est. 1976. Long-established." },
+        { name: "Christ Community Church", size: "Medium", notes: "Chapel Hill. Historic Christianity." },
+        { name: "Church of the Good Shepherd", size: "Medium", notes: "Durham. Est. 1987." },
+        { name: "Midtown Community Church", size: "Small-Medium", notes: "Raleigh. Est. 2015. Church plant." },
+        { name: "Christ Central Durham", size: "Medium", notes: "Active gospel-centered ministry." },
+        { name: "Christ Our Hope Church", size: "Small-Medium", notes: "Wake Forest." },
+        { name: "Trinity Park Church", size: "Small-Medium", notes: "Morrisville." }
+      ],
+      opcChurches: [
+        { name: "Shiloh Presbyterian Church", size: "Small-Medium", notes: "Raleigh. Active congregation." },
+        { name: "Pilgrim Presbyterian Church", size: "Small", notes: "Raleigh. Particularized 1972. Morning and evening worship." }
+      ],
+      epcChurches: [
+        { name: "Hope Church", size: "Medium", notes: "Raleigh. Two Sunday services." },
+        { name: "Peace Church", size: "Medium", notes: "Durham." }
+      ],
+      crecChurches: [
+        { name: "Christ Church", size: "Small-Medium", notes: "Raleigh/Morrisville area. Founded 2004. Part of Moscow/Wilson tradition." }
+      ],
+      otherReformed: [
+        { name: "First Reformed Presbyterian Church of Durham", denomination: "RPCNA", size: "Small", notes: "Exclusive psalmody, covenanting tradition" },
+        { name: "Grace Reformed Presbyterian Church", denomination: "RPCNA", size: "Small", notes: "Clayton, NC, just SE of Raleigh" }
+      ],
+      totalReformedCount: 20,
+      reformedDensity: "Strong",
+      seminaries: ["Southeastern Baptist Theological Seminary (Wake Forest, NC)"],
+      christianOrgs: ["The Gospel Coalition (local TGC leaders)", "Cru/InterVarsity (active at NC State, UNC, Duke)", "NCHE (homeschool advocacy)"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 72, springLow: 49,
+        summerHigh: 89, summerLow: 68,
+        fallHigh: 73, fallLow: 51,
+        winterHigh: 54, winterLow: 33,
+        annualRainfall: "46 inches",
+        annualSnowfall: "4 inches",
+        sunnyDays: 213
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 4, notes: "Umstead State Park (5,442 acres), Eno River, Falls Lake, 100+ mi greenway trails" },
+        { activity: "Equestrian", quality: 4, notes: "Umstead bridle trails 34+ mi, horse communities in Johnston Co, Saddle Run/Black Horse Run" },
+        { activity: "Water Sports", quality: 4, notes: "Falls Lake, Jordan Lake, Shearon Harris Reservoir — kayaking, paddleboarding, fishing" },
+        { activity: "Mountain Biking", quality: 4, notes: "Umstead multi-use trails, Beaver Dam, Harris Lake County Park" },
+        { activity: "Running/Cycling", quality: 5, notes: "100+ miles greenway trails, mild climate, active community" }
+      ],
+      equestrianAccess: "Good",
+      crimeViolentPer100K: 500,
+      crimePropertyPer100K: 2335,
+      walkScore: 31,
+      avgCommute: "24 min",
+      culturalAmenities: "'Smithsonian of the South' — free NC Museum of Art, Museum of Natural Sciences, Museum of History. Carolina Hurricanes (NHL), NC State/Duke/UNC sports, 3hr to mountains, 3.5hr to beaches"
+    },
+
+    community: {
+      population: 500000,
+      metroPopulation: 1661000,
+      populationGrowthRate: "2.0%/year",
+      medianAge: 34.9,
+      familyFriendliness: "Very Good",
+      homeschoolCommunity: "Strong",
+      conservativePresence: "Moderate",
+      smallTownFeel: "Moderate",
+      volunteerCulture: "Strong — high church participation, Mission Triangle network, active parent volunteer culture in schools"
+    }
+  },
+
+  "sheridan-wy": {
+    name: "Sheridan",
+    state: "WY",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 104,
+      housingIndex: 116,
+      groceryIndex: 103,
+      utilitiesIndex: 82,
+      transportationIndex: 105,
+      medianHouseholdIncome: 78348,
+      stateIncomeTaxRate: "0%",
+      salesTaxRate: "6.0%",
+      propertyTaxEffectiveRate: 0.0064,
+      propertyTaxOn400K: 2560,
+      unemploymentRate: 3.3,
+      topIndustries: [
+        "Health Care & Social Assistance",
+        "Educational Services",
+        "Construction",
+        "Mining/Oil & Gas Extraction",
+        "Agriculture/Forestry"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 347000,
+      pricePerAcreRanch: "$8K-$12K (county ranch land); equestrian properties avg ~$25K/acre",
+      landAvailability: "Good",
+      horseFriendlyZoning: true,
+      marketCondition: "Balanced",
+      daysOnMarket: 50,
+      neighborhoods: [
+        { name: "Downtown Sheridan / Historic District", priceRange: "$250K-$450K", familyRating: "Good", notes: "Walkable Main Street, WYO Theater, charming historic homes" },
+        { name: "Big Horn", priceRange: "$400K-$1.5M+", familyRating: "Excellent", notes: "Prestigious community, polo clubs, Brinton Museum, equestrian culture" },
+        { name: "Story", priceRange: "$350K-$900K", familyRating: "Excellent", notes: "Mountain community at base of Bighorns, gateway to forest trails" },
+        { name: "Ranchester", priceRange: "$250K-$400K", familyRating: "Excellent", notes: "9mi south of MT border, highly-rated schools, conservative community" },
+        { name: "Dayton", priceRange: "$275K-$500K", familyRating: "Good", notes: "Charming small town, Tongue River access, Hwy 14 to Bighorns" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Martin Luther Grammar School / Immanuel Academy", grades: "K-8", tuition: 3200, students: 17, accreditation: "CCLE, NLSA, ACCS member", notes: "Lutheran (LCMS) classical Christian. Very small but accredited. 9:1 ratio. Classical trivium and quadrivium." }
+      ],
+      otherPrivateSchools: [
+        { name: "Sheridan Valor Academy", grades: "6-12", tuition: null, notes: "Christ-centered, 4-day week, non-denominational, WY state tuition funds available" },
+        { name: "Holy Name Catholic School", grades: "PK-5", tuition: null, notes: "69 students, NCEA member, 8:1 ratio" }
+      ],
+      publicSchoolRating: "A-",
+      homeschoolCoOps: [
+        { name: "Homeschool Wyoming", type: "Statewide Support", notes: "Wyoming is very homeschool-friendly — notification only, no testing required" }
+      ],
+      classicalConversations: "Uncertain — CC operates in WY but no confirmed Sheridan community",
+      graduationRate: 86
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Sheridan Reformed Presbyterian Church", size: "Small (mission)", notes: "PCA, Rocky Mountain Presbytery. Small congregation." }
+      ],
+      opcChurches: [],
+      epcChurches: [],
+      crecChurches: [],
+      otherReformed: [
+        { name: "Sheridan Bible Church", denomination: "Evangelical/Reformed-leaning", size: "Medium", notes: "Non-denominational but Reformed-leaning" }
+      ],
+      totalReformedCount: 1,
+      reformedDensity: "Very Weak",
+      seminaries: [],
+      christianOrgs: ["The Hub on Smith (community ministry)", "Sheridan YMCA"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 58, springLow: 30,
+        summerHigh: 87, summerLow: 56,
+        fallHigh: 63, fallLow: 32,
+        winterHigh: 33, winterLow: 12,
+        annualRainfall: "16 inches",
+        annualSnowfall: "35 inches",
+        sunnyDays: 208
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 5, notes: "Bighorn Mountains, hundreds of miles of trails, Bighorn National Forest" },
+        { activity: "Fishing", quality: 5, notes: "World-class fly fishing; hundreds of streams with rainbow, brown, brook, cutthroat trout" },
+        { activity: "Hunting", quality: 5, notes: "Mule deer, elk, moose, pronghorn, mountain lion, black bear, wild turkey" },
+        { activity: "Equestrian", quality: 5, notes: "Eatons' Ranch (oldest dude ranch), Big Horn Equestrian Center, Bighorn NF trails, polo clubs" },
+        { activity: "Mountain Biking", quality: 4, notes: "Red Grade Trail System 20+ miles, Bighorn trails" },
+        { activity: "Skiing", quality: 3, notes: "XC skiing; nearest downhill Antelope Buttes (small) or Big Sky/Red Lodge MT" }
+      ],
+      equestrianAccess: "Exceptional",
+      crimeViolentPer100K: 136,
+      crimePropertyPer100K: 989,
+      walkScore: 30,
+      avgCommute: "13 min",
+      culturalAmenities: "WYO Theater (1923), Brinton Museum, Museum at the Bighorns, Sheridan WYO Rodeo, Big Horn Polo Club (since 1890s), historic Main Street"
+    },
+
+    community: {
+      population: 20046,
+      metroPopulation: 33375,
+      populationGrowthRate: "1.3%/year",
+      medianAge: 39.7,
+      familyFriendliness: "Excellent",
+      homeschoolCommunity: "Moderate",
+      conservativePresence: "Very Strong",
+      smallTownFeel: "Yes",
+      volunteerCulture: "Strong — Sheridan Community Land Trust, YMCA, multiple active nonprofits, cowboy culture, volunteer-driven events"
+    }
   }
 };
 
@@ -1199,7 +1698,11 @@ const SCORES = {
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
   "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
   "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 4, community: 9 },
-  "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5 }
+  "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5 },
+  "birmingham-al":    { faith: 9, education: 8, lifestyle: 7, housing: 7, costOfLiving: 8, community: 8 },
+  "moscow-id":        { faith: 9, education: 9, lifestyle: 7, housing: 5, costOfLiving: 7, community: 8 },
+  "raleigh-nc":       { faith: 8, education: 9, lifestyle: 8, housing: 6, costOfLiving: 7, community: 8 },
+  "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8 }
 };
 
 

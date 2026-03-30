@@ -36,6 +36,10 @@
             <li><a href="./cities/bend-or.html">Bend, OR</a></li>
             <li><a href="./cities/sisters-or.html">Sisters, OR</a></li>
             <li><a href="./cities/flagstaff-az.html">Flagstaff, AZ</a></li>
+            <li><a href="./cities/birmingham-al.html">Birmingham, AL</a></li>
+            <li><a href="./cities/moscow-id.html">Moscow, ID</a></li>
+            <li><a href="./cities/raleigh-nc.html">Raleigh, NC</a></li>
+            <li><a href="./cities/sheridan-wy.html">Sheridan, WY</a></li>
           </ul>
         </li>
       </ul>
@@ -47,7 +51,7 @@
   <section class="hero">
     <div class="container">
       <h1>Where Next?</h1>
-      <p class="subtitle">A data-driven comparison of 9 cities for the Short family's next chapter. Lexington, KY is our baseline.</p>
+      <p class="subtitle">A data-driven comparison of 13 cities for the Short family's next chapter. Lexington, KY is our baseline.</p>
     </div>
   </section>
 
@@ -110,7 +114,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Overall Rankings</h2>
-        <p class="section-subtitle">All 9 cities ranked by weighted score. Adjust the sliders above to see how priorities change the order.</p>
+        <p class="section-subtitle">All 13 cities ranked by weighted score. Adjust the sliders above to see how priorities change the order.</p>
       </div>
       <div class="table-responsive">
         <table id="ranking-table" class="comparison-table">
@@ -141,7 +145,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Quick Stats</h2>
-        <p class="section-subtitle">Key metrics at a glance across all 9 cities.</p>
+        <p class="section-subtitle">Key metrics at a glance across all 13 cities.</p>
       </div>
       <div class="grid-4">
         <div class="stat-card">
@@ -222,7 +226,11 @@
         "greenville-sc": "greenville-sc",
         "columbia-sc": "columbia-sc",
         "coeur-d-alene-id": "coeur-d-alene-id",
-        "flagstaff-az": "flagstaff-az"
+        "flagstaff-az": "flagstaff-az",
+        "birmingham-al": "birmingham-al",
+        "moscow-id": "moscow-id",
+        "raleigh-nc": "raleigh-nc",
+        "sheridan-wy": "sheridan-wy"
       };
 
       var CATEGORY_KEYS = ["faith", "education", "lifestyle", "housing", "costOfLiving", "community"];
@@ -338,7 +346,7 @@
         var minPrice = Math.min.apply(null, homePrices);
         var maxPrice = Math.max.apply(null, homePrices);
         document.getElementById("stat-home-price").textContent = formatCurrency(minPrice) + " - " + formatCurrency(maxPrice);
-        document.getElementById("stat-home-price-range").textContent = "across 9 cities";
+        document.getElementById("stat-home-price-range").textContent = "across 13 cities";
 
         var minR = Math.min.apply(null, reformedCounts);
         var maxR = Math.max.apply(null, reformedCounts);
@@ -428,7 +436,11 @@
         { id: "greenville-sc",    label: "Greenville, SC",    lon: -82.39, lat: 34.85 },
         { id: "columbia-sc",      label: "Columbia, SC",      lon: -81.03, lat: 34.00 },
         { id: "coeur-d-alene-id", label: "Coeur d'Alene, ID", lon: -116.78, lat: 47.68 },
-        { id: "flagstaff-az",     label: "Flagstaff, AZ",     lon: -111.65, lat: 35.20 }
+        { id: "flagstaff-az",     label: "Flagstaff, AZ",     lon: -111.65, lat: 35.20 },
+        { id: "birmingham-al",    label: "Birmingham, AL",    lon: -86.80, lat: 33.52 },
+        { id: "moscow-id",        label: "Moscow, ID",        lon: -117.00, lat: 46.73 },
+        { id: "raleigh-nc",       label: "Raleigh, NC",       lon: -78.64, lat: 35.78 },
+        { id: "sheridan-wy",      label: "Sheridan, WY",      lon: -106.96, lat: 44.80 }
       ];
 
       var svg = document.getElementById("us-map-svg");
@@ -512,6 +524,18 @@
             }
             // Flagstaff: label to right
             if (city.id === "flagstaff-az") {
+              lx = pt[0] + 10; ly = pt[1] - 2;
+            }
+            // Birmingham: label to left (near Chattanooga)
+            if (city.id === "birmingham-al") {
+              lx = pt[0] - 10; anchor = "end"; ly = pt[1] + 14;
+            }
+            // Moscow: label to right
+            if (city.id === "moscow-id") {
+              lx = pt[0] + 10;
+            }
+            // Raleigh: label to right
+            if (city.id === "raleigh-nc") {
               lx = pt[0] + 10; ly = pt[1] - 2;
             }
 
