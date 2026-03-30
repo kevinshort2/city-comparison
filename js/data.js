@@ -1,7 +1,7 @@
 /**
  * City Comparison Data File
  * Generated from research JSON files on 2026-03-29
- * 13 cities compared for family relocation evaluation
+ * 16 cities compared for family relocation evaluation
  */
 
 const CITIES = {
@@ -1600,6 +1600,376 @@ const CITIES = {
       smallTownFeel: "Yes",
       volunteerCulture: "Strong — Sheridan Community Land Trust, YMCA, multiple active nonprofits, cowboy culture, volunteer-driven events"
     }
+  },
+
+  "san-antonio-tx": {
+    name: "Boerne",
+    state: "TX",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 114,
+      housingIndex: 158,
+      groceryIndex: 94,
+      utilitiesIndex: 95,
+      transportationIndex: 97,
+      medianHouseholdIncome: 110498,
+      stateIncomeTaxRate: "0%",
+      salesTaxRate: "8.25%",
+      propertyTaxEffectiveRate: 0.0128,
+      propertyTaxOn400K: 5120,
+      unemploymentRate: 2.8,
+      topIndustries: [
+        "Trade/Transportation/Utilities",
+        "Healthcare",
+        "Tourism & Hospitality",
+        "Technology & Cybersecurity",
+        "Military/Government (JBSA)"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 565000,
+      pricePerAcreRanch: "$15K-$35K (Kendall County ranch land)",
+      landAvailability: "Good",
+      horseFriendlyZoning: true,
+      marketCondition: "Buyer's",
+      daysOnMarket: 109,
+      neighborhoods: [
+        { name: "Balcones Creek / Ranches at Creekside", priceRange: "$400K-$650K", familyRating: "Excellent", notes: "Family-oriented, Hill Country views, trails, Boerne ISD, best value" },
+        { name: "Fair Oaks Ranch", priceRange: "$500K-$900K", familyRating: "Excellent", notes: "11,000-resident gated community, golf, equestrian facilities" },
+        { name: "Cordillera Ranch", priceRange: "$1M-$3M+", familyRating: "Excellent", notes: "Premier master-planned, equestrian center, Nicklaus golf, 15mi trails" },
+        { name: "Bulverde", priceRange: "$400K-$600K", familyRating: "Excellent", notes: "Growing community between Boerne and SA, newer builds, Comal ISD" },
+        { name: "Bandera Corridor", priceRange: "$300K-$550K", familyRating: "Good", notes: "'Cowboy Capital of the World,' most affordable, working ranches, rural" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Geneva School of Boerne", grades: "KP-12", tuition: "$10,795-$15,319", students: 684, accreditation: "Cognia (SACS CASI), ACCS member, SCL member", notes: "Founded 1998. SAT avg 1240, ACT avg 26, 10 AP courses. 100% graduation rate. 15% receive tuition aid." }
+      ],
+      otherPrivateSchools: [
+        { name: "Ambleside Boerne", grades: "PK-8", tuition: null, notes: "Charlotte Mason, Christian" },
+        { name: "Crestmont Christian Preparatory", grades: "K-12", tuition: null, notes: "Non-denominational Christian" },
+        { name: "St. John Lutheran School", grades: "PK-5", tuition: null, notes: "Lutheran" }
+      ],
+      publicSchoolRating: "A",
+      homeschoolCoOps: [
+        { name: "BACH (Boerne Area Christian Homeschooling)", type: "Christian Support", notes: "Active local group" },
+        { name: "One Day Academy", type: "Friday Enrichment", notes: "At Currey Creek Church" },
+        { name: "THE Well", type: "Christ-centered Enrichment", notes: "Supplemental classes" }
+      ],
+      classicalConversations: true,
+      graduationRate: 99
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Trinity Presbyterian Church", size: "Small-Medium", notes: "In Boerne itself. 31 Ammann Rd." },
+        { name: "Church of the Hills", size: "Medium", notes: "Bulverde" },
+        { name: "Christ Church SA", size: "Medium", notes: "San Antonio" },
+        { name: "Faith Presbyterian SA", size: "Medium", notes: "San Antonio" },
+        { name: "Redeemer Presbyterian SA", size: "Medium", notes: "San Antonio" }
+      ],
+      opcChurches: [
+        { name: "San Antonio Reformed Church", size: "Small", notes: "OPC in San Antonio" },
+        { name: "Grace OPC", size: "Small", notes: "San Antonio area" }
+      ],
+      epcChurches: [],
+      crecChurches: [
+        { name: "Christ Church Boerne", size: "Small-Medium", notes: "CREC, in Boerne itself" },
+        { name: "Christ Covenant Church SA", size: "Small", notes: "San Antonio area" }
+      ],
+      otherReformed: [
+        { name: "Reformed Presbyterian Church SA", denomination: "RPCNA", size: "Small", notes: "Exclusive psalmody" }
+      ],
+      totalReformedCount: 13,
+      reformedDensity: "Moderate-Good",
+      seminaries: ["Zbinden Center for Biblical Leadership (First Pres SA)", "Southern Reformed College & Seminary (SA)"],
+      christianOrgs: ["Boerne Community Coalition", "Multiple church-based ministries"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 78, springLow: 55,
+        summerHigh: 94, summerLow: 72,
+        fallHigh: 80, fallLow: 56,
+        winterHigh: 60, winterLow: 36,
+        annualRainfall: "34 inches",
+        annualSnowfall: "0.1 inches",
+        sunnyDays: 228
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 4, notes: "Cibolo Nature Center, Guadalupe River State Park, Government Canyon" },
+        { activity: "Equestrian", quality: 5, notes: "Cordillera Equestrian Club, Diamond C Stables, Hill Country Trail Rides, Guadalupe River SP trails" },
+        { activity: "Kayaking/Tubing", quality: 4, notes: "Guadalupe River tubing and kayaking" },
+        { activity: "Hunting", quality: 4, notes: "Abundant Hill Country deer and turkey" },
+        { activity: "Cycling", quality: 3, notes: "Road cycling popular, Tour de Boerne" }
+      ],
+      equestrianAccess: "Excellent",
+      crimeViolentPer100K: 36,
+      crimePropertyPer100K: 117,
+      walkScore: 25,
+      avgCommute: "30 min",
+      culturalAmenities: "Historic Hauptstrasse (German Main Street), Cibolo Nature Center, Berges Fest, Dickens on Main, Hill Country wineries/breweries, San Antonio 30 min away"
+    },
+
+    community: {
+      population: 25000,
+      metroPopulation: 2525000,
+      populationGrowthRate: "4.8%/year",
+      medianAge: 38.7,
+      familyFriendliness: "Excellent",
+      homeschoolCommunity: "Strong",
+      conservativePresence: "Strong",
+      smallTownFeel: "Yes",
+      volunteerCulture: "Active — Boerne Community Coalition, faith-based service orgs, strong community festival culture"
+    }
+  },
+
+  "bozeman-mt": {
+    name: "Bozeman",
+    state: "MT",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 140,
+      housingIndex: 192,
+      groceryIndex: 103,
+      utilitiesIndex: 84,
+      transportationIndex: 113,
+      medianHouseholdIncome: 85747,
+      stateIncomeTaxRate: "4.7%-5.9% (flat 5.4% by 2027)",
+      salesTaxRate: "0%",
+      propertyTaxEffectiveRate: 0.0051,
+      propertyTaxOn400K: 2040,
+      unemploymentRate: 2.8,
+      topIndustries: [
+        "Higher Education (Montana State University)",
+        "Technology ($2.9B hub)",
+        "Healthcare",
+        "Tourism & Hospitality",
+        "Agriculture & Ranching"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 745000,
+      pricePerAcreRanch: "$10K-$111K (varies widely; ranch land avg ~$10K statewide; equestrian near Bozeman $100K+/acre)",
+      landAvailability: "Moderate",
+      horseFriendlyZoning: true,
+      marketCondition: "Cooling",
+      daysOnMarket: 26,
+      neighborhoods: [
+        { name: "West Bozeman (Harvest Creek, Northstar)", priceRange: "$600K-$1.1M", familyRating: "Excellent", notes: "Near elementary schools, Gallatin Regional Park, Petra Academy" },
+        { name: "South Bozeman", priceRange: "$650K-$1.2M", familyRating: "Excellent", notes: "Most coveted historic area, walkable, top schools" },
+        { name: "Gran Cielo", priceRange: "$700K-$1.3M", familyRating: "Excellent", notes: "Master-planned, modern, community park, strong neighborhood identity" },
+        { name: "Four Corners / Gallatin Gateway", priceRange: "$500K-$1.5M+", familyRating: "Good", notes: "Rural/acreage, horse-friendly, Gallatin River, 15-20 min to downtown" },
+        { name: "Gallatin River Ranch", priceRange: "$800K-$2M+", familyRating: "Good", notes: "20-acre homesites, private equestrian center, gated, river access" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "Petra Academy", grades: "PK-12", tuition: 12500, students: 250, accreditation: "ACCS", notes: "Montana's oldest classical Christian school (27 years). 20-acre campus. Latin from 3rd grade, logic/rhetoric upper school. Cross-denominational." }
+      ],
+      otherPrivateSchools: [
+        { name: "Heritage Christian School", grades: "K-12", tuition: null, notes: "~180 students, ACSI-accredited, non-denominational evangelical" },
+        { name: "Mount Ellis Academy", grades: "9-12", tuition: null, notes: "Seventh-day Adventist, est. 1902" },
+        { name: "Divine Mercy Academy", grades: null, tuition: null, notes: "Catholic" }
+      ],
+      publicSchoolRating: "B+",
+      homeschoolCoOps: [
+        { name: "Gallatin Christian Homeschool Co-op (GCHC)", type: "Christian", notes: "24-40 families, weekly K-12 meetings" },
+        { name: "Bozeman Area Homeschoolers", type: "Support", notes: "Facebook community, activities" }
+      ],
+      classicalConversations: true,
+      graduationRate: 88
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "Trinity Church Bozeman", size: "Small-Medium", notes: "PCA congregation" }
+      ],
+      opcChurches: [],
+      epcChurches: [
+        { name: "Springhill Presbyterian Church", size: "Medium", notes: "EPC, with Bozeman campus" }
+      ],
+      crecChurches: [],
+      otherReformed: [
+        { name: "Bozeman Christian Reformed Church", denomination: "CRC", size: "Small-Medium", notes: "Downtown, Dutch Reformed tradition" },
+        { name: "Bozeman Reformed Baptist Church", denomination: "Reformed Baptist (1689)", size: "Small", notes: "Confessional" }
+      ],
+      totalReformedCount: 4,
+      reformedDensity: "Low",
+      seminaries: [],
+      christianOrgs: ["Reformed University Fellowship (RUF) at MSU", "Chi Alpha/Cru campus ministries"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 55, springLow: 30,
+        summerHigh: 84, summerLow: 50,
+        fallHigh: 58, fallLow: 30,
+        winterHigh: 33, winterLow: 12,
+        annualRainfall: "29 inches",
+        annualSnowfall: "91 inches",
+        sunnyDays: 188
+      },
+      outdoorRec: [
+        { activity: "Skiing", quality: 5, notes: "Bridger Bowl 18mi (affordable, uncrowded), Big Sky Resort 50mi (biggest in US)" },
+        { activity: "Hiking", quality: 5, notes: "80+ miles city trails, Hyalite Canyon, Bridger/Gallatin/Madison ranges, Yellowstone 90min" },
+        { activity: "Fishing", quality: 5, notes: "World-class fly fishing — Gallatin, Madison, Yellowstone Rivers all within 30 min" },
+        { activity: "Hunting", quality: 5, notes: "Elk, mule deer, whitetail, upland birds. Easy public land access." },
+        { activity: "Equestrian", quality: 4, notes: "Gallatin River Ranch equestrian center, multiple stables, BLM/Forest Service trails" }
+      ],
+      equestrianAccess: "Excellent",
+      crimeViolentPer100K: 434,
+      crimePropertyPer100K: 1755,
+      walkScore: 47,
+      avgCommute: "15 min",
+      culturalAmenities: "Museum of the Rockies (Smithsonian affiliate), Emerson Arts Center, Bozeman Symphony, vibrant downtown Main Street, MSU campus events"
+    },
+
+    community: {
+      population: 59900,
+      metroPopulation: 115000,
+      populationGrowthRate: "1.7%/year",
+      medianAge: 28.6,
+      familyFriendliness: "Good",
+      homeschoolCommunity: "Moderate",
+      conservativePresence: "Moderate",
+      smallTownFeel: "Moderate",
+      volunteerCulture: "Strong — numerous volunteer orgs, community-oriented culture"
+    }
+  },
+
+  "boise-id": {
+    name: "Boise",
+    state: "ID",
+    isBaseline: false,
+
+    costOfLiving: {
+      overallIndex: 102,
+      housingIndex: 115,
+      groceryIndex: 100,
+      utilitiesIndex: 94,
+      transportationIndex: 105,
+      medianHouseholdIncome: 81308,
+      stateIncomeTaxRate: "5.3% flat",
+      salesTaxRate: "6.0%",
+      propertyTaxEffectiveRate: 0.0066,
+      propertyTaxOn400K: 2640,
+      unemploymentRate: 3.1,
+      topIndustries: [
+        "Technology (Micron HQ, HP, Clearwater Analytics)",
+        "Healthcare (St. Luke's, Saint Alphonsus)",
+        "Government/Education (State of Idaho, Boise State)",
+        "Retail/Food (Albertsons HQ, WinCo)",
+        "Agriculture (J.R. Simplot HQ)"
+      ],
+      remoteFriendly: "High"
+    },
+
+    housing: {
+      medianHomePrice: 500000,
+      pricePerAcreRanch: "$25K-$100K+ (closer to Boise higher; Canyon County more affordable)",
+      landAvailability: "Moderate",
+      horseFriendlyZoning: true,
+      marketCondition: "Balanced",
+      daysOnMarket: 30,
+      neighborhoods: [
+        { name: "Eagle", priceRange: "$700K-$1M+", familyRating: "Excellent", notes: "Premier family suburb, top schools, equestrian properties, Dry Creek Ranch agrihood" },
+        { name: "Meridian", priceRange: "$480K-$600K", familyRating: "Excellent", notes: "Fastest-growing city in ID, home to The Ambrose School, excellent parks" },
+        { name: "Star", priceRange: "$400K-$550K", familyRating: "Excellent", notes: "Small-town feel, larger lots, horse-friendly, more affordable" },
+        { name: "Nampa", priceRange: "$380K-$465K", familyRating: "Good", notes: "Best value in Treasure Valley, CREC church presence, more space" },
+        { name: "SE Boise / Boise Bench", priceRange: "$425K-$575K", familyRating: "Excellent", notes: "Established neighborhoods, close to foothills trails, good schools" }
+      ]
+    },
+
+    education: {
+      classicalChristianSchools: [
+        { name: "The Ambrose School", grades: "K-12", tuition: "$3,120-$9,310", students: 900, accreditation: "ACCS", notes: "Premier classical Christian school. 3 campuses (Meridian + NW Boise). 14:1 ratio. Latin 3-10, Greek 9-10. Great Books. 95% attend 4-year college. Founded 1995." },
+        { name: "Petra Christian Academy", grades: "K-9", tuition: null, students: null, accreditation: "Classical Christian", notes: "Small school, 8:1 ratio, Christ-centered classical curriculum" }
+      ],
+      otherPrivateSchools: [
+        { name: "Cole Valley Christian Schools", grades: "PK-12", tuition: null, notes: "Christ-centered" },
+        { name: "Boise Classical Academy", grades: null, tuition: null, notes: "Classical option" },
+        { name: "Capital Christian Academy", grades: null, tuition: null, notes: "Christian" }
+      ],
+      publicSchoolRating: "B+",
+      homeschoolCoOps: [
+        { name: "Venture Christian Co-op", type: "Christian", notes: "Fridays, PreK-graduation" },
+        { name: "Treasure Valley Academy Co-op", type: "Christian", notes: "Thursdays, West Boise" },
+        { name: "Still Waters Homeschool Group", type: "Christian", notes: "Christian support" },
+        { name: "SELAH of Idaho", type: "Multiple Co-ops", notes: "Several locations across Treasure Valley" }
+      ],
+      classicalConversations: "Strong — multiple CC communities across Treasure Valley (Meridian, Boise, Nampa, Caldwell)",
+      graduationRate: 90
+    },
+
+    faith: {
+      pcaChurches: [
+        { name: "All Saints Presbyterian Church", size: "Small-Medium", notes: "Meridian — meets at The Ambrose School" },
+        { name: "Boise Presbyterian Church", size: "Small", notes: "Downtown Boise, church plant" },
+        { name: "Covenant Presbyterian Church", size: "Small-Medium", notes: "NW Boise" }
+      ],
+      opcChurches: [],
+      epcChurches: [],
+      crecChurches: [
+        { name: "The King's Congregation", size: "Small-Medium", notes: "Meridian. Est. 2003." },
+        { name: "King's Covenant Church", size: "Small", notes: "Nampa. Mission church of King's Congregation." }
+      ],
+      otherReformed: [
+        { name: "Treasure Valley Reformed Presbyterian", denomination: "RPCNA", size: "Small", notes: "Westminster Confession, exclusive psalmody" },
+        { name: "Dayspring Reformed Church", denomination: "Independent Reformed", size: "Small", notes: "Confessional" },
+        { name: "The Well Reformed Church", denomination: "Independent Reformed", size: "Small", notes: "Westminster Confession" },
+        { name: "Sovereign Grace Fellowship", denomination: "Reformed Evangelical", size: "Small", notes: "Reformed" }
+      ],
+      totalReformedCount: 10,
+      reformedDensity: "Moderate",
+      seminaries: [],
+      christianOrgs: ["RUF at Boise State", "Idaho Family Policy Center", "Canon Press influence (Moscow-based)"]
+    },
+
+    lifestyle: {
+      climate: {
+        springHigh: 62, springLow: 38,
+        summerHigh: 91, summerLow: 58,
+        fallHigh: 63, fallLow: 38,
+        winterHigh: 38, winterLow: 24,
+        annualRainfall: "11 inches",
+        annualSnowfall: "12 inches",
+        sunnyDays: 210
+      },
+      outdoorRec: [
+        { activity: "Hiking", quality: 5, notes: "Ridge to Rivers 190+ miles foothills trails, Boise National Forest, Table Rock" },
+        { activity: "Skiing", quality: 4, notes: "Bogus Basin 16mi from downtown, 2,000 acres, 45 runs, night skiing. Sun Valley 2.5hr." },
+        { activity: "Mountain Biking", quality: 5, notes: "World-class desert singletrack year-round, foothills trail system" },
+        { activity: "Fishing", quality: 5, notes: "9,600 miles of rivers/streams, world-class trout, Boise/Payette/Salmon Rivers" },
+        { activity: "Equestrian", quality: 4, notes: "Boise NF horse trails, Eagle/Star horse properties, Dry Creek Ranch equestrian facility" }
+      ],
+      equestrianAccess: "Good",
+      crimeViolentPer100K: 235,
+      crimePropertyPer100K: 1270,
+      walkScore: 38,
+      avgCommute: "18 min",
+      culturalAmenities: "Boise Art Museum, Basque Museum, Museum of Idaho, Treefort Music Fest, Capital City Public Market, Morrison Center, NatGeo Top 25 Destination 2025"
+    },
+
+    community: {
+      population: 239503,
+      metroPopulation: 770000,
+      populationGrowthRate: "1.26%/year",
+      medianAge: 38.6,
+      familyFriendliness: "Excellent",
+      homeschoolCommunity: "Very Strong",
+      conservativePresence: "Strong",
+      smallTownFeel: "Moderate",
+      volunteerCulture: "Strong — active neighborhood associations, church-based service orgs, community events"
+    }
   }
 };
 
@@ -1702,7 +2072,10 @@ const SCORES = {
   "birmingham-al":    { faith: 9, education: 8, lifestyle: 7, housing: 7, costOfLiving: 8, community: 8 },
   "moscow-id":        { faith: 9, education: 9, lifestyle: 7, housing: 5, costOfLiving: 7, community: 8 },
   "raleigh-nc":       { faith: 8, education: 9, lifestyle: 8, housing: 6, costOfLiving: 7, community: 8 },
-  "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8 }
+  "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8 },
+  "san-antonio-tx":   { faith: 8, education: 9, lifestyle: 8, housing: 7, costOfLiving: 7, community: 9 },
+  "bozeman-mt":       { faith: 5, education: 8, lifestyle: 9, housing: 4, costOfLiving: 4, community: 7 },
+  "boise-id":         { faith: 7, education: 9, lifestyle: 9, housing: 6, costOfLiving: 7, community: 9 }
 };
 
 
