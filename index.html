@@ -176,6 +176,157 @@
     </div>
   </section>
 
+  <!-- Time Zone & Work Schedule -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Time Zone & Work Schedule</h2>
+        <p class="section-subtitle">Moving west means your workday shifts earlier — and you get your afternoons back. If the team runs on Eastern time, a Pacific time zone city lets you wrap up by 3 PM local.</p>
+      </div>
+
+      <!-- Schedule Comparison -->
+      <div class="grid-2 mb-4">
+        <div class="stat-card">
+          <div class="stat-label">Current (Eastern)</div>
+          <div class="stat-value" style="font-size:1.5rem;">9 AM – 5 PM</div>
+          <div class="caption">Done at 5:00 PM &middot; ~3 hrs of daylight left in summer</div>
+        </div>
+        <div class="stat-card" style="border-left:3px solid var(--color-positive);">
+          <div class="stat-label">Pacific (working EST hours)</div>
+          <div class="stat-value" style="font-size:1.5rem;">6 AM – 3 PM</div>
+          <div class="caption">Done at 3:00 PM &middot; ~6 hrs of daylight left in summer</div>
+        </div>
+      </div>
+
+      <!-- Visual Timeline -->
+      <div style="overflow-x:auto; margin-bottom:2rem;">
+        <table class="comparison-table" id="schedule-table" style="min-width:700px;">
+          <thead>
+            <tr>
+              <th style="width:130px;">Schedule</th>
+              <th>5a</th><th>6a</th><th>7a</th><th>8a</th><th>9a</th><th>10a</th><th>11a</th>
+              <th>12p</th><th>1p</th><th>2p</th><th>3p</th><th>4p</th><th>5p</th><th>6p</th><th>7p</th><th>8p</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>EST (current)</td>
+              <td></td><td></td><td></td><td></td>
+              <td style="background:#D1FAE5;font-size:0.75rem;font-weight:600;color:#065F46;text-align:center;" colspan="8">Working 9a – 5p</td>
+              <td style="background:#FEF3C7;font-size:0.7rem;text-align:center;" colspan="3">Evening</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>PST (new)</td>
+              <td></td>
+              <td style="background:#D1FAE5;font-size:0.75rem;font-weight:600;color:#065F46;text-align:center;" colspan="8">Working 6a – 3p (= 9a–6p EST)</td>
+              <td></td>
+              <td style="background:#DBEAFE;font-size:0.7rem;text-align:center;color:#1E40AF;" colspan="5">Free afternoon</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>MST option</td>
+              <td></td><td></td>
+              <td style="background:#D1FAE5;font-size:0.75rem;font-weight:600;color:#065F46;text-align:center;" colspan="8">Working 7a – 4p (= 9a–6p EST)</td>
+              <td></td>
+              <td style="background:#DBEAFE;font-size:0.7rem;text-align:center;color:#1E40AF;" colspan="3">Free afternoon</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Benefits -->
+      <h3 class="mb-2">Why this matters</h3>
+      <div class="grid-3 mb-4">
+        <div class="stat-card">
+          <div class="stat-label">Afternoon Daylight</div>
+          <div class="stat-value">+3 hrs</div>
+          <div class="caption">PST gives you until 8:30 PM sunset in summer vs. wrapping up at 5 PM EST</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Family Time Before Dark</div>
+          <div class="stat-value">5+ hrs</div>
+          <div class="caption">Coach a practice, hike a trail, or ride horses — all before dinner</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Morning Focus</div>
+          <div class="stat-value">6–9 AM</div>
+          <div class="caption">3 hours of deep work before East Coast meetings start at 9 AM EST</div>
+        </div>
+      </div>
+
+      <!-- Reworked Daily Schedule -->
+      <h3 class="mb-2">Reworked Daily Schedule (Pacific Time)</h3>
+      <div class="table-responsive mb-4">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Time (PST)</th>
+              <th>Time (EST)</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>5:30 AM</td><td>8:30 AM</td><td>Wake up, coffee, devotional</td></tr>
+            <tr><td>6:00 AM</td><td>9:00 AM</td><td>Deep focus work — code, design, strategic thinking (no meetings yet)</td></tr>
+            <tr><td>8:00 AM</td><td>11:00 AM</td><td>Morning meetings, collaboration with EST team</td></tr>
+            <tr><td>12:00 PM</td><td>3:00 PM</td><td>Lunch break</td></tr>
+            <tr><td>12:30 PM</td><td>3:30 PM</td><td>Afternoon work block — wrap up, async handoffs</td></tr>
+            <tr><td>3:00 PM</td><td>6:00 PM</td><td style="color:var(--color-positive);font-weight:600;">Done for the day</td></tr>
+            <tr><td>3:00 – 8:30 PM</td><td>—</td><td>Family, outdoors, kids' activities, dinner — still daylight</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- City Timezone Grouping -->
+      <h3 class="mb-2">Cities by Time Zone</h3>
+      <div class="grid-4 mb-2">
+        <div class="stat-card" style="border-left:3px solid var(--color-positive);">
+          <div class="stat-label">Pacific (UTC-8)</div>
+          <div class="stat-value" style="font-size:1.25rem;">3 PM finish</div>
+          <div class="caption" style="margin-top:0.75rem; line-height:1.8;">
+            <a href="./cities/bend-or.html">Bend, OR</a><br>
+            <a href="./cities/sisters-or.html">Sisters, OR</a><br>
+            <a href="./cities/coeur-d-alene-id.html">Coeur d'Alene, ID</a><br>
+            <a href="./cities/moscow-id.html">Moscow, ID</a>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Mountain (UTC-7)</div>
+          <div class="stat-value" style="font-size:1.25rem;">4 PM finish</div>
+          <div class="caption" style="margin-top:0.75rem; line-height:1.8;">
+            <a href="./cities/boise-id.html">Boise, ID</a><br>
+            <a href="./cities/bozeman-mt.html">Bozeman, MT</a><br>
+            <a href="./cities/sheridan-wy.html">Sheridan, WY</a><br>
+            <a href="./cities/flagstaff-az.html">Flagstaff, AZ</a>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Central (UTC-6)</div>
+          <div class="stat-value" style="font-size:1.25rem;">5 PM finish</div>
+          <div class="caption" style="margin-top:0.75rem; line-height:1.8;">
+            <a href="./cities/san-antonio-tx.html">Boerne, TX</a><br>
+            <a href="./cities/birmingham-al.html">Birmingham, AL</a>
+          </div>
+        </div>
+        <div class="stat-card" style="border-left:3px solid var(--color-baseline);">
+          <div class="stat-label">Eastern (UTC-5)</div>
+          <div class="stat-value" style="font-size:1.25rem;">No change</div>
+          <div class="caption" style="margin-top:0.75rem; line-height:1.8;">
+            <a href="./cities/lexington-ky.html">Lexington, KY</a><br>
+            <a href="./cities/chattanooga-tn.html">Chattanooga, TN</a><br>
+            <a href="./cities/greenville-sc.html">Greenville, SC</a><br>
+            <a href="./cities/columbia-sc.html">Columbia, SC</a><br>
+            <a href="./cities/raleigh-nc.html">Raleigh, NC</a><br>
+            <a href="./cities/sarasota-fl.html">Sarasota, FL</a>
+          </div>
+        </div>
+      </div>
+      <p class="caption">* Flagstaff, AZ does not observe daylight saving time — stays on MST year-round (effectively Pacific time Nov–Mar).</p>
+    </div>
+  </section>
+
   <!-- City Cards Grid -->
   <section>
     <div class="container">
