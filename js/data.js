@@ -210,7 +210,7 @@ const CITIES = {
         fallHigh: 63, fallLow: 34,
         winterHigh: 43, winterLow: 24,
         annualRainfall: "10.6 inches",
-        annualSnowfall: "33 inches",
+        annualSnowfall: "22 inches",
         sunnyDays: 263
       },
       outdoorRec: [
@@ -222,7 +222,7 @@ const CITIES = {
         { activity: "Climbing", quality: 5, notes: "Smith Rock State Park, world-class sport climbing" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 169,
+      crimeViolentPer100K: 184,
       crimePropertyPer100K: 1362,
       walkScore: 32,
       avgCommute: "15 min",
@@ -321,8 +321,8 @@ const CITIES = {
         fallHigh: 61, fallLow: 30,
         winterHigh: 41, winterLow: 21,
         annualRainfall: "11 inches",
-        annualSnowfall: "16 inches",
-        sunnyDays: 162
+        annualSnowfall: "20 inches",
+        sunnyDays: 260
       },
       outdoorRec: [
         { activity: "Hiking", quality: 5, notes: "Peterson Ridge trails, South Sister, Three Sisters Wilderness, PCT" },
@@ -363,7 +363,7 @@ const CITIES = {
       groceryIndex: 107,
       utilitiesIndex: 105,
       transportationIndex: 102,
-      medianHouseholdIncome: 72105,
+      medianHouseholdIncome: 70065,
       stateIncomeTaxRate: "0%",
       salesTaxRate: "7.0%",
       propertyTaxEffectiveRate: 0.0105,
@@ -454,17 +454,17 @@ const CITIES = {
         { activity: "Cycling", quality: 4, notes: "Legacy Trail 18.5 miles" }
       ],
       equestrianAccess: "Good",
-      crimeViolentPer100K: 592,
-      crimePropertyPer100K: 2749,
+      crimeViolentPer100K: 549,
+      crimePropertyPer100K: 1616,
       walkScore: 52,
       avgCommute: "20 min",
       culturalAmenities: "Ringling Museum, Sarasota Opera/Orchestra/Ballet, vibrant arts scene, Florida's Cultural Coast"
     },
 
     community: {
-      population: 59047,
+      population: 56218,
       metroPopulation: 934000,
-      populationGrowthRate: "1.1%/year",
+      populationGrowthRate: "1.28%/year",
       medianAge: 48.2,
       familyFriendliness: "Moderate",
       homeschoolCommunity: "Moderate",
@@ -485,7 +485,7 @@ const CITIES = {
       groceryIndex: 96.5,
       utilitiesIndex: 86.6,
       transportationIndex: 89,
-      medianHouseholdIncome: 61028,
+      medianHouseholdIncome: 64523,
       stateIncomeTaxRate: "0%",
       salesTaxRate: "9.25%",
       propertyTaxEffectiveRate: 0.0056,
@@ -601,7 +601,7 @@ const CITIES = {
 
     community: {
       population: 196108,
-      metroPopulation: 437000,
+      metroPopulation: 581000,
       populationGrowthRate: "1.0%/year",
       medianAge: 36,
       familyFriendliness: "Excellent",
@@ -710,9 +710,9 @@ const CITIES = {
     lifestyle: {
       climate: {
         springHigh: 73, springLow: 53,
-        summerHigh: 87, summerLow: 72,
+        summerHigh: 90, summerLow: 72,
         fallHigh: 72, fallLow: 53,
-        winterHigh: 54, winterLow: 37,
+        winterHigh: 54, winterLow: 32,
         annualRainfall: "51 inches",
         annualSnowfall: "3 inches",
         sunnyDays: 220
@@ -857,7 +857,7 @@ const CITIES = {
 
     community: {
       population: 149087,
-      metroPopulation: 777000,
+      metroPopulation: 766000,
       populationGrowthRate: "1.4%/year",
       medianAge: 29,
       familyFriendliness: "Good",
@@ -998,7 +998,7 @@ const CITIES = {
       groceryIndex: 102,
       utilitiesIndex: 90,
       transportationIndex: 104,
-      medianHouseholdIncome: 65652,
+      medianHouseholdIncome: 69000,
       stateIncomeTaxRate: "2.5% flat",
       salesTaxRate: "9.386%",
       propertyTaxEffectiveRate: 0.0042,
@@ -1070,8 +1070,8 @@ const CITIES = {
         summerHigh: 82, summerLow: 50,
         fallHigh: 63, fallLow: 31,
         winterHigh: 43, winterLow: 17,
-        annualRainfall: "8 inches",
-        annualSnowfall: "81 inches",
+        annualRainfall: "22 inches",
+        annualSnowfall: "98 inches",
         sunnyDays: 266
       },
       outdoorRec: [
@@ -1114,7 +1114,7 @@ const CITIES = {
       groceryIndex: 100,
       utilitiesIndex: 104,
       transportationIndex: 89,
-      medianHouseholdIncome: 93543,
+      medianHouseholdIncome: 46051,
       stateIncomeTaxRate: "2%-5% graduated",
       salesTaxRate: "8-10% (varies by municipality)",
       propertyTaxEffectiveRate: 0.0045,
@@ -1131,7 +1131,7 @@ const CITIES = {
     },
 
     housing: {
-      medianHomePrice: 475000,
+      medianHomePrice: 280000,
       pricePerAcreRanch: "$15K-$30K (Shelby County for rural/equestrian land)",
       landAvailability: "Good",
       horseFriendlyZoning: true,
@@ -1201,7 +1201,7 @@ const CITIES = {
         springHigh: 75, springLow: 53,
         summerHigh: 90, summerLow: 71,
         fallHigh: 76, fallLow: 54,
-        winterHigh: 57, winterLow: 37,
+        winterHigh: 57, winterLow: 35,
         annualRainfall: "56.7 inches",
         annualSnowfall: "1-2 inches",
         sunnyDays: 213
@@ -1214,9 +1214,9 @@ const CITIES = {
         { activity: "Golf", quality: 4, notes: "Robert Trent Jones Golf Trail nearby, Ross Bridge, year-round weather" }
       ],
       equestrianAccess: "Very Good",
-      crimeViolentPer100K: 78,
-      crimePropertyPer100K: 730,
-      walkScore: 33,
+      crimeViolentPer100K: 1517,
+      crimePropertyPer100K: 4539,
+      walkScore: 35,
       avgCommute: "22 min",
       culturalAmenities: "Birmingham Museum of Art, Civil Rights Institute, Vulcan Park, Railroad Park, Alabama Theatre, James Beard Award-winning food scene"
     },
@@ -1224,7 +1224,7 @@ const CITIES = {
     community: {
       population: 196000,
       metroPopulation: 1155000,
-      populationGrowthRate: "0.92%/year",
+      populationGrowthRate: "-0.5%/year",
       medianAge: 35.9,
       familyFriendliness: "Excellent",
       homeschoolCommunity: "Strong",
@@ -1341,7 +1341,7 @@ const CITIES = {
 
     community: {
       population: 27580,
-      metroPopulation: 90579,
+      metroPopulation: 40300,
       populationGrowthRate: "1.26%/year",
       medianAge: 25.7,
       familyFriendliness: "Good",
@@ -1363,7 +1363,7 @@ const CITIES = {
       groceryIndex: 100,
       utilitiesIndex: 88,
       transportationIndex: 89,
-      medianHouseholdIncome: 103757,
+      medianHouseholdIncome: 85395,
       stateIncomeTaxRate: "3.99% flat (2026)",
       salesTaxRate: "7.0%",
       propertyTaxEffectiveRate: 0.0080,
@@ -1476,9 +1476,9 @@ const CITIES = {
     },
 
     community: {
-      population: 500000,
-      metroPopulation: 1661000,
-      populationGrowthRate: "2.0%/year",
+      population: 482295,
+      metroPopulation: 1562000,
+      populationGrowthRate: "1.8%/year",
       medianAge: 34.9,
       familyFriendliness: "Very Good",
       homeschoolCommunity: "Strong",
@@ -1499,7 +1499,7 @@ const CITIES = {
       groceryIndex: 103,
       utilitiesIndex: 82,
       transportationIndex: 105,
-      medianHouseholdIncome: 78348,
+      medianHouseholdIncome: 62867,
       stateIncomeTaxRate: "0%",
       salesTaxRate: "6.0%",
       propertyTaxEffectiveRate: 0.0064,
@@ -1570,7 +1570,7 @@ const CITIES = {
         fallHigh: 63, fallLow: 32,
         winterHigh: 33, winterLow: 12,
         annualRainfall: "16 inches",
-        annualSnowfall: "35 inches",
+        annualSnowfall: "58 inches",
         sunnyDays: 208
       },
       outdoorRec: [
@@ -1613,7 +1613,7 @@ const CITIES = {
       groceryIndex: 94,
       utilitiesIndex: 95,
       transportationIndex: 97,
-      medianHouseholdIncome: 110498,
+      medianHouseholdIncome: 84541,
       stateIncomeTaxRate: "0%",
       salesTaxRate: "8.25%",
       propertyTaxEffectiveRate: 0.0128,
@@ -1708,8 +1708,8 @@ const CITIES = {
         { activity: "Cycling", quality: 3, notes: "Road cycling popular, Tour de Boerne" }
       ],
       equestrianAccess: "Excellent",
-      crimeViolentPer100K: 36,
-      crimePropertyPer100K: 117,
+      crimeViolentPer100K: 107,
+      crimePropertyPer100K: 1518,
       walkScore: 25,
       avgCommute: "30 min",
       culturalAmenities: "Historic Hauptstrasse (German Main Street), Cibolo Nature Center, Berges Fest, Dickens on Main, Hill Country wineries/breweries, San Antonio 30 min away"
@@ -1814,7 +1814,7 @@ const CITIES = {
         summerHigh: 84, summerLow: 50,
         fallHigh: 58, fallLow: 30,
         winterHigh: 33, winterLow: 12,
-        annualRainfall: "29 inches",
+        annualRainfall: "20 inches",
         annualSnowfall: "91 inches",
         sunnyDays: 188
       },
@@ -1836,7 +1836,7 @@ const CITIES = {
     community: {
       population: 59900,
       metroPopulation: 115000,
-      populationGrowthRate: "1.7%/year",
+      populationGrowthRate: "2.1%/year",
       medianAge: 28.6,
       familyFriendliness: "Good",
       homeschoolCommunity: "Moderate",
@@ -1941,7 +1941,7 @@ const CITIES = {
         fallHigh: 63, fallLow: 38,
         winterHigh: 38, winterLow: 24,
         annualRainfall: "11 inches",
-        annualSnowfall: "12 inches",
+        annualSnowfall: "18 inches",
         sunnyDays: 210
       },
       outdoorRec: [
@@ -1999,10 +1999,17 @@ const DEFAULT_WEIGHTS = {
  *   Columbia: 7 — 18+ PCA churches, 2 seminaries, but no OPC/CREC
  *   Lexington: 5 — 3 Reformed congregations, moderate presence
  *   Coeur d'Alene: 5 — 4 Reformed churches (OPC, PCA plant, CREC), Moscow CREC ecosystem 84mi away
- *   Sarasota: 3 — 4 Reformed churches total, thin presence
+ *   Sarasota: 4 — 5 Reformed churches (2 PCA, 1 OPC, 2 Reformed Baptist), small but established
  *   Flagstaff: 2 — 1 PCA (Church of the Resurrection), 1 Reformed Baptist, 1 CRC. No OPC/CREC/EPC. No seminary.
  *   Bend: 2 — 1 OPC + 1 Reformed Baptist, no PCA/CREC
  *   Sisters: 1 — Zero Reformed churches in town, must drive 25-30 min to Bend's thin options
+ *   Birmingham: 9 — 14 Reformed churches, Briarwood PCA (~4,000 members), BTS seminary, deep Bible Belt infrastructure
+ *   Moscow: 9 — 5 CREC churches (Christ Church ~3,000 members, Doug Wilson), NSA college, Greyfriars Hall seminary. No PCA/OPC/EPC.
+ *   Raleigh: 8 — 10 PCA churches across Triangle, SEBTS (30 min), 20 total Reformed congregations
+ *   Boerne: 8 — 5 PCA, 2 OPC, 2 CREC, 1 RPCNA in Hill Country; Zbinden Center + Southern Reformed Seminary
+ *   Boise: 7 — 3 PCA, 2 CREC, 1 RPCNA, several independent. Strong for a western city but no OPC or seminary.
+ *   Bozeman: 5 — 1 PCA, 1 EPC, 1 CRC, 1 Reformed Baptist. Limited but present.
+ *   Sheridan: 3 — 1 small PCA mission church only. Very weak.
  *
  * EDUCATION (classical Christian schools, quality, homeschool community):
  *   Chattanooga: 9 — Grace Academy ($4K, strong outcomes), Veritas hybrid, 3+ CC communities, multiple classical options
@@ -2014,6 +2021,13 @@ const DEFAULT_WEIGHTS = {
  *   Bend: 5 — Chesterton Academy (Catholic classical, 8 students) + Immanuel Classical School (Reformed, K-12) — two classical schools plus CC active, moderate homeschool
  *   Flagstaff: 3 — No classical Christian school. Two Christian schools (FCS K-9, NCS K-10) use Abeka not classical. CC uncertain. Moderate homeschool. BASIS charter is excellent.
  *   Sisters: 3 — No classical Christian school in town, but Immanuel Classical School + Chesterton Academy in Bend (25 min away)
+ *   Birmingham: 8 — Westminster Oak Mountain (ACCS, 563 students), Evangel Classical (ACCS, 245 students), strong homeschool
+ *   Moscow: 9 — Logos School (ACCS, 686 students, founded 1981 by Doug Wilson), Jubilee School, NSA college
+ *   Raleigh: 9 — Cary Christian (ACCS, 785 students), Trinity Academy (627 students), Trinity School Durham (630 students)
+ *   Boerne: 9 — Geneva School (ACCS, 684 students, SAT avg 1240, ACT 26), very strong
+ *   Boise: 9 — Ambrose School (ACCS, 900 students, 3 campuses, very affordable $3K-$9K), Petra Christian
+ *   Bozeman: 8 — Petra Academy (ACCS, 250 students)
+ *   Sheridan: 5 — No classical Christian school; moderate homeschool
  *
  * LIFESTYLE (outdoor rec quality, climate, equestrian access, safety):
  *   Sisters: 9 — World-class outdoors, excellent equestrian, very safe, but harsh winter
@@ -2025,6 +2039,13 @@ const DEFAULT_WEIGHTS = {
  *   Lexington: 6 — Decent outdoors (Red River Gorge nearby), top equestrian, humid climate
  *   Sarasota: 6 — Beaches and fishing excellent, limited hiking, hurricane risk, hot summers
  *   Columbia: 5 — Lake Murray and Congaree NP decent, extreme summer heat, high city crime
+ *   Birmingham: 5 — Excellent outdoor rec (Oak Mountain State Park), mild winters, but city-proper violent crime ~1,500/100K (highest in set)
+ *   Moscow: 7 — Good Palouse recreation, very safe (91 violent/100K), cold winters, limited variety
+ *   Raleigh: 8 — Blue Ridge nearby, Eno River, greenways, good climate, moderate crime (500 violent/100K)
+ *   Boerne: 8 — Hill Country recreation, excellent equestrian, extremely safe (36 violent/100K), hot summers
+ *   Boise: 9 — Ridge to Rivers trails, Bogus Basin skiing, Boise River, safe (235 violent/100K), four seasons
+ *   Bozeman: 9 — World-class skiing, hiking, fishing. Gallatin/Yellowstone access. Cold winters but stunning landscape.
+ *   Sheridan: 9 — Bighorn Mountains, excellent equestrian/polo culture, very safe (136 violent/100K), cold winters
  *
  * HOUSING (affordability relative to national avg, land availability):
  *   Columbia: 9 — Median $271K, excellent land prices, very affordable
@@ -2036,6 +2057,13 @@ const DEFAULT_WEIGHTS = {
  *   Flagstaff: 2 — Median $630K, housing index 181, land very limited (surrounded by national forest), expensive
  *   Bend: 2 — Median $679K, housing index 199, extremely expensive
  *   Sisters: 2 — Median $775K, very limited inventory, tiny market
+ *   Birmingham: 9 — Median $280K city proper, good land availability in Shelby County, $15K-$30K/acre. Over the Mountain suburbs $400K-$700K+.
+ *   Moscow: 5 — Median $456K, good Palouse farmland $10K-$17K/acre
+ *   Raleigh: 6 — Median $435K, good availability but wide price range $15K-$70K/acre
+ *   Boerne: 7 — Median $565K, good Hill Country land $15K-$35K/acre
+ *   Boise: 6 — Median $500K, land available but premium $25K-$100K+/acre
+ *   Bozeman: 4 — Median $745K, very expensive for Montana
+ *   Sheridan: 7 — Median $347K, excellent horse land $8K-$12K/acre
  *
  * COST OF LIVING (overall index — lower index = better score):
  *   Chattanooga: 10 — Index 88.6, no income tax, low property tax
@@ -2047,6 +2075,13 @@ const DEFAULT_WEIGHTS = {
  *   Flagstaff: 3 — Index 127, high cost driven by housing, but low 2.5% income tax and 0.42% property tax help offset
  *   Bend: 3 — Index 127, very high cost driven by housing
  *   Sisters: 3 — Index 131, similar to Bend with even less amenity access
+ *   Birmingham: 8 — Index 90, no income tax (Alabama has low rates), very affordable
+ *   Moscow: 7 — Index 103, near national avg, 5.3% income tax, moderate housing
+ *   Raleigh: 7 — Index 96, below national avg, 3.99% flat income tax
+ *   Boerne: 6 — Index 114, 0% income tax helps but high property tax (1.28%) and elevated housing
+ *   Boise: 7 — Index 102, near national avg, 5.3% flat income tax
+ *   Bozeman: 4 — Index 140, very high cost driven by housing index 192
+ *   Sheridan: 8 — Index 104, near national avg but 0% income tax and moderate property tax
  *
  * COMMUNITY (family-friendliness, homeschool community, conservative presence):
  *   Chattanooga: 9 — Excellent family suburbs, very strong homeschool/conservative community
@@ -2058,22 +2093,29 @@ const DEFAULT_WEIGHTS = {
  *   Flagstaff: 5 — Small-town feel, good family neighborhoods, moderate homeschool, moderate conservative, but university-town progressive lean
  *   Bend: 5 — Good family amenities but progressive city, moderate homeschool, weak conservative
  *   Sisters: 4 — Small town charm but aging (median 49.6), 39% over 65, limited amenities
+ *   Birmingham: 8 — Excellent family suburbs (Over the Mountain), strong homeschool, very strong conservative, metro 1.15M
+ *   Moscow: 8 — Strong CREC community, Logos School ecosystem, very strong conservative, but small college town (27K)
+ *   Raleigh: 8 — Excellent family suburbs, strong homeschool, strong conservative presence balanced by universities, fast growth (2%/yr)
+ *   Boerne: 9 — Explosive growth (4.8%/yr), excellent family community, very strong conservative, Hill Country lifestyle
+ *   Boise: 9 — Very family-friendly, strong homeschool (CHOIS), very strong conservative, growing metro (770K)
+ *   Bozeman: 7 — Good family amenities, moderate homeschool, moderate conservative (university town), fast growth (1.7%/yr)
+ *   Sheridan: 8 — Very family-friendly, small-town culture, strong conservative, limited population (20K)
  */
 const SCORES = {
   "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
   "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
   "sisters-or":       { faith: 1, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
-  "sarasota-fl":      { faith: 3, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
+  "sarasota-fl":      { faith: 4, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
   "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
   "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
   "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
-  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 4, community: 9 },
+  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 5, community: 9 },
   "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5 },
-  "birmingham-al":    { faith: 9, education: 8, lifestyle: 7, housing: 7, costOfLiving: 8, community: 8 },
+  "birmingham-al":    { faith: 9, education: 8, lifestyle: 5, housing: 9, costOfLiving: 8, community: 8 },
   "moscow-id":        { faith: 9, education: 9, lifestyle: 7, housing: 5, costOfLiving: 7, community: 8 },
   "raleigh-nc":       { faith: 8, education: 9, lifestyle: 8, housing: 6, costOfLiving: 7, community: 8 },
   "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8 },
-  "san-antonio-tx":   { faith: 8, education: 9, lifestyle: 8, housing: 7, costOfLiving: 7, community: 9 },
+  "san-antonio-tx":   { faith: 8, education: 9, lifestyle: 8, housing: 7, costOfLiving: 6, community: 9 },
   "bozeman-mt":       { faith: 5, education: 8, lifestyle: 9, housing: 4, costOfLiving: 4, community: 7 },
   "boise-id":         { faith: 7, education: 9, lifestyle: 9, housing: 6, costOfLiving: 7, community: 9 }
 };
