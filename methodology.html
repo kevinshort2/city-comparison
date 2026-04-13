@@ -64,8 +64,8 @@
       <div class="section-header">
         <h2>Scoring System</h2>
       </div>
-      <p>Each city is scored from 1 to 10 across six categories. These category scores are combined into a single weighted average that represents overall fit for the Short family's priorities.</p>
-      <p>The six categories and their default weights are:</p>
+      <p>Each city is scored from 1 to 10 across seven categories. These category scores are combined into a single weighted average that represents overall fit for the Short family's priorities.</p>
+      <p>The seven categories and their default weights are:</p>
       <div class="table-responsive mt-3">
         <table class="comparison-table">
           <thead>
@@ -88,7 +88,7 @@
             </tr>
             <tr>
               <td>Lifestyle</td>
-              <td>20%</td>
+              <td>15%</td>
               <td>Outdoor recreation, equestrian access, climate, and safety matter significantly.</td>
             </tr>
             <tr>
@@ -106,10 +106,15 @@
               <td>5%</td>
               <td>Family-friendliness and conservative community presence are valued but less decisive.</td>
             </tr>
+            <tr>
+              <td>Ranch/Rodeo</td>
+              <td>5%</td>
+              <td>Working-ranch culture, rodeo events, and cowboy heritage — distinct from general equestrian access.</td>
+            </tr>
           </tbody>
         </table>
       </div>
-      <p class="mt-3">The overall score is calculated as: <strong>(Faith x 0.25) + (Education x 0.25) + (Lifestyle x 0.20) + (Housing x 0.15) + (Cost of Living x 0.10) + (Community x 0.05)</strong>. Weights are adjustable via the sliders on the Overview page.</p>
+      <p class="mt-3">The overall score is calculated as: <strong>(Faith x 0.25) + (Education x 0.25) + (Lifestyle x 0.15) + (Housing x 0.15) + (Cost of Living x 0.10) + (Community x 0.05) + (Ranch/Rodeo x 0.05)</strong>. Weights are adjustable via the sliders on the Overview page.</p>
     </div>
   </section>
 
@@ -138,6 +143,9 @@
 
       <h3 class="mt-4 mb-2">Community</h3>
       <p>Family-friendliness as reflected by demographics, schools, and amenities. Homeschool community size and engagement. Conservative and faith-community presence. Population growth trends (growing communities tend to offer more opportunity).</p>
+
+      <h3 class="mt-4 mb-2">Ranch/Rodeo Culture</h3>
+      <p>Authentic working-ranch presence, rodeo events and venues, and the degree to which cowboy/Western heritage is part of local identity. Distinct from the equestrian access captured under Lifestyle — this measures ranching and rodeo culture specifically (e.g., Sheridan WYO Rodeo, Sisters Rodeo, Texas Hill Country cattle ranching) rather than general horse-friendliness.</p>
     </div>
   </section>
 
@@ -155,10 +163,11 @@
               <th>City</th>
               <th>Faith (25%)</th>
               <th>Education (25%)</th>
-              <th>Lifestyle (20%)</th>
+              <th>Lifestyle (15%)</th>
               <th>Housing (15%)</th>
               <th>Cost of Living (10%)</th>
               <th>Community (5%)</th>
+              <th>Ranch/Rodeo (5%)</th>
               <th>Weighted Total</th>
             </tr>
           </thead>
@@ -171,7 +180,8 @@
               <td>8</td>
               <td>10</td>
               <td>9</td>
-              <td><strong>9.00</strong></td>
+              <td>2</td>
+              <td><strong>8.70</strong></td>
             </tr>
             <tr>
               <td>Greenville, SC</td>
@@ -181,7 +191,8 @@
               <td>7</td>
               <td>8</td>
               <td>9</td>
-              <td><strong>8.65</strong></td>
+              <td>2</td>
+              <td><strong>8.35</strong></td>
             </tr>
             <tr>
               <td>Boerne, TX</td>
@@ -191,27 +202,8 @@
               <td>7</td>
               <td>6</td>
               <td>9</td>
-              <td><strong>7.95</strong></td>
-            </tr>
-            <tr>
-              <td>Raleigh, NC</td>
-              <td>8</td>
               <td>9</td>
-              <td>8</td>
-              <td>6</td>
-              <td>7</td>
-              <td>8</td>
-              <td><strong>7.85</strong></td>
-            </tr>
-            <tr>
-              <td>Boise, ID</td>
-              <td>7</td>
-              <td>9</td>
-              <td>9</td>
-              <td>6</td>
-              <td>7</td>
-              <td>9</td>
-              <td><strong>7.85</strong></td>
+              <td><strong>8.00</strong></td>
             </tr>
             <tr>
               <td>Birmingham, AL</td>
@@ -221,7 +213,8 @@
               <td>9</td>
               <td>8</td>
               <td>8</td>
-              <td><strong>7.80</strong></td>
+              <td>2</td>
+              <td><strong>7.65</strong></td>
             </tr>
             <tr>
               <td>Moscow, ID</td>
@@ -231,17 +224,30 @@
               <td>5</td>
               <td>7</td>
               <td>8</td>
-              <td><strong>7.75</strong></td>
+              <td>4</td>
+              <td><strong>7.60</strong></td>
             </tr>
             <tr>
-              <td>Columbia, SC</td>
+              <td>Boise, ID</td>
               <td>7</td>
-              <td>7</td>
-              <td>5</td>
               <td>9</td>
-              <td>7</td>
+              <td>9</td>
               <td>6</td>
-              <td><strong>6.85</strong></td>
+              <td>7</td>
+              <td>9</td>
+              <td>4</td>
+              <td><strong>7.60</strong></td>
+            </tr>
+            <tr>
+              <td>Raleigh, NC</td>
+              <td>8</td>
+              <td>9</td>
+              <td>8</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>2</td>
+              <td><strong>7.55</strong></td>
             </tr>
             <tr class="baseline-row">
               <td>Lexington, KY</td>
@@ -251,7 +257,19 @@
               <td>8</td>
               <td>8</td>
               <td>7</td>
+              <td>6</td>
               <td><strong>6.80</strong></td>
+            </tr>
+            <tr>
+              <td>Columbia, SC</td>
+              <td>7</td>
+              <td>7</td>
+              <td>5</td>
+              <td>9</td>
+              <td>7</td>
+              <td>6</td>
+              <td>2</td>
+              <td><strong>6.70</strong></td>
             </tr>
             <tr>
               <td>Bozeman, MT</td>
@@ -261,7 +279,8 @@
               <td>4</td>
               <td>4</td>
               <td>7</td>
-              <td><strong>6.40</strong></td>
+              <td>8</td>
+              <td><strong>6.35</strong></td>
             </tr>
             <tr>
               <td>Sheridan, WY</td>
@@ -271,7 +290,8 @@
               <td>7</td>
               <td>8</td>
               <td>8</td>
-              <td><strong>6.05</strong></td>
+              <td>10</td>
+              <td><strong>6.10</strong></td>
             </tr>
             <tr>
               <td>Coeur d'Alene, ID</td>
@@ -281,7 +301,8 @@
               <td>3</td>
               <td>5</td>
               <td>9</td>
-              <td><strong>5.75</strong></td>
+              <td>4</td>
+              <td><strong>5.55</strong></td>
             </tr>
             <tr>
               <td>Sarasota, FL</td>
@@ -291,7 +312,8 @@
               <td>5</td>
               <td>6</td>
               <td>4</td>
-              <td><strong>5.50</strong></td>
+              <td>2</td>
+              <td><strong>5.30</strong></td>
             </tr>
             <tr>
               <td>Bend, OR</td>
@@ -301,7 +323,8 @@
               <td>2</td>
               <td>3</td>
               <td>5</td>
-              <td><strong>4.40</strong></td>
+              <td>5</td>
+              <td><strong>4.20</strong></td>
             </tr>
             <tr>
               <td>Flagstaff, AZ</td>
@@ -311,7 +334,8 @@
               <td>2</td>
               <td>3</td>
               <td>5</td>
-              <td><strong>3.70</strong></td>
+              <td>6</td>
+              <td><strong>3.60</strong></td>
             </tr>
             <tr>
               <td>Sisters, OR</td>
@@ -321,7 +345,8 @@
               <td>2</td>
               <td>3</td>
               <td>4</td>
-              <td><strong>3.60</strong></td>
+              <td>8</td>
+              <td><strong>3.55</strong></td>
             </tr>
           </tbody>
         </table>

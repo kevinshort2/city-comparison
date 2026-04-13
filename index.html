@@ -90,8 +90,8 @@
         </div>
         <div class="weight-slider mb-2" data-category="lifestyle">
           <label for="weight-lifestyle" class="slider-label">Lifestyle</label>
-          <input type="range" id="weight-lifestyle" min="0" max="50" value="20" data-category="lifestyle">
-          <span class="slider-value weight-value" data-category="lifestyle">20%</span>
+          <input type="range" id="weight-lifestyle" min="0" max="50" value="15" data-category="lifestyle">
+          <span class="slider-value weight-value" data-category="lifestyle">15%</span>
         </div>
         <div class="weight-slider mb-2" data-category="housing">
           <label for="weight-housing" class="slider-label">Housing</label>
@@ -107,6 +107,11 @@
           <label for="weight-community" class="slider-label">Community</label>
           <input type="range" id="weight-community" min="0" max="50" value="5" data-category="community">
           <span class="slider-value weight-value" data-category="community">5%</span>
+        </div>
+        <div class="weight-slider mb-2" data-category="ranch">
+          <label for="weight-ranch" class="slider-label">Ranch/Rodeo</label>
+          <input type="range" id="weight-ranch" min="0" max="50" value="5" data-category="ranch">
+          <span class="slider-value weight-value" data-category="ranch">5%</span>
         </div>
       </div>
     </div>
@@ -134,6 +139,7 @@
               <th>Housing</th>
               <th>Cost of Living</th>
               <th>Community</th>
+              <th>Ranch/Rodeo</th>
             </tr>
           </thead>
           <tbody>
@@ -434,14 +440,15 @@
         "boise-id": "MW"
       };
 
-      var CATEGORY_KEYS = ["faith", "education", "lifestyle", "housing", "costOfLiving", "community"];
+      var CATEGORY_KEYS = ["faith", "education", "lifestyle", "housing", "costOfLiving", "community", "ranch"];
       var CATEGORY_LABELS = {
         faith: "Faith",
         education: "Edu",
         lifestyle: "Life",
         housing: "House",
         costOfLiving: "COL",
-        community: "Comm"
+        community: "Comm",
+        ranch: "Ranch"
       };
 
       // ---------------------------------------------------------------

@@ -1980,10 +1980,11 @@ const CITIES = {
 const DEFAULT_WEIGHTS = {
   faith: 25,
   education: 25,
-  lifestyle: 20,
+  lifestyle: 15,
   housing: 15,
   costOfLiving: 10,
-  community: 5
+  community: 5,
+  ranch: 5
 };
 
 
@@ -2100,24 +2101,42 @@ const DEFAULT_WEIGHTS = {
  *   Boise: 9 — Very family-friendly, strong homeschool (CHOIS), very strong conservative, growing metro (770K)
  *   Bozeman: 7 — Good family amenities, moderate homeschool, moderate conservative (university town), fast growth (1.7%/yr)
  *   Sheridan: 8 — Very family-friendly, small-town culture, strong conservative, limited population (20K)
+ *
+ * RANCH/RODEO CULTURE (working ranches, rodeo events, cowboy heritage, Western identity):
+ *   Sheridan: 10 — Sheridan WYO Rodeo (top 10 in US), Eaton's Ranch (oldest dude ranch, est. 1879), Big Horn polo, active cattle ranching, cowboy heritage is the core identity
+ *   Boerne: 9 — Hill Country ranching, Kendall County Fair & Rodeo, Cordillera Ranch, authentic Texas cowboy culture, working ranches throughout
+ *   Bozeman: 8 — Gallatin Valley ranching heritage, Montana cowboy culture, nearby working ranches, though Bozeman itself trends "new west"
+ *   Sisters: 8 — Sisters Rodeo (since 1940, top PRCA), Cascade Meadow Ranch equestrian community, Old West town aesthetic, genuine if small-scale
+ *   Lexington: 6 — Horse Capital of the World but THOROUGHBRED/bluegrass culture, not ranch/rodeo. Keeneland, Kentucky Horse Park. Different flavor but strong equine identity.
+ *   Flagstaff: 6 — Pioneer Days rodeo, Coconino NF ranching, Northern Arizona cowboy culture, Route 66 heritage
+ *   Bend: 5 — Some Central Oregon ranching (Redmond/Tumalo roots), equestrian events, but Bend identity is more "outdoor rec" than ranch
+ *   Boise: 4 — Treasure Valley ag/ranching, Snake River Stampede in Nampa, but Boise city itself is urban
+ *   Coeur d'Alene: 4 — North Idaho has some ranching but more lake/forest identity
+ *   Moscow: 4 — Palouse is wheat farming, limited cattle/ranch culture
+ *   Sarasota: 2 — Myakka City/Lakewood Ranch has some equestrian/ranch activity, but dominant identity is coastal/retirement
+ *   Birmingham: 2 — No ranch culture; some Shelby County horse properties
+ *   Chattanooga: 2 — No ranch culture
+ *   Greenville: 2 — No ranch culture, some upstate horse farms
+ *   Columbia: 2 — No ranch culture
+ *   Raleigh: 2 — No ranch culture
  */
 const SCORES = {
-  "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7 },
-  "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5 },
-  "sisters-or":       { faith: 1, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4 },
-  "sarasota-fl":      { faith: 4, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4 },
-  "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9 },
-  "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9 },
-  "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6 },
-  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 5, community: 9 },
-  "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5 },
-  "birmingham-al":    { faith: 9, education: 8, lifestyle: 5, housing: 9, costOfLiving: 8, community: 8 },
-  "moscow-id":        { faith: 9, education: 9, lifestyle: 7, housing: 5, costOfLiving: 7, community: 8 },
-  "raleigh-nc":       { faith: 8, education: 9, lifestyle: 8, housing: 6, costOfLiving: 7, community: 8 },
-  "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8 },
-  "san-antonio-tx":   { faith: 8, education: 9, lifestyle: 8, housing: 7, costOfLiving: 6, community: 9 },
-  "bozeman-mt":       { faith: 5, education: 8, lifestyle: 9, housing: 4, costOfLiving: 4, community: 7 },
-  "boise-id":         { faith: 7, education: 9, lifestyle: 9, housing: 6, costOfLiving: 7, community: 9 }
+  "lexington-ky":     { faith: 5, education: 8, lifestyle: 6, housing: 8, costOfLiving: 8, community: 7, ranch: 6 },
+  "bend-or":          { faith: 2, education: 5, lifestyle: 9, housing: 2, costOfLiving: 3, community: 5, ranch: 5 },
+  "sisters-or":       { faith: 1, education: 3, lifestyle: 9, housing: 2, costOfLiving: 3, community: 4, ranch: 8 },
+  "sarasota-fl":      { faith: 4, education: 7, lifestyle: 6, housing: 5, costOfLiving: 6, community: 4, ranch: 2 },
+  "chattanooga-tn":   { faith: 10, education: 9, lifestyle: 8, housing: 8, costOfLiving: 10, community: 9, ranch: 2 },
+  "greenville-sc":    { faith: 10, education: 9, lifestyle: 8, housing: 7, costOfLiving: 8, community: 9, ranch: 2 },
+  "columbia-sc":      { faith: 7, education: 7, lifestyle: 5, housing: 9, costOfLiving: 7, community: 6, ranch: 2 },
+  "coeur-d-alene-id": { faith: 5, education: 6, lifestyle: 8, housing: 3, costOfLiving: 5, community: 9, ranch: 4 },
+  "flagstaff-az":     { faith: 2, education: 3, lifestyle: 8, housing: 2, costOfLiving: 3, community: 5, ranch: 6 },
+  "birmingham-al":    { faith: 9, education: 8, lifestyle: 5, housing: 9, costOfLiving: 8, community: 8, ranch: 2 },
+  "moscow-id":        { faith: 9, education: 9, lifestyle: 7, housing: 5, costOfLiving: 7, community: 8, ranch: 4 },
+  "raleigh-nc":       { faith: 8, education: 9, lifestyle: 8, housing: 6, costOfLiving: 7, community: 8, ranch: 2 },
+  "sheridan-wy":      { faith: 3, education: 5, lifestyle: 9, housing: 7, costOfLiving: 8, community: 8, ranch: 10 },
+  "san-antonio-tx":   { faith: 8, education: 9, lifestyle: 8, housing: 7, costOfLiving: 6, community: 9, ranch: 9 },
+  "bozeman-mt":       { faith: 5, education: 8, lifestyle: 9, housing: 4, costOfLiving: 4, community: 7, ranch: 8 },
+  "boise-id":         { faith: 7, education: 9, lifestyle: 9, housing: 6, costOfLiving: 7, community: 9, ranch: 4 }
 };
 
 
@@ -2136,5 +2155,6 @@ const CATEGORIES = {
   lifestyle:    { key: "lifestyle",    label: "Lifestyle" },
   housing:      { key: "housing",      label: "Housing" },
   costOfLiving: { key: "costOfLiving", label: "Cost of Living" },
-  community:    { key: "community",    label: "Community" }
+  community:    { key: "community",    label: "Community" },
+  ranch:        { key: "ranch",        label: "Ranch/Rodeo" }
 };
